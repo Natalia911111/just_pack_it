@@ -2,7 +2,8 @@ from flask import Flask, render_template, redirect, url_for, request
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-# Konfiguracja prostej bazy danych SQLite
+
+# Konfiguracja bazy danych SQLite przez SQLAlchemy
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///rodzina.db'
 app.config['TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
@@ -12,31 +13,47 @@ db = SQLAlchemy(app)
 class Przedmiot(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     nazwa = db.Column(db.String(100), nullable=False)
-    kategoria = db.Column(db.String(50), nullable=False)  # Dokumenty, Mama, Maluszek
-    spakowane = db.Column(db.Boolean, default=False)  # True (Tak) / False (Nie)
+    kategoria = db.Column(db.String(50), nullable=False)  # Dokumenty, Dla Mamy, Dla Maluszka
+    spakowane = db.Column(db.Boolean, default=False)      # True (Tak) / False (Nie)
 
 
-# WIDOK GŁÓWNY: Pobieramy rzeczy i wyświetlamy na stronie
+# WIDOK GŁÓWNY: Pobieramy wszystkie rzeczy z bazy i wysyłamy na stronę
 @app.route('/')
 def index():
-    # Pobieramy wszystkie przedmioty z bazy
-    wszystkie_rzeczy = Przedmiot.query.all()
-    return render_template('index.html', przedmioty=wszystkie_rzeczy)
+    # Pobieramy absolutnie wszystkie przedmioty jednym poleceniem!
+    przedmioty = Przedmiot.query.all()
+    return render_template('index.html', przedmioty=przedmioty)
 
 
-# AKCJA: Zmiana statusu spakowania (kliknięcie checkboxa)
+# AKCJA: Zmiana statusu spakowania (kliknięcie kółka/ptaszka)
 @app.route('/spakuj/<int:item_id>')
 def spakuj_przedmiot(item_id):
+    # Szukamy przedmiotu o konkretnym ID w bazie
     przedmiot = Przedmiot.query.get_or_404(item_id)
-    przedmiot.spakowane = not przedmiot.spakowane  # Odwracamy status (z True na False i na odwrót)
+    # Zmieniamy status na przeciwny (jeśli był True, będzie False i na odwrót)
+    przedmiot.spakowane = not przedmiot.spakowane
     db.session.commit()
     return redirect(url_for('index'))
 
 
-# PODMIEŃ TEN FRAGMENT W PLIKU app.py (w sekcji if __name__ == '__main__':)
+# AKCJA: Dodawanie nowego elementu przez użytkownika
+@app.route('/dodaj', methods=['POST'])
+def dodaj_przedmiot():
+    nazwa = request.form.get('nazwa')
+    kategoria = request.form.get('kategoria')
+
+    if nazwa and kategoria:
+        # Tworzymy nowy obiekt na bazie naszego Modelu
+        nowy_przedmiot = Przedmiot(nazwa=nazwa, kategoria=kategoria, spakowane=False)
+        db.session.add(nowy_przedmiot)
+        db.session.commit()
+
+    return redirect(url_for('index'))
+
 
 if __name__ == '__main__':
     with app.app_context():
+        # SQLAlchemy samo stworzy tabelę na podstawie klasy Przedmiot
         db.create_all()
 
         # Jeśli baza jest pusta, wgrywamy oficjalną listę ze Szpitala Ujastek

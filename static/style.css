@@ -2,9 +2,9 @@
 
 /* --- RESET & FUNDAMENTY --- */
 :root {
-    --sage-green: #bcc9b7; /* Nasz nowy, główny kolor szałwiowy */
-    --light-sage: #e8ede8;  /* Jaśniejszy odcień do teł */
-    --dark-green: #4a5d4a;  /* Ciemniejszy do kontrastu */
+    --sage-green: #bcc9b7;
+    --light-sage: #e8ede8;
+    --dark-green: #4a5d4a;
     --beige-calm: #fdfaf5;
     --text-main: #3d3d3d;
 }
@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', -apple-system, sans-serif; /* Bardziej nowoczesny font, jeśli dostępny */
+    font-family: 'Inter', -apple-system, sans-serif;
 }
 
 body {
@@ -31,15 +31,24 @@ body {
 /* --- NAGŁÓWEK --- */
 header {
     text-align: center;
-    padding: 40px 0 30px 0;
-    border-bottom: 2px solid var(--sage-green); /* ZMIANA NA SZAŁWIOWY */
+    padding: 30px 0;
+    border-bottom: 2px solid var(--sage-green);
     margin-bottom: 30px;
+}
+
+.header-logo {
+    display: block;
+    width: 100%;             /* Obrazek zajmie 100% szerokości kontenera (900px) */
+    height: auto;            /* Wysokość dostosuje się automatycznie, by nie popsuć proporcji */
+    max-width: 100%;         /* Zabezpieczenie, żeby obrazek nigdy nie wystawał poza ekran */
+    margin-bottom: 20px;     /* Odstęp pod obrazkiem */
 }
 
 header h1 {
     font-weight: 800;
     font-size: 2.8rem;
-    color: var(--sage-green); /* ZMIANA NA SZAŁWIOWY */
+    color: var(--sage-green);
+    margin-bottom: 5px;
 }
 
 header p {
@@ -53,7 +62,7 @@ header p {
     border-radius: 16px;
     padding: 25px;
     margin-bottom: 25px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Delikatniejszy cień */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
 .section-title {
@@ -73,7 +82,7 @@ header p {
 }
 
 .item-row {
-    background-color: var(--light-sage); /* ZMIANA NA JASNY SZAŁWIOWY (tło) */
+    background-color: var(--light-sage);
     padding: 18px 22px;
     border-radius: 12px;
     display: flex;
@@ -84,7 +93,7 @@ header p {
 }
 
 .item-row:hover {
-    background-color: #dfe7df; /* Nieco ciemniejszy przy najechaniu */
+    background-color: #dfe7df;
 }
 
 .item-row span {
@@ -111,7 +120,7 @@ header p {
     line-height: 1;
 }
 
-/* --- STOPKA I PRZYCISK DODAWANIA --- */
+/* --- STOPKA --- */
 footer {
     text-align: center;
     margin-top: 50px;
@@ -119,11 +128,18 @@ footer {
     color: #aaa;
 }
 
-#add-item-btn {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    background-color: var(--sage-green); /* ZMIANA NA SZAŁWIOWY */
-    color: white;
-    border: none;
-    border-radius: 50
+/* --- STYL DLA FORMULARZA DODAWANIA --- */
+.add-item-form {
+    border: 1px solid rgba(188, 201, 183, 0.4); /* Delikatna szałwiowa obwódka */
+    background-color: #fafbfa; /* Bardzo jasny, świeży odcień */
+}
+
+.add-item-form input:focus,
+.add-item-form select:focus {
+    outline: 2px solid var(--sage-green); /* Ładne podświetlenie przy kliknięciu */
+}
+
+.add-item-form button:hover {
+    background-color: var(--dark-green); /* Ciemniejsza zieleń po najechaniu myszką */
+    transition: background-color 0.2s ease;
+}

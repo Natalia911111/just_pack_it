@@ -9,10 +9,31 @@
 <body>
 
     <div class="container">
-        <header>
-            <h1>Just Pack It 🍼</h1>
-            <p>Twoja bezpieczna torba do szpitala</p>
-        </header>
+    <header>
+        <img src="{{ url_for('static', filename='images/hospital_bag.png') }}" class="header-logo" alt="Just Pack It Logo">
+        <h1>Just Pack It</h1>
+        <p>Twoja interaktywna lista do pakowania (Ujastek)</p>
+    </header>
+        <!-- FORMULARZ DODAWANIA NOWEGO ELEMENTU -->
+        <div class="hospital-card add-item-form">
+            <h3 style="margin-bottom: 15px; color: var(--dark-green); font-size: 1.2rem;">✨ Dodaj nowy element</h3>
+            <form action="{{ url_for('dodaj_przedmiot') }}" method="POST" style="display: flex; gap: 10px; flex-wrap: wrap;">
+                <input type="text" name="nazwa" placeholder="Np. Sucharki bieszczadzkie, ładowarka..." required
+                       style="flex: 2; min-width: 200px; padding: 12px; border: 1px solid var(--sage-green); border-radius: 8px; font-size: 1rem;">
+
+                <select name="kategoria" required
+                        style="flex: 1; min-width: 150px; padding: 12px; border: 1px solid var(--sage-green); border-radius: 8px; font-size: 1rem; background-color: white;">
+                    <option value="Dokumenty">📄 Dokumenty</option>
+                    <option value="Dla Mamy">🤰 Dla Mamy</option>
+                    <option value="Dla Maluszka">🧸 Dla Maluszka</option>
+                </select>
+
+                <button type="submit"
+                        style="padding: 12px 24px; background-color: var(--sage-green); color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1rem;">
+                    Dodaj +
+                </button>
+            </form>
+        </div>
 
         <div class="hospital-card card-documents">
             <h2 class="section-title">📄 Krytyczne Dokumenty</h2>
