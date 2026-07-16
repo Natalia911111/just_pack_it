@@ -1,0 +1,129 @@
+/* static/style.css */
+
+/* --- RESET & FUNDAMENTY --- */
+:root {
+    --sage-green: #bcc9b7; /* Nasz nowy, główny kolor szałwiowy */
+    --light-sage: #e8ede8;  /* Jaśniejszy odcień do teł */
+    --dark-green: #4a5d4a;  /* Ciemniejszy do kontrastu */
+    --beige-calm: #fdfaf5;
+    --text-main: #3d3d3d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, sans-serif; /* Bardziej nowoczesny font, jeśli dostępny */
+}
+
+body {
+    background-color: var(--beige-calm);
+    color: var(--text-main);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* --- NAGŁÓWEK --- */
+header {
+    text-align: center;
+    padding: 40px 0 30px 0;
+    border-bottom: 2px solid var(--sage-green); /* ZMIANA NA SZAŁWIOWY */
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-weight: 800;
+    font-size: 2.8rem;
+    color: var(--sage-green); /* ZMIANA NA SZAŁWIOWY */
+}
+
+header p {
+    color: #888;
+    margin-top: 5px;
+}
+
+/* --- KARTY HOSPITAL --- */
+.hospital-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Delikatniejszy cień */
+}
+
+.section-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* --- LISTA PRZEDMIOTÓW --- */
+.items-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.item-row {
+    background-color: var(--light-sage); /* ZMIANA NA JASNY SZAŁWIOWY (tło) */
+    padding: 18px 22px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.item-row:hover {
+    background-color: #dfe7df; /* Nieco ciemniejszy przy najechaniu */
+}
+
+.item-row span {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* --- STYL DLA SPAKOWANYCH --- */
+.item-row.checked {
+    background-color: #f1f3f1;
+    color: #b0b0b0;
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+
+.item-row.checked span {
+    font-weight: 400;
+}
+
+/* --- PRZYCISK CHECKBOX --- */
+.checkbox-btn {
+    font-size: 1.5rem;
+    text-decoration: none;
+    line-height: 1;
+}
+
+/* --- STOPKA I PRZYCISK DODAWANIA --- */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    color: #aaa;
+}
+
+#add-item-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--sage-green); /* ZMIANA NA SZAŁWIOWY */
+    color: white;
+    border: none;
+    border-radius: 50

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Pack It - Do Szpitala</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Just Pack It 🍼</h1>
+            <p>Twoja bezpieczna torba do szpitala</p>
+        </header>
+
+        <div class="hospital-card card-documents">
+            <h2 class="section-title">📄 Krytyczne Dokumenty</h2>
+            <div class="items-list">
+                {% for p in przedmioty if p.kategoria == 'Dokumenty' %}
+                <div class="item-row {% if p.spakowane %}checked{% endif %}">
+                    <a href="{{ url_for('spakuj_przedmiot', item_id=p.id) }}" class="checkbox-btn">
+                        {% if p.spakowane %} ✅ {% else %} ⭕ {% endif %}
+                    </a>
+                    <span>{{ p.nazwa }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="hospital-card">
+            <h2 class="section-title">🤰 Dla Mamy</h2>
+            <div class="items-list">
+                {% for p in przedmioty if p.kategoria == 'Dla Mamy' %}
+                <div class="item-row {% if p.spakowane %}checked{% endif %}">
+                    <a href="{{ url_for('spakuj_przedmiot', item_id=p.id) }}" class="checkbox-btn">
+                        {% if p.spakowane %} ✅ {% else %} ⭕ {% endif %}
+                    </a>
+                    <span>{{ p.nazwa }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="hospital-card">
+            <h2 class="section-title">🧸 Dla Maluszka</h2>
+            <div class="items-list">
+                {% for p in przedmioty if p.kategoria == 'Dla Maluszka' %}
+                <div class="item-row {% if p.spakowane %}checked{% endif %}">
+                    <a href="{{ url_for('spakuj_przedmiot', item_id=p.id) }}" class="checkbox-btn">
+                        {% if p.spakowane %} ✅ {% else %} ⭕ {% endif %}
+                    </a>
+                    <span>{{ p.nazwa }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
