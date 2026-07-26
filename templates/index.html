@@ -3,80 +3,474 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Just Pack It - Do Szpitala</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
 </head>
+
 <body>
 
     <div class="container">
-    <header>
-        <img src="{{ url_for('static', filename='images/hospital_bag.png') }}" class="header-logo" alt="Just Pack It Logo">
-        <h1>Just Pack It</h1>
-        <p>Twoja interaktywna lista do pakowania (Ujastek)</p>
-    </header>
+
+        <!-- NAGŁÓWEK -->
+        <header class="hero">
+            <img
+                src="{{ url_for('static', filename='images/just-pack-it-hero.png') }}"
+                alt="Torba Just Pack It z rzeczami dla mamy i dziecka"
+                class="hero-image"
+            >
+
+            <h1>Just Pack It</h1>
+
+            <p
+                class="hero-subtitle"
+                id="hero-subtitle"
+            >
+                Twoja interaktywna lista do pakowania
+            </p>
+        </header>
+
+        <!-- KREATOR LISTY -->
+        <section
+            class="hospital-card wizard-card"
+            id="packing-wizard"
+            hidden
+        >
+            <div class="wizard-heading">
+                <span class="wizard-icon" aria-hidden="true">👜</span>
+
+                <div>
+                    <h2>Przygotujmy Twoją listę</h2>
+
+                    <p>
+                        Odpowiedz na kilka krótkich pytań,
+                        aby dopasować przygotowania do Twojej sytuacji.
+                    </p>
+                </div>
+            </div>
+
+            <form id="wizard-form" class="wizard-form">
+
+                <div class="wizard-field">
+                    <label for="pregnancy-week">
+                        W którym tygodniu ciąży jesteś?
+                    </label>
+
+                    <input
+                        type="number"
+                        id="pregnancy-week"
+                        name="pregnancy-week"
+                        min="1"
+                        max="42"
+                        placeholder="Np. 34"
+                        required
+                    >
+                </div>
+
+                <fieldset class="wizard-field wizard-radio-group">
+                    <legend>Jaki poród planujesz?</legend>
+
+                    <label class="wizard-radio-option">
+                        <input
+                            type="radio"
+                            name="delivery-type"
+                            value="naturalny"
+                            required
+                        >
+                        <span>Poród naturalny</span>
+                    </label>
+
+                    <label class="wizard-radio-option">
+                        <input
+                            type="radio"
+                            name="delivery-type"
+                            value="cesarskie-ciecie"
+                        >
+                        <span>Cesarskie cięcie</span>
+                    </label>
+
+                    <label class="wizard-radio-option">
+                        <input
+                            type="radio"
+                            name="delivery-type"
+                            value="nie-wiem"
+                        >
+                        <span>Jeszcze nie wiem</span>
+                    </label>
+                </fieldset>
+
+                <div class="wizard-field">
+                    <label for="hospital-name">
+                        Do którego szpitala się pakujesz?
+                    </label>
+
+                    <select
+                        id="hospital-name"
+                        name="hospital-name"
+                        required
+                    >
+                        <option value="">
+                            Wybierz szpital
+                        </option>
+
+                        <option value="Szpital Ujastek">
+                            Szpital Ujastek
+                        </option>
+
+                        <option value="Szpital Żeromski">
+                            Szpital Żeromski
+                        </option>
+
+                        <option value="Szpital Siemiradzkiego">
+                            Szpital Siemiradzkiego
+                        </option>
+
+                        <option value="Inny szpital">
+                            Inny szpital / jeszcze nie wybrano
+                        </option>
+                    </select>
+                </div>
+
+                <p class="wizard-note">
+                    Lista zostanie dopasowana do wybranego szpitala.
+                </p>
+
+                <button
+                    type="submit"
+                    class="wizard-submit-btn"
+                >
+                    Utwórz moją listę
+                </button>
+            </form>
+        </section>
+
+    <div id="packing-app" hidden>
+
+        <!-- PODSUMOWANIE USTAWIEŃ -->
+        <section class="hospital-card profile-summary">
+            <div class="profile-summary-content">
+                <div>
+                    <span class="profile-summary-label">
+                        Twoja lista
+                    </span>
+
+                    <h2 id="profile-summary-title">
+                        Przygotowania do porodu
+                    </h2>
+
+                    <p id="profile-summary-message"></p>
+                    <div class="midwife-tip" id="midwife-tip" hidden>
+
+                        <strong id="midwife-tip-title">
+                            💡 Na tym etapie warto również:
+                        </strong>
+
+                        <p id="midwife-tip-text">
+                            ✅ Wybrać położną środowiskową.
+                        </p>
+
+                        <p class="midwife-tip-info">
+                            ℹ️ Położna może odwiedzać Ciebie i Maluszka
+                            po porodzie oraz pomagać w pierwszych dniach
+                            po powrocie do domu.
+                        </p>
+
+                    </div>
+                        <details
+                            class="hospital-provided-card"
+                            id="hospital-provided-card"
+                            hidden
+                        >
+                            <summary>
+                                🏥 Co zapewnia ten szpital?
+                            </summary>
+
+                            <p>Tych rzeczy nie musisz pakować:</p>
+
+                            <ul id="hospital-provided-list"></ul>
+                        </details>
+
+                <button
+                    type="button"
+                    class="edit-profile-btn"
+                    id="edit-profile-btn"
+                >
+                    Zmień ustawienia
+                </button>
+            </div>
+        </section>
+        <!-- PASEK POSTĘPU -->
+        <section class="hospital-card progress-card">
+            <div class="progress-header">
+                <div>
+                    <h2 class="progress-title">Postęp pakowania</h2>
+
+                    <p
+                        class="progress-description"
+                        id="progress-description"
+                    >
+                        0 z 0 rzeczy spakowanych
+                    </p>
+                </div>
+
+                <span
+                    class="progress-percent"
+                    id="progress-percent"
+                >
+                    0%
+                </span>
+            </div>
+
+            <div
+                class="progress-bar"
+                id="progress-bar"
+                role="progressbar"
+                aria-label="Postęp pakowania"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="0"
+            >
+                <div
+                    class="progress-bar-fill"
+                    id="progress-bar-fill"
+                    style="width: 0%;"
+                ></div>
+            </div>
+
+            <div
+                class="progress-complete"
+                id="progress-complete"
+                hidden
+            >
+                <div class="celebration-icon" aria-hidden="true">
+                     🎉
+                </div>
+
+                <strong>Wszystko gotowe!</strong>
+
+                <span>
+                    Torba spakowana. Możesz spokojnie czekać
+                    na spotkanie z Maluszkiem 🤍
+                </span>
+            </div>
+
+            <div
+                class="confetti-container"
+                id="confetti-container"
+                aria-hidden="true"
+            ></div>
+        </section>
+
+
         <!-- FORMULARZ DODAWANIA NOWEGO ELEMENTU -->
         <div class="hospital-card add-item-form">
-            <h3 style="margin-bottom: 15px; color: var(--dark-green); font-size: 1.2rem;">✨ Dodaj nowy element</h3>
-            <form action="{{ url_for('dodaj_przedmiot') }}" method="POST" style="display: flex; gap: 10px; flex-wrap: wrap;">
-                <input type="text" name="nazwa" placeholder="Np. Sucharki bieszczadzkie, ładowarka..." required
-                       style="flex: 2; min-width: 200px; padding: 12px; border: 1px solid var(--sage-green); border-radius: 8px; font-size: 1rem;">
 
-                <select name="kategoria" required
-                        style="flex: 1; min-width: 150px; padding: 12px; border: 1px solid var(--sage-green); border-radius: 8px; font-size: 1rem; background-color: white;">
-                    <option value="Dokumenty">📄 Dokumenty</option>
-                    <option value="Dla Mamy">🤰 Dla Mamy</option>
-                    <option value="Dla Maluszka">🧸 Dla Maluszka</option>
-                </select>
+            <h3
+                style="
+                    margin-bottom: 15px;
+                    color: var(--dark-green);
+                    font-size: 1.2rem;
+                "
+            >
+                ✨ Dodaj nowy element
+            </h3>
 
-                <button type="submit"
-                        style="padding: 12px 24px; background-color: var(--sage-green); color: white; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1rem;">
+            <form
+                id="add-item-form"
+                style="
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                "
+            >
+                <input
+                    type="text"
+                    id="item-name"
+                    name="nazwa"
+                    maxlength="100"
+                    placeholder="Np. ładowarka, przekąski..."
+                    required
+                    style="
+                        flex: 2;
+                        min-width: 200px;
+                        padding: 12px;
+                        border: 1px solid var(--sage-green);
+                        border-radius: 8px;
+                        font-size: 1rem;
+                    "
+                >
+
+                <div class="category-picker">
+                    <input
+                        type="hidden"
+                        id="item-category"
+                        name="kategoria"
+                        value="Dokumenty"
+                    >
+
+                    <button
+                        type="button"
+                        class="category-option active"
+                        data-category="Dokumenty"
+                    >
+                        📄 Dokumenty
+                    </button>
+
+                    <button
+                        type="button"
+                        class="category-option"
+                        data-category="Dla Mamy"
+                    >
+                        🤰 Mama
+                    </button>
+
+                    <button
+                        type="button"
+                        class="category-option"
+                        data-category="Cesarskie cięcie"
+                        id="cesarean-category-option"
+                    >
+                        🩹 Cesarskie cięcie
+                    </button>
+
+                    <button
+                        type="button"
+                        class="category-option"
+                        data-category="Dla Maluszka"
+                    >
+                        🧸 Maluszek
+                    </button>
+
+                    <button
+                        type="button"
+                        class="category-option"
+                        data-category="Dla Taty"
+                    >
+                        👨 Tata
+                    </button>
+                </div>
+
+                <button
+                    type="submit"
+                    style="
+                        padding: 12px 24px;
+                        border: none;
+                        border-radius: 8px;
+                        background-color: var(--sage-green);
+                        color: white;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        cursor: pointer;
+                    "
+                >
                     Dodaj +
                 </button>
             </form>
         </div>
 
-        <div class="hospital-card card-documents">
-            <h2 class="section-title">📄 Krytyczne Dokumenty</h2>
-            <div class="items-list">
-                {% for p in przedmioty if p.kategoria == 'Dokumenty' %}
-                <div class="item-row {% if p.spakowane %}checked{% endif %}">
-                    <a href="{{ url_for('spakuj_przedmiot', item_id=p.id) }}" class="checkbox-btn">
-                        {% if p.spakowane %} ✅ {% else %} ⭕ {% endif %}
-                    </a>
-                    <span>{{ p.nazwa }}</span>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
 
-        <div class="hospital-card">
-            <h2 class="section-title">🤰 Dla Mamy</h2>
-            <div class="items-list">
-                {% for p in przedmioty if p.kategoria == 'Dla Mamy' %}
-                <div class="item-row {% if p.spakowane %}checked{% endif %}">
-                    <a href="{{ url_for('spakuj_przedmiot', item_id=p.id) }}" class="checkbox-btn">
-                        {% if p.spakowane %} ✅ {% else %} ⭕ {% endif %}
-                    </a>
-                    <span>{{ p.nazwa }}</span>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
+        <!-- KATEGORIA: DOKUMENTY -->
+        <section class="hospital-card card-documents">
+            <h2 class="section-title">
+                📄 Krytyczne Dokumenty
+            </h2>
 
-        <div class="hospital-card">
-            <h2 class="section-title">🧸 Dla Maluszka</h2>
-            <div class="items-list">
-                {% for p in przedmioty if p.kategoria == 'Dla Maluszka' %}
-                <div class="item-row {% if p.spakowane %}checked{% endif %}">
-                    <a href="{{ url_for('spakuj_przedmiot', item_id=p.id) }}" class="checkbox-btn">
-                        {% if p.spakowane %} ✅ {% else %} ⭕ {% endif %}
-                    </a>
-                    <span>{{ p.nazwa }}</span>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
+            <div
+                class="items-list"
+                id="documents-list"
+            ></div>
+        </section>
+
+
+        <!-- KATEGORIA: DLA MAMY -->
+        <section class="hospital-card">
+            <h2 class="section-title">
+                🤰 Dla Mamy
+            </h2>
+
+            <div
+                class="items-list"
+                id="mother-list"
+            ></div>
+        </section>
+
+        <!-- KATEGORIA: CESARSKIE CIĘCIE -->
+        <section
+            class="hospital-card"
+            id="cesarean-section"
+            hidden
+        >
+            <h2 class="section-title">
+                🩹 Na wypadek cesarskiego cięcia
+            </h2>
+
+            <p class="category-description">
+                Dodatkowe rzeczy, które mogą przydać się
+                po cesarskim cięciu.
+            </p>
+
+            <div
+                class="items-list"
+                id="cesarean-list"
+            ></div>
+        </section>
+
+
+        <!-- KATEGORIA: DLA MALUSZKA -->
+        <section class="hospital-card">
+            <h2 class="section-title">
+                🧸 Dla Maluszka
+            </h2>
+
+            <div
+                class="items-list"
+                id="baby-list"
+            ></div>
+        </section>
+
+        <!-- KATEGORIA: DLA TATY -->
+        <section class="hospital-card">
+            <h2 class="section-title">
+                👨 Dla Taty
+            </h2>
+
+            <div
+                class="items-list"
+                id="father-list"
+            ></div>
+        </section>
+
+
+        <!-- RESETOWANIE LISTY -->
+        <section class="reset-section">
+            <button
+                type="button"
+                class="reset-btn"
+                id="reset-list-btn"
+            >
+                Zacznij listę od nowa
+            </button>
+
+            <p class="reset-description">
+                Przywróć oryginalną listę i usuń swój dotychczasowy postęp.
+            </p>
+        </section>
+
     </div>
+</div>
+
+    <!-- Oryginalna lista przekazana przez Flask -->
+    <script>
+        window.HOSPITAL_LISTS = {{ szpitale | tojson }};
+        window.HOSPITAL_INFO = {{ szpitale_info | tojson }};
+        window.INITIAL_ITEMS = window.HOSPITAL_LISTS["Szpital Ujastek"];
+    </script>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 
 </body>
 </html>

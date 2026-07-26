@@ -1,0 +1,1045 @@
+"use strict";
+
+
+/* =========================
+   USTAWIENIA
+========================= */
+
+const STORAGE_KEY_PREFIX = "justPackItItemsV7-";
+function getStorageKey(hospitalName) {
+    return (
+        STORAGE_KEY_PREFIX +
+        encodeURIComponent(
+            hospitalName || "Szpital Ujastek"
+        )
+    );
+}
+const PROFILE_STORAGE_KEY = "justPackItProfileV1";
+
+const hospitalLists =
+    window.HOSPITAL_LISTS &&
+    typeof window.HOSPITAL_LISTS === "object"
+        ? window.HOSPITAL_LISTS
+        : {};
+const hospitalInfo =
+    window.HOSPITAL_INFO &&
+    typeof window.HOSPITAL_INFO === "object"
+        ? window.HOSPITAL_INFO
+        : {};
+
+function getInitialItemsForHospital(hospitalName) {
+    const selectedList = hospitalLists[hospitalName];
+
+    if (Array.isArray(selectedList)) {
+        return selectedList;
+    }
+
+    if (Array.isArray(window.INITIAL_ITEMS)) {
+        return window.INITIAL_ITEMS;
+    }
+
+    return [];
+}
+
+
+/* =========================
+   ELEMENTY STRONY
+========================= */
+
+const addItemForm = document.getElementById("add-item-form");
+const itemNameInput = document.getElementById("item-name");
+const itemCategorySelect = document.getElementById("item-category");
+const categoryButtons = document.querySelectorAll(".category-option");
+
+const documentsList = document.getElementById("documents-list");
+const motherList = document.getElementById("mother-list");
+const babyList = document.getElementById("baby-list");
+const fatherList = document.getElementById("father-list");
+const cesareanList = document.getElementById("cesarean-list");
+const cesareanSection = document.getElementById("cesarean-section");
+const cesareanCategoryOption = document.getElementById("cesarean-category-option");
+const heroSubtitle = document.getElementById("hero-subtitle");
+
+const progressDescription = document.getElementById(
+    "progress-description"
+);
+
+const progressPercent = document.getElementById(
+    "progress-percent"
+);
+
+const progressBar = document.getElementById(
+    "progress-bar"
+);
+
+const progressBarFill = document.getElementById(
+    "progress-bar-fill"
+);
+
+const progressComplete = document.getElementById(
+    "progress-complete"
+);
+
+const confettiContainer = document.getElementById(
+    "confetti-container"
+);
+
+const resetListButton = document.getElementById(
+    "reset-list-btn"
+);
+const packingWizard = document.getElementById(
+    "packing-wizard"
+);
+
+const wizardForm = document.getElementById(
+    "wizard-form"
+);
+
+const pregnancyWeekInput = document.getElementById(
+    "pregnancy-week"
+);
+
+const hospitalNameSelect = document.getElementById(
+    "hospital-name"
+);
+
+const packingApp = document.getElementById(
+    "packing-app"
+);
+
+const profileSummaryTitle = document.getElementById(
+    "profile-summary-title"
+);
+
+const profileSummaryMessage = document.getElementById(
+    "profile-summary-message"
+);
+const midwifeTip = document.getElementById("midwife-tip");
+const midwifeTipTitle = document.getElementById("midwife-tip-title");
+const midwifeTipText = document.getElementById("midwife-tip-text");
+
+const editProfileButton = document.getElementById(
+    "edit-profile-btn"
+);
+const hospitalProvidedCard = document.getElementById("hospital-provided-card");
+
+const hospitalProvidedList = document.getElementById("hospital-provided-list");
+
+/* =========================
+   PROFIL I KREATOR LISTY
+========================= */
+
+function saveProfile(profileToSave) {
+    localStorage.setItem(
+        PROFILE_STORAGE_KEY,
+        JSON.stringify(profileToSave)
+    );
+}
+
+
+function loadProfile() {
+    const savedProfile = localStorage.getItem(
+        PROFILE_STORAGE_KEY
+    );
+
+    if (!savedProfile) {
+        return null;
+    }
+
+    try {
+        const parsedProfile = JSON.parse(savedProfile);
+
+        if (
+            typeof parsedProfile !== "object" ||
+            parsedProfile === null
+        ) {
+            return null;
+        }
+
+        return parsedProfile;
+    } catch (error) {
+        console.error(
+            "Nie udało się odczytać profilu:",
+            error
+        );
+
+        return null;
+    }
+}
+
+
+let userProfile = loadProfile();
+
+
+function getDeliveryTypeLabel(deliveryType) {
+    if (deliveryType === "naturalny") {
+        return "poród naturalny";
+    }
+
+    if (deliveryType === "cesarskie-ciecie") {
+        return "cesarskie cięcie";
+    }
+
+    return "rodzaj porodu jeszcze nieustalony";
+}
+
+
+function getPregnancyMessage(week) {
+    if (week < 28) {
+        return (
+            "Masz jeszcze trochę czasu, ale możesz już spokojnie " +
+            "zacząć kompletować potrzebne rzeczy."
+        );
+    }
+
+    if (week < 32) {
+        return (
+            "To dobry moment, żeby rozpocząć pakowanie torby " +
+            "bez pośpiechu i wybrać położną środowiskową."
+        );
+    }
+
+    if (week < 36) {
+        return (
+            "Czas się spakować — warto mieć już większość " +
+            "potrzebnych rzeczy gotowych. To także dobry moment, " +
+            "żeby upewnić się, że masz wybraną położną środowiskową."
+        );
+    }
+
+    return (
+        "Torba powinna być już gotowa i ustawiona " +
+        "w łatwo dostępnym miejscu."
+    );
+}
+
+function renderProfileSummary() {
+    if (!userProfile) {
+        return;
+    }
+
+    const deliveryLabel = getDeliveryTypeLabel(
+        userProfile.deliveryType
+    );
+
+    profileSummaryTitle.textContent =
+        userProfile.pregnancyWeek +
+        ". tydzień ciąży · " +
+        deliveryLabel;
+
+    profileSummaryMessage.textContent =
+        getPregnancyMessage(
+            userProfile.pregnancyWeek
+        ) +
+        " Wybrany szpital: " +
+        userProfile.hospitalName +
+        ".";
+
+    if (heroSubtitle) {
+        if (
+            userProfile.hospitalName ===
+            "Inny szpital"
+        ) {
+            heroSubtitle.textContent =
+                "Twoja interaktywna lista do pakowania";
+        } else {
+            heroSubtitle.textContent =
+                "Twoja interaktywna lista do pakowania " +
+                "na podstawie zaleceń " +
+                userProfile.hospitalName;
+        }
+    }
+
+    if (
+        midwifeTip &&
+        midwifeTipTitle &&
+        midwifeTipText
+    ) {
+        const week = Number(
+            userProfile.pregnancyWeek
+        );
+
+        if (week < 20) {
+            midwifeTip.hidden = true;
+        } else {
+            midwifeTip.hidden = false;
+
+            if (week < 32) {
+                midwifeTipTitle.textContent =
+                    "💡 To dobry moment";
+
+                midwifeTipText.textContent =
+                    "✅ Warto już wybrać położną środowiskową.";
+            } else {
+                midwifeTipTitle.textContent =
+                    "💡 Pamiętaj";
+
+                midwifeTipText.textContent =
+                    "✅ Jeśli jeszcze nie masz wybranej " +
+                    "położnej środowiskowej, warto zrobić to teraz.";
+            }
+        }
+    }
+}
+
+
+function fillWizardWithProfile() {
+    if (!userProfile) {
+        return;
+    }
+
+    pregnancyWeekInput.value =
+        userProfile.pregnancyWeek;
+
+    hospitalNameSelect.value =
+        userProfile.hospitalName;
+
+    const deliveryRadio = document.querySelector(
+        'input[name="delivery-type"][value="' +
+        userProfile.deliveryType +
+        '"]'
+    );
+
+    if (deliveryRadio) {
+        deliveryRadio.checked = true;
+    }
+}
+
+
+function showWizard() {
+    fillWizardWithProfile();
+
+    packingWizard.hidden = false;
+    packingApp.hidden = true;
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
+
+function showPackingApp() {
+    packingWizard.hidden = true;
+    packingApp.hidden = false;
+
+    renderProfileSummary();
+    renderApp();
+}
+
+/* =========================
+   LOCAL STORAGE
+========================= */
+
+function copyInitialItems(hospitalName) {
+    const initialItems =
+        getInitialItemsForHospital(hospitalName);
+
+    return initialItems.map(function (item) {
+        return {
+            id: item.id,
+            nazwa: item.nazwa,
+            kategoria: item.kategoria,
+            spakowane: false,
+            przypiete: item.przypiete === true
+        };
+    });
+}
+
+
+function saveItems(itemsToSave) {
+    const hospitalName = userProfile
+        ? userProfile.hospitalName
+        : "Szpital Ujastek";
+
+    localStorage.setItem(
+        getStorageKey(hospitalName),
+        JSON.stringify(itemsToSave)
+    );
+}
+
+
+function loadItems() {
+    const hospitalName = userProfile
+            ? userProfile.hospitalName
+            : "Szpital Ujastek";
+
+    const savedItems = localStorage.getItem(
+        getStorageKey(hospitalName)
+    );
+
+    if (!savedItems) {
+        const freshItems = copyInitialItems(hospitalName);
+        saveItems(freshItems);
+        return freshItems;
+    }
+
+    try {
+        const parsedItems = JSON.parse(savedItems);
+
+        if (!Array.isArray(parsedItems)) {
+            throw new Error(
+                "Zapisana lista nie jest tablicą."
+            );
+        }
+
+        return parsedItems.map(function (item) {
+            return {
+                id: item.id,
+                nazwa: item.nazwa,
+                kategoria: item.kategoria,
+                spakowane: item.spakowane === true,
+                wlasny: item.wlasny === true,
+                przypiete: item.przypiete === true
+            };
+        });
+    } catch (error) {
+        console.error(
+            "Nie udało się odczytać listy:",
+            error
+        );
+
+        const freshItems = copyInitialItems(hospitalName);
+        saveItems(freshItems);
+
+        return freshItems;
+    }
+}
+
+
+let items = loadItems();
+
+
+/* =========================
+   TWORZENIE ELEMENTU LISTY
+========================= */
+
+function createItemRow(item) {
+    const row = document.createElement("div");
+    row.className = "item-row";
+
+    if (item.spakowane) {
+        row.classList.add("checked");
+    }
+    if (item.przypiete) {
+        row.classList.add("pinned");
+    }
+
+    const checkboxButton = document.createElement("button");
+    checkboxButton.type = "button";
+    checkboxButton.className = "checkbox-btn";
+    checkboxButton.textContent = item.spakowane
+        ? "✅"
+        : "⭕";
+
+    checkboxButton.setAttribute(
+        "aria-label",
+        item.spakowane
+            ? "Oznacz " + item.nazwa + " jako niespakowane"
+            : "Oznacz " + item.nazwa + " jako spakowane"
+    );
+
+    checkboxButton.addEventListener(
+        "click",
+        function () {
+            toggleItem(item.id);
+        }
+    );
+
+    const itemName = document.createElement("span");
+    itemName.className = "item-name";
+    itemName.textContent = item.nazwa;
+
+    const pinButton = document.createElement("button");
+    pinButton.type = "button";
+    pinButton.className = "pin-btn";
+
+    if (item.przypiete) {
+        pinButton.classList.add("active");
+    }
+
+    pinButton.textContent = "📌";
+
+    pinButton.setAttribute(
+        "aria-label",
+        item.przypiete
+            ? "Odepnij " + item.nazwa
+            : "Przypnij " + item.nazwa + " jako ważne"
+    );
+
+    pinButton.setAttribute(
+        "title",
+        item.przypiete
+            ? "Odepnij"
+            : "Przypnij jako ważne"
+    );
+
+    pinButton.addEventListener(
+        "click",
+        function () {
+            togglePinned(item.id);
+        }
+    );
+
+    const deleteButton = document.createElement("button");
+    deleteButton.type = "button";
+    deleteButton.className = "delete-btn";
+    deleteButton.textContent = "❌";
+
+    deleteButton.setAttribute(
+        "aria-label",
+        "Usuń " + item.nazwa
+    );
+
+    deleteButton.addEventListener(
+        "click",
+        function () {
+            deleteItem(item.id);
+        }
+    );
+
+    row.appendChild(checkboxButton);
+    row.appendChild(itemName);
+    row.appendChild(pinButton);
+    row.appendChild(deleteButton);
+
+    return row;
+}
+
+
+/* =========================
+   RENDEROWANIE KATEGORII
+========================= */
+
+function renderCategory(category, container) {
+    container.innerHTML = "";
+
+    const categoryItems = items
+        .filter(function (item) {
+            return item.kategoria === category;
+        })
+        .sort(function (firstItem, secondItem) {
+            if (
+                firstItem.przypiete === true &&
+                secondItem.przypiete !== true
+            ) {
+                return -1;
+            }
+
+            if (
+                firstItem.przypiete !== true &&
+                secondItem.przypiete === true
+            ) {
+                return 1;
+            }
+
+            return 0;
+        });
+
+    if (categoryItems.length === 0) {
+        const emptyMessage = document.createElement("p");
+
+        emptyMessage.className = "empty-category";
+        emptyMessage.textContent =
+            "Brak elementów w tej kategorii.";
+
+        container.appendChild(emptyMessage);
+        return;
+    }
+
+    categoryItems.forEach(
+        function (item) {
+            const row = createItemRow(item);
+            container.appendChild(row);
+        }
+    );
+}
+
+
+/* =========================
+   PASEK POSTĘPU
+========================= */
+
+function launchConfetti() {
+    const confettiColors = [
+        "#bcc9b7",
+        "#d9c79e",
+        "#e8b9ad",
+        "#aabca6",
+        "#f1d9a7"
+    ];
+
+    confettiContainer.innerHTML = "";
+
+    for (let index = 0; index < 28; index += 1) {
+        const piece = document.createElement("span");
+
+        piece.className = "confetti-piece";
+
+        piece.style.left =
+            Math.random() * 100 + "%";
+
+        piece.style.backgroundColor =
+            confettiColors[
+                Math.floor(
+                    Math.random() * confettiColors.length
+                )
+            ];
+
+        piece.style.animationDelay =
+            Math.random() * 0.45 + "s";
+
+        piece.style.animationDuration =
+            1.4 + Math.random() * 0.8 + "s";
+
+        piece.style.transform =
+            "rotate(" + Math.random() * 360 + "deg)";
+
+        confettiContainer.appendChild(piece);
+    }
+
+    window.setTimeout(function () {
+        confettiContainer.innerHTML = "";
+    }, 2600);
+}
+
+let previousPercent = null;
+
+function getVisibleItems() {
+    if (shouldShowCesareanSection()) {
+        return items;
+    }
+
+    return items.filter(function (item) {
+        return item.kategoria !== "Cesarskie cięcie";
+    });
+}
+
+function renderProgress() {
+    const visibleItems = getVisibleItems();
+    const total = visibleItems.length;
+
+    const packed = visibleItems.filter(
+        function (item) {
+            return item.spakowane === true;
+        }
+    ).length;
+
+    const percent = total > 0
+        ? Math.round((packed / total) * 100)
+        : 0;
+
+    progressDescription.textContent =
+        packed + " z " + total + " rzeczy spakowanych";
+
+    progressPercent.textContent =
+        percent + "%";
+
+    progressBarFill.style.width =
+        percent + "%";
+
+    progressBar.setAttribute(
+        "aria-valuenow",
+        String(percent)
+    );
+
+    const isComplete =
+        percent === 100 && total > 0;
+
+    progressComplete.hidden = !isComplete;
+
+    if (
+        isComplete &&
+        previousPercent !== null &&
+        previousPercent < 100
+    ) {
+        progressComplete.classList.remove("celebrate");
+
+        void progressComplete.offsetWidth;
+
+        progressComplete.classList.add("celebrate");
+
+        launchConfetti();
+    }
+
+    if (!isComplete) {
+        progressComplete.classList.remove("celebrate");
+    }
+
+    previousPercent = percent;
+}
+
+
+/* =========================
+   RENDEROWANIE APLIKACJI
+========================= */
+
+function shouldShowCesareanSection() {
+    if (!userProfile) {
+        return false;
+    }
+
+    return (
+        userProfile.deliveryType === "cesarskie-ciecie" ||
+        userProfile.deliveryType === "nie-wiem"
+    );
+}
+
+
+function renderCesareanSection() {
+    const isVisible = shouldShowCesareanSection();
+
+    if (cesareanSection) {
+        cesareanSection.hidden = !isVisible;
+    }
+
+    if (cesareanCategoryOption) {
+        cesareanCategoryOption.hidden = !isVisible;
+        cesareanCategoryOption.disabled = !isVisible;
+    }
+
+    if (isVisible && cesareanList) {
+        renderCategory(
+            "Cesarskie cięcie",
+            cesareanList
+        );
+    } else if (
+        itemCategorySelect &&
+        itemCategorySelect.value === "Cesarskie cięcie"
+    ) {
+        setActiveCategory("Dokumenty");
+    }
+}
+
+function renderHospitalProvidedInfo() {
+    if (
+        !hospitalProvidedCard ||
+        !hospitalProvidedList ||
+        !userProfile
+    ) {
+        return;
+    }
+
+    hospitalProvidedList.innerHTML = "";
+
+    const selectedHospitalInfo =
+        hospitalInfo[userProfile.hospitalName];
+
+    const providedItems =
+        selectedHospitalInfo &&
+        Array.isArray(selectedHospitalInfo.zapewnia)
+            ? selectedHospitalInfo.zapewnia
+            : [];
+
+    if (providedItems.length === 0) {
+        hospitalProvidedCard.hidden = true;
+        return;
+    }
+
+    providedItems.forEach(function (item) {
+        const listItem = document.createElement("li");
+        listItem.textContent = item;
+        hospitalProvidedList.appendChild(listItem);
+    });
+
+    hospitalProvidedCard.hidden = false;
+}
+
+function renderApp() {
+    renderCategory(
+        "Dokumenty",
+        documentsList
+    );
+
+    renderCategory(
+        "Dla Mamy",
+        motherList
+    );
+
+    renderCesareanSection();
+
+    renderCategory(
+        "Dla Maluszka",
+        babyList
+    );
+
+    renderCategory(
+        "Dla Taty",
+        fatherList
+    );
+
+    renderHospitalProvidedInfo();
+    renderProgress();
+}
+
+/* =========================
+   PRZYPINANIE WAŻNYCH RZECZY
+========================= */
+
+function togglePinned(itemId) {
+    items = items.map(
+        function (item) {
+            if (item.id !== itemId) {
+                return item;
+            }
+
+            return {
+                id: item.id,
+                nazwa: item.nazwa,
+                kategoria: item.kategoria,
+                spakowane: item.spakowane === true,
+                wlasny: item.wlasny === true,
+                przypiete: item.przypiete !== true
+            };
+        }
+    );
+
+    saveItems(items);
+    renderApp();
+}
+
+
+/* =========================
+   ODHACZANIE ELEMENTÓW
+========================= */
+
+function toggleItem(itemId) {
+    items = items.map(
+        function (item) {
+            if (item.id !== itemId) {
+                return item;
+            }
+
+            return {
+                id: item.id,
+                nazwa: item.nazwa,
+                kategoria: item.kategoria,
+                spakowane: !item.spakowane,
+                wlasny: item.wlasny === true,
+                przypiete: item.przypiete === true
+            };
+        }
+    );
+
+    saveItems(items);
+    renderApp();
+}
+
+
+/* =========================
+   USUWANIE ELEMENTÓW
+========================= */
+
+function deleteItem(itemId) {
+    const selectedItem = items.find(
+        function (item) {
+            return item.id === itemId;
+        }
+    );
+
+    if (!selectedItem) {
+        return;
+    }
+
+    const shouldDelete = window.confirm(
+        "Czy na pewno chcesz usunąć „" +
+        selectedItem.nazwa +
+        "”?"
+    );
+
+    if (!shouldDelete) {
+        return;
+    }
+
+    items = items.filter(
+        function (item) {
+            return item.id !== itemId;
+        }
+    );
+
+    saveItems(items);
+    renderApp();
+}
+
+function setActiveCategory(category) {
+    itemCategorySelect.value = category;
+
+    categoryButtons.forEach(function (button) {
+        const isSelected =
+            button.dataset.category === category;
+
+        button.classList.toggle(
+            "active",
+            isSelected
+        );
+
+        button.setAttribute(
+            "aria-pressed",
+            String(isSelected)
+        );
+    });
+}
+
+
+categoryButtons.forEach(function (button) {
+    button.addEventListener(
+        "click",
+        function () {
+            setActiveCategory(
+                button.dataset.category
+            );
+        }
+    );
+});
+
+
+/* =========================
+   DODAWANIE WŁASNYCH RZECZY
+========================= */
+
+function createCustomItem(name, category) {
+    return {
+        id:
+            "custom-" +
+            Date.now() +
+            "-" +
+            Math.random().toString(16).slice(2),
+        nazwa: name,
+        kategoria: category,
+        spakowane: false,
+        wlasny: true,
+        przypiete: false
+    };
+}
+
+
+addItemForm.addEventListener(
+    "submit",
+    function (event) {
+        event.preventDefault();
+
+        const name = itemNameInput.value.trim();
+        const category = itemCategorySelect.value;
+
+        const allowedCategories = [
+            "Dokumenty",
+            "Dla Mamy",
+            "Cesarskie cięcie",
+            "Dla Maluszka",
+            "Dla Taty"
+        ];
+
+        if (
+            name === "" ||
+            !allowedCategories.includes(category)
+        ) {
+            return;
+        }
+
+        const newItem = createCustomItem(
+            name,
+            category
+        );
+
+        items.push(newItem);
+
+        saveItems(items);
+        renderApp();
+
+        addItemForm.reset();
+        setActiveCategory("Dokumenty");
+        itemNameInput.focus();
+    }
+);
+
+
+/* =========================
+   RESETOWANIE LISTY
+========================= */
+
+resetListButton.addEventListener(
+    "click",
+    function () {
+        const shouldReset = window.confirm(
+            "Czy na pewno chcesz rozpocząć pakowanie od nowa? " +
+            "Wszystkie zaznaczenia i własne elementy zostaną usunięte."
+        );
+
+        if (!shouldReset) {
+            return;
+        }
+
+        items = copyInitialItems();
+
+        saveItems(items);
+        renderApp();
+    }
+);
+
+/* =========================
+   OBSŁUGA KREATORA
+========================= */
+
+wizardForm.addEventListener(
+    "submit",
+    function (event) {
+        event.preventDefault();
+
+        const pregnancyWeek = Number(
+            pregnancyWeekInput.value
+        );
+
+        const selectedDeliveryType =
+            document.querySelector(
+                'input[name="delivery-type"]:checked'
+            );
+
+        const hospitalName =
+            hospitalNameSelect.value;
+
+        if (
+            !Number.isInteger(pregnancyWeek) ||
+            pregnancyWeek < 1 ||
+            pregnancyWeek > 42 ||
+            !selectedDeliveryType ||
+            hospitalName === ""
+        ) {
+            return;
+        }
+
+        userProfile = {
+            pregnancyWeek: pregnancyWeek,
+            deliveryType:
+                selectedDeliveryType.value,
+            hospitalName: hospitalName
+        };
+
+        saveProfile(userProfile);
+
+        items = copyInitialItems(
+            userProfile.hospitalName
+        );
+
+        saveItems(items);
+
+        showPackingApp();
+    }
+);
+
+
+editProfileButton.addEventListener(
+    "click",
+    function () {
+        showWizard();
+    }
+);
+
+/* =========================x
+   START APLIKACJI
+========================= */
+
+if (userProfile) {
+    showPackingApp();
+} else {
+    showWizard();
+}
