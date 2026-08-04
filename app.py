@@ -12,7 +12,7 @@ app = Flask(__name__)
 # Każdy element musi mieć niezmienne, unikalne ID.
 
 
-@app.route("/")
+
 @app.route("/")
 def index():
     return render_template(

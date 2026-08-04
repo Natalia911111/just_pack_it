@@ -95,9 +95,31 @@ const wizardForm = document.getElementById(
     "wizard-form"
 );
 
-const pregnancyWeekInput = document.getElementById(
-    "pregnancy-week"
+const dueDateInput = document.getElementById(
+    "due-date"
 );
+
+const pregnancyCalculation = document.getElementById(
+    "pregnancy-calculation"
+);
+
+const correctedWeekInput = document.getElementById(
+    "corrected-week"
+);
+
+const correctedDayInput = document.getElementById(
+    "corrected-day"
+);
+
+const savePregnancyCorrectionButton =
+    document.getElementById(
+        "save-pregnancy-correction"
+    );
+
+const removePregnancyCorrectionButton =
+    document.getElementById(
+        "remove-pregnancy-correction"
+    );
 
 const hospitalNameSelect = document.getElementById(
     "hospital-name"
@@ -105,10 +127,6 @@ const hospitalNameSelect = document.getElementById(
 
 const packingApp = document.getElementById(
     "packing-app"
-);
-
-const profileSummaryTitle = document.getElementById(
-    "profile-summary-title"
 );
 
 const profileSummaryMessage = document.getElementById(
@@ -124,6 +142,177 @@ const editProfileButton = document.getElementById(
 const hospitalProvidedCard = document.getElementById("hospital-provided-card");
 
 const hospitalProvidedList = document.getElementById("hospital-provided-list");
+
+const profilePregnancyWeek =
+    document.getElementById(
+        "profile-pregnancy-week"
+    );
+
+const profileDueDate =
+    document.getElementById(
+        "profile-due-date"
+    );
+
+const profileHospital =
+    document.getElementById(
+        "profile-hospital"
+    );
+
+const pregnancyProgress =
+    document.getElementById(
+        "pregnancy-progress"
+    );
+
+const pregnancyProgressBar =
+    document.getElementById(
+        "pregnancy-progress-bar"
+    );
+
+const pregnancyProgressPercent =
+    document.getElementById(
+        "pregnancy-progress-percent"
+    );
+
+const pregnancyProgressText =
+    document.getElementById(
+        "pregnancy-progress-text"
+    );
+
+// =============================
+// OBLICZANIE TYGODNIA CIĄŻY
+// =============================
+
+const DAY_IN_MS = 24 * 60 * 60 * 1000;
+const FULL_PREGNANCY_DAYS = 280;
+
+function parseLocalDate(dateString) {
+    if (!dateString) {
+        return null;
+    }
+
+    const [year, month, day] = dateString
+        .split("-")
+        .map(Number);
+
+    return new Date(year, month - 1, day);
+}
+
+function getTodayAtMidnight() {
+    const today = new Date();
+
+    return new Date(
+        today.getFullYear(),
+        today.getMonth(),
+        today.getDate()
+    );
+}
+
+function calculatePregnancyDay(dueDateString) {
+    const dueDate = parseLocalDate(dueDateString);
+
+    if (!dueDate) {
+        return null;
+    }
+
+    const today = getTodayAtMidnight();
+
+    const daysUntilDueDate = Math.round(
+        (dueDate.getTime() - today.getTime()) / DAY_IN_MS
+    );
+
+    return FULL_PREGNANCY_DAYS - daysUntilDueDate;
+}
+
+function pregnancyDayToProgress(pregnancyDay) {
+    if (pregnancyDay === null) {
+        return null;
+    }
+
+    const safePregnancyDay = Math.max(
+        0,
+        Math.min(pregnancyDay, 42 * 7 + 6)
+    );
+
+    return {
+        week: Math.floor(safePregnancyDay / 7),
+        day: safePregnancyDay % 7
+    };
+}
+
+function getCurrentPregnancyProgress() {
+    if (!userProfile || !userProfile.dueDate) {
+        return null;
+    }
+
+    const calculatedPregnancyDay =
+        calculatePregnancyDay(userProfile.dueDate);
+
+    if (calculatedPregnancyDay === null) {
+        return null;
+    }
+
+    const adjustmentDays =
+        Number(userProfile.pregnancyAdjustmentDays) || 0;
+
+    return pregnancyDayToProgress(
+        calculatedPregnancyDay + adjustmentDays
+    );
+}
+
+function getDaysUntilDueDate() {
+    if (!userProfile || !userProfile.dueDate) {
+        return null;
+    }
+
+    const dueDate = parseLocalDate(userProfile.dueDate);
+    const today = getTodayAtMidnight();
+
+    return Math.round(
+        (dueDate.getTime() - today.getTime()) / DAY_IN_MS
+    );
+}
+
+function renderPregnancyCalculation() {
+    if (!pregnancyCalculation) {
+        return;
+    }
+
+    const progress = getCurrentPregnancyProgress();
+
+    if (!progress) {
+        pregnancyCalculation.hidden = true;
+        pregnancyCalculation.textContent = "";
+        return;
+    }
+
+    const daysUntilDueDate = getDaysUntilDueDate();
+
+    pregnancyCalculation.hidden = false;
+
+    let message =
+        "Aktualnie: " +
+        progress.week +
+        " tyg. + " +
+        progress.day +
+        " dni.";
+
+    if (daysUntilDueDate > 0) {
+        message +=
+            " Do planowanego terminu pozostało " +
+            daysUntilDueDate +
+            " dni.";
+    } else if (daysUntilDueDate === 0) {
+        message +=
+            " Planowany termin porodu przypada dzisiaj.";
+    } else if (daysUntilDueDate < 0) {
+        message +=
+            " Planowany termin minął " +
+            Math.abs(daysUntilDueDate) +
+            " dni temu.";
+    }
+
+    pregnancyCalculation.textContent = message;
+}
 
 /* =========================
    PROFIL I KREATOR LISTY
@@ -170,6 +359,13 @@ function loadProfile() {
 
 let userProfile = loadProfile();
 
+if (
+    userProfile &&
+    !userProfile.dueDate
+) {
+    userProfile = null;
+}
+
 
 function getDeliveryTypeLabel(deliveryType) {
     if (deliveryType === "naturalny") {
@@ -181,6 +377,16 @@ function getDeliveryTypeLabel(deliveryType) {
     }
 
     return "rodzaj porodu jeszcze nieustalony";
+}
+
+function getHospitalNameInGenitive(hospitalName) {
+    const hospitalNames = {
+        "Szpital Ujastek": "Szpitala Ujastek",
+        "Szpital Żeromski": "Szpitala Żeromskiego",
+        "Szpital Siemiradzkiego": "Szpitala Siemiradzkiego"
+    };
+
+    return hospitalNames[hospitalName] || hospitalName;
 }
 
 
@@ -214,26 +420,121 @@ function getPregnancyMessage(week) {
 }
 
 function renderProfileSummary() {
+    console.log(userProfile);
     if (!userProfile) {
         return;
     }
+
+    const progress = getCurrentPregnancyProgress();
+
+    if (!progress) {
+        return;
+    }
+
+    const week = progress.week;
+    const day = progress.day;
 
     const deliveryLabel = getDeliveryTypeLabel(
         userProfile.deliveryType
     );
 
-    profileSummaryTitle.textContent =
-        userProfile.pregnancyWeek +
-        ". tydzień ciąży · " +
-        deliveryLabel;
+    if (profilePregnancyWeek) {
+        profilePregnancyWeek.textContent =
+            week +
+            " tyg. + " +
+            day +
+            " dni";
+    }
+    const pregnancyDay =
+    Math.max(
+        0,
+        Math.min(
+            week * 7 + day,
+            FULL_PREGNANCY_DAYS
+        )
+    );
 
-    profileSummaryMessage.textContent =
-        getPregnancyMessage(
-            userProfile.pregnancyWeek
-        ) +
-        " Wybrany szpital: " +
-        userProfile.hospitalName +
-        ".";
+    const pregnancyPercent =
+        Math.round(
+            (pregnancyDay / FULL_PREGNANCY_DAYS) * 100
+        );
+
+    const daysUntilDueDate =
+        getDaysUntilDueDate();
+
+    if (pregnancyProgressBar) {
+        pregnancyProgressBar.style.width =
+            pregnancyPercent + "%";
+    }
+
+    if (pregnancyProgressPercent) {
+        pregnancyProgressPercent.textContent =
+            pregnancyPercent + "%";
+    }
+
+    if (pregnancyProgress) {
+        pregnancyProgress.setAttribute(
+            "aria-valuenow",
+            String(pregnancyPercent)
+        );
+    }
+
+    if (pregnancyProgressText) {
+        if (daysUntilDueDate > 1) {
+            pregnancyProgressText.textContent =
+                "Do planowanego terminu pozostało " +
+                daysUntilDueDate +
+                " dni.";
+        } else if (daysUntilDueDate === 1) {
+            pregnancyProgressText.textContent =
+                "Do planowanego terminu pozostał 1 dzień.";
+        } else if (daysUntilDueDate === 0) {
+            pregnancyProgressText.textContent =
+                "Planowany termin porodu przypada dzisiaj 🤍";
+        } else {
+            pregnancyProgressText.textContent =
+                "Planowany termin porodu już minął.";
+        }
+    }
+
+    const dueDate = parseLocalDate(
+        userProfile.dueDate
+    );
+
+    let formattedDueDate = "Nie podano";
+
+    if (
+        dueDate &&
+        !Number.isNaN(dueDate.getTime())
+    ) {
+        formattedDueDate =
+            dueDate.toLocaleDateString(
+                "pl-PL",
+                {
+                    day: "numeric",
+                    month: "long",
+                    year: "numeric"
+                }
+            );
+    }
+
+if (profileDueDate) {
+    profileDueDate.textContent =
+        formattedDueDate;
+}
+
+if (profileHospital) {
+    profileHospital.textContent =
+        userProfile.hospitalName
+            ? getHospitalNameInGenitive(userProfile.hospitalName)
+            : "Nie wybrano";
+}
+
+  profileSummaryMessage.textContent =
+    getPregnancyMessage(week) +
+    " Planowany rodzaj porodu: " +
+    deliveryLabel +
+    ".";
 
     if (heroSubtitle) {
         if (
@@ -245,8 +546,8 @@ function renderProfileSummary() {
         } else {
             heroSubtitle.textContent =
                 "Twoja interaktywna lista do pakowania " +
-                "na podstawie zaleceń " +
-                userProfile.hospitalName;
+                "opracowana na podstawie zaleceń " +
+                 getHospitalNameInGenitive(userProfile.hospitalName);
         }
     }
 
@@ -255,10 +556,6 @@ function renderProfileSummary() {
         midwifeTipTitle &&
         midwifeTipText
     ) {
-        const week = Number(
-            userProfile.pregnancyWeek
-        );
-
         if (week < 20) {
             midwifeTip.hidden = true;
         } else {
@@ -281,18 +578,16 @@ function renderProfileSummary() {
         }
     }
 }
-
-
 function fillWizardWithProfile() {
     if (!userProfile) {
         return;
     }
 
-    pregnancyWeekInput.value =
-        userProfile.pregnancyWeek;
+    dueDateInput.value =
+        userProfile.dueDate || "";
 
     hospitalNameSelect.value =
-        userProfile.hospitalName;
+        userProfile.hospitalName || "";
 
     const deliveryRadio = document.querySelector(
         'input[name="delivery-type"][value="' +
@@ -303,8 +598,9 @@ function fillWizardWithProfile() {
     if (deliveryRadio) {
         deliveryRadio.checked = true;
     }
-}
 
+    renderPregnancyCalculation();
+}
 
 function showWizard() {
     fillWizardWithProfile();
@@ -969,10 +1265,106 @@ resetListButton.addEventListener(
             return;
         }
 
-        items = copyInitialItems();
+        items = copyInitialItems(
+            userProfile.hospitalName
+        );
 
         saveItems(items);
         renderApp();
+    }
+);
+
+dueDateInput.addEventListener(
+    "change",
+    function () {
+        const previousProfile = userProfile || {};
+
+        userProfile = {
+            dueDate: dueDateInput.value,
+            pregnancyAdjustmentDays: 0,
+            deliveryType:
+                previousProfile.deliveryType || "",
+            hospitalName:
+                previousProfile.hospitalName || ""
+        };
+
+        renderPregnancyCalculation();
+    }
+);
+
+savePregnancyCorrectionButton.addEventListener(
+    "click",
+    function () {
+        if (!dueDateInput.value) {
+            alert(
+                "Najpierw wybierz planowany termin porodu."
+            );
+            return;
+        }
+
+        const correctedWeek = Number(
+            correctedWeekInput.value
+        );
+
+        const correctedDay = Number(
+            correctedDayInput.value
+        );
+
+        if (
+            !Number.isInteger(correctedWeek) ||
+            correctedWeek < 0 ||
+            correctedWeek > 42
+        ) {
+            alert(
+                "Podaj liczbę ukończonych tygodni od 0 do 42."
+            );
+            return;
+        }
+
+        if (
+            !Number.isInteger(correctedDay) ||
+            correctedDay < 0 ||
+            correctedDay > 6
+        ) {
+            alert(
+                "Podaj liczbę dni od 0 do 6."
+            );
+            return;
+        }
+
+        const calculatedPregnancyDay =
+            calculatePregnancyDay(
+                dueDateInput.value
+            );
+
+        const correctedPregnancyDay =
+            correctedWeek * 7 +
+            correctedDay;
+
+        userProfile.dueDate =
+            dueDateInput.value;
+
+        userProfile.pregnancyAdjustmentDays =
+            correctedPregnancyDay -
+            calculatedPregnancyDay;
+
+        renderPregnancyCalculation();
+    }
+);
+
+removePregnancyCorrectionButton.addEventListener(
+    "click",
+    function () {
+        if (!userProfile) {
+            return;
+        }
+
+        userProfile.pregnancyAdjustmentDays = 0;
+
+        correctedWeekInput.value = "";
+        correctedDayInput.value = "";
+
+        renderPregnancyCalculation();
     }
 );
 
@@ -985,9 +1377,8 @@ wizardForm.addEventListener(
     function (event) {
         event.preventDefault();
 
-        const pregnancyWeek = Number(
-            pregnancyWeekInput.value
-        );
+        const dueDate =
+            dueDateInput.value;
 
         const selectedDeliveryType =
             document.querySelector(
@@ -998,17 +1389,29 @@ wizardForm.addEventListener(
             hospitalNameSelect.value;
 
         if (
-            !Number.isInteger(pregnancyWeek) ||
-            pregnancyWeek < 1 ||
-            pregnancyWeek > 42 ||
+            dueDate === "" ||
             !selectedDeliveryType ||
             hospitalName === ""
         ) {
             return;
         }
 
+        const adjustmentDays =
+            userProfile &&
+            Number.isFinite(
+                Number(
+                    userProfile.pregnancyAdjustmentDays
+                )
+            )
+                ? Number(
+                    userProfile.pregnancyAdjustmentDays
+                )
+                : 0;
+
         userProfile = {
-            pregnancyWeek: pregnancyWeek,
+            dueDate: dueDate,
+            pregnancyAdjustmentDays:
+                adjustmentDays,
             deliveryType:
                 selectedDeliveryType.value,
             hospitalName: hospitalName
@@ -1026,13 +1429,16 @@ wizardForm.addEventListener(
     }
 );
 
+/* OBSŁUGA PRZYCISKU ZMIEŃ USTAWIENIA */
 
-editProfileButton.addEventListener(
-    "click",
-    function () {
-        showWizard();
-    }
-);
+if (editProfileButton) {
+    editProfileButton.addEventListener(
+        "click",
+        function () {
+            showWizard();
+        }
+    );
+}
 
 /* =========================x
    START APLIKACJI

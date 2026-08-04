@@ -55,21 +55,74 @@
 
             <form id="wizard-form" class="wizard-form">
 
-                <div class="wizard-field">
-                    <label for="pregnancy-week">
-                        W którym tygodniu ciąży jesteś?
+               <div class="wizard-field">
+                <label for="due-date">
+                    Jaki jest planowany termin porodu?
+                </label>
+
+                <input
+                    type="date"
+                    id="due-date"
+                    name="due-date"
+                    required
+                >
+
+                <p
+                    class="pregnancy-calculation"
+                    id="pregnancy-calculation"
+                    hidden
+                ></p>
+            </div>
+
+            <details class="pregnancy-correction">
+                <summary>
+                    Wyliczony tydzień się nie zgadza?
+                </summary>
+
+                <p>
+                    Możesz skorygować go zgodnie z informacją od lekarza.
+                </p>
+
+                <div class="pregnancy-correction-fields">
+                    <label for="corrected-week">
+                        Ukończone tygodnie
                     </label>
 
                     <input
                         type="number"
-                        id="pregnancy-week"
-                        name="pregnancy-week"
-                        min="1"
+                        id="corrected-week"
+                        min="0"
                         max="42"
-                        placeholder="Np. 34"
-                        required
+                        placeholder="Np. 32"
                     >
+
+                    <label for="corrected-day">
+                        Dni
+                    </label>
+
+                    <input
+                        type="number"
+                        id="corrected-day"
+                        min="0"
+                        max="6"
+                        placeholder="Np. 4"
+                    >
+
+                    <button
+                        type="button"
+                        id="save-pregnancy-correction"
+                    >
+                        Zapisz korektę
+                    </button>
+
+                    <button
+                        type="button"
+                        id="remove-pregnancy-correction"
+                    >
+                        Przywróć automatyczne wyliczenie
+                    </button>
                 </div>
+            </details>
 
                 <fieldset class="wizard-field wizard-radio-group">
                     <legend>Jaki poród planujesz?</legend>
@@ -122,7 +175,7 @@
                         </option>
 
                         <option value="Szpital Żeromski">
-                            Szpital Żeromski
+                            Szpital Żeromskiego
                         </option>
 
                         <option value="Szpital Siemiradzkiego">
@@ -150,49 +203,126 @@
 
     <div id="packing-app" hidden>
 
-        <!-- PODSUMOWANIE USTAWIEŃ -->
+       <!-- PODSUMOWANIE USTAWIEŃ -->
         <section class="hospital-card profile-summary">
             <div class="profile-summary-content">
-                <div>
-                    <span class="profile-summary-label">
-                        Twoja lista
+
+                <span class="profile-summary-label">
+                    Twoja lista
+                </span>
+
+                <div class="profile-detail">
+                    <strong class="profile-detail-label">
+                        🤰 Tydzień ciąży
+                    </strong>
+
+                    <span
+                        class="profile-detail-value"
+                        id="profile-pregnancy-week"
+                    >
+                        —
                     </span>
 
-                    <h2 id="profile-summary-title">
-                        Przygotowania do porodu
-                    </h2>
+                    <div class="pregnancy-progress-container">
 
-                    <p id="profile-summary-message"></p>
-                    <div class="midwife-tip" id="midwife-tip" hidden>
+                        <div class="pregnancy-progress-header">
 
-                        <strong id="midwife-tip-title">
-                            💡 Na tym etapie warto również:
-                        </strong>
+                            <span id="pregnancy-progress-percent">
+                                0%
+                            </span>
 
-                        <p id="midwife-tip-text">
-                            ✅ Wybrać położną środowiskową.
-                        </p>
+                        </div>
 
-                        <p class="midwife-tip-info">
-                            ℹ️ Położna może odwiedzać Ciebie i Maluszka
-                            po porodzie oraz pomagać w pierwszych dniach
-                            po powrocie do domu.
+                        <div
+                            class="progress-bar"
+                            id="pregnancy-progress"
+                            role="progressbar"
+                            aria-label="Postęp ciąży"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="0"
+                        >
+                            <div
+                                class="progress-bar-fill"
+                                id="pregnancy-progress-bar"
+                                style="width:0%;"
+                            ></div>
+                        </div>
+
+                        <p
+                            class="pregnancy-progress-text"
+                            id="pregnancy-progress-text"
+                        >
                         </p>
 
                     </div>
-                        <details
-                            class="hospital-provided-card"
-                            id="hospital-provided-card"
-                            hidden
-                        >
-                            <summary>
-                                🏥 Co zapewnia ten szpital?
-                            </summary>
 
-                            <p>Tych rzeczy nie musisz pakować:</p>
+                </div>
 
-                            <ul id="hospital-provided-list"></ul>
-                        </details>
+                <p id="profile-summary-message"></p>
+
+                <div class="pregnancy-progress">
+
+
+                <div class="profile-detail">
+                    <strong class="profile-detail-label">
+                        📅 Planowany termin porodu
+                    </strong>
+
+                    <span
+                        class="profile-detail-value"
+                        id="profile-due-date"
+                    >
+                        —
+                    </span>
+                </div>
+
+                <div class="profile-detail">
+                    <strong class="profile-detail-label">
+                        🏥 Pakujesz się do
+                    </strong>
+
+                    <span
+                        class="profile-detail-value"
+                        id="profile-hospital"
+                    >
+                        —
+                    </span>
+                </div>
+
+                <div
+                    class="midwife-tip"
+                    id="midwife-tip"
+                    hidden
+                >
+                    <strong id="midwife-tip-title">
+                        💡 Pamiętaj
+                    </strong>
+
+                    <p id="midwife-tip-text">
+                        ✅ Jeśli jeszcze nie masz wybranej położnej środowiskowej,
+                        warto zrobić to teraz.
+                    </p>
+
+                    <p class="midwife-tip-info">
+                        ℹ️ Położna może odwiedzać Ciebie i Maluszka po porodzie
+                        oraz pomagać w pierwszych dniach po powrocie do domu.
+                    </p>
+                </div>
+
+                <details
+                    class="hospital-provided-card"
+                    id="hospital-provided-card"
+                    hidden
+                >
+                    <summary>
+                        🏥 Co zapewnia ten szpital?
+                    </summary>
+
+                    <p>Tych rzeczy nie musisz pakować:</p>
+
+                    <ul id="hospital-provided-list"></ul>
+                </details>
 
                 <button
                     type="button"
@@ -201,8 +331,42 @@
                 >
                     Zmień ustawienia
                 </button>
+
             </div>
         </section>
+
+        <section class="hospital-card instruction-card">
+
+            <details>
+                <summary>
+                    💡 Przydatne wskazówki
+                </summary>
+
+                <div class="instruction-content">
+
+                    <ul class="instruction-list">
+                        <li>✅ Odhaczaj rzeczy, które masz już spakowane.</li>
+
+                        <li>📌 Przypnij najważniejsze rzeczy – pojawią się na początku swojej kategorii.</li>
+
+                        <li> ❌ Usuń – usuwa tylko własne, dodane przez Ciebie przedmioty. </li>
+
+                        <li>💾 Twój postęp zapisuje się automatycznie na tym urządzeniu.</li>
+
+                        <li>📝 Możesz dodawać własne przedmioty i przypisywać je do wybranej kategorii.</li>
+
+                        <li>🏥 Po zmianie szpitala lista automatycznie dostosuje się do jego zaleceń.</li>
+
+                        <li>🔄 „Zacznij listę od nowa” przywraca oryginalną listę dla wybranego szpitala i usuwa wszystkie zaznaczenia oraz własne przedmioty.</li>
+
+                        <li>⚙️ Przycisk „Zmień ustawienia” pozwala w każdej chwili zmienić wybrany szpital, planowany termin porodu lub rodzaj porodu.</li>
+                    </ul>
+
+                </div>
+            </details>
+
+        </section>
+
         <!-- PASEK POSTĘPU -->
         <section class="hospital-card progress-card">
             <div class="progress-header">
@@ -271,13 +435,19 @@
 
             <h3
                 style="
-                    margin-bottom: 15px;
+                    margin-bottom: 10px;
                     color: var(--dark-green);
                     font-size: 1.2rem;
                 "
             >
-                ✨ Dodaj nowy element
+    📝       Brakuje czegoś na liście?
             </h3>
+
+            <p class="add-item-description">
+                Lista została opracowana na podstawie zaleceń wybranego szpitala.
+                Jeśli chcesz, możesz dodać własne przedmioty i przypisać je
+                do odpowiedniej kategorii.
+            </p>
 
             <form
                 id="add-item-form"
@@ -292,7 +462,7 @@
                     id="item-name"
                     name="nazwa"
                     maxlength="100"
-                    placeholder="Np. ładowarka, przekąski..."
+                    placeholder="Np. ładowarka, okulary, przekąski..."
                     required
                     style="
                         flex: 2;

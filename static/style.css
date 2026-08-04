@@ -1103,3 +1103,202 @@ footer {
 .hospital-provided-card li {
     margin-bottom: 8px;
 }
+
+#profile-summary-message {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.profile-main-message {
+    display: block;
+}
+
+.profile-info-row {
+    display: block;
+}
+
+.profile-info-row strong {
+    color: var(--dark-green);
+}
+
+#profile-summary-message {
+    margin-top: 14px;
+    line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+    .profile-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-info-card {
+        text-align: left;
+    }
+}
+
+.profile-details {
+    margin: 18px 0;
+}
+
+.profile-detail {
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(91, 111, 87, 0.22);
+}
+
+.profile-detail:first-child {
+    padding-top: 0;
+}
+
+.profile-detail:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.profile-detail-label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--dark-green);
+    font-size: 1rem;
+}
+
+.profile-detail-value {
+    display: block;
+    color: #222;
+    font-size: 1rem;
+    line-height: 1.45;
+}
+
+.profile-summary-content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 0;
+}
+
+.profile-summary-label {
+    display: block;
+    margin-bottom: 18px;
+}
+
+.profile-detail {
+    display: block;
+    width: 100%;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(91, 111, 87, 0.22);
+}
+
+.profile-detail-label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--dark-green);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.profile-detail-value {
+    display: block;
+    color: #222;
+    font-size: 1rem;
+    line-height: 1.45;
+}
+
+#profile-summary-message {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(91, 111, 87, 0.22);
+    line-height: 1.55;
+}
+
+.midwife-tip {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 18px;
+}
+
+.edit-profile-btn {
+    align-self: flex-start;
+    margin-top: 14px;
+}
+
+.add-item-description {
+    margin: 0 0 18px;
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.instruction-card {
+    margin-bottom: 24px;
+}
+
+.instruction-card h2 {
+    margin-bottom: 14px;
+    color: var(--dark-green);
+    font-size: 1.2rem;
+}
+
+.instruction-list {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.instruction-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.instruction-card summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: var(--dark-green);
+    padding: 4px 0;
+}
+
+.instruction-content {
+    margin-top: 16px;
+}
+
+.instruction-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.instruction-list li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.pregnancy-progress-container {
+    margin-top: 12px;
+}
+
+.pregnancy-progress-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 6px;
+}
+
+#pregnancy-progress-percent {
+    font-weight: 700;
+    color: var(--dark-green);
+}
+
+.pregnancy-progress-text {
+    margin-top: 8px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+}
