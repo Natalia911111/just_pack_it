@@ -87,6 +87,11 @@ const confettiContainer = document.getElementById(
 const resetListButton = document.getElementById(
     "reset-list-btn"
 );
+
+const printListButton = document.getElementById(
+    "print-list-btn"
+);
+
 const packingWizard = document.getElementById(
     "packing-wizard"
 );
@@ -1247,6 +1252,19 @@ addItemForm.addEventListener(
         itemNameInput.focus();
     }
 );
+
+/* =========================
+   ZAPISYWANIE LISTY DO PDF
+========================= */
+
+if (printListButton) {
+    printListButton.addEventListener(
+        "click",
+        function () {
+            window.print();
+        }
+    );
+}
 
 
 /* =========================

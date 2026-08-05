@@ -1302,3 +1302,172 @@ footer {
     color: #666;
     font-size: 0.9rem;
 }
+
+.print-section {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.print-list-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--sage-green);
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.print-list-btn:hover {
+    opacity: 0.9;
+}
+
+.print-description {
+    margin: 8px 0 0;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* =========================
+   WERSJA DO DRUKU / PDF
+========================= */
+
+@media print {
+
+    @page {
+        size: A4;
+        margin: 14mm;
+    }
+
+    body {
+        background: white;
+        color: black;
+        font-size: 11pt;
+    }
+
+    .container {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Elementy niepotrzebne w PDF */
+    #packing-wizard,
+    .instruction-card,
+    .progress-card,
+    .add-item-form,
+    .print-section,
+    .reset-section,
+    .edit-profile-btn,
+    .midwife-tip,
+    .hospital-provided-card,
+    .pin-btn,
+    .delete-btn,
+    .confetti-container {
+        display: none !important;
+    }
+
+    /* Nagłówek */
+    .hero {
+        margin-bottom: 18px;
+        text-align: center;
+    }
+
+    .hero-image {
+        max-width: 150px;
+        height: auto;
+    }
+
+    .hero h1 {
+        margin: 8px 0 4px;
+        font-size: 22pt;
+    }
+
+    .hero-subtitle {
+        margin: 0;
+        font-size: 10pt;
+    }
+
+    /* Informacje o terminie i szpitalu */
+    .profile-summary {
+        margin-bottom: 18px;
+        padding: 0 0 14px;
+        border-bottom: 1px solid #bbb;
+        box-shadow: none;
+    }
+
+    .profile-summary-label,
+    #profile-summary-message,
+    .pregnancy-progress-container {
+        display: none !important;
+    }
+
+    .profile-detail {
+        margin-bottom: 7px;
+    }
+
+    /* Kategorie */
+    .hospital-card {
+        break-inside: avoid;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        margin: 0 0 18px;
+        background: white;
+    }
+
+    .section-title {
+        margin: 0 0 8px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #999;
+        font-size: 15pt;
+    }
+
+    .category-description {
+        margin-bottom: 8px;
+        font-size: 9pt;
+    }
+
+    /* Elementy listy */
+    .item-row {
+        display: grid;
+        grid-template-columns: 24px 1fr;
+        align-items: start;
+        gap: 7px;
+        margin-bottom: 5px;
+        padding: 2px 0;
+        border: none;
+        background: white;
+        break-inside: avoid;
+    }
+
+    .checkbox-btn {
+        width: 18px;
+        height: 18px;
+        padding: 0;
+        border: 1px solid black;
+        border-radius: 2px;
+        background: white;
+        color: transparent;
+        font-size: 0;
+    }
+
+    .item-name {
+        color: black;
+        text-decoration: none;
+    }
+
+    /* Spakowane rzeczy są delikatnie przekreślone */
+    .item-row.checked .item-name {
+        color: #555;
+        text-decoration: line-through;
+    }
+
+    /* Nie drukuj komunikatów o pustych kategoriach */
+    .empty-category {
+        display: none;
+    }
+}
