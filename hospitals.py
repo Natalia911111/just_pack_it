@@ -779,6 +779,128 @@ LISTA_SIEMIRADZKIEGO = [
     {"id": "kocyk", "nazwa": "Kocyk", "kategoria": "Dla Maluszka"},
 ]
 
+# =====================================
+# SZPITAL UNIWERSYTECKI W KRAKOWIE
+# =====================================
+
+LISTA_UNIWERSYTECKI = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "u-dokumenty-1",
+        "nazwa": "Dowód tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "u-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "u-dokumenty-3",
+        "nazwa": "Posiadane wyniki badań i dokumentacja medyczna",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "u-dokumenty-4",
+        "nazwa": "Oryginał oznaczenia grupy krwi / KrewKarta",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "u-dokumenty-5",
+        "nazwa": "Plan porodu – jeśli został przygotowany",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "u-mama-1",
+        "nazwa": "Rozpinane koszule nocne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "u-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "u-mama-3",
+        "nazwa": "Klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "u-mama-4",
+        "nazwa": "Kosmetyki i przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "u-mama-5",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "u-mama-6",
+        "nazwa": "Majtki jednorazowe z siateczki – kilka sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "u-mama-7",
+        "nazwa": "Staniki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "u-mama-8",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "u-mama-9",
+        "nazwa": "Przewiewne podpaski poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "u-mama-10",
+        "nazwa": "Laktator – opcjonalnie (dostępny również na oddziale)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": []
@@ -798,12 +920,21 @@ SZPITALE_INFO = {
             "Wodę, kubek i sztućce",
         ]
     },
+    "Szpital Uniwersytecki": {
+        "zapewnia": [
+            "Wyprawkę dla dziecka na czas pobytu na oddziale",
+            "Pampersy",
+            "Pieluszki",
+            "Laktator – dostępny na oddziale",
+        ]
+    },
 }
 
 SZPITALE = {
     "Szpital Ujastek": LISTA_UJASTEK,
     "Szpital Żeromski": LISTA_ZEROMSKI,
     "Szpital Siemiradzkiego": LISTA_SIEMIRADZKIEGO,
+    "Szpital Uniwersytecki": LISTA_UNIWERSYTECKI,
 }
 
 for lista_szpitala in SZPITALE.values():

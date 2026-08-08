@@ -28,6 +28,11 @@ const hospitalInfo =
         : {};
 
 function getInitialItemsForHospital(hospitalName) {
+
+    if (hospitalName === "Inny szpital") {
+        return [];
+    }
+
     const selectedList = hospitalLists[hospitalName];
 
     if (Array.isArray(selectedList)) {
@@ -182,6 +187,7 @@ const pregnancyProgressText =
     document.getElementById(
         "pregnancy-progress-text"
     );
+const otherHospitalNote =document.getElementById("other-hospital-note");
 
 // =============================
 // OBLICZANIE TYGODNIA CIĄŻY
@@ -388,7 +394,8 @@ function getHospitalNameInGenitive(hospitalName) {
     const hospitalNames = {
         "Szpital Ujastek": "Szpitala Ujastek",
         "Szpital Żeromski": "Szpitala Żeromskiego",
-        "Szpital Siemiradzkiego": "Szpitala Siemiradzkiego"
+        "Szpital Siemiradzkiego": "Szpitala Siemiradzkiego",
+        "Szpital Uniwersytecki": "Szpitala Uniwersyteckiego"
     };
 
     return hospitalNames[hospitalName] || hospitalName;
@@ -533,6 +540,11 @@ if (profileHospital) {
         userProfile.hospitalName
             ? getHospitalNameInGenitive(userProfile.hospitalName)
             : "Nie wybrano";
+}
+
+if (otherHospitalNote) {
+    otherHospitalNote.hidden =
+        userProfile.hospitalName !== "Inny szpital";
 }
 
   profileSummaryMessage.textContent =
