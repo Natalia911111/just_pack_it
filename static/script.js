@@ -1479,3 +1479,26 @@ if (userProfile) {
 } else {
     showWizard();
 }
+
+/* =========================
+   PWA - SERVICE WORKER
+========================= */
+
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+        navigator.serviceWorker
+            .register("/service-worker.js")
+            .then(function (registration) {
+                console.log(
+                    "Service Worker działa:",
+                    registration.scope
+                );
+            })
+            .catch(function (error) {
+                console.error(
+                    "Błąd Service Workera:",
+                    error
+                );
+            });
+    });
+}

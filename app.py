@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, url_for, send_from_directory
 from hospitals import (
     LISTA_UJASTEK,
     SZPITALE,
@@ -27,6 +27,13 @@ def index():
         razem=len(LISTA_UJASTEK),
         spakowane=0,
         procent=0
+    )
+@app.route("/service-worker.js")
+def service_worker():
+    return send_from_directory(
+        app.static_folder,
+        "service-worker.js",
+        mimetype="application/javascript"
     )
 
 
