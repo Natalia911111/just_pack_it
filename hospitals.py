@@ -901,6 +901,278 @@ LISTA_UNIWERSYTECKI = [
     },
 ]
 
+# =====================================
+# SZPITAL RYDYGIERA W KRAKOWIE
+# =====================================
+
+LISTA_RYDYGIER = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "r-dokumenty-1",
+        "nazwa": "Dokument tożsamości (dowód osobisty / paszport / karta pobytu)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-dokumenty-2",
+        "nazwa": "Akt małżeństwa – jeżeli dowód jest na nazwisko panieńskie matki",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-dokumenty-3",
+        "nazwa": "Akt uznania ojcostwa z Urzędu Stanu Cywilnego – jeżeli para nie jest w związku małżeńskim",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-dokumenty-4",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-dokumenty-5",
+        "nazwa": "Plan porodu – opcjonalnie",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # NIEZBĘDNE WYNIKI BADAŃ
+    # =========================
+
+    {
+        "id": "r-dokumenty-6",
+        "nazwa": "Oryginalny, potwierdzony wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-dokumenty-7",
+        "nazwa": "Wynik wymazu GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-dokumenty-8",
+        "nazwa": "Wyniki badań HIV, HCV, HBs Ag i OWA (WR) wykonane w III trymestrze ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-dokumenty-9",
+        "nazwa": "Inne dokumenty, konsultacje lekarskie, specjalistyczne i wskazania do cięcia cesarskiego – jeżeli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-dokumenty-10",
+        "nazwa": "Karta informacyjna pobytu w szpitalu – w przypadku hospitalizacji w trakcie ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "r-mama-1",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-mama-2",
+        "nazwa": "Pantofle i klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-mama-3",
+        "nazwa": "Koszula do porodu oraz koszula umożliwiająca karmienie piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-mama-4",
+        "nazwa": "Biustonosz do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-mama-5",
+        "nazwa": "Ręczniki – 2 sztuki (duży i mały)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-mama-6",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-mama-7",
+        "nazwa": "Podkłady poporodowe SENI (90 cm × 60 cm)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-mama-8",
+        "nazwa": "Podpaski poporodowe – duże",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-mama-9",
+        "nazwa": "Poporodowe majtki siatkowe (NIE fizelinowe)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-mama-10",
+        "nazwa": "Woda mineralna niegazowana z dzióbkiem lub butelka filtrująca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-mama-11",
+        "nazwa": "Pomadka ochronna do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-mama-12",
+        "nazwa": "Maść ochronna na brodawki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-mama-13",
+        "nazwa": "Przekąski energetyczne (suszone owoce, musy owocowe itp.)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-mama-14",
+        "nazwa": "Telefon i ładowarka lub powerbank",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "r-maluszek-1",
+        "nazwa": "Pakiet startowy dla dziecka (pampers, pajacyk, kaftanik lub body, czapeczka, otulacz)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-maluszek-2",
+        "nazwa": "Kocyk lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-maluszek-3",
+        "nazwa": "Kaftaniki dla noworodka, np. typu body (rozmiar 56 lub 62) – 5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-maluszek-4",
+        "nazwa": "Śpiochy lub pajacyki – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-maluszek-5",
+        "nazwa": "Czapeczka bawełniana – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-maluszek-6",
+        "nazwa": "Skarpetki – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-maluszek-7",
+        "nazwa": "Pieluszki tetrowe – 5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-maluszek-8",
+        "nazwa": "Mała paczka pampersów",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-maluszek-9",
+        "nazwa": "Chusteczki nawilżane – 1 sztuka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-maluszek-10",
+        "nazwa": "Maść ochronna na pośladki – 1 sztuka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "r-maluszek-11",
+        "nazwa": "Mały jasiek lub poduszka do karmienia",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": []
@@ -928,6 +1200,9 @@ SZPITALE_INFO = {
             "Laktator – dostępny na oddziale",
         ]
     },
+    "Szpital Rydygiera": {
+        "zapewnia": []
+    },
 }
 
 SZPITALE = {
@@ -935,6 +1210,7 @@ SZPITALE = {
     "Szpital Żeromski": LISTA_ZEROMSKI,
     "Szpital Siemiradzkiego": LISTA_SIEMIRADZKIEGO,
     "Szpital Uniwersytecki": LISTA_UNIWERSYTECKI,
+    "Szpital Rydygiera": LISTA_RYDYGIER,
 }
 
 for lista_szpitala in SZPITALE.values():
