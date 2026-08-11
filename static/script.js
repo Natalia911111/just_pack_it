@@ -396,7 +396,8 @@ function getHospitalNameInGenitive(hospitalName) {
         "Szpital Żeromski": "Szpitala Żeromskiego",
         "Szpital Siemiradzkiego": "Szpitala Siemiradzkiego",
         "Szpital Uniwersytecki": "Szpitala Uniwersyteckiego",
-        "Szpital Rydygiera": "Szpitala Rydygiera"
+        "Szpital Rydygiera": "Szpitala Rydygiera",
+        "Szpital Narutowicza": "Szpitala Narutowicza"
     };
 
     return hospitalNames[hospitalName] || hospitalName;

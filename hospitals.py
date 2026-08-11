@@ -1172,6 +1172,228 @@ LISTA_RYDYGIER = [
         "przypiete": False
     }
 ]
+# =====================================
+# SZPITAL NARUTOWICZA W KRAKOWIE
+# =====================================
+
+LISTA_NARUTOWICZ = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "n-dokumenty-1",
+        "nazwa": "Dowód tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-dokumenty-3",
+        "nazwa": "NIP pracodawcy lub własny NIP w przypadku prowadzenia działalności",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-dokumenty-4",
+        "nazwa": "Oryginał wyniku grupy krwi i Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-dokumenty-5",
+        "nazwa": "Wynik badania OWA",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-dokumenty-6",
+        "nazwa": "Wynik badania HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-dokumenty-7",
+        "nazwa": "Wyniki badań USG",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-dokumenty-8",
+        "nazwa": "Inne istotne wyniki badań i konsultacje medyczne",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "n-mama-1",
+        "nazwa": "Koszula nocna rozpinana, wygodna do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-mama-3",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-mama-4",
+        "nazwa": "Klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-mama-5",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-mama-6",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-mama-7",
+        "nazwa": "Podpaski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "n-maluszek-1",
+        "nazwa": "Body lub kaftaniki – 6 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-maluszek-2",
+        "nazwa": "Pajacyki – 6 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-maluszek-3",
+        "nazwa": "Skarpetki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-maluszek-4",
+        "nazwa": "Czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-maluszek-5",
+        "nazwa": "Pieluchy tetrowe – 5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-maluszek-6",
+        "nazwa": "Miękki kocyk – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-maluszek-7",
+        "nazwa": "Pieluchy jednorazowe – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-maluszek-8",
+        "nazwa": "Chusteczki nawilżane – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-maluszek-9",
+        "nazwa": "Smoczek uspokajający – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "n-tata-1",
+        "nazwa": "Wygodne ubranie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-tata-2",
+        "nazwa": "Obuwie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-tata-3",
+        "nazwa": "Coś do jedzenia i picia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "n-tata-4",
+        "nazwa": "Aparat lub kamera – opcjonalnie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -1203,6 +1425,9 @@ SZPITALE_INFO = {
     "Szpital Rydygiera": {
         "zapewnia": []
     },
+    "Szpital Narutowicza": {
+        "zapewnia": []
+    },
 }
 
 SZPITALE = {
@@ -1211,6 +1436,7 @@ SZPITALE = {
     "Szpital Siemiradzkiego": LISTA_SIEMIRADZKIEGO,
     "Szpital Uniwersytecki": LISTA_UNIWERSYTECKI,
     "Szpital Rydygiera": LISTA_RYDYGIER,
+    "Szpital Narutowicza": LISTA_NARUTOWICZ,
 }
 
 for lista_szpitala in SZPITALE.values():
