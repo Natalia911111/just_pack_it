@@ -450,6 +450,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Wielospecjalistyczny w Gliwicach":
             "Szpitala Wielospecjalistycznego w Gliwicach",
+
+        "Powiatowe Centrum Zdrowia w Malborku":
+            "Powiatowego Centrum Zdrowia w Malborku",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

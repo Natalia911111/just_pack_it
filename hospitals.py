@@ -4566,6 +4566,210 @@ LISTA_GLIWICE = [
     }
 ]
 
+# =====================================
+# POWIATOWE CENTRUM ZDROWIA W MALBORKU
+# =====================================
+
+LISTA_MALBORK = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "malb-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-dokumenty-3",
+        "nazwa": "Potwierdzony wynik grupy krwi i czynnika Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-dokumenty-4",
+        "nazwa": "Wynik wymazu GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-dokumenty-5",
+        "nazwa": "Dwukrotny wynik badania HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-dokumenty-6",
+        "nazwa": "Wynik badania HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-dokumenty-7",
+        "nazwa": "Wynik badania HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "malb-mama-1",
+        "nazwa": "Koszula nocna, najlepiej rozpinana z przodu i wygodna do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-3",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-4",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-5",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-6",
+        "nazwa": "Majtki jednorazowe, najlepiej siatkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-7",
+        "nazwa": "Duże podpaski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-8",
+        "nazwa": "Podkłady jednorazowe na łóżko – 1 opakowanie, 5 sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-9",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-10",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-11",
+        "nazwa": "Przybory toaletowe i kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-12",
+        "nazwa": "Ręczniki – 3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-13",
+        "nazwa": "Woda do picia – najlepiej małe butelki z dzióbkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-14",
+        "nazwa": "Coś słodkiego",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-15",
+        "nazwa": "Guma do żucia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-mama-16",
+        "nazwa": "Kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "malb-maluszek-1",
+        "nazwa": "Pieluchy jednorazowe – najmniejszy rozmiar",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malb-maluszek-3",
+        "nazwa": "Własne ubranka dla noworodka – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": []
@@ -4649,6 +4853,9 @@ SZPITALE_INFO = {
     "Szpital Wielospecjalistyczny w Gliwicach": {
         "zapewnia": []
     },
+    "Powiatowe Centrum Zdrowia w Malborku": {
+        "zapewnia": []
+    },
 }
 
 SZPITALE = {
@@ -4670,6 +4877,7 @@ SZPITALE = {
     "Wojewódzki Szpital w Tarnobrzegu": LISTA_TARNOBRZEG,
     "Powiatowy Szpital Specjalistyczny w Stalowej Woli":LISTA_STALOWA_WOLA,
     "Szpital Wielospecjalistyczny w Gliwicach":LISTA_GLIWICE,
+    "Powiatowe Centrum Zdrowia w Malborku":LISTA_MALBORK,
 }
 
 for lista_szpitala in SZPITALE.values():
