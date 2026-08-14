@@ -2659,6 +2659,390 @@ LISTA_SKARZYSKO = [
         "przypiete": False
     }
 ]
+# =====================================
+# INSTYTUT CENTRUM ZDROWIA MATKI POLKI W ŁODZI
+# ŹRÓDŁO: FUNDACJA COR INFANTIS
+# =====================================
+
+LISTA_ICZMP = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "iczmp-dokumenty-1",
+        "nazwa": "Skierowanie do szpitala",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-dokumenty-2",
+        "nazwa": "Dokument zawierający numer PESEL",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-dokumenty-3",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-dokumenty-4",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-dokumenty-5",
+        "nazwa": "Wyniki badań HIV, HCV, WR, HBs i GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-dokumenty-6",
+        "nazwa": "Wyniki USG ciąży i pozostałych badań diagnostycznych",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-dokumenty-7",
+        "nazwa": "Karty informacyjne dotyczące przebytego leczenia",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-dokumenty-8",
+        "nazwa": "Dowód tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-dokumenty-9",
+        "nazwa": "NIP pracodawcy lub własny – w przypadku prowadzenia działalności gospodarczej",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-dokumenty-10",
+        "nazwa": "Leki przyjmowane na stałe",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "iczmp-mama-1",
+        "nazwa": "Woda niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-2",
+        "nazwa": "Coś do przekąszenia, np. herbatniki lub sucharki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-3",
+        "nazwa": "Koszule nocne lub T-shirty – 3 sztuki, najlepiej rozpinane z przodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-4",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-5",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-6",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-7",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-8",
+        "nazwa": "Jednorazowe majtki poporodowe – kilka sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-9",
+        "nazwa": "Przybory toaletowe i podstawowe kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-10",
+        "nazwa": "Ręczniki kąpielowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-11",
+        "nazwa": "Ręczniki papierowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-12",
+        "nazwa": "Papier toaletowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-13",
+        "nazwa": "Chusteczki higieniczne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-14",
+        "nazwa": "Biustonosze do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-15",
+        "nazwa": "Wkładki laktacyjne – 1 paczka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-16",
+        "nazwa": "Wkłady poporodowe – 2 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-17",
+        "nazwa": "Podkłady na łóżko",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-18",
+        "nazwa": "Talerzyk, kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-19",
+        "nazwa": "Telefon komórkowy i ładowarka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-20",
+        "nazwa": "Drobne pieniądze",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-21",
+        "nazwa": "Poduszka poporodowa lub koło dmuchane – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-22",
+        "nazwa": "Osłonki silikonowe na piersi – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-23",
+        "nazwa": "Maść na popękane brodawki – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-24",
+        "nazwa": "Pomadka ochronna do ust – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-25",
+        "nazwa": "Jednorazowa lewatywa – opcjonalnie, na życzenie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-mama-26",
+        "nazwa": "Coś do czytania – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "iczmp-maluszek-1",
+        "nazwa": "Pieluszki tetrowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-maluszek-2",
+        "nazwa": "Body zapinane z przodu – kilka sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-maluszek-3",
+        "nazwa": "Pajacyki zapinane z przodu na całej długości – kilka sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-maluszek-4",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-maluszek-5",
+        "nazwa": "Cienkie rękawiczki niedrapki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-maluszek-6",
+        "nazwa": "Czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-maluszek-7",
+        "nazwa": "Skarpetki z luźnym ściągaczem",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-maluszek-8",
+        "nazwa": "Pieluchy jednorazowe – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-maluszek-9",
+        "nazwa": "Chusteczki do pielęgnacji pupy – 1–2 paczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-maluszek-10",
+        "nazwa": "Przybory kosmetyczne dla niemowlaka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-maluszek-11",
+        "nazwa": "Rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-maluszek-12",
+        "nazwa": "Kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY
+    # =========================
+
+    {
+        "id": "iczmp-tata-1",
+        "nazwa": "Wygodne ubranie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-tata-2",
+        "nazwa": "Obuwie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "iczmp-tata-3",
+        "nazwa": "Ochraniacze na buty",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -2705,6 +3089,9 @@ SZPITALE_INFO = {
     "Rodzinna Strefa Narodzin w Skarżysku-Kamiennej": {
         "zapewnia": []
     },
+    "Instytut Centrum Zdrowia Matki Polki w Łodzi": {
+        "zapewnia": []
+    },
 }
 
 SZPITALE = {
@@ -2718,6 +3105,7 @@ SZPITALE = {
     "Szpital Matki Bożej Nieustającej Pomocy w Wołominie": LISTA_WOLOMIN,
     "Międzyleski Szpital Specjalistyczny w Warszawie": LISTA_MIEDZYLESKI,
     "Rodzinna Strefa Narodzin w Skarżysku-Kamiennej": LISTA_SKARZYSKO,
+    "Instytut Centrum Zdrowia Matki Polki w Łodzi": LISTA_ICZMP,
 }
 
 for lista_szpitala in SZPITALE.values():

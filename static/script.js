@@ -168,6 +168,11 @@ const profileHospital =
         "profile-hospital"
     );
 
+const hospitalSourceNote =
+    document.getElementById(
+        "hospital-source-note"
+    );
+
 const pregnancyProgress =
     document.getElementById(
         "pregnancy-progress"
@@ -392,12 +397,38 @@ function getDeliveryTypeLabel(deliveryType) {
 
 function getHospitalNameInGenitive(hospitalName) {
     const hospitalNames = {
-        "Szpital Ujastek": "Szpitala Ujastek",
-        "Szpital Żeromski": "Szpitala Żeromskiego",
-        "Szpital Siemiradzkiego": "Szpitala Siemiradzkiego",
-        "Szpital Uniwersytecki": "Szpitala Uniwersyteckiego",
-        "Szpital Rydygiera": "Szpitala Rydygiera",
-        "Szpital Narutowicza": "Szpitala Narutowicza"
+        "Szpital Ujastek":
+            "Szpitala Ujastek",
+
+        "Szpital Żeromski":
+            "Szpitala Żeromskiego",
+
+        "Szpital Siemiradzkiego":
+            "Szpitala Siemiradzkiego",
+
+        "Szpital Uniwersytecki":
+            "Szpitala Uniwersyteckiego",
+
+        "Szpital Rydygiera":
+            "Szpitala Rydygiera",
+
+        "Szpital Narutowicza":
+            "Szpitala Narutowicza",
+
+        "Wojewódzki Szpital Specjalistyczny we Wrocławiu":
+            "Wojewódzkiego Szpitala Specjalistycznego we Wrocławiu",
+
+        "Szpital Matki Bożej Nieustającej Pomocy w Wołominie":
+            "Szpitala Matki Bożej Nieustającej Pomocy w Wołominie",
+
+        "Międzyleski Szpital Specjalistyczny w Warszawie":
+            "Międzyleskiego Szpitala Specjalistycznego w Warszawie",
+
+        "Rodzinna Strefa Narodzin w Skarżysku-Kamiennej":
+            "Rodzinnej Strefy Narodzin w Skarżysku-Kamiennej",
+
+        "Instytut Centrum Zdrowia Matki Polki w Łodzi":
+            "Instytutu Centrum Zdrowia Matki Polki w Łodzi"
     };
 
     return hospitalNames[hospitalName] || hospitalName;
@@ -542,6 +573,12 @@ if (profileHospital) {
         userProfile.hospitalName
             ? getHospitalNameInGenitive(userProfile.hospitalName)
             : "Nie wybrano";
+}
+
+if (hospitalSourceNote) {
+    hospitalSourceNote.hidden =
+        userProfile.hospitalName !==
+        "Instytut Centrum Zdrowia Matki Polki w Łodzi";
 }
 
 if (otherHospitalNote) {
