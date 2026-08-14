@@ -1394,6 +1394,955 @@ LISTA_NARUTOWICZ = [
         "przypiete": False
     }
 ]
+# =====================================
+# WOJEWÓDZKI SZPITAL SPECJALISTYCZNY WE WROCŁAWIU
+# =====================================
+
+LISTA_WROCLAW_WSS = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "wss-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-dokumenty-3",
+        "nazwa": "Wynik badania GBS – wymaz z pochwy i odbytu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-dokumenty-4",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-dokumenty-5",
+        "nazwa": "Ostatni wynik morfologii",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-dokumenty-6",
+        "nazwa": "Ostatni wynik badania ogólnego moczu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-dokumenty-7",
+        "nazwa": "Wyniki badań HBs, HCV, WR i HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-dokumenty-8",
+        "nazwa": "Wyniki badań USG, szczególnie prenatalnych – jeśli termin porodu minął",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-dokumenty-9",
+        "nazwa": "Konsultacje specjalistyczne – jeśli były wykonywane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-dokumenty-10",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "wss-mama-1",
+        "nazwa": "Leki przyjmowane na stałe wraz z rozpiską",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-2",
+        "nazwa": "Koszulka do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-3",
+        "nazwa": "Koszulka nocna – najlepiej rozpinana z przodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-4",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-5",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-6",
+        "nazwa": "Bielizna, w tym biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-7",
+        "nazwa": "Ręczniki – 3 sztuki: kąpielowy, do rąk i twarzy oraz do krocza",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-8",
+        "nazwa": "Kosmetyki i przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-9",
+        "nazwa": "Majtki poporodowe siateczkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-10",
+        "nazwa": "Duże podpaski poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-11",
+        "nazwa": "Podkłady jednorazowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-12",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-13",
+        "nazwa": "Papier toaletowy – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-14",
+        "nazwa": "Woda niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-15",
+        "nazwa": "Przekąski na poród i po porodzie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-16",
+        "nazwa": "Poduszka lub rogal – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-17",
+        "nazwa": "Odtwarzacz muzyki – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-18",
+        "nazwa": "Kubek i sztućce – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-mama-19",
+        "nazwa": "Zestaw do pobrania krwi pępowinowej – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "wss-maluszek-1",
+        "nazwa": "Ubranka i skarpetki – 3–4 komplety",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-maluszek-2",
+        "nazwa": "Pieluszki tetrowe lub flanelowe – 4 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-maluszek-3",
+        "nazwa": "Pieluszki jednorazowe – mała paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-maluszek-4",
+        "nazwa": "Chusteczki nawilżane – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-maluszek-5",
+        "nazwa": "Krem do pielęgnacji niemowląt",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-maluszek-6",
+        "nazwa": "Kocyk – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / NA WYJŚCIE
+    # =========================
+
+    {
+        "id": "wss-tata-1",
+        "nazwa": "Fotelik samochodowy przygotowany na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-tata-2",
+        "nazwa": "Ubranka dla dziecka na wyjście",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-tata-3",
+        "nazwa": "Ubrania i obuwie dla mamy na wyjście",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+# =====================================
+# SZPITAL MATKI BOŻEJ NIEUSTAJĄCEJ POMOCY W WOŁOMINIE
+# =====================================
+
+LISTA_WOLOMIN = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "wol-dokumenty-1",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-dokumenty-2",
+        "nazwa": "Odpis aktu małżeństwa – jeśli nazwisko w dowodzie osobistym jest nieaktualne",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-dokumenty-3",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-dokumenty-4",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-dokumenty-5",
+        "nazwa": "Oryginał wyniku grupy krwi i Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-dokumenty-6",
+        "nazwa": "Wynik posiewu GBS z przedsionka pochwy i odbytu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-dokumenty-7",
+        "nazwa": "Wyniki badań WR (VDRL), HBsAg, HIV i HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-dokumenty-8",
+        "nazwa": "Wyniki badań w kierunku toksoplazmozy i różyczki, ewentualnie cytomegalii",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-dokumenty-9",
+        "nazwa": "Wyniki morfologii i badania moczu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-dokumenty-10",
+        "nazwa": "3 obowiązkowe badania USG wykonywane w przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-dokumenty-11",
+        "nazwa": "Informacja o profilaktyce śródciążowej – przy ujemnym czynniku Rh mamy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-dokumenty-12",
+        "nazwa": "Konsultacje specjalistyczne i pozostałe wyniki badań z okresu ciąży – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-dokumenty-13",
+        "nazwa": "Lista leków przyjmowanych na stałe",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-dokumenty-14",
+        "nazwa": "Glukometr – w przypadku kontynuacji terapii",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "wol-mama-1",
+        "nazwa": "Koszule lub dłuższe T-shirty na czas porodu – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-3",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-4",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-5",
+        "nazwa": "Podpaski poporodowe – 3 paczki łącznie na poród i pobyt po porodzie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-6",
+        "nazwa": "Ręczniczki papierowe i chusteczki higieniczne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-7",
+        "nazwa": "Woda mineralna niegazowana – minimum 2 duże butelki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-8",
+        "nazwa": "Pomadka ochronna do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-9",
+        "nazwa": "Gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-10",
+        "nazwa": "Ręczniki – 4 sztuki łącznie na poród i pobyt po porodzie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-11",
+        "nazwa": "Olejki do aromaterapii, ulubiona muzyka lub oliwka do masażu – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-12",
+        "nazwa": "Przekąski, najlepiej w formie płynnej lub musów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-13",
+        "nazwa": "Bawełniane koszule umożliwiające karmienie piersią – minimum 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-14",
+        "nazwa": "Majtki poporodowe – minimum 6 sztuk, najlepiej siatkowe jednorazowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-15",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-16",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-17",
+        "nazwa": "Biustonosze do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-18",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-19",
+        "nazwa": "Poduszka fasolka lub jasiek do karmienia – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-20",
+        "nazwa": "Pojemnik na elementy laktatora – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-21",
+        "nazwa": "Telefon komórkowy i ładowarka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-mama-22",
+        "nazwa": "Sztućce i kubek – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "wol-maluszek-1",
+        "nazwa": "Pieluchy tetrowe – 5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-maluszek-2",
+        "nazwa": "Kocyk – 1 sztuka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-maluszek-3",
+        "nazwa": "Rożek – 1 sztuka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-maluszek-4",
+        "nazwa": "Bawełniane koszulki z krótkim lub długim rękawem – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-maluszek-5",
+        "nazwa": "Bawełniane kaftaniki z długim rękawem – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-maluszek-6",
+        "nazwa": "Śpiochy – 3 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-maluszek-7",
+        "nazwa": "Bawełniane cienkie czapeczki bez wiązania – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-maluszek-8",
+        "nazwa": "Skarpetki – 3 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-maluszek-9",
+        "nazwa": "Rękawiczki „łapki” – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-maluszek-10",
+        "nazwa": "Ręcznik kąpielowy z kapturem – 1 sztuka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-maluszek-11",
+        "nazwa": "Pieluchy jednorazowe, rozmiar 1 (2–5 kg) – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-maluszek-12",
+        "nazwa": "Chusteczki nawilżane – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-maluszek-13",
+        "nazwa": "Krem pielęgnacyjny do stosowania od 1. dnia życia dziecka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # CESARSKIE CIĘCIE
+    # =========================
+
+    {
+        "id": "wol-cc-1",
+        "nazwa": "Morfologia wykonana 2 dni przed planowanym zabiegiem",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-cc-2",
+        "nazwa": "Fibrynogen wykonany 2 dni przed planowanym zabiegiem",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wol-cc-3",
+        "nazwa": "Czas protrombinowy wykonany 2 dni przed planowanym zabiegiem",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# MIĘDZYLESKI SZPITAL SPECJALISTYCZNY W WARSZAWIE
+# =====================================
+
+LISTA_MIEDZYLESKI = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "miedz-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-dokumenty-3",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-dokumenty-4",
+        "nazwa": "Wynik posiewu GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-dokumenty-5",
+        "nazwa": "Teczka z pozostałymi wynikami badań",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "miedz-mama-1",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-2",
+        "nazwa": "Koszule do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-3",
+        "nazwa": "Biustonosze do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-4",
+        "nazwa": "Klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-5",
+        "nazwa": "Podkłady na łóżko – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-6",
+        "nazwa": "Podpaski poporodowe – 3 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-7",
+        "nazwa": "Majtki poporodowe siateczkowe – 4–5 sztuk łącznie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-8",
+        "nazwa": "Ręczniki kąpielowe – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-9",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-10",
+        "nazwa": "Maść z lanoliną do ochrony brodawek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-11",
+        "nazwa": "Rolka ręcznika papierowego",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-12",
+        "nazwa": "Kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-13",
+        "nazwa": "Lekkie przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-14",
+        "nazwa": "Woda, najlepiej w butelce z dzióbkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-15",
+        "nazwa": "Pomadka do ust – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-16",
+        "nazwa": "Gumka do włosów – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-17",
+        "nazwa": "Muzyka – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-18",
+        "nazwa": "Poduszka do karmienia lub jasiek – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-mama-19",
+        "nazwa": "Skarpetki – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "miedz-maluszek-1",
+        "nazwa": "Zestaw ubranek w rozmiarach 56 i 62: body, pajacyk i czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-maluszek-2",
+        "nazwa": "Pajacyki lub śpiochy bawełniane, rozpinane, z długim rękawem – 3–4 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-maluszek-3",
+        "nazwa": "Body bawełniane – 3–4 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-maluszek-4",
+        "nazwa": "Czapeczki – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-maluszek-5",
+        "nazwa": "Skarpetki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-maluszek-6",
+        "nazwa": "Pieluszki tetrowe, muślinowe lub flanelowe – 5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-maluszek-7",
+        "nazwa": "Pieluchy 0+ – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-maluszek-8",
+        "nazwa": "3 pieluchy do torby porodowej",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-maluszek-9",
+        "nazwa": "Mokre chusteczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-maluszek-10",
+        "nazwa": "Maść do pielęgnacji pupy noworodka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "miedz-maluszek-11",
+        "nazwa": "Kocyk lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -1428,6 +2377,15 @@ SZPITALE_INFO = {
     "Szpital Narutowicza": {
         "zapewnia": []
     },
+    "Wojewódzki Szpital Specjalistyczny we Wrocławiu": {
+        "zapewnia": []
+    },
+    "Szpital Matki Bożej Nieustającej Pomocy w Wołominie": {
+        "zapewnia": []
+    },
+    "Międzyleski Szpital Specjalistyczny w Warszawie": {
+        "zapewnia": []
+    },
 }
 
 SZPITALE = {
@@ -1437,6 +2395,9 @@ SZPITALE = {
     "Szpital Uniwersytecki": LISTA_UNIWERSYTECKI,
     "Szpital Rydygiera": LISTA_RYDYGIER,
     "Szpital Narutowicza": LISTA_NARUTOWICZ,
+    "Wojewódzki Szpital Specjalistyczny we Wrocławiu": LISTA_WROCLAW_WSS,
+    "Szpital Matki Bożej Nieustającej Pomocy w Wołominie": LISTA_WOLOMIN,
+    "Międzyleski Szpital Specjalistyczny w Warszawie": LISTA_MIEDZYLESKI,
 }
 
 for lista_szpitala in SZPITALE.values():
