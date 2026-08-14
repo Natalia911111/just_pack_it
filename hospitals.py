@@ -2343,6 +2343,322 @@ LISTA_MIEDZYLESKI = [
         "przypiete": False
     }
 ]
+# =====================================
+# SZPITAL POWIATOWY IM. MARII SKŁODOWSKIEJ-CURIE
+# RODZINNA STREFA NARODZIN W SKARŻYSKU-KAMIENNEJ
+# =====================================
+
+LISTA_SKARZYSKO = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "skar-dokumenty-1",
+        "nazwa": "Dowód tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-dokumenty-2",
+        "nazwa": "Oryginał wyniku grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-dokumenty-3",
+        "nazwa": "Karta ciąży wraz ze wszystkimi ważnymi badaniami, w tym GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-dokumenty-4",
+        "nazwa": "Skierowanie do szpitala – jeśli jest wymagane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-dokumenty-5",
+        "nazwa": "Wypisy z poprzednich hospitalizacji w obecnej ciąży – jeśli takie były",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-dokumenty-6",
+        "nazwa": "Lista leków przyjmowanych w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-dokumenty-7",
+        "nazwa": "Istotne konsultacje medyczne – jeśli były wykonywane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-dokumenty-8",
+        "nazwa": "Plan porodu – jeśli został przygotowany",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "skar-mama-1",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-2",
+        "nazwa": "Koszule do karmienia – kilka sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-3",
+        "nazwa": "Jednorazowe majtki poporodowe – siateczkowe lub bawełniane, wysokie, nie flizelinowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-4",
+        "nazwa": "Duże podkłady na łóżko",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-5",
+        "nazwa": "Podpaski poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-6",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-7",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-8",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-9",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-10",
+        "nazwa": "Ubranie na wyjście ze szpitala",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-11",
+        "nazwa": "Sztućce i kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-12",
+        "nazwa": "Woda mineralna niegazowana – najlepiej w butelce sportowej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-13",
+        "nazwa": "Coś do jedzenia, np. biszkopty, suchary, herbatniki, czekolada, herbata lub inne ulubione przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-14",
+        "nazwa": "Olejek do masażu – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-15",
+        "nazwa": "Olejek aromaterapeutyczny – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-16",
+        "nazwa": "Ulubiona muzyka – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-17",
+        "nazwa": "Lanolina – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-18",
+        "nazwa": "Kompresy na piersi – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-19",
+        "nazwa": "Herbatki laktacyjne – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-20",
+        "nazwa": "Ręcznik papierowy – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-21",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-mama-22",
+        "nazwa": "Gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "skar-maluszek-1",
+        "nazwa": "Kaftaniki dla noworodka – rozmiar 56 lub 62",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-maluszek-2",
+        "nazwa": "Śpioszki lub pajacyki – kilka par",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-maluszek-3",
+        "nazwa": "Pieluszki tetrowe – kilka sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-maluszek-4",
+        "nazwa": "Paczka pieluch jednorazowych w najmniejszym rozmiarze",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-maluszek-5",
+        "nazwa": "Bawełniane czapeczki – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-maluszek-6",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-maluszek-7",
+        "nazwa": "Kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-maluszek-8",
+        "nazwa": "Rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-maluszek-9",
+        "nazwa": "Ręcznik do kąpieli",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-maluszek-10",
+        "nazwa": "Maść do pielęgnacji pupy – bez tlenku cynku",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-maluszek-11",
+        "nazwa": "Mokre chusteczki jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "skar-maluszek-12",
+        "nazwa": "Ubranko na wyjście do domu odpowiednie do pory roku",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -2386,6 +2702,9 @@ SZPITALE_INFO = {
     "Międzyleski Szpital Specjalistyczny w Warszawie": {
         "zapewnia": []
     },
+    "Rodzinna Strefa Narodzin w Skarżysku-Kamiennej": {
+        "zapewnia": []
+    },
 }
 
 SZPITALE = {
@@ -2398,6 +2717,7 @@ SZPITALE = {
     "Wojewódzki Szpital Specjalistyczny we Wrocławiu": LISTA_WROCLAW_WSS,
     "Szpital Matki Bożej Nieustającej Pomocy w Wołominie": LISTA_WOLOMIN,
     "Międzyleski Szpital Specjalistyczny w Warszawie": LISTA_MIEDZYLESKI,
+    "Rodzinna Strefa Narodzin w Skarżysku-Kamiennej": LISTA_SKARZYSKO,
 }
 
 for lista_szpitala in SZPITALE.values():
