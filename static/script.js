@@ -428,7 +428,28 @@ function getHospitalNameInGenitive(hospitalName) {
             "Rodzinnej Strefy Narodzin w Skarżysku-Kamiennej",
 
         "Instytut Centrum Zdrowia Matki Polki w Łodzi":
-            "Instytutu Centrum Zdrowia Matki Polki w Łodzi"
+            "Instytutu Centrum Zdrowia Matki Polki w Łodzi",
+
+        "Szpital Wojewódzki w Poznaniu":
+            "Szpitala Wojewódzkiego w Poznaniu",
+
+        "Szpital Specjalistyczny w Kościerzynie":
+            "Szpitala Specjalistycznego w Kościerzynie",
+
+        "Uniwersytecki Szpital Kliniczny we Wrocławiu":
+            "Uniwersyteckiego Szpitala Klinicznego we Wrocławiu",
+
+        "Szpital Specjalistyczny PRO-FAMILIA w Rzeszowie":
+            "Szpitala Specjalistycznego PRO-FAMILIA w Rzeszowie",
+
+        "Wojewódzki Szpital w Tarnobrzegu":
+            "Wojewódzkiego Szpitala w Tarnobrzegu",
+
+        "Powiatowy Szpital Specjalistyczny w Stalowej Woli":
+            "Powiatowego Szpitala Specjalistycznego w Stalowej Woli",
+
+        "Szpital Wielospecjalistyczny w Gliwicach":
+            "Szpitala Wielospecjalistycznego w Gliwicach",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
