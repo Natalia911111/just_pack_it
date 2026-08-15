@@ -1661,6 +1661,25 @@ LISTA_WROCLAW_WSS = [
     },
 
     # =========================
+    # CESARSKIE CIĘCIE
+    # =========================
+
+    {
+        "id": "wss-cc-1",
+        "nazwa": "Skierowanie – w przypadku planowego przyjęcia",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wss-cc-2",
+        "nazwa": "Wyniki badań wymagane przy planowym przyjęciu",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
     # DLA TATY / NA WYJŚCIE
     # =========================
 

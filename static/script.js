@@ -1091,6 +1091,24 @@ function renderCesareanSection() {
             "Cesarskie cięcie",
             cesareanList
         );
+
+        if (
+            userProfile &&
+            userProfile.hospitalName ===
+                "Wojewódzki Szpital Specjalistyczny we Wrocławiu"
+        ) {
+            const info = document.createElement("p");
+
+            info.className = "cesarean-hospital-info";
+
+            info.textContent =
+                "ℹ️ Szpital nie publikuje osobnej wyprawki do planowanego " +
+                "cięcia cesarskiego. Dodatkowe pozycje pochodzą z informacji " +
+                "dotyczących planowego przyjęcia do szpitala.";
+
+            cesareanList.prepend(info);
+        }
+
     } else if (
         itemCategorySelect &&
         itemCategorySelect.value === "Cesarskie cięcie"

@@ -1488,3 +1488,12 @@ footer {
 .other-hospital-note p {
     margin: 0;
 }
+
+.cesarean-hospital-info {
+    margin: 0 0 16px;
+    padding: 12px 14px;
+    border-radius: 12px;
+    background: #f7f4ed;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
