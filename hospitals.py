@@ -4770,6 +4770,811 @@ LISTA_MALBORK = [
     }
 ]
 
+# =====================================
+# SZPITAL IM. ŚW. JADWIGI ŚLĄSKIEJ
+# W TRZEBNICY
+# ŹRÓDŁO: oficjalna "Torba do porodu"
+# =====================================
+
+LISTA_TRZEBNICA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "trzebnica-dokumenty-1",
+        "nazwa": "Dowód tożsamości / paszport",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-dokumenty-3",
+        "nazwa": "Grupa krwi – oryginał, potwierdzona",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-dokumenty-4",
+        "nazwa": "Wyniki aktualnych badań: HIV, HCV, HBs, WR, posiew GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-dokumenty-5",
+        "nazwa": "Dokumentacja medyczna dotycząca przebytych ciąż i współistniejących chorób",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "trzebnica-mama-1",
+        "nazwa": "Wygodna koszula do porodu i dwie koszule umożliwiające karmienie piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-mama-3",
+        "nazwa": "Kapcie i klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-mama-4",
+        "nazwa": "Podkłady higieniczne – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-mama-5",
+        "nazwa": "Podpaski poporodowe – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-mama-6",
+        "nazwa": "Majtki jednorazowe siateczkowe – nie fizelinowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-mama-7",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-mama-8",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-mama-9",
+        "nazwa": "Ręczniki papierowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-mama-10",
+        "nazwa": "Woda mineralna",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-mama-11",
+        "nazwa": "Przekąski – np. lizaki, musy, czekolada",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-mama-12",
+        "nazwa": "Własne preferencje: poduszka ciążowa i do karmienia, olejek do masażu, przenośny głośnik, ulubiony kocyk – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-mama-13",
+        "nazwa": "Elektrody do przeciwbólowego stymulatora TENS – jeśli chcesz skorzystać z tej metody łagodzenia bólu (model Perfect mama TENS)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "trzebnica-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-maluszek-2",
+        "nazwa": "Pieluszki tetrowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-maluszek-3",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "trzebnica-tata-1",
+        "nazwa": "Obuwie zmienne",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "trzebnica-tata-2",
+        "nazwa": "Przekąski",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# SZPITAL SPECJALISTYCZNY ŚW. ZOFII
+# W WARSZAWIE – "ŻELAZNA"
+# =====================================
+
+LISTA_ZELAZNA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "zelazna-dokumenty-1",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-dokumenty-2",
+        "nazwa": "Badania z okresu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "zelazna-mama-1",
+        "nazwa": "Wygodna koszula lub dłuższy T-shirt do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-mama-2",
+        "nazwa": "Koszule umożliwiające karmienie piersią – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-mama-4",
+        "nazwa": "Klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-mama-5",
+        "nazwa": "Biustonosze do karmienia piersią – minimum 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-mama-6",
+        "nazwa": "Majtki jednorazowe siateczkowe – nie flizelinowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-mama-7",
+        "nazwa": "Podkłady higieniczne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-mama-8",
+        "nazwa": "Podpaski poporodowe – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-mama-9",
+        "nazwa": "Przybory toaletowe – jak najmniej zapachowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-mama-10",
+        "nazwa": "Dwa ręczniki – kąpielowy i zwykły",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-mama-11",
+        "nazwa": "Ręczniki papierowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-mama-12",
+        "nazwa": "Woda wysoko zmineralizowana – wysoko sodowa",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-mama-13",
+        "nazwa": "Rzeczy, bez których nie wyobrażasz sobie spędzenia czasu w szpitalu – według własnych potrzeb",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "zelazna-maluszek-1",
+        "nazwa": "Kaftaniki dla noworodka, np. body, rozmiar 56 lub 62 – 5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-maluszek-2",
+        "nazwa": "Śpioszki – 3 pary lub pajacyki – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-maluszek-3",
+        "nazwa": "Pieluszki tetrowe – 10 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-maluszek-4",
+        "nazwa": "Pieluszki jednorazowe – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-maluszek-5",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-maluszek-6",
+        "nazwa": "Skarpetki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-maluszek-7",
+        "nazwa": "Bawełniane czapeczki – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-maluszek-8",
+        "nazwa": "Kocyki – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-maluszek-9",
+        "nazwa": "Rożek – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-maluszek-10",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-maluszek-11",
+        "nazwa": "Mały jasiek przydatny przy karmieniu lub poduszka rogal do karmienia",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "zelazna-tata-1",
+        "nazwa": "Wygodne ubranie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-tata-2",
+        "nazwa": "Buty na zmianę – klapki lub kapcie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-tata-3",
+        "nazwa": "Coś do jedzenia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zelazna-tata-4",
+        "nazwa": "Pieluszki do ogrzania dla dziecka – 4 sztuki",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# WOJEWÓDZKI SZPITAL SPECJALISTYCZNY
+# IM. STEFANA KARDYNAŁA WYSZYŃSKIEGO
+# W LUBLINIE – AL. KRAŚNICKA
+# =====================================
+
+LISTA_LUBLIN_KRASNICKA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "lublin-krasnicka-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-dokumenty-3",
+        "nazwa": "Wynik oznaczenia grupy krwi – jeśli posiadasz",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-dokumenty-4",
+        "nazwa": "Karty wypisowe ze szpitala – jeśli byłaś hospitalizowana w czasie ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "lublin-krasnicka-mama-1",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-mama-2",
+        "nazwa": "Bawełniane koszule rozpinane – 2–3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-mama-3",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-mama-4",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-mama-5",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-mama-6",
+        "nazwa": "Jednorazowe wkładki do biustonosza",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-mama-7",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / NA DZIEŃ WYPISU
+    # =========================
+
+    {
+        "id": "lublin-krasnicka-tata-1",
+        "nazwa": "Fotelik samochodowy – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-tata-2",
+        "nazwa": "Pieluchy tetrowe – 2–3 sztuki, na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-tata-3",
+        "nazwa": "Pieluszki jednorazowe – 2 sztuki, na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-tata-4",
+        "nazwa": "Czapeczka dla dziecka – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-tata-5",
+        "nazwa": "Body lub kaftanik dla dziecka – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-tata-6",
+        "nazwa": "Sweterek dla dziecka – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-tata-7",
+        "nazwa": "Śpioszki lub pajacyk – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-tata-8",
+        "nazwa": "Rożek lub becik – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lublin-krasnicka-tata-9",
+        "nazwa": "Kocyk – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# WOJEWÓDZKI SZPITAL SPECJALISTYCZNY
+# IM. JANUSZA KORCZAKA W SŁUPSKU
+# ŹRÓDŁO: oficjalny profil szpitala, 06.08.2020
+# =====================================
+
+LISTA_SLUPSK = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "slupsk-dokumenty-1",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-dokumenty-2",
+        "nazwa": "Badanie grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-dokumenty-3",
+        "nazwa": "Dowód osobisty lub inny dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-dokumenty-4",
+        "nazwa": "Wyniki ostatnich badań: mocz, morfologia, HBs, WR, USG",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-dokumenty-5",
+        "nazwa": "Wypisy z ewentualnych wcześniejszych pobytów w szpitalu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-dokumenty-6",
+        "nazwa": "Opisy ewentualnych konsultacji, np. kardiologicznej, okulistycznej",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "slupsk-mama-1",
+        "nazwa": "Dwie wygodne koszule – rozpinana z przodu i T-shirt do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-mama-2",
+        "nazwa": "Cienki szlafrok, skarpety, kapcie i klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-mama-3",
+        "nazwa": "Przybory toaletowe – w małych pojemniczkach",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-mama-4",
+        "nazwa": "Szczotka lub grzebień do włosów, gumki i spinki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-mama-5",
+        "nazwa": "Ręcznik mały i duży",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-mama-6",
+        "nazwa": "Ręcznik papierowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-mama-7",
+        "nazwa": "Podkłady poporodowe lub podpaski poporodowe – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-mama-8",
+        "nazwa": "Woda niegazowana – 1 butelka z dzióbkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-mama-9",
+        "nazwa": "Coś do jedzenia, np. biszkopty, sucharki, landrynki lub guma do żucia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-mama-10",
+        "nazwa": "Sztućce i kubeczek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-mama-11",
+        "nazwa": "Krem pielęgnacyjny do brodawek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "slupsk-maluszek-1",
+        "nazwa": "Czapeczki bez troczków – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-maluszek-2",
+        "nazwa": "Pajacyki zapinane na napy – 4 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-maluszek-3",
+        "nazwa": "Skarpetki i rękawiczki-niedrapki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-maluszek-4",
+        "nazwa": "Kocyk lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-maluszek-5",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-maluszek-6",
+        "nazwa": "Pieluchy tetrowe – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-maluszek-7",
+        "nazwa": "Pieluchy flanelowe – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-maluszek-8",
+        "nazwa": "Pieluchy jednorazowe, najmniejszy rozmiar – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-maluszek-9",
+        "nazwa": "Chusteczki wilgotne – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "slupsk-maluszek-10",
+        "nazwa": "Oliwka dla niemowląt lub balsam – 1 małe opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": []
@@ -4856,6 +5661,23 @@ SZPITALE_INFO = {
     "Powiatowe Centrum Zdrowia w Malborku": {
         "zapewnia": []
     },
+    "Szpital im. Św. Jadwigi Śląskiej w Trzebnicy": {
+        "zapewnia": [
+            "Ubranka dla noworodka na czas pobytu",
+            "Kocyk dla noworodka na czas pobytu"
+        ]
+    },
+    "Szpital Specjalistyczny św. Zofii w Warszawie": {
+        "zapewnia": []
+    },
+    "Wojewódzki Szpital Specjalistyczny w Lublinie": {
+        "zapewnia": []
+    },
+    "Wojewódzki Szpital Specjalistyczny im. Janusza Korczaka w Słupsku": {
+        "zapewnia": [
+            "Dostęp do dystrybutora wody na oddziale"
+        ]
+    },
 }
 
 SZPITALE = {
@@ -4878,6 +5700,10 @@ SZPITALE = {
     "Powiatowy Szpital Specjalistyczny w Stalowej Woli":LISTA_STALOWA_WOLA,
     "Szpital Wielospecjalistyczny w Gliwicach":LISTA_GLIWICE,
     "Powiatowe Centrum Zdrowia w Malborku":LISTA_MALBORK,
+    "Szpital im. Św. Jadwigi Śląskiej w Trzebnicy":LISTA_TRZEBNICA,
+    "Szpital Specjalistyczny św. Zofii w Warszawie":LISTA_ZELAZNA,
+    "Wojewódzki Szpital Specjalistyczny w Lublinie":LISTA_LUBLIN_KRASNICKA,
+    "Wojewódzki Szpital Specjalistyczny im. Janusza Korczaka w Słupsku":LISTA_SLUPSK,
 }
 
 for lista_szpitala in SZPITALE.values():

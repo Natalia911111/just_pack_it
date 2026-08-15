@@ -453,6 +453,18 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Powiatowe Centrum Zdrowia w Malborku":
             "Powiatowego Centrum Zdrowia w Malborku",
+
+        "Szpital im. Św. Jadwigi Śląskiej w Trzebnicy":
+            "Szpitala im. Św. Jadwigi Śląskiej w Trzebnicy",
+
+        "Szpital Specjalistyczny św. Zofii w Warszawie":
+            "Szpitala Specjalistycznego św. Zofii w Warszawie",
+
+        "Wojewódzki Szpital Specjalistyczny w Lublinie":
+            "Wojewódzkiego Szpitala Specjalistycznego w Lublinie",
+
+        "Wojewódzki Szpital Specjalistyczny im. Janusza Korczaka w Słupsku":
+            "Wojewódzkiego Szpitala Specjalistycznego im. Janusza Korczaka w Słupsku",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
