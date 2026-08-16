@@ -173,117 +173,143 @@
                 </fieldset>
 
                 <div class="wizard-field">
-                    <label for="hospital-name">
-                        Do którego szpitala się pakujesz?
-                    </label>
 
-                    <select
-                        id="hospital-name"
-                        name="hospital-name"
-                        required
-                    >
-                        <option value="">
-                            Wybierz szpital
-                        </option>
+                        <label for="hospital-name">
+                            Do którego szpitala się pakujesz?
+                        </label>
 
-                        <option value="Szpital Ujastek">
-                            Szpital Ujastek — Kraków
-                        </option>
+                        <input
+                            type="text"
+                            id="hospital-search"
+                            class="hospital-search"
+                            placeholder="🔎 Wpisz miasto lub nazwę szpitala..."
+                            autocomplete="off"
+                        >
 
-                        <option value="Szpital Żeromski">
-                            Szpital Żeromski — Kraków
-                        </option>
+                        <select
+                            id="hospital-name"
+                            name="hospital-name"
+                            required
+                        >
+                            <option value="">
+                                Wybierz szpital
+                            </option>
 
-                        <option value="Szpital Siemiradzkiego">
-                            Szpital Siemiradzkiego — Kraków
-                        </option>
+                            <option value="Szpital Ujastek">
+                                Szpital Ujastek — Kraków
+                            </option>
 
-                        <option value="Szpital Uniwersytecki">
-                            Szpital Uniwersytecki — Kraków
-                        </option>
+                            <option value="Szpital Żeromski">
+                                Szpital Żeromski — Kraków
+                            </option>
 
-                        <option value="Szpital Rydygiera">
-                            Szpital Rydygiera — Kraków
-                        </option>
+                            <option value="Szpital Siemiradzkiego">
+                                Szpital Siemiradzkiego — Kraków
+                            </option>
 
-                        <option value="Szpital Narutowicza">
-                            Szpital Narutowicza — Kraków
-                        </option>
+                            <option value="Szpital Uniwersytecki">
+                                Szpital Uniwersytecki — Kraków
+                            </option>
 
-                        <option value="Wojewódzki Szpital Specjalistyczny we Wrocławiu">
-                            Wojewódzki Szpital Specjalistyczny — Wrocław
-                        </option>
+                            <option value="Szpital Rydygiera">
+                                Szpital Rydygiera — Kraków
+                            </option>
 
-                        <option value="Szpital Matki Bożej Nieustającej Pomocy w Wołominie">
-                            Szpital Matki Bożej Nieustającej Pomocy — Wołomin
-                        </option>
+                            <option value="Szpital Narutowicza">
+                                Szpital Narutowicza — Kraków
+                            </option>
 
-                        <option value="Międzyleski Szpital Specjalistyczny w Warszawie">
-                            Międzyleski Szpital Specjalistyczny — Warszawa
-                        </option>
+                            <option value="Wojewódzki Szpital Specjalistyczny we Wrocławiu">
+                                Wojewódzki Szpital Specjalistyczny — Wrocław
+                            </option>
 
-                        <option value="Rodzinna Strefa Narodzin w Skarżysku-Kamiennej">
-                            Rodzinna Strefa Narodzin — Skarżysko-Kamienna
-                        </option>
+                            <option value="Szpital Matki Bożej Nieustającej Pomocy w Wołominie">
+                                Szpital Matki Bożej Nieustającej Pomocy — Wołomin
+                            </option>
 
-                        <option value="Instytut Centrum Zdrowia Matki Polki w Łodzi">
-                            Instytut Centrum Zdrowia Matki Polki — Łódź
-                        </option>
+                            <option value="Międzyleski Szpital Specjalistyczny w Warszawie">
+                                Międzyleski Szpital Specjalistyczny — Warszawa
+                            </option>
 
-                        <option value="Szpital Wojewódzki w Poznaniu">
-                            Szpital Wojewódzki — Poznań
-                        </option>
+                            <option value="Rodzinna Strefa Narodzin w Skarżysku-Kamiennej">
+                                Rodzinna Strefa Narodzin — Skarżysko-Kamienna
+                            </option>
 
-                        <option value="Szpital Specjalistyczny w Kościerzynie">
-                            Szpital Specjalistyczny — Kościerzyna
-                        </option>
+                            <option value="Instytut Centrum Zdrowia Matki Polki w Łodzi">
+                                Instytut Centrum Zdrowia Matki Polki — Łódź
+                            </option>
 
-                        <option value="Uniwersytecki Szpital Kliniczny we Wrocławiu">
-                            Uniwersytecki Szpital Kliniczny — Wrocław
-                        </option>
+                            <option value="Szpital Wojewódzki w Poznaniu">
+                                Szpital Wojewódzki — Poznań
+                            </option>
 
-                        <option value="Szpital Specjalistyczny PRO-FAMILIA w Rzeszowie">
-                            Szpital Specjalistyczny PRO-FAMILIA — Rzeszów
-                        </option>
+                            <option value="Szpital Specjalistyczny w Kościerzynie">
+                                Szpital Specjalistyczny — Kościerzyna
+                            </option>
 
-                        <option value="Wojewódzki Szpital w Tarnobrzegu">
-                            Wojewódzki Szpital — Tarnobrzeg
-                        </option>
+                            <option value="Uniwersytecki Szpital Kliniczny we Wrocławiu">
+                                Uniwersytecki Szpital Kliniczny — Wrocław
+                            </option>
 
-                        <option value="Powiatowy Szpital Specjalistyczny w Stalowej Woli">
-                            Powiatowy Szpital Specjalistyczny — Stalowa Wola
-                        </option>
+                            <option value="Szpital Specjalistyczny PRO-FAMILIA w Rzeszowie">
+                                Szpital Specjalistyczny PRO-FAMILIA — Rzeszów
+                            </option>
 
-                        <option value="Szpital Wielospecjalistyczny w Gliwicach">
-                            Szpital Wielospecjalistyczny — Gliwice
-                        </option>
+                            <option value="Wojewódzki Szpital w Tarnobrzegu">
+                                Wojewódzki Szpital — Tarnobrzeg
+                            </option>
 
-                        <option value="Powiatowe Centrum Zdrowia w Malborku">
-                            Powiatowe Centrum Zdrowia — Malbork
-                        </option>
+                            <option value="Powiatowy Szpital Specjalistyczny w Stalowej Woli">
+                                Powiatowy Szpital Specjalistyczny — Stalowa Wola
+                            </option>
 
-                        <option value="Szpital im. Św. Jadwigi Śląskiej w Trzebnicy">
-                            Szpital im. Św. Jadwigi Śląskiej — Trzebnica
-                        </option>
+                            <option value="Szpital Wielospecjalistyczny w Gliwicach">
+                                Szpital Wielospecjalistyczny — Gliwice
+                            </option>
 
-                        <option value="Szpital Specjalistyczny św. Zofii w Warszawie">
-                            Szpital Specjalistyczny św. Zofii (Żelazna) — Warszawa
-                        </option>
+                            <option value="Powiatowe Centrum Zdrowia w Malborku">
+                                Powiatowe Centrum Zdrowia — Malbork
+                            </option>
 
-                        <option value="Wojewódzki Szpital Specjalistyczny w Lublinie">
-                            Wojewódzki Szpital Specjalistyczny (Kraśnicka) — Lublin
-                        </option>
+                            <option value="Szpital im. Św. Jadwigi Śląskiej w Trzebnicy">
+                                Szpital im. Św. Jadwigi Śląskiej — Trzebnica
+                            </option>
 
-                        <option value="Wojewódzki Szpital Specjalistyczny im. Janusza Korczaka w Słupsku">
-                            Wojewódzki Szpital Specjalistyczny im. Janusza Korczaka — Słupsk
-                        </option>
+                            <option value="Szpital Specjalistyczny św. Zofii w Warszawie">
+                                Szpital Specjalistyczny św. Zofii (Żelazna) — Warszawa
+                            </option>
 
+                            <option value="Wojewódzki Szpital Specjalistyczny w Lublinie">
+                                Wojewódzki Szpital Specjalistyczny (Kraśnicka) — Lublin
+                            </option>
 
-                        <option value="Inny szpital">
-                            Inny szpital / jeszcze nie wybrano
-                        </option>
-                    </select>
-                </div>
+                            <option value="Wojewódzki Szpital Specjalistyczny im. Janusza Korczaka w Słupsku">
+                                Wojewódzki Szpital Specjalistyczny im. Janusza Korczaka — Słupsk
+                            </option>
+
+                            <option value="Kliniczne Centrum Ginekologii, Położnictwa i Neonatologii w Opolu">
+                                Kliniczne Centrum Ginekologii, Położnictwa i Neonatologii w Opolu
+                            </option>
+
+                            <option value="Mazowiecki Szpital Bródnowski w Warszawie">
+                                Mazowiecki Szpital Bródnowski — Warszawa
+                            </option>
+
+                            <option value="Wojewódzki Szpital Specjalistyczny im. NMP w Częstochowie">
+                                Wojewódzki Szpital Specjalistyczny im. NMP — Częstochowa
+                            </option>
+
+                            <option value="Szpital im. Rudolfa Weigla w Blachowni">
+                                Szpital im. Rudolfa Weigla — Blachownia
+                            </option>
+
+                            <option value="Inny szpital">
+                                Inny szpital / jeszcze nie wybrano
+                            </option>
+
+                        </select>
+
+                    </div>
 
                 <p class="wizard-note">
                     Lista zostanie dopasowana do wybranego szpitala.

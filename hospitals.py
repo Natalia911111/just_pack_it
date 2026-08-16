@@ -5594,6 +5594,1375 @@ LISTA_SLUPSK = [
     }
 ]
 
+# =====================================
+# KLINICZNE CENTRUM GINEKOLOGII,
+# POŁOŻNICTWA I NEONATOLOGII W OPOLU
+# =====================================
+
+LISTA_OPOLE = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "opole-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-dokumenty-3",
+        "nazwa": "Komplet badań z okresu ciąży – oryginały",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-dokumenty-4",
+        "nazwa": "Potwierdzony wynik grupy krwi lub KrewKarta",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-dokumenty-5",
+        "nazwa": "Wynik badania przeciwciał odpornościowych",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-dokumenty-6",
+        "nazwa": "Wyniki badań: HBs, HIV, HCV i WR",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-dokumenty-7",
+        "nazwa": "Wynik GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-dokumenty-8",
+        "nazwa": "Wyniki badań: toksoplazmoza i cytomegalia",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-dokumenty-9",
+        "nazwa": "Karty informacyjne z wcześniejszych pobytów w szpitalu – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-dokumenty-10",
+        "nazwa": "Istotne wyniki badań, w tym USG i badania prenatalne – jeśli były wykonywane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-dokumenty-11",
+        "nazwa": "Konsultacje specjalistyczne związane z chorobami przewlekłymi – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "opole-mama-1",
+        "nazwa": "Koszule nocne umożliwiające karmienie piersią – 3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-2",
+        "nazwa": "Biustonosz do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-3",
+        "nazwa": "Mały jasiek lub rogal do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-4",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-5",
+        "nazwa": "Obuwie zmienne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-6",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-7",
+        "nazwa": "Jednorazowe majtki poporodowe z siateczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-8",
+        "nazwa": "Poporodowe podkłady jednorazowe na łóżko",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-9",
+        "nazwa": "Duże podpaski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-10",
+        "nazwa": "Przybory toaletowe i preparat do higieny intymnej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-11",
+        "nazwa": "Krem lub pomadka do nawilżania ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-12",
+        "nazwa": "Opaska, spinki lub gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-13",
+        "nazwa": "Ręczniki – duży i mały",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-14",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-mama-15",
+        "nazwa": "Kubek i sztućce – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "opole-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-maluszek-3",
+        "nazwa": "Kocyk lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-maluszek-4",
+        "nazwa": "Pieluszki tetrowe – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-maluszek-5",
+        "nazwa": "Ubranka dla dziecka – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / NA WYJŚCIE
+    # =========================
+
+    {
+        "id": "opole-tata-1",
+        "nazwa": "Ubranie dla mamy na wyjście",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-tata-2",
+        "nazwa": "Ubranie dla dziecka na wyjście – dostosowane do pory roku",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "opole-tata-3",
+        "nazwa": "Fotelik samochodowy",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# MAZOWIECKI SZPITAL BRÓDNOWSKI
+# W WARSZAWIE
+# =====================================
+
+LISTA_BRODNO = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "brodno-dokumenty-1",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-dokumenty-2",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-dokumenty-3",
+        "nazwa": "Wynik grupy krwi i Rh – potwierdzony lub dwa wyniki",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-dokumenty-4",
+        "nazwa": "Wyniki badań: WR, HBsAg, HIV i HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-dokumenty-5",
+        "nazwa": "Wyniki badań TOXO IgG i IgM",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-dokumenty-6",
+        "nazwa": "Wynik posiewu GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-dokumenty-7",
+        "nazwa": "Wyniki USG ciąży z I, II i III trymestru",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-dokumenty-8",
+        "nazwa": "Inne wyniki badań i konsultacje lekarskie wykonywane w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-dokumenty-9",
+        "nazwa": "Karty informacyjne ze szpitala – w przypadku wcześniejszych hospitalizacji",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "brodno-mama-1",
+        "nazwa": "Bawełniane koszule nocne umożliwiające karmienie – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-2",
+        "nazwa": "Szlafrok lub rozpinana bluza",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-3",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-4",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-5",
+        "nazwa": "Majtki siateczkowe lub 100% bawełniane – ok. 4 pary",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-6",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-7",
+        "nazwa": "Biustonosz ciążowy lub do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-8",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-9",
+        "nazwa": "Podpaski – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-10",
+        "nazwa": "Podkłady higieniczne 90 × 60 cm",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-11",
+        "nazwa": "Przybory toaletowe i chusteczki higieniczne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-12",
+        "nazwa": "Gumki do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-13",
+        "nazwa": "Nieperfumowane kosmetyki z łagodnymi środkami myjącymi",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-14",
+        "nazwa": "Lanolina – zalecana do ust i brodawek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-15",
+        "nazwa": "Ręczniki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-16",
+        "nazwa": "Sztućce i kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-17",
+        "nazwa": "Woda lub butelka filtrująca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-18",
+        "nazwa": "Leki przyjmowane na stałe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-19",
+        "nazwa": "Glukometr i paski – w przypadku cukrzycy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-20",
+        "nazwa": "Ładowarka z długim kablem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-mama-21",
+        "nazwa": "Mała ilość biszkoptów lub sucharów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "brodno-maluszek-1",
+        "nazwa": "Ciepłe i cienkie kaftaniki lub body – 3–5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-maluszek-2",
+        "nazwa": "Śpiochy lub pajacyki – 3–5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-maluszek-3",
+        "nazwa": "Skarpetki – ok. 3 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-maluszek-4",
+        "nazwa": "Czapeczka bez wiązania",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-maluszek-5",
+        "nazwa": "Kocyk, śpiworek lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-maluszek-6",
+        "nazwa": "Rogal lub mała poduszka – przydatne przy karmieniu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-maluszek-7",
+        "nazwa": "Kosmetyki do pielęgnacji skóry noworodka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-maluszek-8",
+        "nazwa": "Pieluchy jednorazowe dla noworodka – paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-maluszek-9",
+        "nazwa": "Wilgotne chusteczki na bazie wody",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-maluszek-10",
+        "nazwa": "Pieluchy flanelowe i tetrowe – ok. 5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / NA WYJŚCIE
+    # =========================
+
+    {
+        "id": "brodno-tata-1",
+        "nazwa": "Grubszy kocyk lub śpiwór – na wypis w sezonie zimowym",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-tata-2",
+        "nazwa": "Ciepła czapka – na wypis w sezonie zimowym",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "brodno-tata-3",
+        "nazwa": "Sweterek i kombinezon – na wypis w sezonie zimowym",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# WOJEWÓDZKI SZPITAL SPECJALISTYCZNY
+# IM. NMP W CZĘSTOCHOWIE
+# =====================================
+
+LISTA_CZESTOCHOWA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "czest-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-dokumenty-3",
+        "nazwa": "Wyniki badań z całej ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-dokumenty-4",
+        "nazwa": "Aktualne badania krwi i moczu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-dokumenty-5",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-dokumenty-6",
+        "nazwa": "Wynik GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-dokumenty-7",
+        "nazwa": "USG z III trymestru",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-dokumenty-8",
+        "nazwa": "Plan porodu – jeśli został przygotowany",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-dokumenty-9",
+        "nazwa": "Skierowanie do szpitala – jeśli zostało wystawione",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "czest-mama-1",
+        "nazwa": "Koszula do porodu – najlepiej rozpinana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-2",
+        "nazwa": "Koszule do karmienia – 2–3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-4",
+        "nazwa": "Wygodny dres lub legginsy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-5",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-6",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-7",
+        "nazwa": "Ręczniki – 2 sztuki: większy i mniejszy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-8",
+        "nazwa": "Skarpetki – również cieplejsze",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-9",
+        "nazwa": "Gumka lub opaska do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-10",
+        "nazwa": "Mała poduszka – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-11",
+        "nazwa": "Szczoteczka i pasta do zębów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-12",
+        "nazwa": "Żel pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-13",
+        "nazwa": "Szampon",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-14",
+        "nazwa": "Szczotka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-15",
+        "nazwa": "Pomadka ochronna do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-16",
+        "nazwa": "Krem do twarzy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-17",
+        "nazwa": "Dezodorant",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-18",
+        "nazwa": "Ręczniki papierowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-19",
+        "nazwa": "Chusteczki higieniczne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-20",
+        "nazwa": "Majtki poporodowe jednorazowe – minimum 5–6 sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-21",
+        "nazwa": "Podkłady poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-22",
+        "nazwa": "Duże podpaski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-23",
+        "nazwa": "Podkłady higieniczne na łóżko",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-24",
+        "nazwa": "Butelka do podmywania lub bidon poporodowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-25",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-26",
+        "nazwa": "Biustonosze do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-27",
+        "nazwa": "Krem do brodawek, np. lanolina",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-28",
+        "nazwa": "Laktator – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-29",
+        "nazwa": "Woda niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-30",
+        "nazwa": "Przekąski energetyczne, np. batony zbożowe lub daktyle",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-31",
+        "nazwa": "Ulubiona herbata w saszetkach",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-32",
+        "nazwa": "Kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-33",
+        "nazwa": "Sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-34",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-35",
+        "nazwa": "Książka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-mama-36",
+        "nazwa": "Słuchawki lub mały głośnik – jeśli planujesz muzykę relaksacyjną",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "czest-maluszek-1",
+        "nazwa": "Body – 4–5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-2",
+        "nazwa": "Pajacyki – 3–4 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-3",
+        "nazwa": "Półśpiochy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-4",
+        "nazwa": "Czapeczki – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-5",
+        "nazwa": "Skarpetki – 2–3 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-6",
+        "nazwa": "Ubranko na wyjście ze szpitala",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-7",
+        "nazwa": "Pieluszki jednorazowe – rozmiar 0 lub 1",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-8",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-9",
+        "nazwa": "Krem ochronny na odparzenia",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-10",
+        "nazwa": "Gaziki jałowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-11",
+        "nazwa": "Sól fizjologiczna",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-12",
+        "nazwa": "Ręcznik z kapturkiem",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-13",
+        "nazwa": "Kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-14",
+        "nazwa": "Rożek lub otulacz",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-maluszek-15",
+        "nazwa": "Smoczek – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "czest-tata-1",
+        "nazwa": "Wygodne ubranie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-tata-2",
+        "nazwa": "Koszulka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-tata-3",
+        "nazwa": "Bluza",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-tata-4",
+        "nazwa": "Spodnie dresowe",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-tata-5",
+        "nazwa": "Klapki lub buty na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-tata-6",
+        "nazwa": "Przekąski",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-tata-7",
+        "nazwa": "Woda",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-tata-8",
+        "nazwa": "Telefon i ładowarka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-tata-9",
+        "nazwa": "Chusteczki higieniczne",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-tata-10",
+        "nazwa": "Drobne pieniądze",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "czest-tata-11",
+        "nazwa": "Fotelik samochodowy – najlepiej przynieść w dniu wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+# =====================================
+# SZPITAL IM. RUDOLFA WEIGLA
+# W BLACHOWNI
+# =====================================
+
+LISTA_BLACHOWNIA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "blachownia-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-dokumenty-2",
+        "nazwa": "Uznanie ojcostwa – w przypadku nieformalnego związku lub akt małżeństwa – w przypadku dwóch różnych nazwisk",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-dokumenty-3",
+        "nazwa": "Grupa krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-dokumenty-4",
+        "nazwa": "Karta ciąży wraz z badaniami diagnostycznymi według Standardów Opieki Okołoporodowej oraz badaniami prenatalnymi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "blachownia-mama-1",
+        "nazwa": "Koszula do porodu – do kolan, szeroka, zakrywająca pupę podczas siedzenia, nadająca się do wyrzucenia po porodzie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-mama-2",
+        "nazwa": "Koszula poporodowa",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-mama-4",
+        "nazwa": "Klapki gumowe lub plastikowe – na salę porodową i pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-mama-5",
+        "nazwa": "Kapcie – na Oddział Położniczy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-mama-6",
+        "nazwa": "Ręczniki – duży i mały",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-mama-7",
+        "nazwa": "Majtki poporodowe bawełniane",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-mama-8",
+        "nazwa": "Wkładki poporodowe – przynajmniej 2 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-mama-9",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-mama-10",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-mama-11",
+        "nazwa": "Woda mineralna – najlepiej z dzióbkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-mama-12",
+        "nazwa": "Sztućce i kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-mama-13",
+        "nazwa": "Dodatkowe przydatne rzeczy, np. ładowarka i słuchawki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "blachownia-maluszek-1",
+        "nazwa": "Ubranka: body/pajacyk, czapka i skarpetki – po 3–4 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-maluszek-2",
+        "nazwa": "Becik lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-maluszek-3",
+        "nazwa": "Kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-maluszek-4",
+        "nazwa": "Pieluszki tetrowe, muślinowe lub bambusowe – 4 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-maluszek-5",
+        "nazwa": "Pampersy – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-maluszek-6",
+        "nazwa": "Chusteczki nawilżane – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-maluszek-7",
+        "nazwa": "Krem przeciw odparzeniom",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-maluszek-8",
+        "nazwa": "Preparat do nawilżenia lub natłuszczenia ciała – do użycia, gdy będzie taka potrzeba",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "blachownia-tata-1",
+        "nazwa": "Klapki gumowe lub plastikowe",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-tata-2",
+        "nazwa": "Przekąski i picie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / NA WYJŚCIE
+    # =========================
+
+    {
+        "id": "blachownia-tata-3",
+        "nazwa": "Fotelik samochodowy – na wyjście ze szpitala",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-tata-4",
+        "nazwa": "Ubranko dla dziecka na wyjście – jesienią i zimą również kombinezon oraz czapka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-tata-5",
+        "nazwa": "Kocyk – na wyjście ze szpitala",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "blachownia-tata-6",
+        "nazwa": "Wygodne ubranie dla mamy z okresu ciąży – na wyjście ze szpitala",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": []
@@ -5697,6 +7066,23 @@ SZPITALE_INFO = {
             "Dostęp do dystrybutora wody na oddziale"
         ]
     },
+    "Kliniczne Centrum Ginekologii, Położnictwa i Neonatologii w Opolu": {
+        "zapewnia": [
+            "Bieliznę noworodkową na czas pobytu",
+            "Środki kosmetyczne do kąpieli dziecka"
+        ]
+    },
+    "Mazowiecki Szpital Bródnowski w Warszawie": {
+        "zapewnia": [
+            "Kuchenkę dla pacjentek z lodówką, mikrofalą i czajnikiem"
+        ]
+    },
+    "Wojewódzki Szpital Specjalistyczny im. NMP w Częstochowie": {
+        "zapewnia": []
+    },
+    "Szpital im. Rudolfa Weigla w Blachowni": {
+        "zapewnia": []
+    },
 }
 
 SZPITALE = {
@@ -5723,6 +7109,10 @@ SZPITALE = {
     "Szpital Specjalistyczny św. Zofii w Warszawie":LISTA_ZELAZNA,
     "Wojewódzki Szpital Specjalistyczny w Lublinie":LISTA_LUBLIN_KRASNICKA,
     "Wojewódzki Szpital Specjalistyczny im. Janusza Korczaka w Słupsku":LISTA_SLUPSK,
+    "Kliniczne Centrum Ginekologii, Położnictwa i Neonatologii w Opolu": LISTA_OPOLE,
+    "Mazowiecki Szpital Bródnowski w Warszawie": LISTA_BRODNO,
+    "Wojewódzki Szpital Specjalistyczny im. NMP w Częstochowie":LISTA_CZESTOCHOWA,
+    "Szpital im. Rudolfa Weigla w Blachowni":LISTA_BLACHOWNIA,
 }
 
 for lista_szpitala in SZPITALE.values():

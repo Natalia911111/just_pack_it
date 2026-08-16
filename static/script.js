@@ -135,6 +135,9 @@ const hospitalNameSelect = document.getElementById(
     "hospital-name"
 );
 
+const hospitalSearchInput =
+    document.getElementById("hospital-search");
+
 const packingApp = document.getElementById(
     "packing-app"
 );
@@ -193,6 +196,100 @@ const pregnancyProgressText =
         "pregnancy-progress-text"
     );
 const otherHospitalNote =document.getElementById("other-hospital-note");
+
+/* =========================
+   WYSZUKIWANIE SZPITALA
+========================= */
+
+const originalHospitalOptions =
+    hospitalNameSelect
+        ? Array.from(hospitalNameSelect.options).map(function (option) {
+            return {
+                value: option.value,
+                text: option.textContent,
+                disabled: option.disabled
+            };
+        })
+        : [];
+
+
+function normalizeHospitalSearch(text) {
+    return String(text || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .trim();
+}
+
+
+function filterHospitals() {
+    if (!hospitalNameSelect || !hospitalSearchInput) {
+        return;
+    }
+
+    const searchValue =
+        normalizeHospitalSearch(hospitalSearchInput.value);
+
+    const previouslySelectedValue =
+        hospitalNameSelect.value;
+
+    hospitalNameSelect.innerHTML = "";
+
+    originalHospitalOptions.forEach(function (hospital) {
+
+        const normalizedText =
+            normalizeHospitalSearch(hospital.text);
+
+        const normalizedValue =
+            normalizeHospitalSearch(hospital.value);
+
+        const isPlaceholder =
+            hospital.value === "";
+
+        const isOtherHospital =
+            hospital.value === "Inny szpital";
+
+        const matchesSearch =
+            searchValue === "" ||
+            normalizedText.includes(searchValue) ||
+            normalizedValue.includes(searchValue);
+
+        if (
+            isPlaceholder ||
+            isOtherHospital ||
+            matchesSearch
+        ) {
+            const option =
+                document.createElement("option");
+
+            option.value = hospital.value;
+            option.textContent = hospital.text;
+            option.disabled = hospital.disabled;
+
+            hospitalNameSelect.appendChild(option);
+        }
+    });
+
+    const selectedOptionStillExists =
+        Array.from(hospitalNameSelect.options).some(
+            function (option) {
+                return option.value === previouslySelectedValue;
+            }
+        );
+
+    if (selectedOptionStillExists) {
+        hospitalNameSelect.value =
+            previouslySelectedValue;
+    }
+}
+
+
+if (hospitalSearchInput) {
+    hospitalSearchInput.addEventListener(
+        "input",
+        filterHospitals
+    );
+}
 
 // =============================
 // OBLICZANIE TYGODNIA CIĄŻY
@@ -465,6 +562,19 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Wojewódzki Szpital Specjalistyczny im. Janusza Korczaka w Słupsku":
             "Wojewódzkiego Szpitala Specjalistycznego im. Janusza Korczaka w Słupsku",
+
+        "Kliniczne Centrum Ginekologii, Położnictwa i Neonatologii w Opolu":
+            "Klinicznego Centrum Ginekologii, Położnictwa i Neonatologii w Opolu",
+
+
+        "Mazowiecki Szpital Bródnowski w Warszawie":
+            "Mazowieckiego Szpitala Bródnowskiego w Warszawie",
+
+        "Wojewódzki Szpital Specjalistyczny im. NMP w Częstochowie":
+            "Wojewódzkiego Szpitala Specjalistycznego im. NMP w Częstochowie",
+
+        "Szpital im. Rudolfa Weigla w Blachowni":
+            "Szpitala im. Rudolfa Weigla w Blachowni",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
