@@ -6965,11 +6965,31 @@ LISTA_BLACHOWNIA = [
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
-        "zapewnia": []
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "💧 Możliwy jest poród w wodzie – szpital posiada specjalistyczną salę z wanną porodową",
+            "👨‍👩‍👧 Poród rodzinny jest bezpłatny",
+            "🛁 Sale do porodów rodzinnych posiadają prysznic lub wannę",
+            "💉 Dostępne są metody łagodzenia bólu porodowego, w tym znieczulenie po kwalifikacji medycznej",
+            "🏡 Istnieje możliwość skorzystania z płatnych apartamentów rodzinnych VIP",
+            "📝 Możesz przygotować własny plan porodu i przekazać go przy przyjęciu",
+            "🏥 Szpital organizuje Dni Otwarte, podczas których można zobaczyć m.in. Izbę Przyjęć oraz sale porodowe i przedporodowe"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Ujastek • aktualizacja: sierpień 2026"
     },
 
     "Szpital Żeromski": {
-        "zapewnia": []
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "👨‍👩‍👧 Poród rodzinny jest bezpłatny – może uczestniczyć jedna osoba towarzysząca",
+            "🛏️ Porody odbywają się w jednoosobowych salach porodowych",
+            "🛁 Dostępna jest immersja wodna oraz inne niefarmakologiczne metody łagodzenia bólu",
+            "💉 Szpital oferuje farmakologiczne i niefarmakologiczne metody łagodzenia bólu porodowego",
+            "🧘‍♀️ Możliwe jest przyjmowanie różnych pozycji podczas porodu",
+            "🤱 Po porodzie wspierany jest kontakt skóra do skóry i rozpoczęcie karmienia piersią",
+            "📋 Możesz przygotować i zabrać ze sobą własny plan porodu"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Specjalistycznego im. Stefana Żeromskiego • aktualizacja: sierpień 2026"
     },
 
     "Szpital Siemiradzkiego": {

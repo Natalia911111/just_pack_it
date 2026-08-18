@@ -1364,7 +1364,8 @@ footer {
     .reset-section,
     .edit-profile-btn,
     .midwife-tip,
-    .hospital-provided-card,
+     .hospital-provided-card,
+    .hospital-facts-card,
     .pin-btn,
     .delete-btn,
     .confetti-container {
@@ -1610,5 +1611,84 @@ footer {
 
     .coffee-btn {
         width: 100%;
+    }
+}
+
+/* =========================
+   CO WARTO WIEDZIEĆ O SZPITALU
+========================= */
+
+.hospital-facts-card {
+    margin-top: 16px;
+    padding: 18px 22px;
+    background: #f8faf7;
+    border: 1px solid #d9e2d3;
+    border-radius: 16px;
+    color: var(--text-main);
+}
+
+.hospital-facts-card summary {
+    cursor: pointer;
+    color: var(--dark-green);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    list-style: none;
+}
+
+.hospital-facts-card summary::-webkit-details-marker {
+    display: none;
+}
+
+.hospital-facts-card summary::after {
+    content: "▼";
+    float: right;
+    margin-left: 12px;
+    color: var(--dark-green);
+    font-size: 0.8rem;
+    transition: transform 0.2s ease;
+}
+
+.hospital-facts-card[open] summary::after {
+    transform: rotate(180deg);
+}
+
+.hospital-facts-card ul {
+    margin: 16px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hospital-facts-card li {
+    margin-bottom: 10px;
+    color: #4f574f;
+    line-height: 1.55;
+}
+
+.hospital-facts-card li:last-child {
+    margin-bottom: 0;
+}
+
+.hospital-facts-source {
+    margin: 16px 0 0;
+    padding-top: 12px;
+    border-top: 1px solid rgba(91, 111, 87, 0.16);
+    color: #899188;
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+/* Telefon */
+@media (max-width: 600px) {
+    .hospital-facts-card {
+        padding: 16px 17px;
+    }
+
+    .hospital-facts-card summary {
+        font-size: 1rem;
+    }
+
+    .hospital-facts-card li {
+        font-size: 0.95rem;
     }
 }

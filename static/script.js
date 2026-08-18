@@ -156,6 +156,15 @@ const hospitalProvidedCard = document.getElementById("hospital-provided-card");
 
 const hospitalProvidedList = document.getElementById("hospital-provided-list");
 
+const hospitalFactsCard =
+    document.getElementById("hospital-facts-card");
+
+const hospitalFactsList =
+    document.getElementById("hospital-facts-list");
+
+const hospitalFactsSource =
+    document.getElementById("hospital-facts-source");
+
 const profilePregnancyWeek =
     document.getElementById(
         "profile-pregnancy-week"
@@ -1261,6 +1270,57 @@ function renderHospitalProvidedInfo() {
     hospitalProvidedCard.hidden = false;
 }
 
+function renderHospitalFacts() {
+    if (
+        !hospitalFactsCard ||
+        !hospitalFactsList ||
+        !userProfile
+    ) {
+        return;
+    }
+
+    hospitalFactsList.innerHTML = "";
+
+    if (hospitalFactsSource) {
+        hospitalFactsSource.textContent = "";
+        hospitalFactsSource.hidden = true;
+    }
+
+    const selectedHospitalInfo =
+        hospitalInfo[userProfile.hospitalName];
+
+    const facts =
+        selectedHospitalInfo &&
+        Array.isArray(selectedHospitalInfo.warto_wiedziec)
+            ? selectedHospitalInfo.warto_wiedziec
+            : [];
+
+    if (facts.length === 0) {
+        hospitalFactsCard.hidden = true;
+        return;
+    }
+
+    facts.forEach(function (fact) {
+        const listItem = document.createElement("li");
+        listItem.textContent = fact;
+        hospitalFactsList.appendChild(listItem);
+    });
+
+    if (
+        hospitalFactsSource &&
+        selectedHospitalInfo &&
+        selectedHospitalInfo.warto_wiedziec_zrodlo
+    ) {
+        hospitalFactsSource.textContent =
+            "Źródło: " +
+            selectedHospitalInfo.warto_wiedziec_zrodlo;
+
+        hospitalFactsSource.hidden = false;
+    }
+
+    hospitalFactsCard.hidden = false;
+}
+
 function renderApp() {
     renderCategory(
         "Dokumenty",
@@ -1284,7 +1344,8 @@ function renderApp() {
         fatherList
     );
 
-    renderHospitalProvidedInfo();
+   renderHospitalProvidedInfo();
+    renderHospitalFacts();
     renderProgress();
 }
 
@@ -1600,6 +1661,32 @@ removePregnancyCorrectionButton.addEventListener(
         renderPregnancyCalculation();
     }
 );
+/* =========================
+   PODGLĄD WYBRANEGO SZPITALA
+========================= */
+
+if (hospitalNameSelect) {
+    hospitalNameSelect.addEventListener("change", function () {
+        const selectedHospital = hospitalNameSelect.value;
+
+        if (!heroSubtitle) {
+            return;
+        }
+
+        if (
+            selectedHospital === "" ||
+            selectedHospital === "Inny szpital"
+        ) {
+            heroSubtitle.textContent =
+                "Twoja interaktywna lista do pakowania";
+        } else {
+            heroSubtitle.textContent =
+                "Twoja interaktywna lista do pakowania " +
+                "opracowana na podstawie zaleceń " +
+                getHospitalNameInGenitive(selectedHospital);
+        }
+    });
+}
 
 /* =========================
    OBSŁUGA KREATORA
