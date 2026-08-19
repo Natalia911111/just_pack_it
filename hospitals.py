@@ -6962,6 +6962,623 @@ LISTA_BLACHOWNIA = [
         "przypiete": False
     }
 ]
+# =====================================
+# GIŻYCKA OCHRONA ZDROWIA
+# =====================================
+
+LISTA_GIZYCKO = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "gizycko-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-dokumenty-2",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-dokumenty-3",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-dokumenty-4",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-dokumenty-5",
+        "nazwa": "Wynik wymazu w kierunku Streptococcus (GBS)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-dokumenty-6",
+        "nazwa": "Wszystkie wyniki badań laboratoryjnych oraz USG wykonane w obecnej ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "gizycko-mama-1",
+        "nazwa": "Rzeczy do higieny osobistej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "gizycko-maluszek-1",
+        "nazwa": "Pieluchy jednorazowe – najmniejszy rozmiar",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-maluszek-2",
+        "nazwa": "Pieluchy tetrowe – 4 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-maluszek-3",
+        "nazwa": "Bawełniane koszulki lub body – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-maluszek-4",
+        "nazwa": "Cienkie bawełniane czapeczki – 2 sztuki oraz 1 cieplejsza, bez wiązania",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-maluszek-5",
+        "nazwa": "Pajacyki – 3 sztuki (wygodniejsze rozpinane w kroku) lub 3 kaftaniki i 3 pary śpiochów",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-maluszek-6",
+        "nazwa": "Skarpetki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-maluszek-7",
+        "nazwa": "Rękawiczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-maluszek-8",
+        "nazwa": "Kosmetyki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-maluszek-9",
+        "nazwa": "Ręcznik kąpielowy z kapturem",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gizycko-maluszek-10",
+        "nazwa": "Kocyk lub śpiworek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+# =====================================
+# SZPITAL JOANNITAS W PSZCZYNIE
+# =====================================
+
+LISTA_PSZCZYNA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "pszczyna-dokumenty-1",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-dokumenty-2",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-dokumenty-3",
+        "nazwa": "Wyniki wszystkich badań przeprowadzonych w okresie ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-dokumenty-4",
+        "nazwa": "Oryginał potwierdzonej grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-dokumenty-5",
+        "nazwa": "Wynik przeciwciał anty-Rh – w przypadku grupy Rh ujemnej",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-dokumenty-6",
+        "nazwa": "Wynik GBS – wymaz z przedsionka pochwy oraz odbytu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-dokumenty-7",
+        "nazwa": "Wynik HBsAg",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-dokumenty-8",
+        "nazwa": "Wynik HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-dokumenty-9",
+        "nazwa": "Wypisy z wcześniejszych hospitalizacji i konsultacje specjalistyczne – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-dokumenty-10",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "pszczyna-mama-1",
+        "nazwa": "Koszula nocna lub dłuższy T-shirt odpowiedni do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-mama-2",
+        "nazwa": "Koszule lub piżamy na oddział, najlepiej rozpinane z przodu – 3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-mama-3",
+        "nazwa": "Ręcznik do kąpieli",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-mama-4",
+        "nazwa": "Szlafrok i papcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-mama-5",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-mama-6",
+        "nazwa": "Podpaski poporodowe – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-mama-7",
+        "nazwa": "Podkłady na łóżko 90 × 60 cm – minimum 10 sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-mama-8",
+        "nazwa": "Majtki jednorazowe siateczkowe – nie flizelinowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-mama-9",
+        "nazwa": "Bielizna i nieuciskowy biustonosz bez fiszbin",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-mama-10",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-mama-11",
+        "nazwa": "Woda niegazowana z dzióbkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "pszczyna-maluszek-1",
+        "nazwa": "Pampersy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-maluszek-2",
+        "nazwa": "Pieluchy tetrowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-maluszek-3",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-maluszek-4",
+        "nazwa": "Ręcznik do kąpieli",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-maluszek-5",
+        "nazwa": "Kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-maluszek-6",
+        "nazwa": "Ubranka: body, pajacyk, kaftaniki i czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-maluszek-7",
+        "nazwa": "Tłusty krem do pielęgnacji pośladków – bez tlenku cynku",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "pszczyna-tata-1",
+        "nazwa": "Czyste buty lub klapki",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-tata-2",
+        "nazwa": "Czyste ubrania do przebrania",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pszczyna-tata-3",
+        "nazwa": "Fotelik samochodowy – na wyjście ze szpitala",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    # =========================
+    # CESARSKIE CIĘCIE
+    # =========================
+
+    {
+        "id": "pszczyna-cc-1",
+        "nazwa": "Pończochy uciskowe profilaktyczne lub 2 bandaże elastyczne",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# SZPITAL POWIATOWY W OŚWIĘCIMIU
+# =====================================
+
+LISTA_OSWIECIM = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "osw-dokumenty-1",
+        "nazwa": "Dowód tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-dokumenty-3",
+        "nazwa": "Plan porodu – warto mieć przygotowany",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-dokumenty-4",
+        "nazwa": "Akt uznania ojcostwa – w przypadku braku ślubu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-dokumenty-5",
+        "nazwa": "Oryginał wyniku grupy krwi i czynnika Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-dokumenty-6",
+        "nazwa": "Ostatnie aktualne wyniki badań laboratoryjnych",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-dokumenty-7",
+        "nazwa": "Wynik posiewu w kierunku GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "osw-mama-1",
+        "nazwa": "Wygodna koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-3",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-4",
+        "nazwa": "Podpaski poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-5",
+        "nazwa": "Podkłady poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-6",
+        "nazwa": "Majtki siateczkowe jednorazowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-7",
+        "nazwa": "Niegazowana woda mineralna – najlepiej z dzióbkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-8",
+        "nazwa": "Przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-9",
+        "nazwa": "Koszula z rozcięciem wygodna do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-10",
+        "nazwa": "Przybory toaletowe i środki higieniczne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-11",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-12",
+        "nazwa": "Sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-13",
+        "nazwa": "Poduszka typu jasiek – do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-14",
+        "nazwa": "Staniki do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-mama-15",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "osw-maluszek-1",
+        "nazwa": "Pieluchy jednorazowe (pampersy)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-maluszek-3",
+        "nazwa": "Krem ochronny do pielęgnacji okolicy pieluszkowej",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-maluszek-4",
+        "nazwa": "Własne ubranka – koszulki, śpioszki i czapeczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "osw-maluszek-5",
+        "nazwa": "Smoczek – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "osw-tata-1",
+        "nazwa": "Klapki dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -7103,6 +7720,51 @@ SZPITALE_INFO = {
     "Szpital im. Rudolfa Weigla w Blachowni": {
         "zapewnia": []
     },
+    "Giżycka Ochrona Zdrowia": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🏥 Trakt porodowy posiada 2 sale porodowe z pojedynczymi łóżkami do porodu oraz węzłem sanitarnym",
+            "🧘 Dostępne są niefarmakologiczne metody łagodzenia bólu, m.in. aktywność fizyczna, pozycje zmniejszające ból, piłka, worek sako, drabinki i materac",
+            "🌿 Można korzystać z technik oddechowych i ćwiczeń relaksacyjnych",
+            "💆 Dostępne są m.in. masaż relaksacyjny, ciepłe lub zimne okłady oraz TENS",
+            "💧 Wśród metod łagodzenia bólu szpital wymienia immersję wodną",
+            "💨 Dostępna jest analgezja wziewna",
+            "💉 Dostępna jest farmakoterapia dożylna",
+            "👨‍👩‍👦 Oddział umożliwia porody rodzinne"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Giżyckiej Ochrony Zdrowia • aktualizacja: sierpień 2026"
+    },
+    "Szpital Joannitas w Pszczynie": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "👨‍👩‍👧 Możliwy jest poród rodzinny – rodzącej może towarzyszyć jedna wybrana osoba",
+            "💉 Dostępne są różne formy łagodzenia bólu porodowego, w tym analgezja zewnątrzoponowa – jeśli nie ma przeciwwskazań",
+            "🤰 Szpital prowadzi konsultacje VBAC dla kobiet rozważających poród drogami natury po wcześniejszym cięciu cesarskim",
+            "🏥 Oddział Ginekologiczno-Położniczy posiada II stopień referencyjności",
+            "🚪 Szpital posiada osobną Położniczą Izbę Przyjęć",
+            "🧑‍🍼 Przy oddziale działa Szkoła Rodzenia",
+            "🧠 Podczas pobytu można skorzystać z porady psychologa – w dni powszednie w godz. 8:00–14:30",
+            "👨‍👩‍👧 Przy porodzie rodzinnym osoba towarzysząca przebiera się w szpitalu – powinna zabrać czyste ubrania oraz czyste buty lub klapki",
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Joannitas w Pszczynie • aktualizacja: sierpień 2026"
+    },
+    "Szpital Powiatowy w Oświęcimiu": {
+        "zapewnia": [
+            "Dodatkowy ręcznik – dostępny na oddziale położniczym"
+        ],
+        "warto_wiedziec": [
+            "👨‍👩‍👧 Możliwy jest poród rodzinny z wybraną bliską osobą",
+            "🛁 Blok porodowy posiada 4 osobne jednoosobowe sale porodowe – 3 z wannami do immersji wodnej i 1 z prysznicem do immersji",
+            "🧘 Dostępne są niefarmakologiczne metody łagodzenia bólu, m.in. pozycje wertykalne, piłki, worki sako, masaż, techniki oddechowe, immersja wodna i TENS",
+            "💨 Dostępne są farmakologiczne metody łagodzenia bólu, m.in. gaz przeciwbólowy Entonox, blokada nerwu sromowego oraz opioidy",
+            "🤱 Zapewniany jest kontakt skóra do skóry po porodzie naturalnym oraz po cięciu cesarskim",
+            "🍼 Szpital zapewnia wsparcie i poradę laktacyjną oraz naukę pielęgnacji noworodka",
+            "👶 Oddział pracuje w systemie rooming-in – mama przebywa razem z dzieckiem",
+            "🏥 Oddział posiada II stopień referencyjności",
+            "🚪 W każdą środę w godz. 10:00–14:00 organizowane są mini dni otwarte oddziału"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Powiatowego w Oświęcimiu • aktualizacja: sierpień 2026"
+    },
 }
 
 SZPITALE = {
@@ -7133,6 +7795,9 @@ SZPITALE = {
     "Mazowiecki Szpital Bródnowski w Warszawie": LISTA_BRODNO,
     "Wojewódzki Szpital Specjalistyczny im. NMP w Częstochowie":LISTA_CZESTOCHOWA,
     "Szpital im. Rudolfa Weigla w Blachowni":LISTA_BLACHOWNIA,
+    "Giżycka Ochrona Zdrowia": LISTA_GIZYCKO,
+    "Szpital Joannitas w Pszczynie": LISTA_PSZCZYNA,
+    "Szpital Powiatowy w Oświęcimiu": LISTA_OSWIECIM,
 }
 
 for lista_szpitala in SZPITALE.values():

@@ -584,6 +584,15 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital im. Rudolfa Weigla w Blachowni":
             "Szpitala im. Rudolfa Weigla w Blachowni",
+
+        "Giżycka Ochrona Zdrowia":
+            "Giżyckiej Ochrony Zdrowia",
+
+        "Szpital Joannitas w Pszczynie":
+            "Szpitala Joannitas w Pszczynie",
+
+        "Szpital Powiatowy w Oświęcimiu":
+            "Szpitala Powiatowego w Oświęcimiu",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
