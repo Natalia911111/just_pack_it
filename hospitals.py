@@ -8034,6 +8034,1035 @@ LISTA_WARSZAWA_POLUDNIOWY = [
     }
 ]
 
+# =====================================
+# COPERNICUS – SZPITAL ŚW. WOJCIECHA (ZASPA)
+# =====================================
+
+LISTA_ZASPA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "zaspa-dokumenty-1",
+        "nazwa": "Aktualny dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-dokumenty-2",
+        "nazwa": "Bieżąca dokumentacja medyczna",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-dokumenty-3",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "zaspa-mama-1",
+        "nazwa": "Koszule nocne do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-mama-3",
+        "nazwa": "Wygodne obuwie domowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-mama-4",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-mama-5",
+        "nazwa": "Biustonosze do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-mama-6",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-mama-7",
+        "nazwa": "Ręczniki – w tym jeden ciemny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-mama-8",
+        "nazwa": "Majtki siateczkowe lub bawełniane",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-mama-9",
+        "nazwa": "Wkładki laktacyjne do biustonosza",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-mama-10",
+        "nazwa": "Podpaski – 2–3 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-mama-11",
+        "nazwa": "Sztućce i kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-mama-12",
+        "nazwa": "Woda mineralna niegazowana – minimum 3 l",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-mama-13",
+        "nazwa": "Telefon i ładowarka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-mama-14",
+        "nazwa": "Laktator – jeśli jest już zakupiony",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "zaspa-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe – około 10–15 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-maluszek-2",
+        "nazwa": "Chusteczki higieniczne do pielęgnacji noworodka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-maluszek-3",
+        "nazwa": "Kilka pieluszek tetrowych",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-maluszek-4",
+        "nazwa": "Cienkie bawełniane kaftaniki lub body rozpinane na całej długości – 2–3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-maluszek-5",
+        "nazwa": "Śpioszki – 2–3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-maluszek-6",
+        "nazwa": "Skarpetki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-maluszek-7",
+        "nazwa": "Rożek lub kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # CESARSKIE CIĘCIE
+    # =========================
+
+    {
+        "id": "zaspa-cc-1",
+        "nazwa": "Zadbać szczególnie o higienę osobistą przed planowanym zabiegiem",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-cc-2",
+        "nazwa": "Jeśli to możliwe – usunąć owłosienie w miejscu pola operacyjnego",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-cc-3",
+        "nazwa": "W dniu zabiegu zrezygnować z makijażu i malowania paznokci",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-cc-4",
+        "nazwa": "Przed zabiegiem zdjąć biżuterię i inne ozdoby",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zaspa-cc-5",
+        "nazwa": "Przed zabiegiem wyjąć protezy zębowe i szkła kontaktowe",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# UNIWERSYTECKIE CENTRUM KLINICZNE – GDAŃSK
+# =====================================
+
+LISTA_GDANSK_UCK = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "gdansk-uck-dokumenty-1",
+        "nazwa": "Dokument tożsamości – dowód osobisty lub paszport",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-dokumenty-3",
+        "nazwa": "Wynik grupy krwi i czynnika Rh z przeciwciałami odpornościowymi – oryginał",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-dokumenty-4",
+        "nazwa": "Wszystkie wyniki badań przeprowadzonych w okresie ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-dokumenty-5",
+        "nazwa": "Wynik badania HIV wykonanego w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-dokumenty-6",
+        "nazwa": "Wynik badania HCV wykonanego w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-dokumenty-7",
+        "nazwa": "Wynik badania HBsAg wykonanego w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-dokumenty-8",
+        "nazwa": "Wynik badania WR wykonanego w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-dokumenty-9",
+        "nazwa": "Wynik posiewu GBS wykonanego po 35. tygodniu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-dokumenty-10",
+        "nazwa": "Opisy konsultacji specjalistycznych – jeśli były wykonywane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-dokumenty-11",
+        "nazwa": "Wypisy z wcześniejszych pobytów w szpitalu – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-dokumenty-12",
+        "nazwa": "Plan porodu – jeśli posiadasz",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "gdansk-uck-mama-1",
+        "nazwa": "Koszule nocne – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-2",
+        "nazwa": "Koszule do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-4",
+        "nazwa": "Ręczniki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-5",
+        "nazwa": "Plastikowe klapki do kąpieli",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-6",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-7",
+        "nazwa": "Duże podpaski poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-8",
+        "nazwa": "Biustonosze do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-9",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-10",
+        "nazwa": "Maść na brodawki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-11",
+        "nazwa": "Kosmetyki i przybory toaletowe – najlepiej bezzapachowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-12",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-13",
+        "nazwa": "Butelka niegazowanej wody mineralnej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-14",
+        "nazwa": "Chusteczki higieniczne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-15",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-16",
+        "nazwa": "Majtki jednorazowe lub bawełniane – 3–4 pary",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-mama-17",
+        "nazwa": "Poduszka do karmienia – fasolka lub jasiek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "gdansk-uck-maluszek-1",
+        "nazwa": "Śpioszki, body, koszulki i kaftaniki z długim rękawem",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-maluszek-2",
+        "nazwa": "Rękawiczki niedrapki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-maluszek-3",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-maluszek-4",
+        "nazwa": "Ręcznik dla dziecka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-maluszek-5",
+        "nazwa": "Cienkie czapeczki – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-maluszek-6",
+        "nazwa": "Cieplejsza czapeczka – 1 sztuka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-maluszek-7",
+        "nazwa": "Pieluszki tetrowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-maluszek-8",
+        "nazwa": "Pieluszki jednorazowe – najmniejszy rozmiar",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-maluszek-9",
+        "nazwa": "Kocyk lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdansk-uck-maluszek-10",
+        "nazwa": "Kosmetyki dla dziecka – mydło niemowlęce, wilgotne chusteczki i krem ochronny do pupy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+# =====================================
+# MSWiA – BYDGOSZCZ
+# =====================================
+
+LISTA_BYDGOSZCZ_MSWIA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "bydgoszcz-mswia-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-dokumenty-2",
+        "nazwa": "Oryginalny wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-dokumenty-3",
+        "nazwa": "Wynik wymazu GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-dokumenty-4",
+        "nazwa": "Wyniki badań HIV, HCV i HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-dokumenty-5",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-dokumenty-6",
+        "nazwa": "Wypisy z wcześniejszych pobytów szpitalnych – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-dokumenty-7",
+        "nazwa": "Lista leków przyjmowanych w ciąży wraz z informacją, w którym tygodniu ciąży były przyjmowane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-dokumenty-8",
+        "nazwa": "Pozostałe wyniki badań",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-dokumenty-9",
+        "nazwa": "Oświadczenie o uznaniu ojcostwa z USC – jeśli rodzice nie są małżeństwem, a dziecko ma nosić nazwisko taty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-dokumenty-10",
+        "nazwa": "Plan porodu – jeśli posiadasz",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "bydgoszcz-mswia-mama-1",
+        "nazwa": "Leki przyjmowane obecnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-2",
+        "nazwa": "Koszule do karmienia piersią – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-3",
+        "nazwa": "Szlafrok lub rozpinana bluza",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-4",
+        "nazwa": "Biustonosz do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-5",
+        "nazwa": "Ciepłe skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-6",
+        "nazwa": "Duży ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-7",
+        "nazwa": "Ręcznik papierowy – do osuszania krocza lub rany po cięciu cesarskim",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-8",
+        "nazwa": "Klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-9",
+        "nazwa": "Kosmetyczka z przyborami toaletowymi",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-10",
+        "nazwa": "Majtki poporodowe siateczkowe lub bawełniane – nie fizelinowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-11",
+        "nazwa": "Podkłady poporodowe 90 × 60 cm – ok. 10 sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-12",
+        "nazwa": "Duże wkładki poporodowe – 1 opakowanie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-13",
+        "nazwa": "Wkładki laktacyjne – kilka sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-14",
+        "nazwa": "Maść z lanoliną do pielęgnacji brodawek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-15",
+        "nazwa": "Woda lub butelka filtrująca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-16",
+        "nazwa": "Kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-17",
+        "nazwa": "Kawa i/lub herbata",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-mama-18",
+        "nazwa": "Reklamówka na brudne rzeczy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # NA SALĘ PORODOWĄ
+    # =========================
+
+    {
+        "id": "bydgoszcz-mswia-porod-1",
+        "nazwa": "Koszula do porodu – duża, wygodna i umożliwiająca kontakt skóra do skóry",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-porod-2",
+        "nazwa": "Duże podkłady poporodowe – 3–4 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-porod-3",
+        "nazwa": "Woda lub elektrolity",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-porod-4",
+        "nazwa": "Łatwostrawne przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-porod-5",
+        "nazwa": "Klapki pod prysznic – łatwe do umycia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-porod-6",
+        "nazwa": "Gumka i szczotka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-porod-7",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-porod-8",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-porod-9",
+        "nazwa": "Pomadka do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "bydgoszcz-mswia-maluszek-1",
+        "nazwa": "Podkłady dla noworodka – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-maluszek-2",
+        "nazwa": "Pieluszki jednorazowe – ok. 20 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-maluszek-3",
+        "nazwa": "Chusteczki nawilżające",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-maluszek-4",
+        "nazwa": "Krem ochronny do pielęgnacji pieluszkowej",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-maluszek-5",
+        "nazwa": "Pieluszki tetrowe – 2–3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-maluszek-6",
+        "nazwa": "Ubranko dla maluszka na wyjście ze szpitala",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "bydgoszcz-mswia-tata-1",
+        "nazwa": "Lekkie, wygodne ubranie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-tata-2",
+        "nazwa": "Wygodne klapki lub buty na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-tata-3",
+        "nazwa": "Coś do jedzenia i picia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bydgoszcz-mswia-tata-4",
+        "nazwa": "Fotelik samochodowy dla dziecka – przywieźć w dniu wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+]
+
+# =====================================
+# SZPITAL UNIWERSYTECKI NR 2 IM. DR. JANA BIZIELA
+# BYDGOSZCZ
+# =====================================
+
+LISTA_BYDGOSZCZ_BIZIEL = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "biziel-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-dokumenty-3",
+        "nazwa": "Oryginalny wynik grupy krwi – 2 egzemplarze z aktualnym nazwiskiem",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-dokumenty-4",
+        "nazwa": "Wynik GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-dokumenty-5",
+        "nazwa": "Aktualne wyniki badań laboratoryjnych",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-dokumenty-6",
+        "nazwa": "Konsultacje specjalistyczne – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-dokumenty-7",
+        "nazwa": "Wypisy z wcześniejszych pobytów szpitalnych – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "biziel-mama-1",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-mama-2",
+        "nazwa": "Koszule do karmienia – 3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-mama-3",
+        "nazwa": "Porannik / szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-mama-4",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-mama-5",
+        "nazwa": "Obuwie domowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-mama-6",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-mama-7",
+        "nazwa": "Niezbędne przybory do higieny osobistej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-mama-8",
+        "nazwa": "Bielizna bawełniana lub siateczkowa",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-mama-9",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-mama-10",
+        "nazwa": "Ulubiona przekąska",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "biziel-mama-11",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -8065,13 +9094,27 @@ SZPITALE_INFO = {
 
     "Szpital Siemiradzkiego": {
         "zapewnia": [
-            "Podkłady higieniczne",
+            "Podkłady",
             "Ręczniki papierowe",
             "Lanolinę",
-            "Woreczki do przechowywania pokarmu",
+            "Woreczki",
             "Mleko modyfikowane",
-            "Wodę, kubek i sztućce",
-        ]
+            "Wodę, kubek i sztućce"
+        ],
+        "warto_wiedziec": [
+            "🛁 Możliwy jest poród w wodzie",
+            "💉 Dostępne jest znieczulenie zewnątrzoponowe",
+            "💨 Dostępny jest gaz wziewny oraz inne farmakologiczne metody łagodzenia bólu",
+            "🧘 Dostępne są niefarmakologiczne metody łagodzenia bólu, m.in. masaż, praca z oddechem, ciepłe i zimne okłady, kąpiel lub prysznic",
+            "⚽ Na salach dostępne są m.in. piłki, worki sako, stołki porodowe, materace i drabinki",
+            "🚪 Szpital posiada zarówno trakt porodowy z boksami, jak i sale jednoosobowe",
+            "📋 Plan porodu jest omawiany z położną na sali porodowej",
+            "🤱 Dostępne jest wsparcie laktacyjne – szpital zatrudnia m.in. doradcę CDL oraz IBCLC",
+            "🧠 Dostępna jest opieka psychologiczna dla pacjentek",
+            "👶 Szpital umożliwia poród drogami natury po wcześniejszym cięciu cesarskim (VBAC)",
+            "👀 Przed porodem można obejrzeć oddział położniczy",
+        ],
+        "warto_wiedziec_zrodlo": "informacje Szpitala Siemiradzkiego / GdzieRodzic • aktualizacja: sierpień 2026"
     },
     "Szpital Uniwersytecki": {
         "zapewnia": [
@@ -8258,6 +9301,86 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalne strony Warszawskiego Szpitala Południowego / Rodzę w Południowym • aktualizacja: sierpień 2026"
     },
+    "COPERNICUS – Szpital św. Wojciecha (Zaspa)": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "👨‍👩‍👧 Podczas porodu może towarzyszyć wybrana bliska osoba",
+            "🧘 Możliwe jest przyjmowanie różnych pozycji podczas porodu, w tym pozycji wertykalnych",
+            "💉 W planie porodu można wyrazić chęć skorzystania ze znieczulenia zewnątrzoponowego",
+            "🌿 Szpital uwzględnia niefarmakologiczne metody łagodzenia bólu",
+            "🤱 Przy prawidłowym przebiegu porodu możliwy jest nieprzerwany kontakt skóra do skóry",
+            "✂️ W planie porodu można zaznaczyć preferencję dotyczącą ochrony krocza",
+            "🥤 Możliwość jedzenia i picia podczas porodu jest uzależniona od sytuacji położniczej",
+            "👩‍⚕️ Istnieje możliwość odpłatnego wyboru położnej przyjmującej poród"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalne materiały COPERNICUS Podmiot Leczniczy • aktualizacja informacji: sierpień 2026"
+    },
+    "Uniwersyteckie Centrum Kliniczne GUMed (UCK)": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🚪 Trakt Porodowy posiada 6 pojedynczych sal porodowych, każda z własnym węzłem sanitarnym",
+            "🧘 Podczas porodu można korzystać z pozycji wertykalnych",
+            "💉 Dostępne jest znieczulenie zewnątrzoponowe",
+            "💨 Dostępny jest gaz rozweselający",
+            "🛁 Jedną z metod łagodzenia bólu jest immersja wodna",
+            "⚽ Dostępne są m.in. piłki, worki sako, wałki i materace",
+            "🌿 W łagodzeniu bólu wykorzystywane są również aromaterapia i muzykoterapia",
+            "📋 Szpital respektuje plan porodu",
+            "👨‍👩‍👧 Poród z wybraną osobą towarzyszącą jest bezpłatny",
+            "🤱 Szpital zapewnia kontakt skóra do skóry",
+            "👶 Oddział działa w systemie rooming-in – zdrowy noworodek przebywa z mamą",
+            "🍼 Na oddziale dostępne jest wsparcie laktacyjne",
+            "🏃 Po porodzie fizjologicznym i cięciu cesarskim dostępna jest opieka fizjoterapeutów"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Uniwersyteckiego Centrum Klinicznego w Gdańsku • aktualizacja: sierpień 2026"
+    },
+    "MSWiA w Bydgoszczy": {
+        "zapewnia": [
+            "Ubranka dla noworodka podczas pobytu – należy zabrać tylko ubranko na wyjście",
+            "Kołderkę / kocyk / rożek dla noworodka",
+            "Preparaty do kąpieli noworodka",
+            "Mleko modyfikowane – jeśli będzie potrzebne",
+            "Laktator – dostępny na oddziale"
+        ],
+        "warto_wiedziec": [
+            "👜 Szpital zaleca przygotowanie dwóch toreb: większej na pobyt i mniejszej na salę porodową",
+            "🚪 Blok porodowy posiada 2 jednoosobowe sale porodowe z pełnym węzłem sanitarnym",
+            "👨‍👩‍👧 Poród rodzinny z osobą towarzyszącą jest bezpłatny",
+            "💉 Znieczulenie zewnątrzoponowe jest dostępne całodobowo",
+            "⚽ Dostępne są m.in. piłki, materace, stołki porodowe i worki sako",
+            "👶 Sale poporodowe działają w systemie rooming-in",
+            "🤱 Szpital promuje karmienie piersią, a personel wspiera mamy w karmieniu i pielęgnacji dziecka",
+            "📋 Możesz przygotować własny plan porodu – jest uwzględniany w zakresie możliwym ze względów medycznych",
+            "🤍 Po porodzie drogami natury, jeśli nie ma przeciwwskazań, szpital umożliwia 2 godziny nieprzerwanego kontaktu skóra do skóry",
+            "👨 Po cięciu cesarskim dziecko może kangurować tata, a następnie – gdy jest to możliwe – jest przystawiane do piersi mamy",
+            "🏠 Istnieje możliwość odpłatnego pobytu osoby towarzyszącej po porodzie w sali jednoosobowej",
+            "🩺 Ciężarne do porodu przyjmowane są bez skierowania od 34. tygodnia ciąży",
+            "👜 Szpital zaleca przygotowanie torby około 3–4 tygodnie przed terminem porodu"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona SP WZOZ MSWiA w Bydgoszczy • aktualizacja: sierpień 2026"
+    },
+    "Szpital Uniwersytecki nr 2 im. dr. Jana Biziela w Bydgoszczy": {
+        "zapewnia": [
+            "Wszystkie niezbędne rzeczy dla noworodka podczas pobytu",
+            "Jednorazowy strój medyczny dla osoby towarzyszącej podczas kangurowania przy planowanym cięciu cesarskim"
+        ],
+        "warto_wiedziec": [
+            "🚪 Porodówka posiada 5 indywidualnych sal porodowych – każda ma własną łazienkę i przestrzeń dla osoby towarzyszącej",
+            "🛁 Dostępny jest poród w wodzie / immersja wodna",
+            "💉 Dostępne jest znieczulenie zewnątrzoponowe",
+            "💨 Dostępne są również Entonox oraz dożylna analgezja Ultiva",
+            "⚡ Dostępna jest metoda TENS",
+            "🧘 Sale wyposażone są m.in. w drabinki, worki sako i materace wspierające aktywność podczas porodu",
+            "🤱 Szpital dąży do nieprzerwanego kontaktu skóra do skóry po porodzie",
+            "👨‍👶 Przy planowanym cięciu cesarskim osoba towarzysząca może kangurować dziecko podczas trwania zabiegu",
+            "🍼 Dostępne jest wsparcie certyfikowanego doradcy laktacyjnego",
+            "🧠 Dostępne jest wsparcie psychologiczne",
+            "🏥 Oddział położniczy i neonatologiczny posiada III stopień referencyjności",
+            "🎓 Przy szpitalu działa bezpłatna Szkoła Rodzenia dla kobiet po 21. tygodniu ciąży",
+            "🚪 Organizowane są dni otwarte, podczas których można zobaczyć sale porodowe i poznać personel"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Uniwersyteckiego nr 2 im. dr. Jana Biziela w Bydgoszczy • aktualizacja: sierpień 2026"
+    },
 }
 
 SZPITALE = {
@@ -8293,6 +9416,10 @@ SZPITALE = {
     "Szpital Powiatowy w Oświęcimiu": LISTA_OSWIECIM,
     "Centralny Szpital Kliniczny UM w Łodzi": LISTA_LODZ_CSK,
     "Warszawski Szpital Południowy": LISTA_WARSZAWA_POLUDNIOWY,
+    "COPERNICUS – Szpital św. Wojciecha (Zaspa)": LISTA_ZASPA,
+    "Uniwersyteckie Centrum Kliniczne GUMed (UCK)": LISTA_GDANSK_UCK,
+    "MSWiA w Bydgoszczy": LISTA_BYDGOSZCZ_MSWIA,
+    "Szpital Uniwersytecki nr 2 im. dr. Jana Biziela w Bydgoszczy": LISTA_BYDGOSZCZ_BIZIEL,
 }
 
 for lista_szpitala in SZPITALE.values():

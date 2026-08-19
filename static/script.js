@@ -599,6 +599,17 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Warszawski Szpital Południowy":
             "Warszawskiego Szpitala Południowego",
+
+        "COPERNICUS – Szpital św. Wojciecha (Zaspa)":
+            "Szpitala św. Wojciecha (Zaspa) w Gdańsku",
+
+        "Uniwersyteckie Centrum Kliniczne GUMed (UCK)":
+            "Uniwersyteckiego Centrum Klinicznego GUMed (UCK) w Gdańsku",
+
+        "MSWiA w Bydgoszczy": "MSWiA w Bydgoszczy",
+
+        "Szpital Uniwersytecki nr 2 im. dr. Jana Biziela w Bydgoszczy":
+            "Szpitala Uniwersyteckiego nr 2 im. dr. Jana Biziela w Bydgoszczy",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
