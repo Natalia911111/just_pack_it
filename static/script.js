@@ -593,6 +593,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Powiatowy w Oświęcimiu":
             "Szpitala Powiatowego w Oświęcimiu",
+
+        "Centralny Szpital Kliniczny UM w Łodzi":
+            "Centralnego Szpitala Klinicznego UM w Łodzi",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

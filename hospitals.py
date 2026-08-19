@@ -7579,6 +7579,167 @@ LISTA_OSWIECIM = [
         "przypiete": False
     }
 ]
+# =====================================
+# CENTRALNY SZPITAL KLINICZNY UM W ŁODZI
+# =====================================
+
+LISTA_LODZ_CSK = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "lodz-csk-dokumenty-1",
+        "nazwa": "Dowód tożsamości (np. dowód osobisty lub paszport)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-dokumenty-3",
+        "nazwa": "Aktualny wynik grupy krwi oraz badania wirusologiczne",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-dokumenty-4",
+        "nazwa": "Dokument uznania ojcostwa z USC – w przypadku związku partnerskiego (jeśli jest)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-dokumenty-5",
+        "nazwa": "Plan porodu – mile widziany",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "lodz-csk-mama-1",
+        "nazwa": "Koszule umożliwiające karmienie piersią – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-mama-3",
+        "nazwa": "Pantofle",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-mama-4",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-mama-5",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-mama-6",
+        "nazwa": "Ręczniki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-mama-7",
+        "nazwa": "Kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-mama-8",
+        "nazwa": "Sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "lodz-csk-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe typu pampers – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-maluszek-2",
+        "nazwa": "Chusteczki nawilżające dla niemowląt – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-maluszek-3",
+        "nazwa": "Komplety ubranek – 3–5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-maluszek-4",
+        "nazwa": "Pieluszki tetrowe – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-maluszek-5",
+        "nazwa": "Pieluszki flanelowe – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-maluszek-6",
+        "nazwa": "Czapeczka bawełniana",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-csk-maluszek-7",
+        "nazwa": "Kocyk lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -7765,6 +7926,25 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Powiatowego w Oświęcimiu • aktualizacja: sierpień 2026"
     },
+    "Centralny Szpital Kliniczny UM w Łodzi": {
+        "zapewnia": [
+            "Podpaski",
+            "Podkłady jednorazowe"
+        ],
+        "warto_wiedziec": [
+            "👨‍👩‍👧 Sale porodowe posiadają fotel dla osoby towarzyszącej, umożliwiający kangurowanie dziecka po porodzie",
+            "💉 Dostępne jest znieczulenie zewnątrzoponowe (ZOP)",
+            "💨 Dostępna jest analgezja wziewna – gaz Entonox",
+            "🧘 Dostępne są niefarmakologiczne metody łagodzenia bólu, m.in. TENS, piłki, worki sako, krzesło porodowe, aromaterapia i muzykoterapia",
+            "🤰 Specjalistyczne łóżka porodowe umożliwiają przyjmowanie pozycji wertykalnych",
+            "❄️ Wszystkie sale porodowe są klimatyzowane i posiadają własny węzeł sanitarny",
+            "👶 Po cięciu cesarskim osoba towarzysząca może kangurować noworodka jeszcze podczas trwania operacji",
+            "🏥 Klinika posiada III, najwyższy stopień referencyjności",
+            "🚪 Istnieje możliwość umówienia indywidualnego spotkania z położną oraz obejrzenia Oddziału i Bloku Porodowego",
+            "🤱 Przy szpitalu działa Szkoła Rodzenia"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Centralnego Szpitala Klinicznego UM w Łodzi • aktualizacja: sierpień 2026"
+    },
 }
 
 SZPITALE = {
@@ -7798,6 +7978,7 @@ SZPITALE = {
     "Giżycka Ochrona Zdrowia": LISTA_GIZYCKO,
     "Szpital Joannitas w Pszczynie": LISTA_PSZCZYNA,
     "Szpital Powiatowy w Oświęcimiu": LISTA_OSWIECIM,
+    "Centralny Szpital Kliniczny UM w Łodzi": LISTA_LODZ_CSK,
 }
 
 for lista_szpitala in SZPITALE.values():
