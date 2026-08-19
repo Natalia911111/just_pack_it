@@ -596,6 +596,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Centralny Szpital Kliniczny UM w Łodzi":
             "Centralnego Szpitala Klinicznego UM w Łodzi",
+
+        "Warszawski Szpital Południowy":
+            "Warszawskiego Szpitala Południowego",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

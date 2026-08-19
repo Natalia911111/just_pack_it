@@ -7741,6 +7741,299 @@ LISTA_LODZ_CSK = [
     }
 ]
 
+# =====================================
+# WARSZAWSKI SZPITAL POŁUDNIOWY
+# =====================================
+
+LISTA_WARSZAWA_POLUDNIOWY = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "poludniowy-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-dokumenty-3",
+        "nazwa": "Aktualny dokument ubezpieczenia – tylko jeśli pacjentka nie figuruje w systemie eWUŚ",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-dokumenty-4",
+        "nazwa": "Skierowanie do szpitala – jeśli hospitalizacja jest planowana z powodów zdrowotnych",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-dokumenty-5",
+        "nazwa": "Grupa krwi i czynnik Rh – przy ujemnym Rh także badanie na obecność anty-Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-dokumenty-6",
+        "nazwa": "Ostatni wynik morfologii i badania ogólnego moczu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-dokumenty-7",
+        "nazwa": "Ostatnie badanie USG",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-dokumenty-8",
+        "nazwa": "Wyniki HIV, HCV, WR i HBsAg – ostatnie wykonane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-dokumenty-9",
+        "nazwa": "Wynik wymazu w kierunku GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-dokumenty-10",
+        "nazwa": "Inne wyniki badań istotne dla obecnego stanu zdrowia",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "poludniowy-mama-1",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-2",
+        "nazwa": "Koszule na połóg – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-4",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-5",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-6",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-7",
+        "nazwa": "Biustonosze do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-8",
+        "nazwa": "Duże ręczniki – 2 sztuki oraz małe ręczniki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-9",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-10",
+        "nazwa": "Wkładki poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-11",
+        "nazwa": "Majtki siateczkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-12",
+        "nazwa": "Poduszka do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-13",
+        "nazwa": "Podkłady na łóżko",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-14",
+        "nazwa": "Przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-mama-15",
+        "nazwa": "Napoje",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "poludniowy-maluszek-1",
+        "nazwa": "Pakiecik na poród: ręcznik, 3 pieluchy tetrowe, czapeczka i pampers",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-maluszek-2",
+        "nazwa": "Pampersy – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-maluszek-3",
+        "nazwa": "Pieluchy tetrowe – 6 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-maluszek-4",
+        "nazwa": "Bawełniane body i pajacyki – po 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-maluszek-5",
+        "nazwa": "Cienkie bawełniane czapeczki – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-maluszek-6",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-maluszek-7",
+        "nazwa": "Ręcznik kąpielowy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-maluszek-8",
+        "nazwa": "Kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-maluszek-9",
+        "nazwa": "Kosmetyki do pielęgnacji",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "poludniowy-tata-1",
+        "nazwa": "Czyste lekkie ubranie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-tata-2",
+        "nazwa": "Kapcie lub klapki na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-tata-3",
+        "nazwa": "Coś do jedzenia i picia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poludniowy-tata-4",
+        "nazwa": "Kamera lub aparat fotograficzny – opcjonalnie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -7945,6 +8238,26 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Centralnego Szpitala Klinicznego UM w Łodzi • aktualizacja: sierpień 2026"
     },
+    "Warszawski Szpital Południowy": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🛁 Szpital umożliwia poród do wody – 3 sale porodowe wyposażone są w wannę porodową",
+            "🧘 Możliwy jest poród w pozycjach wertykalnych, a szpital deklaruje podejście ukierunkowane na ochronę krocza",
+            "💉 Dostępne jest znieczulenie zewnątrzoponowe",
+            "💨 Dostępny jest gaz Entonox",
+            "🌿 W łagodzeniu bólu wykorzystywane są m.in. immersja wodna, TENS, aromaterapia oraz ciepłe i zimne okłady",
+            "🏥 Blok porodowy posiada 4 sale porodowe – każda ma własną łazienkę z prysznicem",
+            "📡 Dostępne jest bezprzewodowe KTG, pozwalające zachować aktywność podczas porodu",
+            "⚽ Na salach dostępne są m.in. piłki, krzesełka porodowe, maty, worki sako, rebozo i akcesoria do masażu",
+            "🤱 Można wykupić indywidualną opiekę położnej podczas porodu",
+            "👶 Szpital stawia na dwugodzinny, nieprzerwany kontakt skóra do skóry po porodzie",
+            "🚪 Organizowane są spacery po oddziale z położną",
+            "🍼 Na oddziale dostępne jest wsparcie doradcy laktacyjnego oraz laktatory klasy szpitalnej",
+            "🧠 Dostępna jest pomoc psychologiczna",
+            "👨‍👩‍👶 Dostępne są płatne rodzinne sale poporodowe, umożliwiające pobyt partnera 24 godziny na dobę"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalne strony Warszawskiego Szpitala Południowego / Rodzę w Południowym • aktualizacja: sierpień 2026"
+    },
 }
 
 SZPITALE = {
@@ -7979,6 +8292,7 @@ SZPITALE = {
     "Szpital Joannitas w Pszczynie": LISTA_PSZCZYNA,
     "Szpital Powiatowy w Oświęcimiu": LISTA_OSWIECIM,
     "Centralny Szpital Kliniczny UM w Łodzi": LISTA_LODZ_CSK,
+    "Warszawski Szpital Południowy": LISTA_WARSZAWA_POLUDNIOWY,
 }
 
 for lista_szpitala in SZPITALE.values():
