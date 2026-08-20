@@ -613,6 +613,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Wojewódzki Szpital Specjalistyczny w Legnicy":
             "Wojewódzkiego Szpitala Specjalistycznego w Legnicy",
+
+        "Wojewódzki Szpital Zespolony w Kielcach":
+            "Wojewódzkiego Szpitala Zespolonego w Kielcach",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

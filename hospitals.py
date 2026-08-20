@@ -9341,6 +9341,314 @@ LISTA_LEGNICA = [
     }
 ]
 
+# =====================================
+# WOJEWÓDZKI SZPITAL ZESPOLONY W KIELCACH
+# UL. GRUNWALDZKA
+# =====================================
+
+LISTA_KIELCE_GRUNWALDZKA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "kielce-grunwaldzka-dokumenty-1",
+        "nazwa": "Karta przebiegu ciąży z załączonym wynikiem grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-dokumenty-2",
+        "nazwa": "Dokument tożsamości – dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-dokumenty-3",
+        "nazwa": "Wyniki badań: HBs, HIV, WR, USG i GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-dokumenty-4",
+        "nazwa": "Wyniki badań prenatalnych – jeśli były wykonywane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-dokumenty-5",
+        "nazwa": "Akt uznania dziecka – w związkach partnerskich",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-dokumenty-6",
+        "nazwa": "Karty informacyjne z hospitalizacji przebytych w czasie ciąży – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "kielce-grunwaldzka-mama-1",
+        "nazwa": "Woda mineralna niegazowana – małe butelki z dziubkiem lub butelka filtrująca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-3",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-4",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-5",
+        "nazwa": "Klapki do chodzenia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-6",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-7",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-8",
+        "nazwa": "Koszule nocne do karmienia – kopertowe lub rozpinane na piersi",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-9",
+        "nazwa": "Majtki poporodowe siateczkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-10",
+        "nazwa": "Wkładki / podpaski poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-11",
+        "nazwa": "Kosmetyki i środki do higieny osobistej oraz intymnej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-12",
+        "nazwa": "Szczotka i gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-13",
+        "nazwa": "Pomadka lub balsam do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-14",
+        "nazwa": "Biustonosze do karmienia bez fiszbin",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-15",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-16",
+        "nazwa": "Maść na brodawki – lanolina",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-17",
+        "nazwa": "Leki przyjmowane na stałe – jeśli dotyczy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-18",
+        "nazwa": "Kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-19",
+        "nazwa": "Drobne przekąski – np. biszkopty lub suchary",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-20",
+        "nazwa": "Telefon z ładowarką",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-mama-21",
+        "nazwa": "Pendrive z ulubioną muzyką – na salę porodową",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "kielce-grunwaldzka-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe – 20–30 sztuk (ok. 10 na dobę)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-maluszek-3",
+        "nazwa": "Krem lub maść do pielęgnacji pośladków noworodka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-maluszek-4",
+        "nazwa": "Ubranka dla dziecka – 3–4 komplety, np. body kopertowe i półśpiochy z szerokim pasem",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-maluszek-5",
+        "nazwa": "Czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-maluszek-6",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-maluszek-7",
+        "nazwa": "Kocyk lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-maluszek-8",
+        "nazwa": "Pieluchy tetrowe, bambusowe lub muślinowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-maluszek-9",
+        "nazwa": "Podkłady do przewijania",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / NA WYJŚCIE
+    # =========================
+
+    {
+        "id": "kielce-grunwaldzka-tata-1",
+        "nazwa": "Fotelik samochodowy dla dziecka – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-tata-2",
+        "nazwa": "Czapeczka dla dziecka na wyjście – dostosowana do pory roku",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-tata-3",
+        "nazwa": "Kombinezon lub pajacyk dla dziecka na wyjście – dostosowany do pory roku",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kielce-grunwaldzka-tata-4",
+        "nazwa": "Odzież i buty dla mamy na wyjście",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -9401,7 +9709,23 @@ SZPITALE_INFO = {
             "Pampersy",
             "Pieluszki",
             "Laktator – dostępny na oddziale",
-        ]
+        ],
+        "warto_wiedziec": [
+            "🏥 Oddział Położnictwa i Perinatologii posiada najwyższy, III stopień referencyjności",
+            "🚪 Blok porodowy posiada 5 jednoosobowych sal porodowych",
+            "🚿 Sale porodowe wyposażone są w prywatne łazienki z prysznicem",
+            "👨‍👩‍👧 Poród rodzinny z jedną osobą towarzyszącą jest bezpłatny",
+            "💉 Dostępne jest znieczulenie zewnątrzoponowe",
+            "🧘 Dostępne są niefarmakologiczne metody łagodzenia bólu, m.in. techniki oddechowe, ćwiczenia relaksacyjne i pozycje wertykalne",
+            "⚽ Sale wyposażone są m.in. w piłki, worki sako, drabinki, krzesła porodowe i TENS",
+            "📋 Szpital zachęca do przygotowania własnego planu porodu – można go również przygotować na miejscu",
+            "👩‍⚕️ Istnieje możliwość wyboru dedykowanej położnej do porodu",
+            "🤱 Szpital umożliwia kangurowanie dziecka",
+            "👀 Można zwiedzić Blok Porodowy podczas Dni Otwartych lub po wcześniejszym umówieniu wizyty indywidualnej",
+            "🎓 Przy szpitalu działa Szkoła Rodzenia",
+            "🧠 Po porodzie dostępne jest również wsparcie w zakresie zdrowia psychicznego"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Uniwersyteckiego w Krakowie • aktualizacja: sierpień 2026"
     },
     "Szpital Rydygiera": {
         "zapewnia": []
@@ -9683,6 +10007,21 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Wojewódzkiego Szpitala Specjalistycznego w Legnicy • aktualizacja: sierpień 2026"
     },
+    "Wojewódzki Szpital Zespolony w Kielcach": {
+        "zapewnia": [
+            "Wkładki poporodowe podczas pobytu na oddziale"
+        ],
+        "warto_wiedziec": [
+            "🎓 Przy szpitalu działa Szkoła Rodzenia „Mama, tata i ja”",
+            "👜 Szpital zaleca spakowanie wyprawki około miesiąca przed terminem porodu",
+            "🎵 Na salę porodową można zabrać pendrive z ulubioną muzyką",
+            "🤰 W Szkole Rodzenia omawiane są m.in. przygotowanie do porodu, plan porodu i wyprawka",
+            "🧘 Podczas zajęć Szkoły Rodzenia omawiane są pozycje wertykalne i metody łagodzenia bólu",
+            "👶 Szkoła Rodzenia obejmuje również zajęcia dotyczące połogu, karmienia piersią i pielęgnacji noworodka",
+            "🩺 Zajęcia prowadzą położne we współpracy m.in. z neonatologami, fizjoterapeutą i psychologiem"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalne materiały Wojewódzkiego Szpitala Zespolonego w Kielcach • aktualizacja: sierpień 2026"
+    },
 }
 
 SZPITALE = {
@@ -9723,6 +10062,7 @@ SZPITALE = {
     "MSWiA w Bydgoszczy": LISTA_BYDGOSZCZ_MSWIA,
     "Szpital Uniwersytecki nr 2 im. dr. Jana Biziela w Bydgoszczy": LISTA_BYDGOSZCZ_BIZIEL,
     "Wojewódzki Szpital Specjalistyczny w Legnicy": LISTA_LEGNICA,
+    "Wojewódzki Szpital Zespolony w Kielcach": LISTA_KIELCE_GRUNWALDZKA,
 }
 
 for lista_szpitala in SZPITALE.values():
