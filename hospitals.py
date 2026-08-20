@@ -9061,6 +9061,285 @@ LISTA_BYDGOSZCZ_BIZIEL = [
         "przypiete": False
     }
 ]
+# =====================================
+# WOJEWÓDZKI SZPITAL SPECJALISTYCZNY
+# W LEGNICY
+# =====================================
+
+LISTA_LEGNICA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "legnica-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-dokumenty-3",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-dokumenty-4",
+        "nazwa": "Grupa krwi – wynik w wersji papierowej, nie w telefonie",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-dokumenty-5",
+        "nazwa": "Wynik wymazu GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-dokumenty-6",
+        "nazwa": "Wyniki HBs, HCV i HIV – jeśli nie są wpisane w kartę ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "legnica-mama-1",
+        "nazwa": "Wygodna koszula lub dłuższy T-shirt do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-2",
+        "nazwa": "Koszule do karmienia – 2–3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-4",
+        "nazwa": "Klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-5",
+        "nazwa": "Biustonosze do karmienia piersią – min. 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-6",
+        "nazwa": "Podpaski poporodowe – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-7",
+        "nazwa": "Majtki jednorazowe siateczkowe – 5–6 sztuk (nie flizelinowe)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-8",
+        "nazwa": "Podkłady higieniczne – 10 sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-9",
+        "nazwa": "Przybory toaletowe – najlepiej jak najmniej zapachowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-10",
+        "nazwa": "Pomadka nawilżająca i gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-11",
+        "nazwa": "Ręczniki – 2 sztuki (kąpielowy i zwykły)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-12",
+        "nazwa": "Ręczniki papierowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-13",
+        "nazwa": "Sztućce i kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-14",
+        "nazwa": "Woda mineralna niegazowana lub butelka z filtrem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-15",
+        "nazwa": "Klarowne soki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-mama-16",
+        "nazwa": "Przekąski na czas porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "legnica-maluszek-1",
+        "nazwa": "Kaftaniki dla noworodka, np. body (rozmiar 56 lub 62) – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-maluszek-2",
+        "nazwa": "Śpioszki – 3 pary lub pajacyki – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-maluszek-3",
+        "nazwa": "Pieluszki tetrowe lub flanelowe – 5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-maluszek-4",
+        "nazwa": "Pieluszki jednorazowe – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-maluszek-5",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-maluszek-6",
+        "nazwa": "Maść ochronna do pielęgnacji okolicy pieluszkowej",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-maluszek-7",
+        "nazwa": "Skarpetki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-maluszek-8",
+        "nazwa": "Bawełniane czapeczki – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-maluszek-9",
+        "nazwa": "Kocyk i ewentualnie rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-maluszek-10",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-maluszek-11",
+        "nazwa": "Mały jasiek lub poduszka rogal do karmienia",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "legnica-tata-1",
+        "nazwa": "Wygodne ubranie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-tata-2",
+        "nazwa": "Buty na zmianę – klapki lub kapcie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "legnica-tata-3",
+        "nazwa": "Coś do jedzenia i picia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 
 SZPITALE_INFO = {
@@ -9381,6 +9660,29 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Uniwersyteckiego nr 2 im. dr. Jana Biziela w Bydgoszczy • aktualizacja: sierpień 2026"
     },
+    "Wojewódzki Szpital Specjalistyczny w Legnicy": {
+        "zapewnia": [
+            "Laktator szpitalny – w razie potrzeby podczas pobytu",
+            "Poduszki do karmienia piersią na oddziale"
+        ],
+        "warto_wiedziec": [
+            "🚪 Blok porodowy posiada 4 indywidualne pokoje porodowe",
+            "🛁 Pokoje porodowe wyposażone są w kabiny do immersji wodnej",
+            "💉 Dostępne jest znieczulenie zewnątrzoponowe po kwalifikacji anestezjologicznej",
+            "💨 Dostępny jest gaz Entonox",
+            "🌿 Dostępne są niefarmakologiczne metody łagodzenia bólu, m.in. ciepła woda, masaż, okłady i aromaterapia",
+            "⚽ Pokoje wyposażone są m.in. w piłki, worki sako, drabinki i fotel porodowy",
+            "👨‍👩‍👧 Przez cały poród może towarzyszyć wybrana osoba – partner, mama, przyjaciółka lub doula",
+            "🤱 Po porodzie fizjologicznym szpital zapewnia kontakt skóra do skóry",
+            "👨‍👶 Po cięciu cesarskim noworodek może być kangurowany przez tatę nawet do 2 godzin",
+            "👶 Oddział działa w systemie rooming-in – mama przebywa razem z dzieckiem",
+            "🍼 Dostępne jest wsparcie w karmieniu piersią od pierwszych chwil życia dziecka",
+            "🏠 Dostępne są pokoje rodzinne umożliwiające całodobowy pobyt ojca dziecka lub innej osoby pomagającej",
+            "🎓 Przy szpitalu działa bezpłatna Szkoła Rodzenia – zajęcia odbywają się 2 razy w tygodniu w małych grupach",
+            "👀 Szpital organizuje Dni Otwarte oddziału – w każdy pierwszy wtorek miesiąca"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Wojewódzkiego Szpitala Specjalistycznego w Legnicy • aktualizacja: sierpień 2026"
+    },
 }
 
 SZPITALE = {
@@ -9420,6 +9722,7 @@ SZPITALE = {
     "Uniwersyteckie Centrum Kliniczne GUMed (UCK)": LISTA_GDANSK_UCK,
     "MSWiA w Bydgoszczy": LISTA_BYDGOSZCZ_MSWIA,
     "Szpital Uniwersytecki nr 2 im. dr. Jana Biziela w Bydgoszczy": LISTA_BYDGOSZCZ_BIZIEL,
+    "Wojewódzki Szpital Specjalistyczny w Legnicy": LISTA_LEGNICA,
 }
 
 for lista_szpitala in SZPITALE.values():

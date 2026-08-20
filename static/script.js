@@ -610,6 +610,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Uniwersytecki nr 2 im. dr. Jana Biziela w Bydgoszczy":
             "Szpitala Uniwersyteckiego nr 2 im. dr. Jana Biziela w Bydgoszczy",
+
+        "Wojewódzki Szpital Specjalistyczny w Legnicy":
+            "Wojewódzkiego Szpitala Specjalistycznego w Legnicy",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
