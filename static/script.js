@@ -635,6 +635,12 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Kliniczny im. ks. Anny Mazowieckiej – Karowa 2, Warszawa":
             "Szpitala Klinicznego im. ks. Anny Mazowieckiej – Karowa 2 w Warszawie",
+
+        "Szpital Położniczo-Ginekologiczny Medikor w Nowym Sączu":
+            "Szpitala Położniczo-Ginekologicznego Medikor w Nowym Sączu",
+
+        "Szpital Powiatowy w Dzierżoniowie":
+            "Szpitala Powiatowego w Dzierżoniowie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

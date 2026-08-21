@@ -11250,6 +11250,479 @@ LISTA_KAROWA = [
         "przypiete": False
     }
 ]
+# =====================================
+# SZPITAL POŁOŻNICZO-GINEKOLOGICZNY MEDIKOR – NOWY SĄCZ
+# =====================================
+
+LISTA_MEDIKOR = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "medikor-dokumenty-1",
+        "nazwa": "Dokument potwierdzający tożsamość – dowód osobisty, paszport lub prawo jazdy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-dokumenty-2",
+        "nazwa": "Oryginalny dokument z oznaczeniem grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-dokumenty-3",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-dokumenty-4",
+        "nazwa": "Wynik OWA / VDRL / odczyn kiłowy – ważny 3 miesiące",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-dokumenty-5",
+        "nazwa": "Wynik HBs – ważny 3 miesiące",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-dokumenty-6",
+        "nazwa": "Wynik badania HIV – oznaczony po 33. tygodniu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-dokumenty-7",
+        "nazwa": "Wynik badania HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-dokumenty-8",
+        "nazwa": "Aktualny wynik odczynu Coombsa / PTA – przynajmniej jedno oznaczenie w aktualnej ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-dokumenty-9",
+        "nazwa": "Wyniki badań krwi: morfologia, jonogram, INR, APTT – ważne 7 dni",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-dokumenty-10",
+        "nazwa": "Wynik GBS – wymaz wykonany w 34.–36. tygodniu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-dokumenty-11",
+        "nazwa": "Pozostałe wyniki badań i dokumenty z przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "medikor-mama-1",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-mama-2",
+        "nazwa": "Koszule do karmienia z łatwym dostępem do piersi – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-mama-3",
+        "nazwa": "Pantofle",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-mama-4",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-mama-5",
+        "nazwa": "Przybory toaletowe i delikatne, bezzapachowe kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-mama-6",
+        "nazwa": "Ręczniki – 2 sztuki (mały i średni)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-mama-7",
+        "nazwa": "Pieluchy Bella – 1 paczka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-mama-8",
+        "nazwa": "Podkłady poporodowe jednorazowe – 4–5 sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-mama-9",
+        "nazwa": "Majtki z siateczki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-mama-10",
+        "nazwa": "Woda mineralna niegazowana – najlepiej butelka z dziubkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-mama-11",
+        "nazwa": "Biszkopty lub sucharki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "medikor-maluszek-1",
+        "nazwa": "Pieluchy jednorazowe 3–6 kg – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-maluszek-3",
+        "nazwa": "Maść pielęgnacyjna",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "medikor-tata-1",
+        "nazwa": "Obuwie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-tata-2",
+        "nazwa": "Woda mineralna",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-tata-3",
+        "nazwa": "Aparat fotograficzny",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-tata-4",
+        "nazwa": "Coś słodkiego",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medikor-tata-5",
+        "nazwa": "Na dzień wypisu: komplet ubranek dla dziecka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# SZPITAL POWIATOWY W DZIERŻONIOWIE
+# =====================================
+
+LISTA_DZIERZONIOW = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "dzierzoniow-dokumenty-1",
+        "nazwa": "Dokument potwierdzający tożsamość",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-dokumenty-3",
+        "nazwa": "Oryginał wyniku grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-dokumenty-4",
+        "nazwa": "Badanie na obecność przeciwciał anty-Rh – przy Rh ujemnym",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-dokumenty-5",
+        "nazwa": "Wynik badania HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-dokumenty-6",
+        "nazwa": "Wynik HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-dokumenty-7",
+        "nazwa": "Wynik WR – badanie w kierunku kiły",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-dokumenty-8",
+        "nazwa": "Wynik GBS – wymaz z pochwy w kierunku paciorkowca",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-dokumenty-9",
+        "nazwa": "Wynik badania USG",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-dokumenty-10",
+        "nazwa": "Ostatnie wyniki badań krwi i moczu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "dzierzoniow-mama-1",
+        "nazwa": "Bawełniana koszula nocna",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-mama-2",
+        "nazwa": "Ciepłe skarpety",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-mama-3",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-mama-4",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-mama-5",
+        "nazwa": "Ręczniki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-mama-6",
+        "nazwa": "Duże podpaski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-mama-7",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-mama-8",
+        "nazwa": "Gorzka czekolada – może się przydać",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "dzierzoniow-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe w najmniejszym rozmiarze – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-maluszek-2",
+        "nazwa": "Pieluchy tetrowe – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-maluszek-3",
+        "nazwa": "Chusteczki nawilżane do pielęgnacji dziecka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-maluszek-4",
+        "nazwa": "Cienkie body – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-maluszek-5",
+        "nazwa": "Śpioszki – 3 pary lub 3 cienkie pajacyki rozpinane na całej długości",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-maluszek-6",
+        "nazwa": "Bawełniane czapeczki – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-maluszek-7",
+        "nazwa": "Skarpetki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-maluszek-8",
+        "nazwa": "Rękawiczki niedrapki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-maluszek-9",
+        "nazwa": "Kocyk – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "dzierzoniow-tata-1",
+        "nazwa": "Zegarek i telefon",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-tata-2",
+        "nazwa": "Woda mineralna",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "dzierzoniow-tata-3",
+        "nazwa": "Aparat fotograficzny",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 
 SZPITALE_INFO = {
@@ -11751,6 +12224,35 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Klinicznego im. ks. Anny Mazowieckiej • aktualizacja: sierpień 2026"
     },
+    "Szpital Położniczo-Ginekologiczny Medikor w Nowym Sączu": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🎓 Przy szpitalu działa bezpłatna Szkoła Rodzenia Medikor",
+            "👀 Organizowane są Dni Otwarte, podczas których przyszłe mamy mogą poznać szpital i jego personel",
+            "🤰 Szpital realizuje program Koordynowanej Opieki nad Kobietą w Ciąży (KOC)",
+            "🏥 Poród i pobyt w szpitalu są finansowane w ramach kontraktu z NFZ",
+            "👶 Oddział Intensywnej Terapii Noworodka posiada II stopień referencyjności",
+            "💉 Dostępne jest znieczulenie okołoporodowe, jeśli pozwala na to stan zdrowia i przebieg porodu",
+            "🚑 Szpital posiada bezpłatną karetkę porodową dla pacjentek z Nowego Sącza i wybranych okolicznych powiatów",
+            "👨‍👩‍👧 Szpital przygotował również osobną wyprawkę dla osoby towarzyszącej",
+            "👜 Komplet ubranek dla dziecka należy przynieść dopiero w dniu wypisu"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Położniczo-Ginekologicznego Medikor • aktualizacja: sierpień 2026"
+    },
+    "Szpital Powiatowy w Dzierżoniowie": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🎓 Przy szpitalu działa Szkoła Rodzenia",
+            "👩‍🍼 Szkoła Rodzenia przygotowuje m.in. do porodu, karmienia piersią i pielęgnacji noworodka",
+            "🏥 Blok porodowy posiada 3 sale przedporodowe, każda z osobnym węzłem sanitarnym",
+            "👨‍👩‍👧 Jedna z sal przeznaczona jest do porodów rodzinnych",
+            "🤍 Porody rodzinne odbywają się bezpłatnie",
+            "👀 Przyszli rodzice mają możliwość wcześniejszego obejrzenia oddziału",
+            "👩‍⚕️ Przy porodzie zapewniona jest opieka lekarza położnika i neonatologa, a w razie potrzeby również anestezjologa",
+            "🏥 Szpital posiada salę operacyjną przeznaczoną do cięć cesarskich"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Powiatowego w Dzierżoniowie"
+    },
 
 }
 
@@ -11800,6 +12302,8 @@ SZPITALE = {
     "Centrum Zdrowia Tuchów": LISTA_TUCHOW,
     "Szpital Powiatowy im. bł. Marty Wieckiej w Bochni": LISTA_BOCHNIA,
     "Szpital Kliniczny im. ks. Anny Mazowieckiej – Karowa 2, Warszawa": LISTA_KAROWA,
+    "Szpital Położniczo-Ginekologiczny Medikor w Nowym Sączu": LISTA_MEDIKOR,
+    "Szpital Powiatowy w Dzierżoniowie": LISTA_DZIERZONIOW,
 }
 
 for lista_szpitala in SZPITALE.values():
