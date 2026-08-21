@@ -10548,6 +10548,324 @@ LISTA_KALISZ = [
     }
 ]
 
+# =====================================
+# CENTRUM ZDROWIA TUCHÓW
+# =====================================
+
+LISTA_TUCHOW = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "tuchow-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "tuchow-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "tuchow-dokumenty-3",
+        "nazwa": "Potwierdzony wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "tuchow-mama-1",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "tuchow-mama-2",
+        "nazwa": "Duże podpaski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "tuchow-mama-3",
+        "nazwa": "Ręczniki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "tuchow-mama-4",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "tuchow-mama-5",
+        "nazwa": "Jednorazowe majtki poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "tuchow-mama-6",
+        "nazwa": "Pantofle",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "tuchow-mama-7",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "tuchow-mama-8",
+        "nazwa": "Koszule nocne – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "tuchow-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "tuchow-maluszek-2",
+        "nazwa": "Krem",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "tuchow-maluszek-3",
+        "nazwa": "Mokre chusteczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "tuchow-maluszek-4",
+        "nazwa": "Ubranka dla maluszka – według preferencji",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "tuchow-tata-1",
+        "nazwa": "Na dzień wypisu: osobna torba z ubrankiem dla maluszka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+# =====================================
+# SZPITAL POWIATOWY W BOCHNI
+# =====================================
+
+LISTA_BOCHNIA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "bochnia-dokumenty-1",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-dokumenty-3",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-dokumenty-4",
+        "nazwa": "Aktualne wyniki badań z okresu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-dokumenty-5",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-dokumenty-6",
+        "nazwa": "Dokumentacja dotycząca chorób przewlekłych lub wcześniejszych hospitalizacji – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "bochnia-mama-1",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-mama-2",
+        "nazwa": "Koszule do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-mama-4",
+        "nazwa": "Klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-mama-5",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-mama-6",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-mama-7",
+        "nazwa": "Majtki poporodowe siateczkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-mama-8",
+        "nazwa": "Podpaski / wkładki poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-mama-9",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-mama-10",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-mama-11",
+        "nazwa": "Woda niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "bochnia-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-maluszek-3",
+        "nazwa": "Krem ochronny do pielęgnacji okolicy pieluszkowej",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / NA WYJŚCIE
+    # =========================
+
+    {
+        "id": "bochnia-tata-1",
+        "nazwa": "Na dzień wypisu: ubranko dla maluszka odpowiednie do pory roku",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bochnia-tata-2",
+        "nazwa": "Na dzień wypisu: fotelik / nosidełko do bezpiecznego przewiezienia dziecka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 
 SZPITALE_INFO = {
@@ -10991,6 +11309,45 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Wojewódzkiego Szpitala Zespolonego im. Ludwika Perzyny w Kaliszu • aktualizacja: sierpień 2026"
     },
+    "Centrum Zdrowia Tuchów": {
+        "zapewnia": [
+            "Kontakt skóra do skóry po porodzie",
+            "Wsparcie i konsultacje laktacyjne",
+            "Pomoc przy pierwszej kąpieli i pielęgnacji noworodka"
+        ],
+        "warto_wiedziec": [
+            "🏥 Porodówka posiada II stopień referencyjności i przyjmuje porody od 32. tygodnia ciąży",
+            "📋 Do porodu nie jest wymagane skierowanie",
+            "🛏️ Dostępne są 3 jednoosobowe sale porodowe, każda z własną łazienką",
+            "🛁 Dostępne są prysznice oraz możliwość immersji wodnej",
+            "💨 W łagodzeniu bólu stosowana jest m.in. analgezja wziewna",
+            "💉 Dostępna jest analgezja regionalna",
+            "⚡ Dostępna jest metoda TENS oraz inne niefarmakologiczne sposoby łagodzenia bólu",
+            "👨‍👩‍👧 Możliwy jest bezpłatny poród rodzinny",
+            "🤱 Mama i dziecko przebywają razem w systemie rooming-in",
+            "🎓 Raz w miesiącu odbywają się warsztaty dla kobiet w ciąży i ich partnerów",
+            "👩‍⚕️ Warsztaty prowadzą m.in. położne, doradca laktacyjny oraz fizjoterapeuci",
+            "🏠 Dostępny jest również pokój rodzinny umożliwiający pobyt mamy, dziecka i jednej osoby towarzyszącej"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Centrum Zdrowia Tuchów • aktualizacja: sierpień 2026"
+    },
+    "Szpital Powiatowy im. bł. Marty Wieckiej w Bochni": {
+        "zapewnia": [
+            "Ubranka dla noworodka podczas pobytu",
+            "Podstawowe rzeczy potrzebne dziecku podczas pobytu na oddziale"
+        ],
+        "warto_wiedziec": [
+            "🏥 Oddział Położniczo-Ginekologiczny posiada II stopień referencyjności",
+            "🚪 Blok porodowy posiada 3 sale porodowe",
+            "👨‍👩‍👧 Możliwy jest poród rodzinny z osobą towarzyszącą",
+            "🛁 Dostępna jest możliwość porodu w wodzie",
+            "🤱 Po porodzie mama i dziecko przebywają razem w systemie rooming-in",
+            "🍼 Personel wspiera mamy w rozpoczęciu i utrzymaniu karmienia piersią",
+            "👶 Ubranka dla dziecka na czas pobytu zapewnia szpital – własne ubranko należy przygotować dopiero na dzień wypisu",
+            "👀 Przyszli rodzice mogą zapoznać się z porodówką i jej organizacją przed porodem"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Powiatowego im. bł. Marty Wieckiej w Bochni • aktualizacja: sierpień 2026"
+    },
 
 }
 
@@ -11037,6 +11394,8 @@ SZPITALE = {
     "Regionalny Szpital w Kołobrzegu": LISTA_KOLOBRZEG,
     "Uniwersytecki Szpital Kliniczny nr 2 PUM w Szczecinie": LISTA_SZCZECIN_USK2,
     "Wojewódzki Szpital Zespolony im. Ludwika Perzyny w Kaliszu": LISTA_KALISZ,
+    "Centrum Zdrowia Tuchów": LISTA_TUCHOW,
+    "Szpital Powiatowy im. bł. Marty Wieckiej w Bochni": LISTA_BOCHNIA,
 }
 
 for lista_szpitala in SZPITALE.values():

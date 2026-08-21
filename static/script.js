@@ -626,6 +626,12 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Wojewódzki Szpital Zespolony im. Ludwika Perzyny w Kaliszu":
             "Wojewódzkiego Szpitala Zespolonego im. Ludwika Perzyny w Kaliszu",
+
+        "Centrum Zdrowia Tuchów":
+            "Centrum Zdrowia Tuchów",
+
+        "Szpital Powiatowy im. bł. Marty Wieckiej w Bochni":
+            "Szpitala Powiatowego im. bł. Marty Wieckiej w Bochni",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
