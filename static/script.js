@@ -623,6 +623,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Uniwersytecki Szpital Kliniczny nr 2 PUM w Szczecinie":
             "Uniwersyteckiego Szpitala Klinicznego nr 2 PUM w Szczecinie",
+
+        "Wojewódzki Szpital Zespolony im. Ludwika Perzyny w Kaliszu":
+            "Wojewódzkiego Szpitala Zespolonego im. Ludwika Perzyny w Kaliszu",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

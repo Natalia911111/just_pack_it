@@ -10298,6 +10298,256 @@ LISTA_SZCZECIN_USK2 = [
     }
 ]
 
+# =====================================
+# WOJEWÓDZKI SZPITAL ZESPOLONY W KALISZU
+# =====================================
+
+LISTA_KALISZ = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "kalisz-dokumenty-1",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-dokumenty-2",
+        "nazwa": "Plan porodu opracowany z lekarzem prowadzącym lub położną środowiskową",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-dokumenty-3",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-dokumenty-4",
+        "nazwa": "Wynik grupy krwi i Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-dokumenty-5",
+        "nazwa": "Wyniki badań: WR, HBsAg, HIV, HCV, cytologia, GBS, OGTT i USG oraz inne badania wykonywane w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-dokumenty-6",
+        "nazwa": "Konsultacje specjalistyczne – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-dokumenty-7",
+        "nazwa": "Karty wypisowe ze szpitali – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "kalisz-mama-1",
+        "nazwa": "Koszula porodowa",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-2",
+        "nazwa": "Koszule po porodzie – 2–3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-3",
+        "nazwa": "Majtki siateczkowe – 3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-4",
+        "nazwa": "Podkłady poporodowe (duże, chłonne podpaski)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-5",
+        "nazwa": "Biustonosze do karmienia piersią – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-6",
+        "nazwa": "Wkładki laktacyjne – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-7",
+        "nazwa": "Ręczniki – 2–3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-8",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-9",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-10",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-11",
+        "nazwa": "Przybory toaletowe: żel pod prysznic, płyn do higieny intymnej, szampon, szczotka do włosów, pasta i szczoteczka do zębów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-12",
+        "nazwa": "Suszarka do włosów – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-13",
+        "nazwa": "Nawilżająca pomadka do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-14",
+        "nazwa": "Chusteczki higieniczne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-15",
+        "nazwa": "Gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-16",
+        "nazwa": "Woda – najlepiej niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-mama-17",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "kalisz-maluszek-1",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-maluszek-2",
+        "nazwa": "Body / kaftaniki i pajacyki – 3–4 sztuki (opcjonalnie, jeśli chcesz korzystać z własnych ubranek)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-maluszek-3",
+        "nazwa": "Czapeczka – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-maluszek-4",
+        "nazwa": "Pieluszki flanelowe / tetrowe – 2–3 sztuki (opcjonalnie)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-maluszek-5",
+        "nazwa": "Pieluszki jednorazowe dla noworodka – opcjonalnie, w oryginalnym nieotwartym opakowaniu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-maluszek-6",
+        "nazwa": "Maść / krem na pośladki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "kalisz-tata-1",
+        "nazwa": "Na dzień wypisu: ubranko dla maluszka odpowiednie do pory roku i pogody",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kalisz-tata-2",
+        "nazwa": "Na dzień wypisu: fotelik / nosidełko do bezpiecznego przewiezienia noworodka do domu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 
 
 SZPITALE_INFO = {
@@ -10717,6 +10967,30 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Uniwersyteckiego Szpitala Klinicznego nr 2 PUM w Szczecinie • aktualizacja: sierpień 2026"
     },
+    "Wojewódzki Szpital Zespolony im. Ludwika Perzyny w Kaliszu": {
+        "zapewnia": [
+            "Dostęp do nowoczesnych laktatorów elektrycznych",
+            "Podkłady poporodowe – w razie potrzeby",
+            "Ubranka i inne wymienione w wyprawce rzeczy dla noworodka – w razie potrzeby"
+        ],
+        "warto_wiedziec": [
+            "🎓 Przy szpitalu działa bezpłatna przyszpitalna Szkoła Rodzenia",
+            "👀 Istnieje możliwość wcześniejszego obejrzenia Bloku Porodowego i Położnictwa po umówieniu wizyty",
+            "👜 Szpital rekomenduje przygotowanie torby około 2 tygodnie przed planowanym terminem porodu",
+            "📋 Do porodu nie jest potrzebne skierowanie",
+            "🏥 Blok porodowy posiada 6 jednoosobowych, klimatyzowanych sal porodowych z indywidualnymi łazienkami",
+            "🛁 Dostępna jest immersja wodna – natrysk oraz wanna z hydromasażem",
+            "💨 Dostępna jest analgezja wziewna gazem Entonox",
+            "💉 Dostępne jest znieczulenie zewnątrzoponowe",
+            "👨‍👩‍👧 Możliwa jest obecność osoby towarzyszącej przy porodzie",
+            "🤱 Oddział oferuje edukację i wsparcie laktacyjne podczas pobytu",
+            "👶 Mama i dziecko przebywają razem w systemie rooming-in, jeśli pozwala na to stan zdrowia dziecka",
+            "🧠 W razie potrzeby dostępna jest opieka psychologa",
+            "🥗 Pacjentki mają dostęp do konsultacji dietetycznych",
+            "🧘 Po porodzie istnieje możliwość skorzystania z pomocy fizjoterapeuty"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Wojewódzkiego Szpitala Zespolonego im. Ludwika Perzyny w Kaliszu • aktualizacja: sierpień 2026"
+    },
 
 }
 
@@ -10762,6 +11036,7 @@ SZPITALE = {
     "Szpital Specjalistyczny w Jaśle": LISTA_JASLO,
     "Regionalny Szpital w Kołobrzegu": LISTA_KOLOBRZEG,
     "Uniwersytecki Szpital Kliniczny nr 2 PUM w Szczecinie": LISTA_SZCZECIN_USK2,
+    "Wojewódzki Szpital Zespolony im. Ludwika Perzyny w Kaliszu": LISTA_KALISZ,
 }
 
 for lista_szpitala in SZPITALE.values():
