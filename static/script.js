@@ -616,6 +616,13 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Wojewódzki Szpital Zespolony w Kielcach":
             "Wojewódzkiego Szpitala Zespolonego w Kielcach",
+
+        "Szpital Specjalistyczny w Jaśle": "Szpitala Specjalistycznego w Jaśle",
+
+        "Regionalny Szpital w Kołobrzegu": "Regionalnego Szpitala w Kołobrzegu",
+
+        "Uniwersytecki Szpital Kliniczny nr 2 PUM w Szczecinie":
+            "Uniwersyteckiego Szpitala Klinicznego nr 2 PUM w Szczecinie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

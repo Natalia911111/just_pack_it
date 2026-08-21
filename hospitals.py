@@ -9649,6 +9649,656 @@ LISTA_KIELCE_GRUNWALDZKA = [
     }
 ]
 
+# =====================================
+# SZPITAL SPECJALISTYCZNY W JAŚLE
+# =====================================
+
+LISTA_JASLO = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "jaslo-dokumenty-1",
+        "nazwa": "Dowód osobisty / paszport lub akt małżeństwa, gdy nazwisko w dokumencie jest niezgodne z aktualnym",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-dokumenty-2",
+        "nazwa": "Karta ciąży z danymi wybranej położnej środowiskowej",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-dokumenty-3",
+        "nazwa": "Wyniki badań: GBS, HBs i potwierdzony wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-dokumenty-4",
+        "nazwa": "Karty informacyjne z pobytów w szpitalu w obecnej ciąży – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-dokumenty-5",
+        "nazwa": "Uzupełniony plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-dokumenty-6",
+        "nazwa": "Lista aktualnie przyjmowanych leków",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "jaslo-mama-1",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-mama-2",
+        "nazwa": "Koszule – 3 sztuki (1 do porodu, 2 wygodne do karmienia)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-mama-3",
+        "nazwa": "Ręczniki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-mama-4",
+        "nazwa": "Pantofle",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-mama-5",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-mama-6",
+        "nazwa": "Biustonosze do karmienia z odpinanymi miseczkami – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-mama-7",
+        "nazwa": "Przybory toaletowe i niezbędne kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-mama-8",
+        "nazwa": "Jednorazowe majteczki – 4 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-mama-9",
+        "nazwa": "Wkładki poporodowe – 1 opakowanie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-mama-10",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "jaslo-maluszek-1",
+        "nazwa": "Chusteczki nawilżane – 2 opakowania",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-maluszek-2",
+        "nazwa": "Pieluchy jednorazowe – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "jaslo-tata-1",
+        "nazwa": "Klapki z tworzywa sztucznego, np. pod prysznic",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-tata-2",
+        "nazwa": "Woda do picia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jaslo-tata-3",
+        "nazwa": "Coś do jedzenia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+# =====================================
+# REGIONALNY SZPITAL W KOŁOBRZEGU
+# =====================================
+
+LISTA_KOLOBRZEG = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "kolobrzeg-dokumenty-1",
+        "nazwa": "Dowód tożsamości (np. dowód osobisty lub paszport)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-dokumenty-3",
+        "nazwa": "Wynik grupy krwi i Rh z przeciwciałami odpornościowymi – oryginał",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-dokumenty-4",
+        "nazwa": "Morfologia i badanie moczu – z ostatnich 6 tygodni",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-dokumenty-5",
+        "nazwa": "Wynik HBs Ag – wykonany w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-dokumenty-6",
+        "nazwa": "Wynik WR – wykonany w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-dokumenty-7",
+        "nazwa": "Wynik posiewu GBS – wykonanego po 35. tygodniu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-dokumenty-8",
+        "nazwa": "Wszystkie wyniki badań USG wykonanych w obecnej ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-dokumenty-9",
+        "nazwa": "Inne istotne wyniki badań i konsultacji – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "kolobrzeg-mama-1",
+        "nazwa": "Wygodna koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-mama-2",
+        "nazwa": "Koszule umożliwiające karmienie piersią – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-mama-4",
+        "nazwa": "Klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-mama-5",
+        "nazwa": "Biustonosz do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-mama-6",
+        "nazwa": "Zwykłe jednorazowe pieluchy poporodowe – 2 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-mama-7",
+        "nazwa": "Jednorazowe podkłady na łóżko",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-mama-8",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-mama-9",
+        "nazwa": "Ręczniki – 2 sztuki (kąpielowy i zwykły)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-mama-10",
+        "nazwa": "Ręczniki papierowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-mama-11",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-mama-12",
+        "nazwa": "Zwykłe podpaski – 1 paczka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "kolobrzeg-maluszek-1",
+        "nazwa": "Kaftaniki dla noworodka, np. body (rozmiar 56 lub 62) – 5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-maluszek-2",
+        "nazwa": "Śpioszki – 3 pary lub pajacyki – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-maluszek-3",
+        "nazwa": "Pieluszki tetrowe – 10 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-maluszek-4",
+        "nazwa": "Pieluchy jednorazowe – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-maluszek-5",
+        "nazwa": "Mokre chusteczki do pielęgnacji pośladków",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-maluszek-6",
+        "nazwa": "Bawełniane czapeczki – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-maluszek-7",
+        "nazwa": "Skarpetki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-maluszek-8",
+        "nazwa": "Kocyk lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-maluszek-9",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-maluszek-10",
+        "nazwa": "Mały jasiek lub poduszka rogal do karmienia",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY
+    # =========================
+
+    {
+        "id": "kolobrzeg-tata-1",
+        "nazwa": "Wygodne ubranie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-tata-2",
+        "nazwa": "Buty na zmianę (klapki lub kapcie)",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "kolobrzeg-tata-3",
+        "nazwa": "Coś do jedzenia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# UNIWERSYTECKI SZPITAL KLINICZNY NR 2 PUM W SZCZECINIE
+# =====================================
+
+LISTA_SZCZECIN_USK2 = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "szczecin-usk2-dokumenty-1",
+        "nazwa": "Dokument ze zdjęciem potwierdzający tożsamość",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-dokumenty-3",
+        "nazwa": "Plan porodu – można go również wypełnić przy przyjęciu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-dokumenty-4",
+        "nazwa": "Dane swojej położnej środowiskowej",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-dokumenty-5",
+        "nazwa": "Karty informacyjne z pobytów w szpitalu z ostatnich 12 miesięcy – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-dokumenty-6",
+        "nazwa": "Wykaz przyjmowanych leków",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-dokumenty-7",
+        "nazwa": "Oryginał wyniku grupy krwi i czynnika Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-dokumenty-8",
+        "nazwa": "Przy Rh ujemnym – wynik badania na obecność przeciwciał anty-Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-dokumenty-9",
+        "nazwa": "Wynik HBsAg wykonany po 32. tygodniu ciąży lub zaświadczenie o szczepieniu przeciw WZW B",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-dokumenty-10",
+        "nazwa": "Wyniki WR – badanie w kierunku kiły wykonane na początku i pod koniec ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-dokumenty-11",
+        "nazwa": "Wynik posiewu GBS wykonanego po 35. tygodniu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-dokumenty-12",
+        "nazwa": "Inne istotne wyniki badań i konsultacji – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "szczecin-usk2-mama-1",
+        "nazwa": "Opaska, spinki lub gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-mama-2",
+        "nazwa": "Klapki i ręcznik pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-mama-3",
+        "nazwa": "Koszula do przebrania po porodzie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-mama-4",
+        "nazwa": "Niegazowana woda mineralna",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-mama-5",
+        "nazwa": "Koszula z rozcięciem, wygodna do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-mama-6",
+        "nazwa": "Bielizna osobista – najlepiej siatkowa, jednorazowa",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-mama-7",
+        "nazwa": "Przybory toaletowe i kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-mama-8",
+        "nazwa": "Ręczniki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-mama-9",
+        "nazwa": "Staniki do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-mama-10",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "szczecin-usk2-maluszek-1",
+        "nazwa": "Bawełniane koszulki – opcjonalnie, jeśli chcesz korzystać z własnych ubranek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-maluszek-2",
+        "nazwa": "Pajacyki lub kaftaniki i śpiochy – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-maluszek-3",
+        "nazwa": "Skarpetki – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-maluszek-4",
+        "nazwa": "Ręcznik kąpielowy z kapturem – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szczecin-usk2-maluszek-5",
+        "nazwa": "Pieluchy tetrowe – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -10022,6 +10672,52 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalne materiały Wojewódzkiego Szpitala Zespolonego w Kielcach • aktualizacja: sierpień 2026"
     },
+    "Szpital Specjalistyczny w Jaśle": {
+        "zapewnia": [
+            "Bezpłatny strój ochronny dla osoby towarzyszącej przy porodzie rodzinnym",
+            "Laktator elektryczny – dostępny w razie potrzeby"
+        ],
+        "warto_wiedziec": [
+            "🏥 Oddział Położniczo-Ginekologiczny posiada II stopień referencyjności",
+            "👨‍👩‍👧 Szpital umożliwia porody rodzinne",
+            "🤱 Po porodzie szpital dąży do zapewnienia 2 godzin nieprzerwanego kontaktu skóra do skóry",
+            "👶 Po cięciu cesarskim dziecko jest przystawiane do piersi po przewiezieniu mamy na salę pooperacyjną",
+            "🍼 Na oddziale działa Punkt Laktacyjny z Certyfikowanym Doradcą Laktacyjnym",
+            "👀 Istnieje możliwość wcześniejszego obejrzenia traktu porodowego po umówieniu wizyty"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Specjalistycznego w Jaśle • aktualizacja: sierpień 2026"
+    },
+    "Regionalny Szpital w Kołobrzegu": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🎓 Przy Regionalnym Szpitalu w Kołobrzegu działa Szkoła Rodzenia „Bocianek”",
+            "📋 Do przyjęcia do porodu nie jest potrzebne skierowanie",
+            "👨‍👩‍👧 Blok porodowy posiada 3 sale porodów rodzinnych",
+            "🛁 Podczas porodu można korzystać z wanny do hydromasażu",
+            "🤱 Przy oddziale działa Punkt Laktacyjny",
+            "🏠 Dostępny jest odpłatny pokój rodzinny umożliwiający pobyt osoby towarzyszącej po porodzie"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Regionalnego Szpitala w Kołobrzegu oraz Szkoły Rodzenia „Bocianek” • aktualizacja: sierpień 2026"
+    },
+    "Uniwersytecki Szpital Kliniczny nr 2 PUM w Szczecinie": {
+        "zapewnia": [
+            "Ubranka dla noworodka podczas pobytu – własne ubranka można zabrać opcjonalnie",
+            "Laktatory elektryczne oraz kubeczki wspomagające karmienie piersią"
+        ],
+        "warto_wiedziec": [
+            "🏥 Nowoczesny blok porodowo-operacyjny posiada 4 indywidualne sale porodowe oraz 2 sale do cięć cesarskich",
+            "🚿 Każda sala porodowa posiada własną łazienkę z pełnym węzłem sanitarnym",
+            "🛁 Dostępna jest wanna porodowa oraz możliwość porodu w immersji wodnej",
+            "💉 Dostępne jest znieczulenie zewnątrzoponowe oraz inne metody łagodzenia bólu porodowego",
+            "⚽ Sale wyposażone są m.in. w piłki, worki sako, materace i drabinki",
+            "👨‍👩‍👧 Przy porodzie drogami natury może być obecna osoba towarzysząca",
+            "👀 Istnieje możliwość wcześniejszego obejrzenia sal porodowych i poporodowych po umówieniu wizyty",
+            "👶 Po porodzie mama i dziecko przebywają razem w systemie rooming-in",
+            "👜 Szpital zaleca spakowanie torby minimum 4 tygodnie przed planowanym terminem porodu"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Uniwersyteckiego Szpitala Klinicznego nr 2 PUM w Szczecinie • aktualizacja: sierpień 2026"
+    },
+
 }
 
 SZPITALE = {
@@ -10063,6 +10759,9 @@ SZPITALE = {
     "Szpital Uniwersytecki nr 2 im. dr. Jana Biziela w Bydgoszczy": LISTA_BYDGOSZCZ_BIZIEL,
     "Wojewódzki Szpital Specjalistyczny w Legnicy": LISTA_LEGNICA,
     "Wojewódzki Szpital Zespolony w Kielcach": LISTA_KIELCE_GRUNWALDZKA,
+    "Szpital Specjalistyczny w Jaśle": LISTA_JASLO,
+    "Regionalny Szpital w Kołobrzegu": LISTA_KOLOBRZEG,
+    "Uniwersytecki Szpital Kliniczny nr 2 PUM w Szczecinie": LISTA_SZCZECIN_USK2,
 }
 
 for lista_szpitala in SZPITALE.values():
