@@ -632,6 +632,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Powiatowy im. bł. Marty Wieckiej w Bochni":
             "Szpitala Powiatowego im. bł. Marty Wieckiej w Bochni",
+
+        "Szpital Kliniczny im. ks. Anny Mazowieckiej – Karowa 2, Warszawa":
+            "Szpitala Klinicznego im. ks. Anny Mazowieckiej – Karowa 2 w Warszawie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

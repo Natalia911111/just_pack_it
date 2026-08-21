@@ -10867,6 +10867,390 @@ LISTA_BOCHNIA = [
     }
 ]
 
+# =====================================
+# SZPITAL KLINICZNY IM. KS. ANNY MAZOWIECKIEJ – KAROWA
+# =====================================
+
+LISTA_KAROWA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "karowa-dokumenty-1",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-dokumenty-3",
+        "nazwa": "Plan porodu – jeśli został przygotowany",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-dokumenty-4",
+        "nazwa": "Wyniki badań wykonywanych w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-dokumenty-5",
+        "nazwa": "Konsultacje specjalistyczne – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-dokumenty-6",
+        "nazwa": "Karty wypisowe ze szpitali – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "karowa-mama-1",
+        "nazwa": "Koszula porodowa",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-2",
+        "nazwa": "Pomadka do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-3",
+        "nazwa": "Ulubiona muzyka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-4",
+        "nazwa": "Akcesoria pomocne podczas porodu, np. grzebień, chusta, termofor z pestkami wiśni, piłeczka z kolcami lub olejek do masażu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-5",
+        "nazwa": "Mały ręcznik do ciepłych lub zimnych okładów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-6",
+        "nazwa": "Woda lub napój do picia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-7",
+        "nazwa": "Przekąski, np. lizak, gorzka czekolada lub mus owocowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-8",
+        "nazwa": "Gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-9",
+        "nazwa": "Koszule do karmienia piersią – 2–3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-10",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-11",
+        "nazwa": "Biustonosze do karmienia piersią – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-12",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-13",
+        "nazwa": "Podkłady higieniczne chłonne 60 × 60 cm – 1 opakowanie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-14",
+        "nazwa": "Podkładki poporodowe – 2 opakowania (opcjonalnie, dostępne również w szpitalu)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-15",
+        "nazwa": "Majtki siateczkowe – 4 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-16",
+        "nazwa": "Preparat wspomagający laktację / herbatka laktacyjna",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-17",
+        "nazwa": "Ręczniki pod prysznic – mały i duży",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-18",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-19",
+        "nazwa": "Suszarka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-20",
+        "nazwa": "Kosmetyki i przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-21",
+        "nazwa": "Nawilżany wodą papier toaletowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-22",
+        "nazwa": "Butelka z dziubkiem do podmywania po skorzystaniu z toalety",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-23",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-24",
+        "nazwa": "Woda i przekąski niewymagające lodówki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-25",
+        "nazwa": "Pieluchy tetrowe – 2 sztuki lub okłady żelowe na piersi",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-26",
+        "nazwa": "Wygodne ubranie na wyjście ze szpitala",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "karowa-maluszek-1",
+        "nazwa": "Ręcznik do przykrycia dziecka po porodzie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-2",
+        "nazwa": "Pieluchy flanelowe / tetrowe / muślinowe – 2 sztuki na poród",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-3",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-4",
+        "nazwa": "Pierwszy komplet ubranek: pajacyk, body, czapeczka i skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-5",
+        "nazwa": "Pampers do pierwszego kompletu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-6",
+        "nazwa": "Kocyk lub rożek do pierwszego kompletu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-7",
+        "nazwa": "Zestawy ubranek na 3–4 doby: pajacyki, body, 2–3 czapeczki i skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-8",
+        "nazwa": "Pampersy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-9",
+        "nazwa": "Mokre chusteczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-10",
+        "nazwa": "Maść na odparzenia",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-11",
+        "nazwa": "Kocyki – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-12",
+        "nazwa": "Rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-13",
+        "nazwa": "Pieluchy flanelowe / tetrowe / muślinowe – 5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-14",
+        "nazwa": "Podkłady higieniczne chłonne 40 × 60 cm lub 60 × 60 cm",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "karowa-tata-1",
+        "nazwa": "Przekąski, kanapki i picie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-tata-2",
+        "nazwa": "Wygodne ubranie, np. rozpinana koszula ułatwiająca kangurowanie noworodka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-tata-3",
+        "nazwa": "Buty na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-tata-4",
+        "nazwa": "Na dzień wypisu: ubranka dla dziecka odpowiednie do pory roku",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-tata-5",
+        "nazwa": "Na dzień wypisu: fotelik samochodowy / nosidełko dla niemowlęcia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -11348,6 +11732,25 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Powiatowego im. bł. Marty Wieckiej w Bochni • aktualizacja: sierpień 2026"
     },
+    "Szpital Kliniczny im. ks. Anny Mazowieckiej – Karowa 2, Warszawa": {
+        "zapewnia": [
+            "Podkładki poporodowe – dostępne w szpitalu",
+            "Możliwość korzystania z laktatorów na Oddziale Położniczym"
+        ],
+        "warto_wiedziec": [
+            "🎓 Przy szpitalu działa Szkoła Rodzenia im. ks. Anny Mazowieckiej",
+            "📋 Do porodu fizjologicznego nie jest potrzebne skierowanie",
+            "👜 Szpital zaleca przygotowanie wyprawki około 3 tygodnie przed planowanym terminem porodu",
+            "🏥 Blok porodowy posiada 5 indywidualnych sal porodowych z dostępem do łazienek",
+            "🛁 Jedna z sal wyposażona jest w wannę porodową",
+            "👨‍👩‍👧 Możliwy jest poród z osobą towarzyszącą",
+            "🧘 Można korzystać z pozycji wertykalnych oraz różnych metod łagodzenia bólu",
+            "⚽ Dostępne są m.in. piłki, worek sako, mata i krzesełko porodowe",
+            "👀 Istnieje możliwość wcześniejszego obejrzenia Bloku Porodowego po umówieniu wizyty",
+            "🤱 Przy szpitalu działa Poradnia Laktacyjna"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Klinicznego im. ks. Anny Mazowieckiej • aktualizacja: sierpień 2026"
+    },
 
 }
 
@@ -11396,6 +11799,7 @@ SZPITALE = {
     "Wojewódzki Szpital Zespolony im. Ludwika Perzyny w Kaliszu": LISTA_KALISZ,
     "Centrum Zdrowia Tuchów": LISTA_TUCHOW,
     "Szpital Powiatowy im. bł. Marty Wieckiej w Bochni": LISTA_BOCHNIA,
+    "Szpital Kliniczny im. ks. Anny Mazowieckiej – Karowa 2, Warszawa": LISTA_KAROWA,
 }
 
 for lista_szpitala in SZPITALE.values():
