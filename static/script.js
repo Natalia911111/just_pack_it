@@ -1831,3 +1831,54 @@ if ("serviceWorker" in navigator) {
             });
     });
 }
+
+// =========================
+// PROŚBA O DODANIE SZPITALA
+// =========================
+
+const hospitalRequestToggle = document.getElementById("hospital-request-toggle");
+const hospitalRequestForm = document.getElementById("hospital-request-form");
+const hospitalRequestSend = document.getElementById("hospital-request-send");
+const requestedHospital = document.getElementById("requested-hospital");
+
+if (
+    hospitalRequestToggle &&
+    hospitalRequestForm &&
+    hospitalRequestSend &&
+    requestedHospital
+) {
+    hospitalRequestToggle.addEventListener("click", () => {
+        hospitalRequestForm.hidden = !hospitalRequestForm.hidden;
+
+        if (!hospitalRequestForm.hidden) {
+            requestedHospital.focus();
+        }
+    });
+
+    hospitalRequestSend.addEventListener("click", () => {
+        const hospitalName = requestedHospital.value.trim();
+
+        if (!hospitalName) {
+            alert("Wpisz proszę nazwę szpitala 🤍");
+            requestedHospital.focus();
+            return;
+        }
+
+        const subject = encodeURIComponent(
+            "Prośba o dodanie szpitala do Just Pack It"
+        );
+
+        const body = encodeURIComponent(
+`Cześć!
+
+Chciałabym poprosić o dodanie szpitala do Just Pack It:
+
+🏥 ${hospitalName}
+
+Dziękuję! 🤍`
+        );
+
+        window.location.href =
+            `mailto:natalia.lukawska91@gmail.com?subject=${subject}&body=${body}`;
+    });
+}

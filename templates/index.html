@@ -371,6 +371,41 @@
                     Lista zostanie dopasowana do wybranego szpitala.
                 </p>
 
+                <div class="hospital-request">
+                    <button
+                        type="button"
+                        class="hospital-request-toggle"
+                        id="hospital-request-toggle"
+                    >
+                        🏥 Nie ma Twojego szpitala? Poproś o dodanie
+                    </button>
+
+                    <div
+                        class="hospital-request-form"
+                        id="hospital-request-form"
+                        hidden
+                    >
+                        <label for="requested-hospital">
+                            Jaki szpital chciałabyś dodać?
+                        </label>
+
+                        <input
+                            type="text"
+                            id="requested-hospital"
+                            placeholder="Np. Szpital Wojewódzki w..."
+                            maxlength="150"
+                        >
+
+                        <button
+                            type="button"
+                            class="hospital-request-send"
+                            id="hospital-request-send"
+                        >
+                            Wyślij prośbę 🤍
+                        </button>
+                    </div>
+                </div>
+
                 <button
                     type="submit"
                     class="wizard-submit-btn"

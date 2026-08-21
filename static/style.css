@@ -3545,3 +3545,75 @@ footer {
     fill: currentColor;
     stroke: none;
 }
+
+/* =========================
+   PROŚBA O DODANIE SZPITALA
+========================= */
+
+.hospital-request {
+    margin-top: 4px;
+    text-align: center;
+}
+
+.hospital-request-toggle {
+    background: none;
+    border: none;
+    padding: 6px;
+
+    color: var(--dark-green);
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.hospital-request-toggle:hover {
+    text-decoration: underline;
+}
+
+.hospital-request-form {
+    margin-top: 12px;
+    padding: 16px;
+
+    border: 1px solid var(--sage-green);
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, 0.45);
+    text-align: left;
+}
+
+.hospital-request-form label {
+    display: block;
+    margin-bottom: 8px;
+
+    color: var(--dark-green);
+    font-weight: 600;
+}
+
+.hospital-request-form input {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 11px 12px;
+    margin-bottom: 10px;
+
+    border: 1px solid var(--sage-green);
+    border-radius: 8px;
+
+    font-size: 1rem;
+}
+
+.hospital-request-send {
+    width: 100%;
+
+    padding: 11px 16px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: var(--sage-green);
+    color: white;
+
+    font-weight: 600;
+    cursor: pointer;
+}
