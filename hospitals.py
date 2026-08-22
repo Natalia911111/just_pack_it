@@ -12422,6 +12422,615 @@ LISTA_OLSZTYN_WSS = [
     }
 ]
 
+# =====================================
+# ZESPÓŁ OPIEKI ZDROWOTNEJ – ŚWIĘTOCHŁOWICE
+# =====================================
+
+LISTA_SWIETOCHLOWICE = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "swietochlowice-dokumenty-1",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-dokumenty-2",
+        "nazwa": "Oryginalny wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-dokumenty-3",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-dokumenty-4",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-dokumenty-5",
+        "nazwa": "Wypisy ze szpitali z okresu ciąży – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-dokumenty-6",
+        "nazwa": "Wyniki badań z okresu ciąży i inne istotne dokumenty medyczne",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "swietochlowice-mama-1",
+        "nazwa": "Leki przyjmowane na stałe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-2",
+        "nazwa": "Glukometr",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-3",
+        "nazwa": "Podkłady jednorazowe 90 × 60 cm – 2 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-4",
+        "nazwa": "Podpaski poporodowe – 2–3 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-5",
+        "nazwa": "Ręczniki jednorazowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-6",
+        "nazwa": "Papier toaletowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-7",
+        "nazwa": "Butelka filtrująca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-8",
+        "nazwa": "Coś słodkiego do picia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-9",
+        "nazwa": "Coś słodkiego i lekkiego do zjedzenia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-10",
+        "nazwa": "Koszule – 3 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-11",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-12",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-13",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-14",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-15",
+        "nazwa": "Duże ręczniki – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-16",
+        "nazwa": "Mały ręcznik – 1 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-17",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-18",
+        "nazwa": "Majtki poporodowe siateczkowe – nie z fizeliny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-19",
+        "nazwa": "Balsam ochronny do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-20",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-21",
+        "nazwa": "Biustonosz laktacyjny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-22",
+        "nazwa": "Telefon z ładowarką",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-23",
+        "nazwa": "Ulubiona poduszka – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-24",
+        "nazwa": "Książka / czasopismo – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-25",
+        "nazwa": "Drobne pieniądze",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-26",
+        "nazwa": "Lanolina 100% do pielęgnacji brodawek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-mama-27",
+        "nazwa": "Nakładki silikonowe na piersi – przy płaskich lub wklęsłych brodawkach",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "swietochlowice-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe – ok. 8–12 szt. na dzień",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-maluszek-3",
+        "nazwa": "Pieluchy tetrowe – 1–2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-maluszek-4",
+        "nazwa": "Emolient do nawilżania skóry",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-maluszek-5",
+        "nazwa": "Krem do pielęgnacji okolic pośladków – bez tlenku cynku",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-maluszek-6",
+        "nazwa": "Ubranka dla dziecka – opcjonalnie, szpital zapewnia własne",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY
+    # =========================
+
+    {
+        "id": "swietochlowice-tata-1",
+        "nazwa": "Coś do jedzenia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-tata-2",
+        "nazwa": "Coś do picia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-tata-3",
+        "nazwa": "Wygodne ubranie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "swietochlowice-tata-4",
+        "nazwa": "Obuwie zamienne",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# MIEJSKI SZPITAL ZESPOLONY – OLSZTYN
+# =====================================
+
+LISTA_OLSZTYN_MIEJSKI = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "olsztyn-miejski-dokumenty-1",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-dokumenty-2",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-dokumenty-3",
+        "nazwa": "Skierowanie do szpitala – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-dokumenty-4",
+        "nazwa": "Wypisy z poprzednich pobytów w szpitalu – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-dokumenty-5",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-dokumenty-6",
+        "nazwa": "Oryginał wyniku grupy krwi i Rh z przeciwciałami odpornościowymi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-dokumenty-7",
+        "nazwa": "Morfologia – wynik z ostatnich 6 tygodni",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-dokumenty-8",
+        "nazwa": "Badanie moczu – wynik z ostatnich 6 tygodni",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-dokumenty-9",
+        "nazwa": "Wynik HBsAg",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-dokumenty-10",
+        "nazwa": "Wynik OWA / WR",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-dokumenty-11",
+        "nazwa": "Wynik GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-dokumenty-12",
+        "nazwa": "Wynik badania HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-dokumenty-13",
+        "nazwa": "Wynik przeciwciał anty-HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-dokumenty-14",
+        "nazwa": "Wszystkie wyniki USG wykonane w obecnej ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "olsztyn-miejski-mama-1",
+        "nazwa": "Wygodne koszule nocne rozpinane, umożliwiające karmienie piersią – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-mama-2",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-mama-3",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-mama-4",
+        "nazwa": "Ręczniki – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-mama-5",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-mama-6",
+        "nazwa": "Majtki jednorazowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-mama-7",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-mama-8",
+        "nazwa": "Podpaski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-mama-9",
+        "nazwa": "Staniki do karmienia – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-mama-10",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-mama-11",
+        "nazwa": "Przybory toaletowe i kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-mama-12",
+        "nazwa": "Dziecięce kółko do pływania – opcjonalnie, jako pomoc po porodzie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "olsztyn-miejski-maluszek-1",
+        "nazwa": "Bawełniane koszulki – 3–4 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-maluszek-2",
+        "nazwa": "Pajacyki – 3 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-maluszek-3",
+        "nazwa": "Alternatywnie: kaftaniki – 3 szt. i śpiochy – 3 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-maluszek-4",
+        "nazwa": "Cienka bawełniana czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-maluszek-5",
+        "nazwa": "Cieplejsza czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-maluszek-6",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-maluszek-7",
+        "nazwa": "Kocyk polarowy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-maluszek-8",
+        "nazwa": "Szczoteczka do włosów",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-maluszek-9",
+        "nazwa": "Pieluszki jednorazowe – najmniejszy rozmiar",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-maluszek-10",
+        "nazwa": "Pieluszki tetrowe – 2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-miejski-maluszek-11",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 
 
 SZPITALE_INFO = {
@@ -12978,6 +13587,34 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "Wojewódzki Szpital Specjalistyczny w Olsztynie • oficjalna lista „Co zabrać ze sobą do porodu” oraz strona Oddziału Klinicznego Ginekologiczno-Położniczego"
     },
+    "Zespół Opieki Zdrowotnej w Świętochłowicach": {
+        "zapewnia": [
+            "Ubranka dla noworodka – własne ubranka można zabrać, jeśli rodzice chcą z nich korzystać"
+        ],
+        "warto_wiedziec": [
+            "🛁 Trakt porodowy posiada trzy oddzielne sale porodowe, wyposażone m.in. w piłki, worki sako, drabinki oraz wanny umożliwiające poród do wody.",
+            "💧 Szpital umożliwia poród w wodzie oraz korzystanie z niefarmakologicznych metod łagodzenia bólu, m.in. immersji wodnej, Rebozo, akupresury i aromaterapii.",
+            "💉 Dostępne są również farmakologiczne metody łagodzenia bólu, w tym znieczulenie zewnątrzoponowe, gaz wziewny oraz remifentanyl.",
+            "👶 Oddział Położniczy pracuje w systemie rooming-in – noworodek po porodzie przebywa na sali razem z mamą.",
+            "👨‍👩‍👧 Szpital posiada procedurę umożliwiającą obecność osoby towarzyszącej również przy cięciu cesarskim.",
+            "🤰 Przy oddziale działa Szkoła Rodzenia."
+        ],
+        "warto_wiedziec_zrodlo": "Zespół Opieki Zdrowotnej w Świętochłowicach – oficjalna strona Oddziału Klinicznego Ginekologii, Położnictwa i Ginekologii Onkologicznej"
+    },
+    "Miejski Szpital Zespolony w Olsztynie": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🏥 Trakt porodowy posiada 4 jednoosobowe sale porodowe, każda z własnym węzłem sanitarnym.",
+            "🛁 Dostępne są m.in. wanna, prysznic, worek sako, piłka i materac. Szpital umożliwia również poród do wody.",
+            "💉 Wśród dostępnych metod łagodzenia bólu szpital wymienia m.in. znieczulenie zewnątrzoponowe i analgezję wziewną.",
+            "👶 Szpital umożliwia poród drogami natury po wcześniejszym cięciu cesarskim (VBAC).",
+            "👨‍👩‍👧 Osoba bliska może być obecna podczas planowanego cięcia cesarskiego.",
+            "🤱 W Klinice na stałe pracuje położna laktacyjna – każda pacjentka może skorzystać z porady laktacyjnej.",
+            "🏥 Istnieje możliwość obejrzenia oddziału przed porodem.",
+            "🤰 Przy szpitalu działa Miejska Szkoła OdRodzenia. Zajęcia prowadzą położne, lekarze i fizjoterapeutka pracujący na co dzień w szpitalu. Program obejmuje przygotowanie do porodu, połogu, karmienia i opieki nad noworodkiem oraz zwiedzanie traktu porodowego i oddziału położniczego.",
+        ],
+        "warto_wiedziec_zrodlo": "Miejski Szpital Zespolony w Olsztynie / informacje przekazane przez szpital Fundacji Rodzić po Ludzku oraz zalecenia położnej oddziałowej Danuty Piskorz"
+    },
 
 }
 
@@ -13031,6 +13668,8 @@ SZPITALE = {
     "Szpital Powiatowy w Dzierżoniowie": LISTA_DZIERZONIOW,
     "Szpital Malarkiewicz i Spółka w Olsztynie": LISTA_MALARKIEWICZ,
     "Szpital Wojewódzki w Olsztynie": LISTA_OLSZTYN_WSS,
+    "Zespół Opieki Zdrowotnej w Świętochłowicach": LISTA_SWIETOCHLOWICE,
+    "Miejski Szpital Zespolony w Olsztynie": LISTA_OLSZTYN_MIEJSKI,
 }
 
 for lista_szpitala in SZPITALE.values():

@@ -646,6 +646,11 @@ function getHospitalNameInGenitive(hospitalName) {
             "Szpitala Malarkiewicz i Spółka w Olsztynie",
         "Szpital Wojewódzki w Olsztynie":
             "Szpitala Wojewódzkiego w Olsztynie",
+
+         "Zespół Opieki Zdrowotnej w Świętochłowicach":
+            "Zespołu Opieki Zdrowotnej w Świętochłowicach",
+         "Miejski Szpital Zespolony w Olsztynie":
+            "Miejskiego Szpitala Zespolonego w Olsztynie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
