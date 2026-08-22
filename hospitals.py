@@ -11723,6 +11723,705 @@ LISTA_DZIERZONIOW = [
         "przypiete": False
     }
 ]
+# =====================================
+# SZPITAL MALARKIEWICZ I SPÓŁKA – OLSZTYN
+# =====================================
+
+LISTA_MALARKIEWICZ = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "malarkiewicz-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-dokumenty-3",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-dokumenty-4",
+        "nazwa": "Wynik HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-dokumenty-5",
+        "nazwa": "Wynik HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-dokumenty-6",
+        "nazwa": "Wynik WR / VDRL",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-dokumenty-7",
+        "nazwa": "Wynik HBs (antygen HBs)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-dokumenty-8",
+        "nazwa": "Wynik GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-dokumenty-9",
+        "nazwa": "Wyniki badań w kierunku toksoplazmozy, różyczki i cytomegalii – jeśli były wykonywane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-dokumenty-10",
+        "nazwa": "Plan porodu – jeśli został przygotowany",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "malarkiewicz-mama-1",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-2",
+        "nazwa": "Koszule poporodowe – najlepiej 2–3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-3",
+        "nazwa": "Kapcie / klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-4",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-5",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-6",
+        "nazwa": "Ręczniki – 3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-7",
+        "nazwa": "Kosmetyczka i przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-8",
+        "nazwa": "Majtki siateczkowe – 1 opakowanie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-9",
+        "nazwa": "Podpaski poporodowe – 3 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-10",
+        "nazwa": "Podkłady poporodowe – kilka sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-11",
+        "nazwa": "Wkładki laktacyjne – kilka sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-12",
+        "nazwa": "Krem z lanoliną na brodawki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-13",
+        "nazwa": "Biustonosze do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-14",
+        "nazwa": "Ubranie na wyjście ze szpitala",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-15",
+        "nazwa": "Sztućce i kubek – jeśli potrzebujesz",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-16",
+        "nazwa": "Butelka na wodę – szpital zapewnia dostęp do wody",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-17",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-mama-18",
+        "nazwa": "Ulubione przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "malarkiewicz-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe – ok. 30 sztuk, najmniejszy rozmiar",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-maluszek-2",
+        "nazwa": "Chusteczki nawilżane lub większe płatki kosmetyczne",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-maluszek-3",
+        "nazwa": "Krem / maść do pielęgnacji okolic intymnych dziecka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-maluszek-4",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-maluszek-5",
+        "nazwa": "Kosmetyki do kąpieli – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-maluszek-6",
+        "nazwa": "Szczoteczka do włosów",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-maluszek-7",
+        "nazwa": "Komplety ubranek – 3–4 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-maluszek-8",
+        "nazwa": "Skarpetki – 2–3 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-maluszek-9",
+        "nazwa": "Czapeczki – 2 cienkie bawełniane, zimą dodatkowo 1 grubsza",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-maluszek-10",
+        "nazwa": "Kocyk odpowiedni do pory roku",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-maluszek-11",
+        "nazwa": "Rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-maluszek-12",
+        "nazwa": "Pieluchy tetrowe – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "malarkiewicz-maluszek-13",
+        "nazwa": "Pieluchy flanelowe / bambusowe – 2–3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+# =====================================
+# WOJEWÓDZKI SZPITAL SPECJALISTYCZNY – OLSZTYN
+# =====================================
+
+LISTA_OLSZTYN_WSS = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "olsztyn-wss-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-dokumenty-3",
+        "nazwa": "Potwierdzony wynik grupy krwi / Krew Karta",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-dokumenty-4",
+        "nazwa": "Wynik GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-dokumenty-5",
+        "nazwa": "PTA – pośredni odczyn Coombsa",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-dokumenty-6",
+        "nazwa": "Wynik anty-HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-dokumenty-7",
+        "nazwa": "Wynik HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-dokumenty-8",
+        "nazwa": "Wynik HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-dokumenty-9",
+        "nazwa": "Odczyn Wassermana (WR)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-dokumenty-10",
+        "nazwa": "Wszystkie badania USG wykonane w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-dokumenty-11",
+        "nazwa": "Aktualna morfologia",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-dokumenty-12",
+        "nazwa": "APTT – ostatni wynik",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-dokumenty-13",
+        "nazwa": "Badania w kierunku toksoplazmozy, różyczki i cytomegalii – jeśli były wykonane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-dokumenty-14",
+        "nazwa": "Plan porodu – mile widziany",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "olsztyn-wss-mama-1",
+        "nazwa": "Bawełniane koszule rozpinane z przodu – 3 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-2",
+        "nazwa": "Jednorazowa bielizna / majtki poporodowe siateczkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-3",
+        "nazwa": "Biustonosze do karmienia bez fiszbin – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-4",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-5",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-6",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-7",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-8",
+        "nazwa": "Klapki / kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-9",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-10",
+        "nazwa": "Ręczniki – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-11",
+        "nazwa": "Woda niegazowana / bidon / butelka z filtrem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-12",
+        "nazwa": "Pomadka ochronna do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-13",
+        "nazwa": "Lanolina na brodawki – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-14",
+        "nazwa": "Poduszka do karmienia – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-mama-15",
+        "nazwa": "Ręcznik papierowy – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY
+    # =========================
+
+    {
+        "id": "olsztyn-wss-tata-1",
+        "nazwa": "Maseczka ochronna, fartuch ochronny i rękawiczki jednorazowe – zależnie od sytuacji epidemicznej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-tata-2",
+        "nazwa": "Wygodne obuwie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-tata-3",
+        "nazwa": "Aparat fotograficzny – opcjonalnie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-tata-4",
+        "nazwa": "Ulubiona muzyka przygotowana dla rodzącej – opcjonalnie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-tata-5",
+        "nazwa": "Własny TENS – opcjonalnie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-tata-6",
+        "nazwa": "Woreczki z pestkami wiśni do ciepłych kompresów – opcjonalnie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-tata-7",
+        "nazwa": "Oliwka do masażu – opcjonalnie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-tata-8",
+        "nazwa": "Nosidełko / fotelik samochodowy – tata dowozi w dniu wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-tata-9",
+        "nazwa": "Kombinezon dla dziecka odpowiedni do pory roku – tata dowozi w dniu wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-tata-10",
+        "nazwa": "Grubsza czapeczka dla dziecka – tata dowozi w dniu wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "olsztyn-wss-maluszek-1",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-maluszek-2",
+        "nazwa": "Kocyk / otulacz – preferowany bawełniany",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-maluszek-3",
+        "nazwa": "Rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-maluszek-4",
+        "nazwa": "Pieluszki tetrowe – 3 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-maluszek-5",
+        "nazwa": "Pieluszka flanelowa – 1 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-maluszek-6",
+        "nazwa": "Pampersy – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-maluszek-7",
+        "nazwa": "Chusteczki nawilżające do pielęgnacji noworodka – 1–2 opakowania",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-maluszek-8",
+        "nazwa": "Krem / maść natłuszczająca do pielęgnacji skóry pośladków",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-maluszek-9",
+        "nazwa": "Żel do kąpieli dla dziecka – mile widziany",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-maluszek-10",
+        "nazwa": "Pajacyki – 4 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-maluszek-11",
+        "nazwa": "Czapeczki – 2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-maluszek-12",
+        "nazwa": "Body – 4 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "olsztyn-wss-maluszek-13",
+        "nazwa": "Skarpetki z luźnym ściągaczem – 2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 
 
 SZPITALE_INFO = {
@@ -12253,6 +12952,32 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Powiatowego w Dzierżoniowie"
     },
+    "Szpital Malarkiewicz i Spółka w Olsztynie": {
+        "zapewnia": [
+            "Nieograniczony dostęp do wody – szpital zachęca do zabrania własnej butelki",
+            "Podkłady poporodowe w razie, gdy pacjentce zabraknie własnych",
+            "Kosmetyki do kąpieli noworodka – na prośbę mogą być używane kosmetyki szpitalne"
+        ],
+        "warto_wiedziec": [
+            "📋 Warto przygotować własny plan porodu, ale jeśli go nie masz, personel zapyta o Twoje preferencje przy przyjęciu",
+            "💧 Szpital zapewnia nieograniczony dostęp do wody – warto zabrać własną butelkę",
+            "🍽️ Na oddziale dostępne są lodówka do przechowywania żywności, czajnik i mikrofalówka",
+            "👜 Szpital sugeruje, że rzeczy potrzebne bezpośrednio na porodówce można spakować osobno w małą torbę",
+            "👶 Jeśli zdecydujesz się na kąpiel dziecka w szpitalu, możesz użyć własnych kosmetyków lub poprosić o kosmetyki szpitalne",
+            "🍼 Lista szpitala jest orientacyjna – można dostosować liczbę rzeczy do swoich potrzeb"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalny profil Szpitala Malarkiewicz i Spółka na Facebooku • wyprawka do szpitala"
+    },
+    "Szpital Wojewódzki w Olsztynie": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🏥 Oddział Kliniczny Ginekologiczno-Położniczy jest ośrodkiem III, najwyższego poziomu referencyjnego w zakresie perinatologii.",
+            "👶 To jedyny ośrodek III poziomu referencyjnego w zakresie perinatologii w województwie warmińsko-mazurskim.",
+            "📋 Plan porodu jest mile widziany. Jeśli nie zdążysz go przygotować, możesz wypełnić go z położną na oddziale.",
+            "🚗 W dniu wypisu tata dowozi nosidełko/fotelik, kombinezon odpowiedni do pory roku oraz grubszą czapeczkę dla dziecka."
+        ],
+        "warto_wiedziec_zrodlo": "Wojewódzki Szpital Specjalistyczny w Olsztynie • oficjalna lista „Co zabrać ze sobą do porodu” oraz strona Oddziału Klinicznego Ginekologiczno-Położniczego"
+    },
 
 }
 
@@ -12304,6 +13029,8 @@ SZPITALE = {
     "Szpital Kliniczny im. ks. Anny Mazowieckiej – Karowa 2, Warszawa": LISTA_KAROWA,
     "Szpital Położniczo-Ginekologiczny Medikor w Nowym Sączu": LISTA_MEDIKOR,
     "Szpital Powiatowy w Dzierżoniowie": LISTA_DZIERZONIOW,
+    "Szpital Malarkiewicz i Spółka w Olsztynie": LISTA_MALARKIEWICZ,
+    "Szpital Wojewódzki w Olsztynie": LISTA_OLSZTYN_WSS,
 }
 
 for lista_szpitala in SZPITALE.values():

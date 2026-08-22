@@ -641,6 +641,11 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Powiatowy w Dzierżoniowie":
             "Szpitala Powiatowego w Dzierżoniowie",
+
+        "Szpital Malarkiewicz i Spółka w Olsztynie":
+            "Szpitala Malarkiewicz i Spółka w Olsztynie",
+        "Szpital Wojewódzki w Olsztynie":
+            "Szpitala Wojewódzkiego w Olsztynie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
