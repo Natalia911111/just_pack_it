@@ -13031,6 +13031,902 @@ LISTA_OLSZTYN_MIEJSKI = [
     }
 ]
 
+# =====================================
+# SZPITAL MORSKI IM. PCK – GDYNIA REDŁOWO
+# =====================================
+
+LISTA_GDYNIA_REDLOWO = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "gdynia-redlowo-dokumenty-1",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-dokumenty-3",
+        "nazwa": "Karty informacyjne z poprzednich hospitalizacji – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-dokumenty-4",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-dokumenty-5",
+        "nazwa": "Wynik HBsAg – III trymestr",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-dokumenty-6",
+        "nazwa": "Wynik anty-HIV – III trymestr",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-dokumenty-7",
+        "nazwa": "Wynik GBS – wymaz z pochwy i odbytu (35.–37. tydzień ciąży)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-dokumenty-8",
+        "nazwa": "Wynik USG prenatalnego z I trymestru (11+0–13+6 t.c.)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "gdynia-redlowo-mama-1",
+        "nazwa": "Koszula nocna – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-mama-3",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-mama-4",
+        "nazwa": "Obuwie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-mama-5",
+        "nazwa": "Obuwie do kąpieli",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-mama-6",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-mama-7",
+        "nazwa": "Woda mineralna – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-mama-8",
+        "nazwa": "Majtki poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-mama-9",
+        "nazwa": "Wkładki i podkłady",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-mama-10",
+        "nazwa": "Kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "gdynia-redlowo-maluszek-1",
+        "nazwa": "Rożek, kocyk lub otulacz",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-maluszek-2",
+        "nazwa": "Pieluchy jednorazowe – rozmiar 1",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-maluszek-3",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-maluszek-4",
+        "nazwa": "Skarpetki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-maluszek-5",
+        "nazwa": "Bawełniana czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-maluszek-6",
+        "nazwa": "Łapki niedrapki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-maluszek-7",
+        "nazwa": "Pieluchy tetrowe – 3 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-maluszek-8",
+        "nazwa": "Body / pajacyki – 4 szt. (warto zabrać rozmiary 56 i 62)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-redlowo-maluszek-9",
+        "nazwa": "Tłusty krem pośladkowy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    # =========================
+    # CESARSKIE CIĘCIE
+    # =========================
+
+    {
+        "id": "gdynia-cc-1",
+        "nazwa": "Aktualny wynik morfologii – przy planowanym cięciu cesarskim",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-cc-2",
+        "nazwa": "Aktualny wynik INR – przy planowanym cięciu cesarskim",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gdynia-cc-3",
+        "nazwa": "Aktualny wynik APTT – przy planowanym cięciu cesarskim",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# SZPITAL SPECJALISTYCZNY IM. A. FALKIEWICZA – WROCŁAW
+# =====================================
+
+LISTA_WROCLAW_FALKIEWICZA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "falk-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-dokumenty-3",
+        "nazwa": "Oznaczenie grupy krwi i Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-dokumenty-4",
+        "nazwa": "Wynik GBS – posiew z przedsionka pochwy i odbytu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-dokumenty-5",
+        "nazwa": "Wszystkie wyniki badań USG wykonane w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-dokumenty-6",
+        "nazwa": "Wynik badania HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-dokumenty-7",
+        "nazwa": "Wynik HBsAg lub zaświadczenie o szczepieniu przeciw WZW B",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-dokumenty-8",
+        "nazwa": "Wynik HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-dokumenty-9",
+        "nazwa": "Inne istotne wyniki badań i konsultacji – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-dokumenty-10",
+        "nazwa": "Leki przyjmowane na stałe – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "falk-mama-1",
+        "nazwa": "Koszule wygodne podczas porodu i karmienia lub dłuższe T-shirty – 2–3 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-3",
+        "nazwa": "Rozpinany sweter lub bluza – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-4",
+        "nazwa": "Ciepłe skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-5",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-6",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-7",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-8",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-9",
+        "nazwa": "Kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-10",
+        "nazwa": "Ręcznik papierowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-11",
+        "nazwa": "Majtki siatkowe jednorazowe – kilka par",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-12",
+        "nazwa": "Podpaski poporodowe – min. 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-13",
+        "nazwa": "Staniki do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-14",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-15",
+        "nazwa": "Woda mineralna lub butelka z filtrem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-mama-16",
+        "nazwa": "Przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "falk-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-maluszek-2",
+        "nazwa": "Chusteczki nawilżane jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-maluszek-3",
+        "nazwa": "Ubranka dla dziecka – opcjonalnie, ubranka są dostępne na oddziale",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # CESARSKIE CIĘCIE
+    # =========================
+
+    {
+        "id": "falk-cc-1",
+        "nazwa": "Przy planowanym cięciu cesarskim zgłoś się do szpitala dzień przed wyznaczonym zabiegiem",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-cc-2",
+        "nazwa": "Oryginał potwierdzonej grupy krwi",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-cc-3",
+        "nazwa": "Wyniki HBsAg, HIV, HCV i GBS",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-cc-4",
+        "nazwa": "Leki przyjmowane z powodu chorób przewlekłych – jeśli dotyczy",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / NA WYJŚCIE
+    # =========================
+
+    {
+        "id": "falk-tata-1",
+        "nazwa": "Buty na zmianę dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-tata-2",
+        "nazwa": "T-shirt / wygodne ubranie dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-tata-3",
+        "nazwa": "Ubranie dla mamy na wyjście",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-tata-4",
+        "nazwa": "Ubranko dla dziecka na wyjście – odpowiednie do pogody",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "falk-tata-5",
+        "nazwa": "Fotelik samochodowy dla noworodka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# BESKIDZKIE CENTRUM ONKOLOGII – BIELSKO-BIAŁA
+# =====================================
+
+LISTA_BIELSKO_BIALA_BCO = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "bielsko-bco-dokumenty-1",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bielsko-bco-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "bielsko-bco-mama-1",
+        "nazwa": "Podkłady jednorazowe 90 × 60 cm – 2 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bielsko-bco-mama-2",
+        "nazwa": "Podpaski Bella – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bielsko-bco-mama-3",
+        "nazwa": "Woda niegazowana – duża i mała",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bielsko-bco-mama-4",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bielsko-bco-mama-5",
+        "nazwa": "Koszula lub piżama",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bielsko-bco-mama-6",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "bielsko-bco-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bielsko-bco-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bielsko-bco-maluszek-3",
+        "nazwa": "Maść Alantan lub Linomag",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bielsko-bco-maluszek-4",
+        "nazwa": "Pieluszki tetrowe – 2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bielsko-bco-maluszek-5",
+        "nazwa": "Pieluszki flanelowe – 2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bielsko-bco-maluszek-6",
+        "nazwa": "Ręcznik do okrycia noworodka podczas kangurowania bezpośrednio po porodzie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "bielsko-bco-tata-1",
+        "nazwa": "Klapki na zmianę dla partnera lub osoby towarzyszącej przy porodzie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# WOJEWÓDZKI SZPITAL ZESPOLONY IM. J. ŚNIADECKIEGO – BIAŁYSTOK
+# =====================================
+
+LISTA_BIALYSTOK_WOJEWODZKI = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "bialystok-woj-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-dokumenty-3",
+        "nazwa": "Aktualne wyniki badań – w tym wynik GBS oraz wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "bialystok-woj-mama-1",
+        "nazwa": "Koszule do karmienia, najlepiej z rozcięciem – 2–3 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-3",
+        "nazwa": "Kapcie / klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-4",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-5",
+        "nazwa": "Ręczniki – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-6",
+        "nazwa": "Majtki – 6 par, najlepiej jednorazowe siateczkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-7",
+        "nazwa": "Podpaski poporodowe – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-8",
+        "nazwa": "Podkłady poporodowe typu Seni – 5 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-9",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-10",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-11",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-12",
+        "nazwa": "Laktator – najlepiej własny; w razie potrzeby dostępny jest również laktator szpitalny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-13",
+        "nazwa": "Telefon komórkowy z ładowarką",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-14",
+        "nazwa": "Mokre chusteczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-15",
+        "nazwa": "Woda – szpital poleca butelkę filtrującą",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-16",
+        "nazwa": "Kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-17",
+        "nazwa": "Przekąski niewymagające przechowywania w lodówce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-mama-18",
+        "nazwa": "Kapturki do karmienia – w przypadku płaskich lub wklęsłych brodawek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "bialystok-woj-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe – paczka, rozmiar 0 lub 1",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-maluszek-2",
+        "nazwa": "Mokre chusteczki – 2 paczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-maluszek-3",
+        "nazwa": "Pieluszki tetrowe – 2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-maluszek-4",
+        "nazwa": "Skarpetki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-maluszek-5",
+        "nazwa": "Łapki niedrapki – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-maluszek-6",
+        "nazwa": "Delikatny krem przeciw odparzeniom",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "bialystok-woj-maluszek-7",
+        "nazwa": "Smoczek – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / NA WYJŚCIE
+    # =========================
+
+    {
+        "id": "bialystok-woj-tata-1",
+        "nazwa": "Ubranka dla dziecka na wypis – przynieść w dniu wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 
 
 SZPITALE_INFO = {
@@ -13615,6 +14511,69 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "Miejski Szpital Zespolony w Olsztynie / informacje przekazane przez szpital Fundacji Rodzić po Ludzku oraz zalecenia położnej oddziałowej Danuty Piskorz"
     },
+    "Szpital Morski im. PCK w Gdyni": {
+        "zapewnia": [
+            "Na Oddziale Poporodowym w razie potrzeby można wypożyczyć sprzęt wspierający karmienie piersią, m.in. laktator"
+        ],
+        "warto_wiedziec": [
+            "🏥 Trakt porodowy posiada 4 jednoosobowe sale porodowe, każda z własnym węzłem sanitarnym.",
+            "🛁 Do dyspozycji rodzących są m.in. wanna, prysznic, piłki, worki sako, materace, chusty Rebozo i TENS. Wanna służy do immersji i łagodzenia bólu – szpital nie prowadzi porodów do wody.",
+            "💉 Znieczulenie zewnątrzoponowe jest dostępne przez całą dobę. Dostępne są również m.in. gaz Entonox i remifentanyl (Ultiva).",
+            "👶 Szpital umożliwia poród drogami natury po wcześniejszym cięciu cesarskim (VBAC).",
+            "👨‍👩‍👧 Osoba bliska może być obecna podczas planowanego cięcia cesarskiego.",
+            "🤍 Doula może towarzyszyć rodzącej razem z osobą bliską.",
+            "🤱 Na Oddziale Położniczym dostępna jest pomoc laktacyjna, a przy Poradni Neonatologicznej działa Poradnia Laktacyjna.",
+            "🤰 Przy szpitalu działa Szkoła Rodzenia „Rodzę w Redłowie”.",
+            "🏥 Istnieje możliwość obejrzenia oddziału przed porodem."
+        ],
+        "warto_wiedziec_zrodlo": "Szpital Morski im. PCK w Gdyni – Rodzę w Redłowie / informacje przekazane przez szpital Fundacji Rodzić po Ludzku"
+    },
+    "Szpital Specjalistyczny im. A. Falkiewicza we Wrocławiu": {
+        "zapewnia": [
+            "Ubranka dla dziecka",
+            "Pieluszki tetrowe",
+            "Kocyki"
+        ],
+        "warto_wiedziec": [
+            "🤰 Przy szpitalu działa Wrocławska Szkoła Rodzenia. Program obejmuje m.in. przygotowanie do porodu, połogu, karmienia naturalnego i opieki nad noworodkiem.",
+            "👩‍⚕️ Zajęcia szkoły rodzenia prowadzą m.in. położna, rehabilitant i psycholog.",
+            "👶 Przy planowanym cięciu cesarskim pacjentka zgłasza się do szpitala dzień przed wyznaczonym zabiegiem.",
+            "🤍 Jeśli stan dziecka na to pozwala, po cięciu cesarskim noworodek może zostać przekazany osobie bliskiej do kangurowania.",
+            "🤱 Po porodzie dostępne jest wsparcie laktacyjne."
+        ],
+        "warto_wiedziec_zrodlo": "Szpital Specjalistyczny im. A. Falkiewicza we Wrocławiu – oficjalna strona szpitala"
+    },
+    "Beskidzkie Centrum Onkologii - Szpital Miejski im. Jana Pawła II w Bielsku-Białej": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🏥 Oddział posiada II stopień referencyjności i 2 sale porodowe.",
+            "🛁 Dostępne są różne niefarmakologiczne metody łagodzenia bólu, m.in. TENS, piłka, worek sako, masaż, immersja wodna w wannie lub pod prysznicem, aromaterapia i muzykoterapia.",
+            "💉 Dostępne są znieczulenie zewnątrzoponowe oraz gaz wziewny Entonox.",
+            "🤰 Szpital zachęca do przygotowania własnego planu porodu, który można omówić przy przyjęciu na salę porodową.",
+            "👶 Po porodzie, jeśli stan mamy i dziecka na to pozwala, szpital umożliwia 2-godzinny kontakt skóra do skóry.",
+            "🤍 Po cięciu cesarskim osoba towarzysząca może kangurować noworodka, jeśli pozwala na to stan dziecka – dotyczy to zarówno planowego, jak i nagłego CC.",
+            "👨‍👩‍👧 Przy planowanym cięciu cesarskim osoba bliska może towarzyszyć pacjentce do momentu przekazania jej na salę operacyjną.",
+            "👩‍⚕️ Podczas hospitalizacji pacjentki mogą skorzystać ze wsparcia psychologa.",
+            "👶 Na oddziale położniczym mama i dziecko przebywają razem w systemie rooming-in."
+        ],
+        "warto_wiedziec_zrodlo": "Beskidzkie Centrum Onkologii – Szpital Miejski im. Jana Pawła II w Bielsku-Białej – oficjalna strona szpitala"
+    },
+    "Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego w Białymstoku": {
+        "zapewnia": [
+            "Jednorazową koszulę szpitalną do porodu",
+            "Ubranka dla noworodka podczas pobytu",
+            "Laktator szpitalny – w razie potrzeby"
+        ],
+        "warto_wiedziec": [
+            "👶 Podczas pobytu noworodek korzysta z ubranek szpitalnych – własne ubranka należy przygotować dopiero na dzień wypisu.",
+            "🤱 Szpital zaleca zabranie własnego laktatora, ale w razie potrzeby dostępny jest również laktator szpitalny.",
+            "🥪 Na oddziale nie ma lodówki dostępnej dla pacjentek, dlatego warto zabrać przekąski niewymagające przechowywania w chłodzie.",
+            "🤰 Szpital organizuje bezpłatne zajęcia edukacyjne dla przyszłych rodziców prowadzone przez położne i innych specjalistów.",
+            "👨‍👩‍👧 Na zajęcia edukacyjne przyszła mama może przyjść z osobą towarzyszącą.",
+            "🏠 W szpitalu działa pokój rodzinny, w którym po porodzie pacjentce przez cały pobyt może towarzyszyć bliska osoba."
+        ],
+        "warto_wiedziec_zrodlo": "Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego w Białymstoku – oficjalna strona szpitala"
+    },
 
 }
 
@@ -13670,6 +14629,10 @@ SZPITALE = {
     "Szpital Wojewódzki w Olsztynie": LISTA_OLSZTYN_WSS,
     "Zespół Opieki Zdrowotnej w Świętochłowicach": LISTA_SWIETOCHLOWICE,
     "Miejski Szpital Zespolony w Olsztynie": LISTA_OLSZTYN_MIEJSKI,
+    "Szpital Morski im. PCK w Gdyni": LISTA_GDYNIA_REDLOWO,
+    "Szpital Specjalistyczny im. A. Falkiewicza we Wrocławiu": LISTA_WROCLAW_FALKIEWICZA,
+    "Beskidzkie Centrum Onkologii - Szpital Miejski im. Jana Pawła II w Bielsku-Białej": LISTA_BIELSKO_BIALA_BCO,
+    "Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego w Białymstoku": LISTA_BIALYSTOK_WOJEWODZKI,
 }
 
 for lista_szpitala in SZPITALE.values():

@@ -651,6 +651,18 @@ function getHospitalNameInGenitive(hospitalName) {
             "Zespołu Opieki Zdrowotnej w Świętochłowicach",
          "Miejski Szpital Zespolony w Olsztynie":
             "Miejskiego Szpitala Zespolonego w Olsztynie",
+
+         "Szpital Morski im. PCK w Gdyni":
+            "Szpitala Morskiego im. PCK w Gdyni",
+
+         "Szpital Specjalistyczny im. A. Falkiewicza we Wrocławiu":
+            "Szpitala Specjalistycznego im. A. Falkiewicza we Wrocławiu",
+
+         "Beskidzkie Centrum Onkologii - Szpital Miejski im. Jana Pawła II w Bielsku-Białej":
+            "Beskidzkiego Centrum Onkologii – Szpitala Miejskiego im. Jana Pawła II w Bielsku-Białej",
+
+         "Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego w Białymstoku":
+            "Wojewódzkiego Szpitala Zespolonego im. Jędrzeja Śniadeckiego w Białymstoku",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
