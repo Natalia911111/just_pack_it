@@ -14364,6 +14364,205 @@ LISTA_ZAMOSC_WOJEWODZKI = [
     }
 ]
 
+# =====================================
+# SZPITAL POWIATOWY IM. PRAŁATA J. GLOWATZKIEGO – STRZELCE OPOLSKIE
+# =====================================
+
+LISTA_STRZELCE_OPOLSKIE = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "strzelce-dokumenty-1",
+        "nazwa": "Dokument potwierdzający tożsamość",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-dokumenty-3",
+        "nazwa": "Oryginalny, potwierdzony wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-dokumenty-4",
+        "nazwa": "Badanie na obecność przeciwciał – przy ujemnym Rh (Rh−)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-dokumenty-5",
+        "nazwa": "Wyniki badań wykonanych w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-dokumenty-6",
+        "nazwa": "Ważny wynik GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-dokumenty-7",
+        "nazwa": "Wynik HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-dokumenty-8",
+        "nazwa": "Wynik HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-dokumenty-9",
+        "nazwa": "Wynik HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-dokumenty-10",
+        "nazwa": "Wyniki badań prenatalnych",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-dokumenty-11",
+        "nazwa": "Wypis ze szpitala – jeśli były hospitalizacje podczas obecnej ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-dokumenty-12",
+        "nazwa": "Dokumentacja dotycząca przebytych poważnych chorób – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-dokumenty-13",
+        "nazwa": "NIP pracodawcy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "strzelce-mama-1",
+        "nazwa": "Koszulka do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-mama-2",
+        "nazwa": "Koszulki rozpinane z przodu lub inne wygodne do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-mama-4",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-mama-5",
+        "nazwa": "Kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-mama-6",
+        "nazwa": "Stanik do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-mama-7",
+        "nazwa": "Woda mineralna",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-mama-8",
+        "nazwa": "Mała myjka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-mama-9",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-mama-10",
+        "nazwa": "Mały ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-mama-11",
+        "nazwa": "Pomadka lub krem nawilżający do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-mama-12",
+        "nazwa": "Bielizna bawełniana lub jednorazowa siateczkowa po porodzie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "strzelce-mama-13",
+        "nazwa": "Wkładki higieniczne poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 
 
 SZPITALE_INFO = {
@@ -15024,6 +15223,17 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "Szkoła Rodzenia – Szpital Wojewódzki im. Papieża Jana Pawła II w Zamościu"
     },
+    "Szpital Powiatowy im. Prałata J. Glowatzkiego w Strzelcach Opolskich": {
+        "zapewnia": [
+            "Profesjonalne laktatory – dostępne na oddziale"
+        ],
+        "warto_wiedziec": [
+            "🤱 Na oddziale dostępne są profesjonalne laktatory.",
+            "📋 Lista wyprawkowa została przekazana bezpośrednio przez Oddział ginekologiczno-położniczy i Salę Porodową Szpitala Powiatowego w Strzelcach Opolskich.",
+            "👶 Placówka nie przekazała osobnej listy rzeczy dla dziecka – dlatego Just Pack It nie dodaje ich od siebie."
+        ],
+        "warto_wiedziec_zrodlo": "Oddział ginekologiczno-położniczy i Sala Porodowa Szpitala Powiatowego im. Prałata J. Glowatzkiego w Strzelcach Opolskich – informacje przekazane bezpośrednio przez oddział"
+    },
 
 }
 
@@ -15084,6 +15294,7 @@ SZPITALE = {
     "Beskidzkie Centrum Onkologii - Szpital Miejski im. Jana Pawła II w Bielsku-Białej": LISTA_BIELSKO_BIALA_BCO,
     "Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego w Białymstoku": LISTA_BIALYSTOK_WOJEWODZKI,
     "Szpital Wojewódzki im. Papieża Jana Pawła II w Zamościu": LISTA_ZAMOSC_WOJEWODZKI,
+    "Szpital Powiatowy im. Prałata J. Glowatzkiego w Strzelcach Opolskich": LISTA_STRZELCE_OPOLSKIE,
 }
 
 for lista_szpitala in SZPITALE.values():

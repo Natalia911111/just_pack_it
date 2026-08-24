@@ -666,6 +666,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
          "Szpital Wojewódzki im. Papieża Jana Pawła II w Zamościu":
             "Szpitala Wojewódzkiego im. Papieża Jana Pawła II w Zamościu",
+
+         "Szpital Powiatowy im. Prałata J. Glowatzkiego w Strzelcach Opolskich":
+            "Szpitala Powiatowego im. Prałata J. Glowatzkiego w Strzelcach Opolskich",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
