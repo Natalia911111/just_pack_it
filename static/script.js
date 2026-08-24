@@ -669,6 +669,12 @@ function getHospitalNameInGenitive(hospitalName) {
 
          "Szpital Powiatowy im. Prałata J. Glowatzkiego w Strzelcach Opolskich":
             "Szpitala Powiatowego im. Prałata J. Glowatzkiego w Strzelcach Opolskich",
+
+         "Szpital Wielospecjalistyczny im. dr. Ludwika Błażka w Inowrocławiu":
+            "Szpitala Wielospecjalistycznego im. dr. Ludwika Błażka w Inowrocławiu",
+
+        "Instytut Matki i Dziecka w Warszawie":
+            "Instytutu Matki i Dziecka w Warszawie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

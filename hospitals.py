@@ -14563,6 +14563,725 @@ LISTA_STRZELCE_OPOLSKIE = [
     }
 ]
 
+# =====================================
+# SZPITAL WIELOSPECJALISTYCZNY IM. DR. LUDWIKA BŁAŻKA – INOWROCŁAW
+# =====================================
+
+LISTA_INOWROCLAW_BLAZKA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "ino-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-dokumenty-3",
+        "nazwa": "Oryginał wyniku grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-dokumenty-4",
+        "nazwa": "Wynik WR / VDRL",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-dokumenty-5",
+        "nazwa": "Wynik HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-dokumenty-6",
+        "nazwa": "Wynik HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-dokumenty-7",
+        "nazwa": "Wynik HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-dokumenty-8",
+        "nazwa": "Wynik GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-dokumenty-9",
+        "nazwa": "Wyniki USG",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-dokumenty-10",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-dokumenty-11",
+        "nazwa": "Dokument z Urzędu Stanu Cywilnego potwierdzający ojcostwo – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-dokumenty-12",
+        "nazwa": "NIP pracodawcy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "ino-mama-1",
+        "nazwa": "Obszerna, niekrępująca ruchów koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-2",
+        "nazwa": "Koszule umożliwiające karmienie piersią – 3–4 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-4",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-5",
+        "nazwa": "Wygodne obuwie do chodzenia po oddziale",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-6",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-7",
+        "nazwa": "Ciemny, duży ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-8",
+        "nazwa": "Przybory toaletowe i podstawowe kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-9",
+        "nazwa": "Pomadka nawilżająca do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-10",
+        "nazwa": "Woda niegazowana – najlepiej w niewielkiej butelce z dzióbkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-11",
+        "nazwa": "Gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-12",
+        "nazwa": "Lekkostrawne przekąski, np. musy owocowe, jaglanka, owsianka w tubce lub lizaki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-13",
+        "nazwa": "Worek lub reklamówka na brudne rzeczy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-14",
+        "nazwa": "Kompresy hydrożelowe do ciepłych i zimnych okładów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-15",
+        "nazwa": "Stanik do karmienia piersią – 2–3 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-16",
+        "nazwa": "Majtki siateczkowe poporodowe – 2–3 pary",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-17",
+        "nazwa": "Majtki bawełniane – 2–3 pary",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-18",
+        "nazwa": "Wygodne, luźne ubranie, np. dres, T-shirt",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-19",
+        "nazwa": "Podpaski w rozmiarze maxi",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-20",
+        "nazwa": "Jednorazowe wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-21",
+        "nazwa": "Lanolina do pielęgnacji brodawek sutkowych",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-22",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-23",
+        "nazwa": "Leki przyjmowane na stałe – do weryfikacji z lekarzem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-24",
+        "nazwa": "Ręczniki papierowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-mama-25",
+        "nazwa": "Poduszka do karmienia z wymienną powłoczką – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "ino-maluszek-1",
+        "nazwa": "Pojedynczy zestaw ubranek dla dziecka na czas po porodzie i kangurowania",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-maluszek-2",
+        "nazwa": "Ubranka dla noworodka: pajacyki, body, śpiochy i skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-maluszek-3",
+        "nazwa": "Kocyk lub rożek – 2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-maluszek-4",
+        "nazwa": "Pieluszki tetrowe – 3–5 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-maluszek-5",
+        "nazwa": "Pieluchy jednorazowe – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-maluszek-6",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-maluszek-7",
+        "nazwa": "Kosmetyki emolientowe: balsam, płyn do kąpieli i krem na odparzenia",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "ino-tata-1",
+        "nazwa": "Wygodne ubranie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-tata-2",
+        "nazwa": "Bielizna na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-tata-3",
+        "nazwa": "Obuwie do poruszania się po oddziale",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-tata-4",
+        "nazwa": "Kosmetyczka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-tata-5",
+        "nazwa": "Ubranie na wyjście ze szpitala dla mamy",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-tata-6",
+        "nazwa": "Ubranie na wyjście ze szpitala dla dziecka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ino-tata-7",
+        "nazwa": "Fotelik samochodowy – przygotowany na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# INSTYTUT MATKI I DZIECKA – WARSZAWA
+# =====================================
+
+LISTA_IMID_WARSZAWA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "imid-dokumenty-1",
+        "nazwa": "Dokument tożsamości – dowód osobisty lub paszport",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-3",
+        "nazwa": "Oryginał wyniku grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-4",
+        "nazwa": "Wynik HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-5",
+        "nazwa": "Wynik HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-6",
+        "nazwa": "Wynik WR",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-7",
+        "nazwa": "Wynik HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-8",
+        "nazwa": "Wynik badania w kierunku toksoplazmozy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-9",
+        "nazwa": "Wynik morfologii",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-10",
+        "nazwa": "Wynik posiewu z kanału szyjki macicy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-11",
+        "nazwa": "Wynik badania ogólnego moczu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-12",
+        "nazwa": "Wynik badania w kierunku cytomegalii",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-13",
+        "nazwa": "Wszystkie wyniki badań USG, w tym pierwsze USG oraz USG wykonane po 36. tygodniu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-14",
+        "nazwa": "Inne wyniki badań wykonywanych podczas ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-15",
+        "nazwa": "Wypisy z wcześniejszych pobytów w szpitalu podczas ciąży – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-16",
+        "nazwa": "Karta Planu Porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-17",
+        "nazwa": "NIP pracodawcy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-18",
+        "nazwa": "NIP pracodawcy ojca dziecka",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-dokumenty-19",
+        "nazwa": "Dane osoby do powiadomienia w razie konieczności: imię, nazwisko, adres, telefon, PESEL i numer dowodu osobistego",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "imid-mama-1",
+        "nazwa": "Koszule bawełniane rozpinane z przodu – 2–3 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-mama-2",
+        "nazwa": "Biustonosz dla kobiet karmiących",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-mama-4",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-mama-5",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-mama-6",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-mama-7",
+        "nazwa": "Ręcznik kąpielowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-mama-8",
+        "nazwa": "Podpaski lub podkłady poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-mama-9",
+        "nazwa": "Majtki jednorazowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-mama-10",
+        "nazwa": "Leki przyjmowane na stałe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-mama-11",
+        "nazwa": "Niegazowana, czysta woda",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "imid-maluszek-1",
+        "nazwa": "Bawełniane body lub kaftaniki – 4 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-maluszek-2",
+        "nazwa": "Śpioszki lub pajacyki – 3 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-maluszek-3",
+        "nazwa": "Czapeczki – 2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-maluszek-4",
+        "nazwa": "Rękawiczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-maluszek-5",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-maluszek-6",
+        "nazwa": "Pieluchy tetrowe – około 5 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-maluszek-7",
+        "nazwa": "Pieluszki jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-maluszek-8",
+        "nazwa": "Rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-maluszek-9",
+        "nazwa": "Kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-maluszek-10",
+        "nazwa": "Ręcznik kąpielowy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "imid-tata-1",
+        "nazwa": "Wygodne, swobodne i czyste ubranie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-tata-2",
+        "nazwa": "Wygodne buty",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-tata-3",
+        "nazwa": "Bilon do automatów z kawą, kanapkami i napojami",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "imid-tata-4",
+        "nazwa": "Ubranie dla noworodka na wyjście ze szpitala – dostosowane do pory roku",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 
 
 SZPITALE_INFO = {
@@ -15234,6 +15953,42 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "Oddział ginekologiczno-położniczy i Sala Porodowa Szpitala Powiatowego im. Prałata J. Glowatzkiego w Strzelcach Opolskich – informacje przekazane bezpośrednio przez oddział"
     },
+    "Szpital Wielospecjalistyczny im. dr. Ludwika Błażka w Inowrocławiu": {
+        "zapewnia": [
+            "Koszulę szpitalną do porodu – jeśli pacjentka chce z niej skorzystać",
+            "Podpaski poporodowe",
+            "Jednorazowe podkłady",
+            "Ubranka dla noworodka – dostępne na oddziale",
+            "Kocyki dla noworodka",
+            "Pieluszki tetrowe",
+            "Pieluchy jednorazowe",
+            "Chusteczki nawilżane – dostępne na oddziale",
+            "Rogale do karmienia"
+        ],
+        "warto_wiedziec": [
+            "👜 Szpital sugeruje przygotowanie dwóch bagaży: mniejszego z rzeczami potrzebnymi na sali porodowej oraz większego z rzeczami potrzebnymi po porodzie.",
+            "🍽️ Podczas pobytu każdego dnia serwowanych jest 5 posiłków.",
+            "💧 Na oddziale dostępne są czajnik, dozownik z wodą pitną oraz lodówka dla pacjentek.",
+            "🎵 Podczas porodu można korzystać z własnej muzyki.",
+            "👀 Istnieje możliwość umówienia się na odwiedziny oddziału i obejrzenia sal porodowych przed porodem.",
+            "🚫 Szpital informuje, że nie trzeba zabierać mleka modyfikowanego, butelek ani niedrapek."
+        ],
+        "warto_wiedziec_zrodlo": "Narodziny w Inowrocławiu – materiały Oddziału Położniczo-Ginekologicznego Szpitala Wielospecjalistycznego im. dr. Ludwika Błażka w Inowrocławiu • wyprawka opublikowana 23 lutego 2024"
+    },
+    "Instytut Matki i Dziecka w Warszawie": {
+        "zapewnia": [
+            "Kosmetyki NIVEA BABY dostępne w salach poporodowych"
+        ],
+        "warto_wiedziec": [
+            "💉 Na Bloku Porodowym na życzenie rodzącej dostępne jest znieczulenie zewnątrzoponowe porodu.",
+            "👶 Ubranie dla noworodka na wyjście należy dostosować do pory roku – Instytut zaleca zasadę jednej warstwy więcej niż u osoby dorosłej.",
+            "🧠 Podczas pobytu można skorzystać z bezpłatnej porady psychologa w dni powszednie.",
+            "🍽️ Pacjentki otrzymują 3 posiłki dziennie, a pacjentki na diecie cukrzycowej – 5 posiłków.",
+            "👨‍👩‍👧 Instytut nie ogranicza wizyt najbliższych osób, ale prosi, aby wśród odwiedzających nie było osób chorych ani małych dzieci.",
+            "🏥 Położniczo-Ginekologiczna Izba Przyjęć znajduje się na parterze budynku B."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Instytutu Matki i Dziecka – Klinika Położnictwa i Ginekologii • aktualizacja informacji: sierpień 2026"
+    },
 
 }
 
@@ -15295,6 +16050,8 @@ SZPITALE = {
     "Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego w Białymstoku": LISTA_BIALYSTOK_WOJEWODZKI,
     "Szpital Wojewódzki im. Papieża Jana Pawła II w Zamościu": LISTA_ZAMOSC_WOJEWODZKI,
     "Szpital Powiatowy im. Prałata J. Glowatzkiego w Strzelcach Opolskich": LISTA_STRZELCE_OPOLSKIE,
+    "Szpital Wielospecjalistyczny im. dr. Ludwika Błażka w Inowrocławiu": LISTA_INOWROCLAW_BLAZKA,
+    "Instytut Matki i Dziecka w Warszawie": LISTA_IMID_WARSZAWA,
 }
 
 for lista_szpitala in SZPITALE.values():
