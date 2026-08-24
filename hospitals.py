@@ -13926,6 +13926,443 @@ LISTA_BIALYSTOK_WOJEWODZKI = [
         "przypiete": False
     }
 ]
+# =====================================
+# SZPITAL WOJEWÓDZKI IM. PAPIEŻA JANA PAWŁA II – ZAMOŚĆ
+# =====================================
+
+LISTA_ZAMOSC_WOJEWODZKI = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "zamosc-woj-dokumenty-1",
+        "nazwa": "Dowód osobisty (ew. paszport)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-dokumenty-3",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-dokumenty-4",
+        "nazwa": "Wynik badania grupy krwi i czynnika Rh – oryginał, wynik potwierdzony",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-dokumenty-5",
+        "nazwa": "Wynik HBs (badanie krwi w kierunku WZW)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-dokumenty-6",
+        "nazwa": "Wynik GBS – posiew z pochwy wykonany między 35. a 37. tygodniem ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-dokumenty-7",
+        "nazwa": "Odczyn WR – wynik lub wpis w karcie ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-dokumenty-8",
+        "nazwa": "Karty informacyjne z wcześniejszych pobytów w szpitalu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-dokumenty-9",
+        "nazwa": "Inne istotne wyniki badań i konsultacje specjalistyczne",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-dokumenty-10",
+        "nazwa": "Wyniki USG",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-dokumenty-11",
+        "nazwa": "Akt małżeństwa – jeśli nazwisko w dowodzie nie zostało jeszcze zmienione, a dziecko ma nosić nazwisko męża",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "zamosc-woj-mama-1",
+        "nazwa": "Koszule umożliwiające karmienie piersią – 2–3 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-3",
+        "nazwa": "Klapki + klapki pod prysznic (najlepiej szersze)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-4",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-5",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-6",
+        "nazwa": "Szczotka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-7",
+        "nazwa": "Suszarka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-8",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-9",
+        "nazwa": "Ulubione kosmetyki (np. suchy szampon)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-10",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-11",
+        "nazwa": "Pomadka lub krem do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-12",
+        "nazwa": "Długopis i notatnik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-13",
+        "nazwa": "Krem z lanoliną na brodawki sutkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-14",
+        "nazwa": "Wkładki laktacyjne – kilka sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-15",
+        "nazwa": "Kompresy na obolałe brodawki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-16",
+        "nazwa": "Chusteczki higieniczne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-17",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-18",
+        "nazwa": "Ręcznik papierowy – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-19",
+        "nazwa": "Podkłady ginekologiczne – 5–10 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-20",
+        "nazwa": "Maszynka jednorazowa do golenia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-21",
+        "nazwa": "Podpaski poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-22",
+        "nazwa": "Majtki siateczkowe jednorazowe – min. 2 szt., warto mieć jedne większe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-23",
+        "nazwa": "Biustonosze do karmienia – 2–3 szt. (opcjonalnie)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-24",
+        "nazwa": "Przekąski: lizaki, czekolada, baton, sucharki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-25",
+        "nazwa": "Ulubiona poduszka – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-26",
+        "nazwa": "Telefon",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-27",
+        "nazwa": "Ładowarka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-28",
+        "nazwa": "Słuchawki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-29",
+        "nazwa": "Książka / drobiazgi na czas oczekiwania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-30",
+        "nazwa": "Kubek i sztućce – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-31",
+        "nazwa": "Mgiełka do twarzy lub woda termalna",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-mama-32",
+        "nazwa": "Dla chętnych: butelka do podmywania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "zamosc-woj-maluszek-1",
+        "nazwa": "Ubranka dopasowane do pory roku – 3–5 szt. (wcześniej wyprane i dokładnie wypłukane)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-maluszek-2",
+        "nazwa": "Pieluchy jednorazowe – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-maluszek-3",
+        "nazwa": "Pieluszki tetrowe – 3–5 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-maluszek-4",
+        "nazwa": "Bawełniane czapeczki – 2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-maluszek-5",
+        "nazwa": "Skarpetki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-maluszek-6",
+        "nazwa": "Kocyk lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-maluszek-7",
+        "nazwa": "Krem ochronny do pupy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY
+    # =========================
+
+    {
+        "id": "zamosc-woj-tata-1",
+        "nazwa": "Obuwie na zmianę lub ochraniacze na buty",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-tata-2",
+        "nazwa": "Fartuch ochronny",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-tata-3",
+        "nazwa": "Naładowany telefon",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # RZECZY NA DZIEŃ WYPISU
+    # =========================
+
+    {
+        "id": "zamosc-woj-tata-4",
+        "nazwa": "Fotelik samochodowy – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-tata-5",
+        "nazwa": "Kocyk lub rożek – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-tata-6",
+        "nazwa": "Ubranko „na wyjście” dla dziecka – body, śpiochy lub kombinezon wg pory roku",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-tata-7",
+        "nazwa": "Czapka dla dziecka na wyjście – najlepiej wiązana",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zamosc-woj-tata-8",
+        "nazwa": "Ubranie i buty dla mamy na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 
 
@@ -14574,6 +15011,19 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego w Białymstoku – oficjalna strona szpitala"
     },
+    "Szpital Wojewódzki im. Papieża Jana Pawła II w Zamościu": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🧳 Wyprawkę można podzielić na 2–3 torby.",
+            "📄 Dokumenty warto trzymać w osobnej przegródce.",
+            "💊 Leki przyjmowane przewlekle należy zabrać ze sobą.",
+            "📋 Skierowanie do porodu nie jest wymagane.",
+            "💅 Przed porodem należy usunąć lakier i skrócić paznokcie.",
+            "💍 Należy zdjąć biżuterię, m.in. język, pępek, kolczyki, obrączkę, pierścionki i łańcuszki.",
+            "🏠 Cenne rzeczy najlepiej zostawić w domu."
+        ],
+        "warto_wiedziec_zrodlo": "Szkoła Rodzenia – Szpital Wojewódzki im. Papieża Jana Pawła II w Zamościu"
+    },
 
 }
 
@@ -14633,6 +15083,7 @@ SZPITALE = {
     "Szpital Specjalistyczny im. A. Falkiewicza we Wrocławiu": LISTA_WROCLAW_FALKIEWICZA,
     "Beskidzkie Centrum Onkologii - Szpital Miejski im. Jana Pawła II w Bielsku-Białej": LISTA_BIELSKO_BIALA_BCO,
     "Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego w Białymstoku": LISTA_BIALYSTOK_WOJEWODZKI,
+    "Szpital Wojewódzki im. Papieża Jana Pawła II w Zamościu": LISTA_ZAMOSC_WOJEWODZKI,
 }
 
 for lista_szpitala in SZPITALE.values():

@@ -663,6 +663,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
          "Wojewódzki Szpital Zespolony im. Jędrzeja Śniadeckiego w Białymstoku":
             "Wojewódzkiego Szpitala Zespolonego im. Jędrzeja Śniadeckiego w Białymstoku",
+
+         "Szpital Wojewódzki im. Papieża Jana Pawła II w Zamościu":
+            "Szpitala Wojewódzkiego im. Papieża Jana Pawła II w Zamościu",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
