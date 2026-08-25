@@ -675,6 +675,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Instytut Matki i Dziecka w Warszawie":
             "Instytutu Matki i Dziecka w Warszawie",
+
+        "Łużyckie Centrum Medyczne w Lubaniu":
+           "NZOZ Łużyckie Centrum Medyczne w Lubaniu Sp. z o.o. – Centrum Narodzin",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

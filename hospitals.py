@@ -15281,7 +15281,210 @@ LISTA_IMID_WARSZAWA = [
         "przypiete": False
     }
 ]
+# =========================================================
+# ŁUŻYCKIE CENTRUM MEDYCZNE W LUBANIU
+# Centrum Narodzin
+# =========================================================
 
+LISTA_LUBAN = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "luban-dokumenty-1",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-dokumenty-2",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-dokumenty-3",
+        "nazwa": "Dokument grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-dokumenty-4",
+        "nazwa": "Wynik HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-dokumenty-5",
+        "nazwa": "Wynik GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-dokumenty-6",
+        "nazwa": "Pozostałe wyniki badań z ciąży – najlepiej spakowane razem do teczki",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "luban-mama-1",
+        "nazwa": "2–3 bawełniane koszule z rozpięciem z przodu ułatwiającym karmienie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-2",
+        "nazwa": "Biustonosz dla karmiących",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-3",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-4",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-5",
+        "nazwa": "Kapcie zmywalne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-6",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-7",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-8",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-9",
+        "nazwa": "Kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-10",
+        "nazwa": "Jednorazowe podkłady na łóżko",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-11",
+        "nazwa": "Podpaski poporodowe typu Bella Mama",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-12",
+        "nazwa": "Majtki jednorazowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-13",
+        "nazwa": "Leki przyjmowane na stałe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-14",
+        "nazwa": "Woda niegazowana do picia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-mama-15",
+        "nazwa": "Bezbarwna pomadka do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "luban-maluszek-1",
+        "nazwa": "Pieluchy jednorazowe – 20–30 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-maluszek-2",
+        "nazwa": "Maść przeciw odparzeniom na pośladki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-maluszek-3",
+        "nazwa": "Paczka nawilżanych chusteczek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-maluszek-4",
+        "nazwa": "Kilka pieluch tetrowych",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "luban-maluszek-5",
+        "nazwa": "Ubranko dla dziecka na wyjście ze szpitala",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+]
 
 
 SZPITALE_INFO = {
@@ -16001,6 +16204,24 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Instytutu Matki i Dziecka – Klinika Położnictwa i Ginekologii • aktualizacja informacji: sierpień 2026"
     },
+    "Łużyckie Centrum Medyczne w Lubaniu": {
+        "zapewnia": [
+            "Ubranka dla noworodka podczas pobytu – należy zabrać ubranko na wyjście ze szpitala"
+        ],
+        "warto_wiedziec": [
+            "🏥 Porody odbywają się w Centrum Narodzin działającym w ramach Oddziału Ginekologiczno-Położniczego",
+            "👩‍🍼 Oddział położniczy działa w systemie rooming-in – mama i dziecko przebywają razem",
+            "🚪 Dostępne są sale jedno- i dwuosobowe, w tym Pokój Rodzinny",
+            "👨‍👩‍👧 Szpital jest nastawiony na porody rodzinne",
+            "🤱 Wspierany jest kontakt skóra do skóry oraz karmienie piersią",
+            "🧘 Podczas porodu wspierane są pozycje wertykalne i aktywność rodzącej",
+            "💉 Dostępne jest znieczulenie zewnątrzoponowe",
+            "📋 Możesz przygotować własny plan porodu – jest omawiany z personelem przy przyjęciu",
+            "🧑‍🍼 Przy Centrum Narodzin działa Szkoła Rodzenia",
+            "🍼 Dostępne jest wsparcie laktacyjne"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Łużyckiego Centrum Medycznego w Lubaniu • aktualizacja: sierpień 2026"
+    },
 
 }
 
@@ -16064,6 +16285,7 @@ SZPITALE = {
     "Szpital Powiatowy im. Prałata J. Glowatzkiego w Strzelcach Opolskich": LISTA_STRZELCE_OPOLSKIE,
     "Szpital Wielospecjalistyczny im. dr. Ludwika Błażka w Inowrocławiu": LISTA_INOWROCLAW_BLAZKA,
     "Instytut Matki i Dziecka w Warszawie": LISTA_IMID_WARSZAWA,
+    "Łużyckie Centrum Medyczne w Lubaniu": LISTA_LUBAN,
 }
 
 for lista_szpitala in SZPITALE.values():
