@@ -515,8 +515,8 @@ function getHospitalNameInGenitive(hospitalName) {
         "Szpital Uniwersytecki":
             "Szpitala Uniwersyteckiego",
 
-        "Szpital Rydygiera":
-            "Szpitala Rydygiera",
+      "Szpital Rydygiera":
+        "Szpitala Specjalistycznego im. Ludwika Rydygiera w Krakowie",
 
         "Szpital Narutowicza":
             "Szpitala Narutowicza",

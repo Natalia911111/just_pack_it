@@ -15362,7 +15362,19 @@ SZPITALE_INFO = {
         "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Uniwersyteckiego w Krakowie • aktualizacja: sierpień 2026"
     },
     "Szpital Rydygiera": {
-        "zapewnia": []
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "👨‍👩‍👧 Szpital umożliwia porody rodzinne.",
+            "🛁 Na Bloku Porodowym znajduje się wanna porodowa oraz koło porodowe ROMA.",
+            "💧 W łagodzeniu bólu porodowego stosowane są metody niefarmakologiczne, m.in. ruch, masaż, ciepłe i zimne okłady, immersja wodna, ćwiczenia oddechowe oraz metody fizjoterapeutyczne.",
+            "💉 Dostępne są również farmakologiczne metody łagodzenia bólu: gaz wziewny oraz znieczulenie zewnątrzoponowe lub podpajęczynówkowe.",
+            "🩺 Nad porodami fizjologicznymi opiekę sprawują doświadczone położne, przy możliwości konsultacji specjalistycznych.",
+            "🏥 Szpital prowadzi również porody w ciążach powikłanych, wymagających wysokospecjalistycznego postępowania.",
+            "📈 Zapis KTG z Bloku Porodowego jest bezpośrednio przesyłany do gabinetów lekarskich i położniczych.",
+            "🎓 Przy szpitalu działa Szkoła Rodzenia.",
+            "🤰 Opieka położnicza jest częścią Małopolskiego Centrum Macierzyństwa i Medycyny Kobiet."
+        ],
+        "warto_wiedziec_zrodlo": "Szpital Specjalistyczny im. Ludwika Rydygiera w Krakowie – oficjalna strona Oddziału Ginekologii i Położnictwa oraz Małopolskiego Centrum Macierzyństwa i Medycyny Kobiet"
     },
     "Szpital Narutowicza": {
         "zapewnia": []
