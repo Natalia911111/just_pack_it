@@ -676,8 +676,14 @@ function getHospitalNameInGenitive(hospitalName) {
         "Instytut Matki i Dziecka w Warszawie":
             "Instytutu Matki i Dziecka w Warszawie",
 
+        "Szpital Kliniczny im. ks. Anny Mazowieckiej w Warszawie":
+            "Szpitala Klinicznego im. ks. Anny Mazowieckiej w Warszawie",
+
         "Łużyckie Centrum Medyczne w Lubaniu":
            "NZOZ Łużyckie Centrum Medyczne w Lubaniu Sp. z o.o. – Centrum Narodzin",
+
+        "Szpital Powiatowy SPZOZ w Mińsku Mazowieckim":
+            "Samodzielny Publiczny Zespół Opieki Zdrowotnej w Mińsku Mazowieckim",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

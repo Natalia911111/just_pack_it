@@ -15485,7 +15485,832 @@ LISTA_LUBAN = [
         "przypiete": False
     },
 ]
+# =========================================================
+# SZPITAL KLINICZNY IM. KS. ANNY MAZOWIECKIEJ – WARSZAWA
+# KAROWA
+# =========================================================
 
+LISTA_KAROWA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "karowa-dokumenty-1",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-dokumenty-3",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-dokumenty-4",
+        "nazwa": "Wyniki badań wykonanych w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-dokumenty-5",
+        "nazwa": "Konsultacje specjalistyczne – jeśli były wykonywane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-dokumenty-6",
+        "nazwa": "Karty wypisowe z wcześniejszych pobytów w szpitalu – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY – PORÓD
+    # =========================
+
+    {
+        "id": "karowa-mama-1",
+        "nazwa": "Koszula porodowa",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-2",
+        "nazwa": "Pomadka do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-3",
+        "nazwa": "Ulubiona muzyka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-4",
+        "nazwa": "Gadżety porodowe – np. grzebień, szal/chusta nieelastyczna, termofor z pestkami wiśni, piłeczka z kolcami",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-5",
+        "nazwa": "Olejek ze słodkich migdałów do masażu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-6",
+        "nazwa": "Mały ręcznik do ciepłych lub zimnych okładów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-7",
+        "nazwa": "Woda lub inny napój na czas porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-8",
+        "nazwa": "Przekąski na czas porodu – np. lizak, gorzka czekolada lub mus owocowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-9",
+        "nazwa": "Gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY – PO PORODZIE
+    # =========================
+
+    {
+        "id": "karowa-mama-10",
+        "nazwa": "Koszule do karmienia piersią – 2–3 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-11",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-12",
+        "nazwa": "Biustonosze do karmienia piersią – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-13",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-14",
+        "nazwa": "Jednorazowe podkłady higieniczne 60 × 60 cm – 1 opakowanie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-15",
+        "nazwa": "Podkładki poporodowe – 2 opakowania (opcjonalnie, są dostępne w szpitalu)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-16",
+        "nazwa": "Majtki siateczkowe – 4 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-17",
+        "nazwa": "Preparat wspomagający laktację – jeśli chcesz go stosować",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-18",
+        "nazwa": "Ręczniki pod prysznic – mały i duży",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-19",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-20",
+        "nazwa": "Suszarka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-21",
+        "nazwa": "Kosmetyki i przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-22",
+        "nazwa": "Nawilżany wodą papier toaletowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-23",
+        "nazwa": "Butelka z dzióbkiem do podmywania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-24",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-25",
+        "nazwa": "Woda i przekąski niewymagające lodówki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-26",
+        "nazwa": "2 dodatkowe pieluchy tetrowe lub okłady żelowe na piersi – na czas nawału",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-mama-27",
+        "nazwa": "Wygodne ubranie na wyjście ze szpitala",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    # =========================
+    # CESARSKIE CIĘCIE
+    # =========================
+
+    {
+        "id": "karowa-cc-1",
+        "nazwa": "Skierowanie ze wskazaniem do cięcia cesarskiego",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-cc-2",
+        "nazwa": "Zaświadczenie uzasadniające skierowanie do operacji",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-cc-3",
+        "nazwa": "Morfologia",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-cc-4",
+        "nazwa": "Układ krzepnięcia",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-cc-5",
+        "nazwa": "Elektrolity",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-cc-6",
+        "nazwa": "Badanie ogólne moczu",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-cc-7",
+        "nazwa": "Nie zabierać wartościowych przedmiotów ani biżuterii",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "karowa-maluszek-1",
+        "nazwa": "Ręcznik do przykrycia dziecka po porodzie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-2",
+        "nazwa": "Pieluchy flanelowe, tetrowe lub muślinowe – 2 szt. na poród",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-3",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-4",
+        "nazwa": "Pierwszy komplet ubranek: pajacyk, body, czapeczka i skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-5",
+        "nazwa": "Pieluszka jednorazowa do pierwszego kompletu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-6",
+        "nazwa": "Kocyk lub rożek do pierwszego kompletu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-7",
+        "nazwa": "Zestawy ubranek dla dziecka na 3–4 doby",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-8",
+        "nazwa": "Czapeczki – 2–3 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-9",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-10",
+        "nazwa": "Pieluchy jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-11",
+        "nazwa": "Maść na odparzenia",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-12",
+        "nazwa": "Kocyki – 2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-13",
+        "nazwa": "Rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-14",
+        "nazwa": "Pieluchy flanelowe, tetrowe lub muślinowe – 5 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-15",
+        "nazwa": "Ubranka na wyjście ze szpitala – odpowiednie do pory roku",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-maluszek-16",
+        "nazwa": "Podkłady higieniczne chłonne 40 × 60 cm lub 60 × 60 cm",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "karowa-tata-1",
+        "nazwa": "Przekąski lub kanapki",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-tata-2",
+        "nazwa": "Picie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-tata-3",
+        "nazwa": "Wygodne, czyste ubranie – najlepiej rozpinana koszula umożliwiająca kangurowanie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-tata-4",
+        "nazwa": "Buty na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "karowa-tata-5",
+        "nazwa": "Fotelik samochodowy / nosidełko do bezpiecznego przewiezienia dziecka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+LISTA_MINSK_MAZOWIECKI = [
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "minsk-dok-1",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dok-2",
+        "nazwa": "Karta prowadzenia ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dok-3",
+        "nazwa": "Potwierdzona grupa krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dok-4",
+        "nazwa": "Wyniki badań: HBs, HIV, kiła, HCV – z III trymestru",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dok-5",
+        "nazwa": "Wynik GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dok-6",
+        "nazwa": "Ostatnie USG",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dok-7",
+        "nazwa": "Ostatnie wyniki morfologii krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dok-8",
+        "nazwa": "Inne wyniki badań z przebiegu chorób wikłających ciążę",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dok-9",
+        "nazwa": "Plan porodu (opcjonalnie)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "minsk-mama-1",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-2",
+        "nazwa": "Klapki / kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-3",
+        "nazwa": "Jednorazowe podkłady poporodowe (podpaski) – 1 paczka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-4",
+        "nazwa": "Jednorazowe podkłady higieniczne – 1 paczka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-5",
+        "nazwa": "Gumka lub coś do spięcia włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-6",
+        "nazwa": "Pomadka do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-7",
+        "nazwa": "Ciepłe skarpety",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-8",
+        "nazwa": "Bawełniane lub jednorazowe majtki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-9",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-10",
+        "nazwa": "Butelka z wodą – najlepiej z „dzióbkiem” lub butelka filtrująca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-11",
+        "nazwa": "Przekąski do jedzenia – np. musy owocowe, słodki sok, lizak lub inne energetyczne przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-12",
+        "nazwa": "Koszule do karmienia – 2–3 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-13",
+        "nazwa": "Bawełniana lub jednorazowa oddychająca bielizna – ok. 6 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-14",
+        "nazwa": "Biustonosz do karmienia – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-15",
+        "nazwa": "Wkładki laktacyjne (opcjonalnie)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-16",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-17",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-18",
+        "nazwa": "Płyn do higieny intymnej lub specjalny preparat antyseptyczny (opcjonalnie)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-19",
+        "nazwa": "Krem z lanoliną do brodawek sutkowych",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-20",
+        "nazwa": "Kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-21",
+        "nazwa": "Woda – dużo wody, najlepiej w małych butelkach",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-22",
+        "nazwa": "Telefon i ładowarka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-23",
+        "nazwa": "Książka / słuchawki (opcjonalnie)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-mama-24",
+        "nazwa": "Ulubiona herbata lub przekąska",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "minsk-dziecko-1",
+        "nazwa": "Pielucha, para skarpetek i czapeczka – na czas porodu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dziecko-2",
+        "nazwa": "Butelka ze smoczkiem dla dziecka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dziecko-3",
+        "nazwa": "5–6 pieluch tetrowych",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dziecko-4",
+        "nazwa": "Opakowanie pieluszek jednorazowych",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dziecko-5",
+        "nazwa": "Mokre chusteczki lub myjki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dziecko-6",
+        "nazwa": "Krem przeciw odparzeniom lub maść pod pieluszkę",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dziecko-7",
+        "nazwa": "3 bawełniane koszulki lub body",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dziecko-8",
+        "nazwa": "3 pajacyki (śpiochy z rękawami i nogawkami) lub 3 kaftaniki i 3 pary śpiochów",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dziecko-9",
+        "nazwa": "Czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-dziecko-10",
+        "nazwa": "Ciepły kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "minsk-tata-1",
+        "nazwa": "Fartuch ochronny",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-tata-2",
+        "nazwa": "Ochraniacze na buty lub buty na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # NA WYJŚCIE
+    # =========================
+
+    {
+        "id": "minsk-wyjscie-1",
+        "nazwa": "Ubranie dla mamy",
+        "kategoria": "Na wyjście",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-wyjscie-2",
+        "nazwa": "Ubranie dla maluszka – odpowiednie do pogody",
+        "kategoria": "Na wyjście",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "minsk-wyjscie-3",
+        "nazwa": "Fotelik samochodowy",
+        "kategoria": "Na wyjście",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -16223,6 +17048,41 @@ SZPITALE_INFO = {
         "warto_wiedziec_zrodlo": "oficjalna strona Łużyckiego Centrum Medycznego w Lubaniu • aktualizacja: sierpień 2026"
     },
 
+    "Szpital Kliniczny im. ks. Anny Mazowieckiej w Warszawie": {
+        "zapewnia": [
+            "Podkładki poporodowe – dostępne w szpitalu"
+        ],
+        "warto_wiedziec": [
+            "🚪 Blok Porodowy posiada 5 indywidualnych sal porodowych z dostępem do łazienek.",
+            "🛁 Jedna z sal porodowych wyposażona jest w wannę porodową.",
+            "🧘 Podczas porodu można przyjmować pozycje wertykalne i korzystać m.in. z piłki, worka sako, maty i krzesełka porodowego.",
+            "👨‍👩‍👧 Możliwy jest poród rodzinny – osobą towarzyszącą może być m.in. partner, członek rodziny, przyjaciółka lub doula.",
+            "👶 Po cięciu cesarskim tata może kangurować dziecko w sali pooperacyjnej.",
+            "🤱 Po porodzie, jeśli stan dziecka na to pozwala, mama pozostaje z nim w kontakcie i ma możliwość pierwszego karmienia piersią.",
+            "🏥 Pobyt po porodzie fizjologicznym trwa zazwyczaj około 3 dób.",
+            "🧠 W razie potrzeby pacjentki mogą skorzystać ze wsparcia psychoterapeuty.",
+            "🏃 Po porodzie możliwa jest również konsultacja fizjoterapeuty.",
+            "👀 Przed porodem można umówić się na obejrzenie sal Bloku Porodowego.",
+            "🎓 Przy szpitalu działa Szkoła Rodzenia.",
+            "🏥 Przy planowym cięciu cesarskim należy wcześniej zapisać się w Izbie Przyjęć pod numerem 22 596 61 35 lub 22 596 65 21.",
+            "⏰ W wyznaczonym dniu planowego cięcia cesarskiego należy zgłosić się rano na czczo – bez jedzenia, picia, żucia gumy i palenia papierosów.",
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Klinicznego im. ks. Anny Mazowieckiej w Warszawie • aktualizacja: sierpień 2026"
+    },
+    "Szpital Powiatowy SPZOZ w Mińsku Mazowieckim": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🛁 Pacjentka podczas porodu ma do dyspozycji własną salę porodową wyposażoną m.in. w wannę, piłkę i worek Sako.",
+            "💧 Wśród dostępnych metod łagodzenia bólu znajduje się immersja wodna.",
+            "💨 Dostępne są również inne metody łagodzenia bólu, w tym Entonox (gaz rozweselający), leki dożylne oraz znieczulenie zewnątrzoponowe.",
+            "👨‍👩‍👧 Szpital umożliwia porody rodzinne.",
+            "📝 Szpital udostępnia własny formularz planu porodu.",
+            "🤱 Po porodzie pacjentki mogą skorzystać ze wsparcia urofizjoterapeutki.",
+            "🏫 Przy szpitalu działa Mińska Szkoła Rodzenia."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Samodzielnego Publicznego Zespołu Opieki Zdrowotnej w Mińsku Mazowieckim • aktualizacja: sierpień 2026"
+    },
+
 }
 
 SZPITALE = {
@@ -16286,6 +17146,8 @@ SZPITALE = {
     "Szpital Wielospecjalistyczny im. dr. Ludwika Błażka w Inowrocławiu": LISTA_INOWROCLAW_BLAZKA,
     "Instytut Matki i Dziecka w Warszawie": LISTA_IMID_WARSZAWA,
     "Łużyckie Centrum Medyczne w Lubaniu": LISTA_LUBAN,
+    "Szpital Kliniczny im. ks. Anny Mazowieckiej w Warszawie": LISTA_KAROWA,
+    "Szpital Powiatowy SPZOZ w Mińsku Mazowieckim": LISTA_MINSK_MAZOWIECKI,
 }
 
 for lista_szpitala in SZPITALE.values():
