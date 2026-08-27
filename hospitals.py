@@ -16312,6 +16312,250 @@ LISTA_MINSK_MAZOWIECKI = [
     }
 ]
 
+# =====================================
+# SP ZOZ HRUBIESZÓW
+# =====================================
+
+LISTA_HRUBIESZOW = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "hrubieszow-dokument-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-dokument-2",
+        "nazwa": "Oryginalny wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-dokument-3",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-dokument-4",
+        "nazwa": "Wyniki badań laboratoryjnych i ewentualnych konsultacji",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "hrubieszow-mama-1",
+        "nazwa": "Co najmniej 2 koszule nocne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-mama-3",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-mama-4",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-mama-5",
+        "nazwa": "Przybory toaletowe i kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-mama-6",
+        "nazwa": "Co najmniej 2 ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-mama-7",
+        "nazwa": "Sztućce i kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-mama-8",
+        "nazwa": "Termometr lekarski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-mama-9",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-mama-10",
+        "nazwa": "Jednorazowe wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-mama-11",
+        "nazwa": "Krem do pielęgnacji brodawek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-mama-12",
+        "nazwa": "Majtki jednorazowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-mama-13",
+        "nazwa": "Notes i długopis",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "hrubieszow-maluszek-1",
+        "nazwa": "Oliwka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-maluszek-2",
+        "nazwa": "Pieluchy jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-maluszek-3",
+        "nazwa": "4–5 pieluch wielorazowych",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-maluszek-4",
+        "nazwa": "Chusteczki pielęgnacyjne",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-maluszek-5",
+        "nazwa": "Ręcznik dla dziecka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-maluszek-6",
+        "nazwa": "Krem do pielęgnacji pośladków",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-maluszek-7",
+        "nazwa": "Rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-maluszek-8",
+        "nazwa": "Kaftaniki zapinane – 4 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-maluszek-9",
+        "nazwa": "Śpioszki – 4 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-maluszek-10",
+        "nazwa": "Skarpetki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-maluszek-11",
+        "nazwa": "Czapeczki niezawiązywane pod szyją",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY
+    # =========================
+
+    {
+        "id": "hrubieszow-tata-1",
+        "nazwa": "Wygodne jasne ubranie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-tata-2",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "hrubieszow-tata-3",
+        "nazwa": "Napoje",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -17082,6 +17326,20 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Samodzielnego Publicznego Zespołu Opieki Zdrowotnej w Mińsku Mazowieckim • aktualizacja: sierpień 2026"
     },
+    "SP ZOZ w Hrubieszowie": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🎒 Szpital zaleca przygotowanie i spakowanie torby około 3 tygodnie przed planowanym terminem porodu.",
+            "💉 Szpital oferuje farmakologiczne i niefarmakologiczne metody łagodzenia bólu porodowego, dobierane indywidualnie do potrzeb pacjentki.",
+            "🌿 Wśród metod niefarmakologicznych szpital wymienia m.in. ruch i zmianę pozycji, techniki oddechowe i relaksacyjne, masaż, ciepłe lub zimne okłady, TENS oraz immersję wodną.",
+            "💊 Wśród metod farmakologicznych szpital wymienia analgezję wziewną oraz dożylne opioidy.",
+            "👶 Oddział położniczy działa w systemie rooming-in – mama przebywa na sali razem z noworodkiem.",
+            "👨‍👩‍👧 Dostępna jest sala porodów rodzinnych.",
+            "🤱 Przy oddziale działa poradnia laktacyjna.",
+            "🏠 W dniu wypisu rodzina powinna dostarczyć ubranko dla dziecka odpowiednie do pory roku oraz ubranie dla mamy na powrót do domu."
+        ],
+        "warto_wiedziec_zrodlo": "Oficjalna strona SP ZOZ w Hrubieszowie"
+    },
 
 }
 
@@ -17148,6 +17406,7 @@ SZPITALE = {
     "Łużyckie Centrum Medyczne w Lubaniu": LISTA_LUBAN,
     "Szpital Kliniczny im. ks. Anny Mazowieckiej w Warszawie": LISTA_KAROWA,
     "Szpital Powiatowy SPZOZ w Mińsku Mazowieckim": LISTA_MINSK_MAZOWIECKI,
+    "SP ZOZ w Hrubieszowie": LISTA_HRUBIESZOW,
 }
 
 for lista_szpitala in SZPITALE.values():

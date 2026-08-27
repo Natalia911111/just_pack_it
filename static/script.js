@@ -684,6 +684,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Powiatowy SPZOZ w Mińsku Mazowieckim":
             "Samodzielny Publiczny Zespół Opieki Zdrowotnej w Mińsku Mazowieckim",
+
+        "SP ZOZ w Hrubieszowie":
+            "SP ZOZ w Hrubieszowie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
