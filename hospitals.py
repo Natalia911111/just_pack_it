@@ -16556,6 +16556,381 @@ LISTA_HRUBIESZOW = [
     },
 ]
 
+# =====================================
+# WOJEWÓDZKI SZPITAL ZESPOLONY W TORUNIU
+# =====================================
+
+LISTA_TORUN = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "torun-dokumenty-1",
+        "nazwa": "Dokument tożsamości, np. dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-dokumenty-3",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-dokumenty-4",
+        "nazwa": "Oryginalny, potwierdzony wynik grupy krwi na aktualne nazwisko",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-dokumenty-5",
+        "nazwa": "W przypadku Rh ujemnego – wynik badania przeciwciał odpornościowych anty-Rh z III trymestru lub potwierdzenie podania immunoglobuliny anty-D",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-dokumenty-6",
+        "nazwa": "Oryginalny wynik posiewu GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-dokumenty-7",
+        "nazwa": "Aktualny wynik morfologii krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-dokumenty-8",
+        "nazwa": "Aktualny wynik badania ogólnego moczu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-dokumenty-9",
+        "nazwa": "Wynik WR z ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-dokumenty-10",
+        "nazwa": "Aktualny wynik HBsAg z III trymestru",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-dokumenty-11",
+        "nazwa": "Aktualny wynik HIV z III trymestru",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-dokumenty-12",
+        "nazwa": "Wyniki badań USG",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-dokumenty-13",
+        "nazwa": "Dokumentacja dotycząca chorób w ciąży – jeżeli dotyczy, np. dzienniczek pomiarów glukozy lub ciśnienia",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "torun-mama-1",
+        "nazwa": "Koszule na czas porodu – 2 sztuki, najlepiej z naturalnego materiału",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-2",
+        "nazwa": "Kapcie lub klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-3",
+        "nazwa": "Ciepłe skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-4",
+        "nazwa": "Ręcznik kąpielowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-5",
+        "nazwa": "Mały ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-6",
+        "nazwa": "Mała butelka wody niegazowanej z ustnikiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-7",
+        "nazwa": "Przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-8",
+        "nazwa": "Pomadka ochronna do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-9",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-10",
+        "nazwa": "Gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-11",
+        "nazwa": "Koszule rozpinane u góry do karmienia – 3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-12",
+        "nazwa": "Elastyczne staniki do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-13",
+        "nazwa": "Majtki z siatki – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-14",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-15",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-16",
+        "nazwa": "Kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-17",
+        "nazwa": "Szare mydło w płynie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-18",
+        "nazwa": "Kubek termiczny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-19",
+        "nazwa": "Sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-20",
+        "nazwa": "Jednorazowe nakładki na toaletę",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-21",
+        "nazwa": "Laktator elektryczny – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-22",
+        "nazwa": "Poduszka do karmienia – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-mama-23",
+        "nazwa": "Żelowy kompres chłodzący lub ogrzewający – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "torun-maluszek-1",
+        "nazwa": "Rożek lub kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-maluszek-2",
+        "nazwa": "Pieluszki tetrowe – 4 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-maluszek-3",
+        "nazwa": "Pieluszki flanelowe – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-maluszek-4",
+        "nazwa": "Pajacyki rozpinane – 4–5 sztuk, rozmiar 56 i 62",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-maluszek-5",
+        "nazwa": "Body z krótkim rękawem – 4–5 sztuk, rozmiar 56 i 62",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-maluszek-6",
+        "nazwa": "Mokre chusteczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-maluszek-7",
+        "nazwa": "Pieluszki jednorazowe – 1 opakowanie, rozmiar 1",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-maluszek-8",
+        "nazwa": "Krem pieluszkowy przeciw odparzeniom",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "torun-tata-1",
+        "nazwa": "Przekąski dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / NA WYJŚCIE
+    # =========================
+
+    {
+        "id": "torun-tata-2",
+        "nazwa": "Fotelik samochodowy zamontowany wcześniej w samochodzie – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-tata-3",
+        "nazwa": "Ubranko dla dziecka dopasowane do pory roku – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-tata-4",
+        "nazwa": "Kocyk dla dziecka – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "torun-tata-5",
+        "nazwa": "Wygodne ubranie dla mamy z okresu ciąży – na dzień wypisu",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -17340,6 +17715,24 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "Oficjalna strona SP ZOZ w Hrubieszowie"
     },
+    "Wojewódzki Szpital Zespolony w Toruniu": {
+        "zapewnia": [
+            "Specjalistyczne laktatory elektryczne dostępne na oddziale"
+        ],
+        "warto_wiedziec": [
+            "🏥 Klinika posiada III stopień opieki perinatalnej.",
+            "💧 Dostępna jest immersja wodna oraz możliwość porodu w wodzie.",
+            "🧘 Możliwy jest poród w różnych pozycjach, również wertykalnych.",
+            "💉 Dostępne są farmakologiczne i niefarmakologiczne metody łagodzenia bólu porodowego.",
+            "👨‍👩‍👧 Możliwy jest poród rodzinny z jedną osobą towarzyszącą.",
+            "🤱 Szpital posiada specjalistyczne laktatory elektryczne.",
+            "🎓 Przy szpitalu działa szkoła rodzenia.",
+            "👀 Organizowane są spotkania i drzwi otwarte umożliwiające zapoznanie się z salami porodowymi i personelem.",
+            "👜 Szpital zaleca pakowanie rzeczy do podpisanych woreczków strunowych – szczególnie może to ułatwić organizację rzeczy w przypadku cięcia cesarskiego.",
+            "🏠 Na dzień wypisu należy przygotować ubranie dla mamy, ubranko dla dziecka odpowiednie do pory roku, kocyk oraz fotelik samochodowy."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Wojewódzkiego Szpitala Zespolonego im. L. Rydygiera w Toruniu • aktualizacja: sierpień 2026"
+    },
 
 }
 
@@ -17407,6 +17800,7 @@ SZPITALE = {
     "Szpital Kliniczny im. ks. Anny Mazowieckiej w Warszawie": LISTA_KAROWA,
     "Szpital Powiatowy SPZOZ w Mińsku Mazowieckim": LISTA_MINSK_MAZOWIECKI,
     "SP ZOZ w Hrubieszowie": LISTA_HRUBIESZOW,
+    "Wojewódzki Szpital Zespolony w Toruniu": LISTA_TORUN,
 }
 
 for lista_szpitala in SZPITALE.values():
