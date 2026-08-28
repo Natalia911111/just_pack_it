@@ -689,7 +689,7 @@ function getHospitalNameInGenitive(hospitalName) {
             "SP ZOZ w Hrubieszowie",
 
         "Wojewódzki Szpital Zespolony w Toruniu":
-            "Wojewódzki Szpital Zespolony im. L. Rydygiera w Toruniu",
+            "Wojewódzkiego Szpitala Zespolonego im. L. Rydygiera w Toruniu",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
