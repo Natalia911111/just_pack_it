@@ -688,8 +688,14 @@ function getHospitalNameInGenitive(hospitalName) {
         "SP ZOZ w Hrubieszowie":
             "SP ZOZ w Hrubieszowie",
 
+        "Szpital Uniwersytecki im. Karola Marcinkowskiego w Zielonej Górze":
+            "Szpitala Uniwersyteckiego im. Karola Marcinkowskiego w Zielonej Górze",
+
         "Wojewódzki Szpital Zespolony w Toruniu":
             "Wojewódzkiego Szpitala Zespolonego im. L. Rydygiera w Toruniu",
+
+        "Wielospecjalistyczny Szpital SPZOZ w Nowej Soli":
+            "Wielospecjalistycznego Szpitala SPZOZ w Nowej Soli",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

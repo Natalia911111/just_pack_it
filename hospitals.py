@@ -16931,6 +16931,396 @@ LISTA_TORUN = [
     }
 ]
 
+# =====================================
+# SZPITAL UNIWERSYTECKI W ZIELONEJ GÓRZE
+# =====================================
+
+LISTA_ZIELONA_GORA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "zg-dokumenty-1",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-dokumenty-3",
+        "nazwa": "Wypisy z poprzednich pobytów w szpitalu – jeżeli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-dokumenty-4",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-dokumenty-5",
+        "nazwa": "Oryginał wyniku grupy krwi i Rh z przeciwciałami odpornościowymi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-dokumenty-6",
+        "nazwa": "Wynik badania HBs Ag – badanie w kierunku WZW B wykonane w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-dokumenty-7",
+        "nazwa": "Wynik badania OWA / WR – badanie w kierunku kiły",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-dokumenty-8",
+        "nazwa": "Wynik badania GBS – badanie na obecność paciorkowca grupy B",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-dokumenty-9",
+        "nazwa": "Wynik badania na obecność wirusa HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-dokumenty-10",
+        "nazwa": "Wynik badania przeciwciał anty-HCV – badanie w kierunku WZW C",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-dokumenty-11",
+        "nazwa": "Wszystkie wyniki badań USG wykonanych w obecnej ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-dokumenty-12",
+        "nazwa": "Zaświadczenia od lekarzy specjalistów, np. okulisty lub kardiologa – jeżeli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "zg-mama-1",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-mama-2",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-mama-3",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-mama-4",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-mama-5",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-mama-6",
+        "nazwa": "Kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zg-mama-7",
+        "nazwa": "Adres i telefon najbliższej rodziny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+LISTA_NOWA_SOL = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "ns-dokumenty-1",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-dokumenty-2",
+        "nazwa": "Oryginalny wynik grupy krwi – jeśli posiadasz dwa różne wyniki, zabierz oba",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-dokumenty-3",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-dokumenty-4",
+        "nazwa": "Dowód osobisty / PESEL",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-dokumenty-5",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "ns-mama-1",
+        "nazwa": "Koszule wygodne, przystosowane do karmienia – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-3",
+        "nazwa": "Majtki jednorazowe – ok. 5 szt. (mogą być bawełniane)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-4",
+        "nazwa": "Papcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-5",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-6",
+        "nazwa": "Biustonosze wygodne do karmienia – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-7",
+        "nazwa": "Ręczniki – 2–3 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-8",
+        "nazwa": "Przybory toaletowe i kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-9",
+        "nazwa": "Chusteczki higieniczne – ewentualnie także nawilżane",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-10",
+        "nazwa": "Krem do smarowania brodawek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-11",
+        "nazwa": "Telefon i ładowarka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-12",
+        "nazwa": "Woda niegazowana lub butelka z filtrem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-13",
+        "nazwa": "Poduszka „jasiek” – może przydać się do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-14",
+        "nazwa": "Ulubiony poradnik dla mamy lub lekka książka do czytania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-mama-15",
+        "nazwa": "Ubranie i buty dla mamy na powrót do domu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "ns-maluch-1",
+        "nazwa": "Pieluchy jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-maluch-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-maluch-3",
+        "nazwa": "Krem do pośladków",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-maluch-4",
+        "nazwa": "Cienki kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-maluch-5",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-maluch-6",
+        "nazwa": "Ubranka dla dziecka odpowiednie do pory roku – body, pajacyk, bluza lub sweterek, kombinezon, skarpetki i 2 czapeczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-maluch-7",
+        "nazwa": "Pieluszka tetrowa na wypis",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-maluch-8",
+        "nazwa": "Kocyk na wypis",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-maluch-9",
+        "nazwa": "Krem ochronny",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ns-maluch-10",
+        "nazwa": "Fotelik samochodowy dla dziecka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY
+    # =========================
+
+    {
+        "id": "ns-tata-1",
+        "nazwa": "Coś do jedzenia i picia dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -17733,6 +18123,43 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Wojewódzkiego Szpitala Zespolonego im. L. Rydygiera w Toruniu • aktualizacja: sierpień 2026"
     },
+    "Szpital Uniwersytecki im. Karola Marcinkowskiego w Zielonej Górze": {
+        "zapewnia": [
+            "Koszule szpitalne – dostępne w trakcie i po porodzie",
+            "Bielizna poporodowa",
+            "Środki do dezynfekcji",
+            "Jednorazowe maseczki"
+        ],
+        "warto_wiedziec": [
+            "🛏️ Blok porodowy posiada 4 jednoosobowe sale porodowe z własnym węzłem sanitarnym.",
+            "🚿 Na salach porodowych dostępne są m.in. prysznic, worek sako, piłka, stołek porodowy i materac.",
+            "🧘 Dostępne są niefarmakologiczne metody łagodzenia bólu, m.in. ruch, pozycje wertykalne, masaż, prysznic lub kąpiel, ciepłe i zimne okłady, akupresura, aromaterapia i muzykoterapia.",
+            "💉 Dostępne są również farmakologiczne metody łagodzenia bólu porodowego.",
+            "🤰 Możliwy jest poród drogami natury po wcześniejszym cesarskim cięciu (VBAC).",
+            "👩‍🍼 Doula może towarzyszyć rodzącej oraz osobie bliskiej.",
+            "🏠 Po porodzie dostępnych jest 7 sal jednoosobowych oraz 5 sal 2–3-osobowych – wszystkie z węzłem sanitarnym.",
+            "🤱 Na odcinku Rooming-in dostępna jest pomoc laktacyjna.",
+            "🍼 Szpital posiada Bank Mleka Kobiecego.",
+            "💛 Dostępna jest konsultacja z psychologiem.",
+            "👣 Można wcześniej umówić się na spacer po Bloku Porodowym i oddziale Rooming-in."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Uniwersyteckiego im. Karola Marcinkowskiego w Zielonej Górze • aktualizacja: sierpień 2026"
+    },
+    "Wielospecjalistyczny Szpital SPZOZ w Nowej Soli": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "📋 Szpital zachęca do przygotowania i zabrania ze sobą planu porodu",
+            "🤱 Warto zabrać koszule oraz biustonosze wygodne do karmienia",
+            "🍼 Szpital zaleca zabranie kremu do brodawek oraz poduszki „jasiek”, która może przydać się podczas karmienia",
+            "👶 Dla dziecka należy zabrać m.in. pieluchy jednorazowe, chusteczki nawilżane, krem do pośladków, cienki kocyk i skarpetki",
+            "👨‍👩‍👧 Dla osoby towarzyszącej warto przygotować coś do jedzenia i picia na czas porodu",
+            "📱 Na czas porodu szpital zaleca zabranie telefonu i ładowarki, a opcjonalnie także aparatu fotograficznego",
+            "🚗 Na powrót do domu potrzebny jest fotelik samochodowy dla dziecka",
+            "🧥 Ubranka dla dziecka na wypis należy dobrać odpowiednio do pory roku",
+            "📚 Na stronie szpitala dostępne są również poradniki dotyczące m.in. karmienia piersią oraz zaleceń fizjoterapeutycznych po porodzie naturalnym i cesarskim cięciu"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Wielospecjalistycznego Szpitala SPZOZ w Nowej Soli • aktualizacja: sierpień 2026"
+    },
 
 }
 
@@ -17801,6 +18228,8 @@ SZPITALE = {
     "Szpital Powiatowy SPZOZ w Mińsku Mazowieckim": LISTA_MINSK_MAZOWIECKI,
     "SP ZOZ w Hrubieszowie": LISTA_HRUBIESZOW,
     "Wojewódzki Szpital Zespolony w Toruniu": LISTA_TORUN,
+    "Szpital Uniwersytecki im. Karola Marcinkowskiego w Zielonej Górze": LISTA_ZIELONA_GORA,
+    "Wielospecjalistyczny Szpital SPZOZ w Nowej Soli": LISTA_NOWA_SOL,
 }
 
 for lista_szpitala in SZPITALE.values():
