@@ -696,6 +696,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Wielospecjalistyczny Szpital SPZOZ w Nowej Soli":
             "Wielospecjalistycznego Szpitala SPZOZ w Nowej Soli",
+
+        "Medeor Szpital Wielospecjalistyczny w Łodzi":
+            "Szpitala Wielospecjalistycznego Medeor w Łodzi",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

@@ -17321,6 +17321,342 @@ LISTA_NOWA_SOL = [
     }
 ]
 
+LISTA_MEDEOR = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "medeor-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-2",
+        "nazwa": "Kserokopia aktu małżeństwa – jeśli pozostajesz przy swoim nazwisku",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-3",
+        "nazwa": "Oryginał wyniku grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-4",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-5",
+        "nazwa": "Wyniki badań USG z ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-6",
+        "nazwa": "Ostatni wynik morfologii krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-7",
+        "nazwa": "Ostatni wynik badania moczu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-8",
+        "nazwa": "Wynik krzywej cukrowej 75 g",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-9",
+        "nazwa": "Wynik badania GBS – wymaz z dróg rodnych i odbytu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-10",
+        "nazwa": "Wynik HBs Ag",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-11",
+        "nazwa": "Wynik badania HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-12",
+        "nazwa": "Wynik badania HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-13",
+        "nazwa": "Wynik badania WR / VDRL / USR",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-14",
+        "nazwa": "Wynik badania toksoplazmozy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-15",
+        "nazwa": "Wyniki badań cytomegalii i różyczki – zalecane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-16",
+        "nazwa": "Konsultacje specjalistyczne i zaświadczenia lekarskie – jeżeli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-17",
+        "nazwa": "Karta leczenia szpitalnego / wypis – jeśli byłaś hospitalizowana w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-dokumenty-18",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "medeor-mama-1",
+        "nazwa": "Koszula",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-mama-2",
+        "nazwa": "Skarpety",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-mama-3",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-mama-4",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-mama-5",
+        "nazwa": "Pantofle",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-mama-6",
+        "nazwa": "Woda niegazowana do picia – najlepiej z dziubkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-mama-7",
+        "nazwa": "Podkłady ginekologiczne – 2–3 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-mama-8",
+        "nazwa": "Podkłady ochronne na łóżko 60 × 90 cm – ok. 5–10 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-mama-9",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-mama-10",
+        "nazwa": "Laktator",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-mama-11",
+        "nazwa": "Poduszka lub rogal do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-mama-12",
+        "nazwa": "Krem do brodawek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # CESARSKIE CIĘCIE
+    # =========================
+
+    {
+        "id": "medeor-cc-1",
+        "nazwa": "Aktualny wynik morfologii krwi",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-cc-2",
+        "nazwa": "Aktualny wynik APTT – badanie układu krzepnięcia",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-cc-3",
+        "nazwa": "Aktualny wynik poziomu sodu",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-cc-4",
+        "nazwa": "Aktualny wynik poziomu potasu",
+        "kategoria": "Cesarskie cięcie",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "medeor-maluch-1",
+        "nazwa": "Pieluszki jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-maluch-2",
+        "nazwa": "Ubranka – 3 komplety",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-maluch-3",
+        "nazwa": "Skarpetki dla noworodka – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-maluch-4",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-maluch-5",
+        "nazwa": "Krem do pielęgnacji pośladków",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-maluch-6",
+        "nazwa": "Kocyk lub otulacz",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-maluch-7",
+        "nazwa": "Kilka pieluszek tetrowych i flanelowych",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-maluch-8",
+        "nazwa": "Ręcznik z kapturkiem",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "medeor-maluch-9",
+        "nazwa": "Bawełniana czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "medeor-tata-1",
+        "nazwa": "Ochraniacze na buty lub klapki",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -18160,6 +18496,20 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Wielospecjalistycznego Szpitala SPZOZ w Nowej Soli • aktualizacja: sierpień 2026"
     },
+    "Medeor Szpital Wielospecjalistyczny w Łodzi": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🩺 Przed porodem należy zgłosić się na wizytę kwalifikacyjną w 36. tygodniu ciąży.",
+            "🕐 Do porodu można zgłosić się o każdej porze dnia i nocy w przypadku regularnych skurczów lub odpłynięcia albo sączenia się wód płodowych.",
+            "💉 W planie porodu szpital uwzględnia możliwość zastosowania znieczulenia zewnątrzoponowego po porozumieniu z personelem medycznym.",
+            "🤱 Po porodzie możliwy jest kontakt skóra do skóry przez około 2 godziny, jeśli pozwala na to stan mamy i dziecka – także po cięciu cesarskim.",
+            "👨‍👩‍👧 Przy cięciu cesarskim wskazana wcześniej osoba towarzysząca może uczestniczyć w zabiegu i kangurować noworodka do zakończenia operacji.",
+            "🍼 Można skorzystać z konsultacji doradcy laktacyjnego.",
+            "👶 Personel udziela informacji dotyczących prawidłowej pielęgnacji noworodka.",
+            "🧪 Około 7 dni przed terminem porodu szpital zaleca wykonanie morfologii, APTT oraz oznaczenie sodu i potasu."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalne materiały Szpitala Wielospecjalistycznego Medeor w Łodzi • aktualizacja: sierpień 2026"
+    },
 
 }
 
@@ -18230,6 +18580,7 @@ SZPITALE = {
     "Wojewódzki Szpital Zespolony w Toruniu": LISTA_TORUN,
     "Szpital Uniwersytecki im. Karola Marcinkowskiego w Zielonej Górze": LISTA_ZIELONA_GORA,
     "Wielospecjalistyczny Szpital SPZOZ w Nowej Soli": LISTA_NOWA_SOL,
+    "Medeor Szpital Wielospecjalistyczny w Łodzi": LISTA_MEDEOR,
 }
 
 for lista_szpitala in SZPITALE.values():
