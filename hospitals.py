@@ -17657,6 +17657,283 @@ LISTA_MEDEOR = [
     }
 ]
 
+# =====================================
+# SZPITAL SPECJALISTYCZNY IM. F. CEYNOWY W WEJHEROWIE
+# =====================================
+
+LISTA_WEJHEROWO = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "wej-dokumenty-1",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-dokumenty-2",
+        "nazwa": "Dowód tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-dokumenty-3",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-dokumenty-4",
+        "nazwa": "Potwierdzony wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-dokumenty-5",
+        "nazwa": "Wyniki badań HBs, WR i HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-dokumenty-6",
+        "nazwa": "Wynik posiewu z pochwy GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-dokumenty-7",
+        "nazwa": "Morfologia i inne istotne wyniki badań lub konsultacji",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-dokumenty-8",
+        "nazwa": "Akt ślubu – gdy mama ma inne nazwisko niż tata, akt uznania ojcostwa, jeśli rodzice nie są małżeństwem",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "wej-mama-1",
+        "nazwa": "Koszula nocna rozpinana z przodu – 3 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-3",
+        "nazwa": "Ręcznik i przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-4",
+        "nazwa": "Obuwie na zmianę i klapki do kąpieli",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-5",
+        "nazwa": "Pomadka ochronna do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-6",
+        "nazwa": "Majtki jednorazowe i/lub siateczkowe (elastyczne)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-7",
+        "nazwa": "Bielizna",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-8",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-9",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "wej-maluch-1",
+        "nazwa": "Body z długim i krótkim rękawem (opcjonalnie rozpinane z przodu) – 3 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-maluch-2",
+        "nazwa": "Pajacyki lub śpioszki z kaftanikami – 3 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-maluch-3",
+        "nazwa": "Bawełniane czapeczki i skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-maluch-4",
+        "nazwa": "Rożek i/lub kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-maluch-5",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-maluch-6",
+        "nazwa": "Pampersy jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-maluch-7",
+        "nazwa": "Pieluchy tetrowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-maluch-8",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-maluch-9",
+        "nazwa": "Krem natłuszczający",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "wej-tata-1",
+        "nazwa": "Jedzenie dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # MOŻE SIĘ PRZYDAĆ
+    # =========================
+
+    {
+        "id": "wej-mama-10",
+        "nazwa": "Przekąski do porodu, np. musy owocowe w tubce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-11",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-12",
+        "nazwa": "Gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-13",
+        "nazwa": "Olejek do masażu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-14",
+        "nazwa": "Słuchawki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-15",
+        "nazwa": "Ulubiony olejek eteryczny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-16",
+        "nazwa": "Swój kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wej-mama-17",
+        "nazwa": "Nakładki chłodzące na piersi",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -18510,6 +18787,22 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalne materiały Szpitala Wielospecjalistycznego Medeor w Łodzi • aktualizacja: sierpień 2026"
     },
+    "Szpital Specjalistyczny im. F. Ceynowy w Wejherowie": {
+        "zapewnia": [
+            "Podkłady",
+            "Wkładki"
+        ],
+        "warto_wiedziec": [
+            "🧳 Szpital zaleca spakowanie torby wcześniej, ponieważ dziecko nie zawsze przychodzi na świat w terminie porodu ustalonym przez lekarza.",
+            "📅 Porodówka sugeruje, aby torba była gotowa wcześniej niż około 34. tydzień ciąży.",
+            "📝 Warto zabrać ze sobą plan porodu.",
+            "🩸 Wśród dokumentów i wyników badań szpital wymienia m.in. potwierdzony wynik grupy krwi, HBs, WR, HIV oraz GBS.",
+            "👶 Dla noworodka szpital zaleca zabranie m.in. 3 kompletów ubranek, pieluch jednorazowych, pieluch tetrowych, kocyka lub rożka oraz ręcznika.",
+            "💡 Szpital zaznacza, że nie trzeba zabierać ze sobą podkładów ani wkładek, ponieważ są to rzeczy często pakowane niepotrzebnie.",
+            "🎧 Wśród rzeczy, które mogą się przydać podczas porodu, szpital wymienia m.in. przekąski, słuchawki, olejek do masażu, ładowarkę do telefonu i gumkę do włosów."
+        ],
+        "warto_wiedziec_zrodlo": "profil „Rodzę w Wejherowie” Szpitala Specjalistycznego im. F. Ceynowy w Wejherowie • aktualizacja: sierpień 2026"
+    },
 
 }
 
@@ -18581,6 +18874,7 @@ SZPITALE = {
     "Szpital Uniwersytecki im. Karola Marcinkowskiego w Zielonej Górze": LISTA_ZIELONA_GORA,
     "Wielospecjalistyczny Szpital SPZOZ w Nowej Soli": LISTA_NOWA_SOL,
     "Medeor Szpital Wielospecjalistyczny w Łodzi": LISTA_MEDEOR,
+    "Szpital Specjalistyczny im. F. Ceynowy w Wejherowie": LISTA_WEJHEROWO,
 }
 
 for lista_szpitala in SZPITALE.values():

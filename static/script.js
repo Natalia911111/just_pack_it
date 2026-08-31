@@ -699,6 +699,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Medeor Szpital Wielospecjalistyczny w Łodzi":
             "Szpitala Wielospecjalistycznego Medeor w Łodzi",
+
+        "Szpital Specjalistyczny im. F. Ceynowy w Wejherowie":
+            "Szpitala Specjalistycznego im. F. Ceynowy w Wejherowie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
