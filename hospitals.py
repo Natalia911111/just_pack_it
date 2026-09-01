@@ -18027,7 +18027,21 @@ SZPITALE_INFO = {
         "warto_wiedziec_zrodlo": "Szpital Specjalistyczny im. Ludwika Rydygiera w Krakowie – oficjalna strona Oddziału Ginekologii i Położnictwa oraz Małopolskiego Centrum Macierzyństwa i Medycyny Kobiet"
     },
     "Szpital Narutowicza": {
-        "zapewnia": []
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "👨‍👩‍👧 Szpital umożliwia porody rodzinne i akceptuje wcześniej przygotowany przez pacjentkę plan porodu.",
+            "🛏️ Blok porodowy składa się z 5 przestronnych, jednoosobowych sal porodowych z własnymi łazienkami.",
+            "🛁 Każda sala porodowa wyposażona jest w wannę z hydromasażem, która może być wykorzystywana do łagodzenia bólu porodowego.",
+            "⚽ Na salach dostępny jest sprzęt ułatwiający przyjmowanie komfortowych pozycji podczas porodu, m.in. materace, piłki, worki sako, poręcze i koło porodowe ROMA.",
+            "💉 Znieczulenie zewnątrzoponowe jest dostępne przez całą dobę.",
+            "🤱 W planie porodu można zaznaczyć m.in. kontakt skóra do skóry oraz chęć nakarmienia dziecka piersią jeszcze na sali porodowej.",
+            "👶 Po cięciu cesarskim, jeśli pozwala na to stan dziecka, można zaznaczyć w planie porodu chęć jak najszybszego kontaktu z noworodkiem.",
+            "🫶 Po cięciu cesarskim osoba bliska może kangurować noworodka przez 2 godziny, jeśli stan zdrowia dziecka na to pozwala.",
+            "🎵 W planie porodu można zaznaczyć m.in. możliwość słuchania własnej muzyki oraz preferencję przyciemnionego światła i ciszy na sali porodowej.",
+            "🚪 Szpital organizuje dni otwarte Bloku Porodowego – można zobaczyć sale porodowe i poznać organizację oddziału.",
+            "🎓 Przy szpitalu działa Szkoła Rodzenia przygotowująca m.in. do porodu, połogu, karmienia piersią i opieki nad noworodkiem."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Miejskiego Specjalistycznego im. Gabriela Narutowicza w Krakowie • aktualizacja: wrzesień 2026"
     },
     "Wojewódzki Szpital Specjalistyczny we Wrocławiu": {
         "zapewnia": []
