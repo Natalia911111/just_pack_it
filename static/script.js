@@ -702,6 +702,12 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Specjalistyczny im. F. Ceynowy w Wejherowie":
             "Szpitala Specjalistycznego im. F. Ceynowy w Wejherowie",
+
+        "Szpital Miejski w Zabrzu":
+            "Szpitala Miejskiego w Zabrzu",
+
+        "Powiatowy Zespół Szpitali w Oleśnicy":
+            "Powiatowego Zespołu Szpitali w Oleśnicy",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

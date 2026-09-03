@@ -17934,6 +17934,545 @@ LISTA_WEJHEROWO = [
     }
 ]
 
+# =====================================
+# SZPITAL MIEJSKI W ZABRZU
+# =====================================
+
+LISTA_ZABRZE = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "zab-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-dokumenty-3",
+        "nazwa": "Oryginalny wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-dokumenty-4",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-dokumenty-5",
+        "nazwa": "Wyniki badań HIV, HCV, HBs Ag i WR",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-dokumenty-6",
+        "nazwa": "Karty informacyjne z ewentualnych hospitalizacji w czasie ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-dokumenty-7",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "zab-mama-1",
+        "nazwa": "Koszula do porodu – 1 sztuka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-2",
+        "nazwa": "Koszule do karmienia – 1–2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-3",
+        "nazwa": "Jednorazowe podkłady na łóżko",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-4",
+        "nazwa": "Podkłady poporodowe / duże podpaski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-5",
+        "nazwa": "Jednorazowe majtki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-6",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-7",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-8",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-9",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-10",
+        "nazwa": "Kosmetyki i przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-11",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-12",
+        "nazwa": "Kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-13",
+        "nazwa": "Sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-14",
+        "nazwa": "Woda niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-mama-15",
+        "nazwa": "Ulubiona muzyka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "zab-maluszek-1",
+        "nazwa": "Pieluchy jednorazowe – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-maluszek-3",
+        "nazwa": "Krem ochronny do pielęgnacji skóry",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "zab-tata-1",
+        "nazwa": "Wygodne ubranie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-tata-2",
+        "nazwa": "Obuwie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-tata-3",
+        "nazwa": "Napoje",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "zab-tata-4",
+        "nazwa": "Przekąski",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+# =====================================
+# POWIATOWY ZESPÓŁ SZPITALI W OLEŚNICY
+# =====================================
+
+LISTA_OLESNICA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "ole-dokumenty-1",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-dokumenty-3",
+        "nazwa": "Oryginał wyniku grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-dokumenty-4",
+        "nazwa": "Wynik wymazu GBS (pochwa + odbyt)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-dokumenty-5",
+        "nazwa": "Wyniki badań HIV i HBs z III trymestru",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-dokumenty-6",
+        "nazwa": "Wynik USG z I trymestru",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-dokumenty-7",
+        "nazwa": "Wyniki badań HCV, kiła (WR/VDRL), przeciwciała różyczka, toksoplazmoza i cytomegalowirus",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-dokumenty-8",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-dokumenty-9",
+        "nazwa": "Konsultacje specjalistów",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-dokumenty-10",
+        "nazwa": "Karty wypisowe ze szpitala",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-dokumenty-11",
+        "nazwa": "Spis przyjmowanych leków oraz przebytych zachorowań",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-dokumenty-12",
+        "nazwa": "Dziennik pomiarów RR i/lub glikemii – jeśli był prowadzony",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY – DO PORODU
+    # =========================
+
+    {
+        "id": "ole-mama-1",
+        "nazwa": "Koszule – 2 sztuki (do porodu i po porodzie)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-3",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-4",
+        "nazwa": "Ręczniki – 1 kąpielowy i 1 mały",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-5",
+        "nazwa": "Przybory kosmetyczne pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-6",
+        "nazwa": "Jedzenie i picie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-7",
+        "nazwa": "Majtki siateczkowe (nie z flizeliny!)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-8",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-9",
+        "nazwa": "Podkłady na łóżko 90 × 60 cm – 10 sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-10",
+        "nazwa": "Podpaski poporodowe – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY – PO PORODZIE
+    # =========================
+
+    {
+        "id": "ole-mama-11",
+        "nazwa": "Koszule do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-12",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-13",
+        "nazwa": "Majtki siateczkowe (nie z flizeliny!)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-14",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-15",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-16",
+        "nazwa": "Podpaski poporodowe – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-mama-17",
+        "nazwa": "Podkłady na łóżko – 10 sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "ole-maluszek-1",
+        "nazwa": "Pampersy – mała paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-maluszek-2",
+        "nazwa": "Mokre chusteczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-maluszek-3",
+        "nazwa": "Tłusty krem do pielęgnacji pośladków",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-maluszek-4",
+        "nazwa": "Ubranka – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-maluszek-5",
+        "nazwa": "Kocyk – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-maluszek-6",
+        "nazwa": "Czapka – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "ole-tata-1",
+        "nazwa": "Ubranie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-tata-2",
+        "nazwa": "Obuwie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DODATKOWO
+    # =========================
+
+    {
+        "id": "ole-dodatkowo-1",
+        "nazwa": "Zestaw do pobrania krwi pępowinowej – jeśli planujecie jej zabezpieczenie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ole-dodatkowo-2",
+        "nazwa": "Akcesoria do niefarmakologicznego łagodzenia bólu – ulubiony olejek do aromaterapii, okład, playlista, ulubiona świeca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -18817,7 +19356,32 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "profil „Rodzę w Wejherowie” Szpitala Specjalistycznego im. F. Ceynowy w Wejherowie • aktualizacja: sierpień 2026"
     },
-
+    "Szpital Miejski w Zabrzu": {
+        "zapewnia": [
+            "Ubranka dla noworodka"
+        ],
+        "warto_wiedziec": [
+            "👶 Ubranka dla noworodka zapewnia szpital. Jeśli chcesz, możesz jednak zabrać własne ubranka dla dziecka.",
+            "🛁 Jeśli planujesz poród w wodzie, szpital zaleca zabranie góry od stroju kąpielowego lub krótkiego topu oraz dużych ręczników.",
+            "🧳 Szpital informuje, że większość podstawowych rzeczy jest dostępna na oddziale – własne rzeczy mają przede wszystkim zwiększyć komfort i niezależność podczas pobytu.",
+            "👨‍👩‍👧 Dla osoby towarzyszącej warto przygotować wygodne ubranie, obuwie na zmianę, napoje i przekąski.",
+            "📝 Warto zabrać ze sobą plan porodu."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Miejskiego w Zabrzu • aktualizacja: styczeń 2026"
+    },
+    "Powiatowy Zespół Szpitali w Oleśnicy": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "👶 Ubranka, kocyk i czapka dla dziecka są na liście oznaczone jako opcjonalne.",
+            "💧 Na oddziale znajdują się 2 dystrybutory z ciepłą i zimną wodą – nie ma potrzeby zabierania własnego czajnika ani zgrzewek wody.",
+            "🧳 Rzeczy, które mogą się pobrudzić podczas porodu, warto spakować osobno, aby osoba towarzysząca mogła później zabrać je do domu.",
+            "🏠 Ubrania na wyjście ze szpitala dla mamy i dziecka można zostawić w domu – osoba odbierająca może przywieźć je w dniu wypisu.",
+            "🚗 Przed przyjazdem do szpitala warto zapoznać się z zasadami bezpiecznego przewożenia noworodka oraz wcześniej przećwiczyć montaż fotelika samochodowego.",
+            "🩸 Jeśli planujecie zabezpieczenie krwi pępowinowej, należy zabrać zestaw do jej pobrania.",
+            "🕯️ Można zabrać akcesoria do niefarmakologicznego łagodzenia bólu, np. ulubiony olejek do aromaterapii, okład, playlistę lub ulubioną świecę."
+        ],
+        "warto_wiedziec_zrodlo": "profil „Położne z Oleśnicy” • checklista „Torba do szpitala” • styczeń 2026"
+    },
 }
 
 SZPITALE = {
@@ -18889,6 +19453,8 @@ SZPITALE = {
     "Wielospecjalistyczny Szpital SPZOZ w Nowej Soli": LISTA_NOWA_SOL,
     "Medeor Szpital Wielospecjalistyczny w Łodzi": LISTA_MEDEOR,
     "Szpital Specjalistyczny im. F. Ceynowy w Wejherowie": LISTA_WEJHEROWO,
+    "Szpital Miejski w Zabrzu": LISTA_ZABRZE,
+    "Powiatowy Zespół Szpitali w Oleśnicy": LISTA_OLESNICA,
 }
 
 for lista_szpitala in SZPITALE.values():
