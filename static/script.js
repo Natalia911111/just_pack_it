@@ -708,6 +708,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Powiatowy Zespół Szpitali w Oleśnicy":
             "Powiatowego Zespołu Szpitali w Oleśnicy",
+
+        "Szpital Miejski w Rudzie Śląskiej":
+            "Szpitala Miejskiego w Rudzie Śląskiej",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

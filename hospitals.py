@@ -18473,6 +18473,341 @@ LISTA_OLESNICA = [
     }
 ]
 
+# =====================================
+# SZPITAL MIEJSKI W RUDZIE ŚLĄSKIEJ
+# =====================================
+
+LISTA_RUDA_SLASKA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "rsl-dokumenty-1",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-dokumenty-2",
+        "nazwa": "Oryginalny wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-dokumenty-3",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-dokumenty-4",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-dokumenty-5",
+        "nazwa": "Wypisy ze szpitali z okresu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-dokumenty-6",
+        "nazwa": "Wyniki badań z okresu ciąży oraz inne istotne dokumenty medyczne, np. konsultacje specjalistyczne",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-dokumenty-7",
+        "nazwa": "Karta konsultacji do znieczulenia do porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-dokumenty-8",
+        "nazwa": "Plan porodu – wypełniony wcześniej",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-dokumenty-9",
+        "nazwa": "NIP pracodawcy lub własny NIP w przypadku prowadzenia działalności",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "rsl-mama-1",
+        "nazwa": "Leki przyjmowane na stałe – jeśli dotyczy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-2",
+        "nazwa": "Glukometr – jeśli posiadasz własny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-3",
+        "nazwa": "Podkłady jednorazowe 90 × 60 cm – 2 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-4",
+        "nazwa": "Podpaski poporodowe – 2–3 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-5",
+        "nazwa": "Ręczniki jednorazowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-6",
+        "nazwa": "Papier toaletowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-7",
+        "nazwa": "Butelka filtrująca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-8",
+        "nazwa": "Coś słodkiego do picia, np. coca-cola",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-9",
+        "nazwa": "Coś słodkiego i lekkiego do zjedzenia, np. czekolada, landrynki, jogurt lub owoc",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-10",
+        "nazwa": "Koszule – 3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-11",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-12",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-13",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-14",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-15",
+        "nazwa": "Duże ręczniki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-16",
+        "nazwa": "Mały ręcznik – 1 sztuka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-17",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-18",
+        "nazwa": "Talerzyk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-19",
+        "nazwa": "Kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-20",
+        "nazwa": "Sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-21",
+        "nazwa": "Majtki poporodowe z siateczki – nie z fizeliny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-22",
+        "nazwa": "Balsam ochronny do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-23",
+        "nazwa": "Oliwka do masażu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-24",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-25",
+        "nazwa": "Biustonosz laktacyjny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-26",
+        "nazwa": "Telefon komórkowy z ładowarką",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-27",
+        "nazwa": "Ulubiona poduszka – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-28",
+        "nazwa": "Książki lub czasopisma – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-mama-29",
+        "nazwa": "Drobne pieniądze",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "rsl-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-maluszek-3",
+        "nazwa": "Krem do pupy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "rsl-tata-1",
+        "nazwa": "Coś do zjedzenia i picia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-tata-2",
+        "nazwa": "Wygodne ubranie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rsl-tata-3",
+        "nazwa": "Obuwie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -19382,6 +19717,22 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "profil „Położne z Oleśnicy” • checklista „Torba do szpitala” • styczeń 2026"
     },
+    "Szpital Miejski w Rudzie Śląskiej": {
+        "zapewnia": [
+            "Fartuch ochronny dla osoby towarzyszącej podczas porodu"
+        ],
+        "warto_wiedziec": [
+            "🛁 Szpital posiada salę z wanną, w której istnieje możliwość porodu do wody.",
+            "💆 Na salach porodowych dostępne są piłki porodowe, worki sako, materace i piłeczki do masażu.",
+            "💨 Dostępne są różne metody łagodzenia bólu, m.in. pozycje wertykalne, masaż, akupresura, imersja wodna, aromaterapia, TENS, muzykoterapia, gaz medyczny oraz znieczulenie zewnątrzoponowe.",
+            "👨‍👶 Po cięciu cesarskim istnieje możliwość kangurowania dziecka przez ojca, jeśli nie ma on objawów infekcji.",
+            "🏥 Blok porodowy można odwiedzić jeszcze przed porodem. Nie trzeba wcześniej umawiać konkretnego terminu – wystarczy w dniu wizyty zadzwonić na blok i ustalić dogodną godzinę.",
+            "👫 Podczas porodu osoba towarzysząca otrzymuje od personelu fartuch ochronny i powinna mieć własne obuwie zmienne.",
+            "🛏️ Szpital oferuje możliwość odpłatnego całodobowego pobytu osoby towarzyszącej przed i po porodzie.",
+            "🎓 Przy szpitalu działa bezpłatna Szkoła Rodzenia „Rodzić po Rudzku”."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Miejskiego w Rudzie Śląskiej • aktualizacja: wrzesień 2026"
+    },
 }
 
 SZPITALE = {
@@ -19455,6 +19806,7 @@ SZPITALE = {
     "Szpital Specjalistyczny im. F. Ceynowy w Wejherowie": LISTA_WEJHEROWO,
     "Szpital Miejski w Zabrzu": LISTA_ZABRZE,
     "Powiatowy Zespół Szpitali w Oleśnicy": LISTA_OLESNICA,
+    "Szpital Miejski w Rudzie Śląskiej": LISTA_RUDA_SLASKA,
 }
 
 for lista_szpitala in SZPITALE.values():
