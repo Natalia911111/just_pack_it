@@ -711,6 +711,15 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Miejski w Rudzie Śląskiej":
             "Szpitala Miejskiego w Rudzie Śląskiej",
+
+        "Głogowski Szpital Powiatowy":
+            "Głogowskiego Szpitala Powiatowego",
+
+        "USK nr 1 PUM w Szczecinie – Police":
+            "USK nr 1 PUM w Szczecinie – Police",
+
+        "Wojewódzki Szpital Specjalistyczny nr 3 w Rybniku":
+            "Wojewódzkiego Szpitala Specjalistycznego nr 3 w Rybniku",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

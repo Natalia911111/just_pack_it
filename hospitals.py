@@ -18808,6 +18808,716 @@ LISTA_RUDA_SLASKA = [
     }
 ]
 
+# =====================================
+# GŁOGOWSKI SZPITAL POWIATOWY
+# =====================================
+
+LISTA_GLOGOW = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "glo-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-dokumenty-3",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-dokumenty-4",
+        "nazwa": "Wyniki badań z okresu ciąży, szczególnie HBs, WR/VDRL i GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-dokumenty-5",
+        "nazwa": "Grupa krwi – Krew-Karta lub oryginalny wynik z Punktu Krwiodawstwa",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "glo-mama-1",
+        "nazwa": "Koszula z głębokim rozcięciem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-mama-2",
+        "nazwa": "Biustonosz dla mamy karmiącej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-mama-4",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-mama-5",
+        "nazwa": "Majtki jednorazowe siateczkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-mama-6",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-mama-7",
+        "nazwa": "Ręcznik papierowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-mama-8",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-mama-9",
+        "nazwa": "Kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-mama-10",
+        "nazwa": "Sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-mama-11",
+        "nazwa": "Woda niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "glo-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "glo-maluszek-3",
+        "nazwa": "Krem do pupy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# USK NR 1 PUM – POLICE
+# Klinika Perinatologii, Położnictwa i Ginekologii
+# =====================================
+
+LISTA_USK1_POLICE = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "pol-dokumenty-1",
+        "nazwa": "Dowód osobisty z aktualnym nazwiskiem (ewentualnie akt ślubu)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży wraz z aktualnymi wynikami badań krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-dokumenty-3",
+        "nazwa": "Oryginał wyniku grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-dokumenty-4",
+        "nazwa": "NIP pracodawcy lub własny NIP w przypadku prowadzenia działalności gospodarczej",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-dokumenty-5",
+        "nazwa": "Skierowanie do szpitala – niewymagane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "pol-mama-1",
+        "nazwa": "Koszule nocne z rozcięciem, wygodne do karmienia piersią – 3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-mama-2",
+        "nazwa": "Majtki jednorazowe – 6 par",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-mama-3",
+        "nazwa": "Biustonosze do karmienia piersią – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-mama-4",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-mama-5",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-mama-6",
+        "nazwa": "Ręczniki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-mama-7",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-mama-8",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-mama-9",
+        "nazwa": "Preparat do higieny intymnej – żel lub szare mydło",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-mama-10",
+        "nazwa": "Ubranie na wyjście ze szpitala",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # rzeczy oznaczone przez szpital jako niewymagane
+    # =========================
+
+    {
+        "id": "pol-maluszek-1",
+        "nazwa": "Pieluchy tetrowe – 4 sztuki (niewymagane)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-maluszek-2",
+        "nazwa": "Pieluchy flanelowe – 4 sztuki (niewymagane)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-maluszek-3",
+        "nazwa": "Nawilżone chusteczki myjące – 1 paczka (niewymagane)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-maluszek-4",
+        "nazwa": "Krem nawilżający (niewymagany)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-maluszek-5",
+        "nazwa": "Krem przeciw odparzeniom (niewymagany)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-maluszek-6",
+        "nazwa": "Ręcznik do osuszania (niewymagany)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-maluszek-7",
+        "nazwa": "Pajacyki – 3 sztuki (niewymagane)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-maluszek-8",
+        "nazwa": "Bawełniane kaftaniki lub body – 3 sztuki (niewymagane)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-maluszek-9",
+        "nazwa": "Śpioszki – 3 pary (niewymagane)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-maluszek-10",
+        "nazwa": "Bawełniane czapeczki (niewymagane)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-maluszek-11",
+        "nazwa": "Skarpetki (niewymagane)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-maluszek-12",
+        "nazwa": "Rożek lub kocyk (niewymagany)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pol-maluszek-13",
+        "nazwa": "Ubrania na wyjście odpowiednie do pory roku (niewymagane)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# WOJEWÓDZKI SZPITAL SPECJALISTYCZNY NR 3 W RYBNIKU
+# =====================================
+
+LISTA_RYBNIK = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "ryb-dokumenty-1",
+        "nazwa": "Dowód osobisty lub inny dokument ze zdjęciem potwierdzający tożsamość",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-dokumenty-2",
+        "nazwa": "Akt ślubu – jeśli nazwisko zostało zmienione i wyniki badań są na inne nazwisko",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-dokumenty-3",
+        "nazwa": "Dokument uznania ojcostwa – jeśli rodzice nie są małżeństwem, a dziecko ma nosić nazwisko ojca",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-dokumenty-4",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-dokumenty-5",
+        "nazwa": "Wynik badania HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-dokumenty-6",
+        "nazwa": "Wynik badania VDRL",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-dokumenty-7",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-dokumenty-8",
+        "nazwa": "Wynik badania HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-dokumenty-9",
+        "nazwa": "Ostatni wynik morfologii",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-dokumenty-10",
+        "nazwa": "Ostatni wynik ogólnego badania moczu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-dokumenty-11",
+        "nazwa": "Dokumentacja z konsultacji specjalistycznych – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-dokumenty-12",
+        "nazwa": "Dokumentacja z hospitalizacji w obecnej ciąży – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "ryb-mama-1",
+        "nazwa": "Koszule do karmienia piersią, rozpinane z przodu – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-2",
+        "nazwa": "Biustonosze do karmienia piersią – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-3",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-4",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-5",
+        "nazwa": "Wsuwane kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-6",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-7",
+        "nazwa": "Majtki poporodowe jednorazowe – 4–6 par",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-8",
+        "nazwa": "Chusteczki odświeżające / nawilżające",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-9",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-10",
+        "nazwa": "Duże podpaski poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-11",
+        "nazwa": "Kosmetyczka i przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-12",
+        "nazwa": "Pomadka wazelinowa do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-13",
+        "nazwa": "Krem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-14",
+        "nazwa": "Gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-15",
+        "nazwa": "Naturalne mydło",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-16",
+        "nazwa": "Poduszka do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-17",
+        "nazwa": "Luźne, wygodne ubranie na powrót do domu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-18",
+        "nazwa": "Kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-19",
+        "nazwa": "Talerzyk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-20",
+        "nazwa": "Sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-21",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-mama-22",
+        "nazwa": "Telefon i ładowarka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "ryb-maluszek-1",
+        "nazwa": "Pieluchy jednorazowe w najmniejszym rozmiarze – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-maluszek-2",
+        "nazwa": "Nawilżone chusteczki – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-maluszek-3",
+        "nazwa": "Fotelik samochodowy – na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-maluszek-4",
+        "nazwa": "Ciepły pajac lub kombinezon – zależnie od pory roku, na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-maluszek-5",
+        "nazwa": "Otulacz do fotelika lub śpiworek – na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-maluszek-6",
+        "nazwa": "Ciepły kocyk – na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-maluszek-7",
+        "nazwa": "Czapka – na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "ryb-tata-1",
+        "nazwa": "Wygodne obuwie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-tata-2",
+        "nazwa": "Aparat fotograficzny – opcjonalnie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ryb-tata-3",
+        "nazwa": "Telefon i ładowarka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -19733,6 +20443,46 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Miejskiego w Rudzie Śląskiej • aktualizacja: wrzesień 2026"
     },
+    "Głogowski Szpital Powiatowy": {
+        "zapewnia": [
+            "Ubranka dla noworodka – można korzystać z ubranek szpitalnych"
+        ],
+        "warto_wiedziec": [
+            "👶 Mama może zdecydować, czy chce korzystać z własnych ubranek dla dziecka, czy z ubranek zapewnianych przez szpital.",
+            "👫 Podczas porodu może towarzyszyć mąż lub inna wskazana przez rodzącą osoba.",
+            "👨‍👶 Po cięciu cesarskim tata może kangurować noworodka.",
+            "🎓 Przy szpitalu działa bezpłatna Szkoła Rodzenia „Bocian”.",
+            "🏥 W ramach zajęć Szkoły Rodzenia przyszli rodzice mogą zobaczyć Oddział Położniczy.",
+            "📅 W przypadku planowego cięcia cesarskiego termin przyjęcia ustalany jest w Oddziale Ginekologiczno-Położniczym w środy i piątki o godz. 13:00."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Głogowskiego Szpitala Powiatowego • aktualizacja: wrzesień 2026"
+    },
+    "USK nr 1 PUM w Szczecinie – Police": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "👶 Wszystkie rzeczy wymienione przez szpital w części „Dla Dziecka” są oznaczone jako niewymagane.",
+            "📄 Skierowanie do szpitala znajduje się na liście dokumentów, ale szpital zaznacza, że nie jest wymagane.",
+            "🩸 Do karty przebiegu ciąży należy dołączyć aktualne wyniki badań krwi, w tym oryginał wyniku grupy krwi.",
+            "🏥 Porodówka USK nr 1 PUM mieści się w Policach – w Klinice Perinatologii, Położnictwa i Ginekologii przy ul. Siedleckiej 2."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna lista USK nr 1 PUM • lista rzeczy polecanych do zabrania do szpitala"
+    },
+    "Wojewódzki Szpital Specjalistyczny nr 3 w Rybniku": {
+        "zapewnia": [
+            "Duże podpaski poporodowe",
+            "Wodę"
+        ],
+        "warto_wiedziec": [
+            "👜 Szpital zaleca spakowanie torby około 36. tygodnia ciąży i przygotowanie jej na standardowy pobyt trwający 2–3 doby.",
+            "📄 Do porodu nie jest potrzebne skierowanie.",
+            "💧 Szpital zapewnia wodę, choć na liście zaleca również zabranie własnej wody mineralnej niegazowanej.",
+            "🩷 Szpital zapewnia duże podpaski poporodowe, ale zaleca również zabranie ich ze sobą.",
+            "👶 Rzeczy dla dziecka potrzebne na wyjście ze szpitala należy przynieść dopiero w dniu wypisu.",
+            "👫 Osoba uczestnicząca w porodzie rodzinnym powinna zgłosić się na Izbie Przyjęć i przebrać w odzież ochronną.",
+            "💎 Szpital zaleca, aby nie zabierać ze sobą rzeczy wartościowych; w szczególnych sytuacjach można skorzystać z Depozytu Rzeczy Wartościowych."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna „Szpitalna wyprawka do porodu” SPZOZ WSS nr 3 w Rybniku"
+    },
 }
 
 SZPITALE = {
@@ -19807,6 +20557,9 @@ SZPITALE = {
     "Szpital Miejski w Zabrzu": LISTA_ZABRZE,
     "Powiatowy Zespół Szpitali w Oleśnicy": LISTA_OLESNICA,
     "Szpital Miejski w Rudzie Śląskiej": LISTA_RUDA_SLASKA,
+    "Głogowski Szpital Powiatowy": LISTA_GLOGOW,
+    "USK nr 1 PUM w Szczecinie – Police": LISTA_USK1_POLICE,
+    "Wojewódzki Szpital Specjalistyczny nr 3 w Rybniku": LISTA_RYBNIK,
 }
 
 for lista_szpitala in SZPITALE.values():
