@@ -720,6 +720,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Wojewódzki Szpital Specjalistyczny nr 3 w Rybniku":
             "Wojewódzkiego Szpitala Specjalistycznego nr 3 w Rybniku",
+
+        "Mazowiecki Szpital Specjalistyczny w Radomiu":
+            "Mazowieckiego Szpitala Specjalistycznego w Radomiu",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

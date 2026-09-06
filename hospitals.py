@@ -19518,6 +19518,350 @@ LISTA_RYBNIK = [
     }
 ]
 
+# =====================================
+# MAZOWIECKI SZPITAL SPECJALISTYCZNY W RADOMIU – JÓZEFÓW
+# =====================================
+
+LISTA_RADOM_JOZEFOW = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "radj-dokumenty-1",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-dokumenty-3",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-dokumenty-4",
+        "nazwa": "Wszystkie wyniki badań wykonanych w ciąży – badania krwi, moczu i wszystkie badania USG",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-dokumenty-5",
+        "nazwa": "Dokumentacja dotycząca chorób przewlekłych i operacji przebytych przed ciążą – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-dokumenty-6",
+        "nazwa": "Oryginał wyniku grupy krwi z numerem PESEL i oznaczeniem przeciwciał odpornościowych",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-dokumenty-7",
+        "nazwa": "Oryginał wyniku VDRL",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-dokumenty-8",
+        "nazwa": "Oryginał wyniku HBsAg",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-dokumenty-9",
+        "nazwa": "Oryginał wyniku HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-dokumenty-10",
+        "nazwa": "Oryginał wyniku HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-dokumenty-11",
+        "nazwa": "Precyzyjna konsultacja specjalistyczna przy chorobie będącej pozapołożniczym wskazaniem do cięcia cesarskiego – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "radj-mama-1",
+        "nazwa": "Kosmetyki: mydło w płynie, szampon, pasta do zębów i szczoteczka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-2",
+        "nazwa": "Ręczniki kąpielowe – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-3",
+        "nazwa": "Ręczniki do rąk – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-4",
+        "nazwa": "Bawełniane koszule nocne umożliwiające karmienie – minimum 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-5",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-6",
+        "nazwa": "Bielizna bawełniana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-7",
+        "nazwa": "Siatkowe majtki poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-8",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-9",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-10",
+        "nazwa": "Biustonosz do karmienia z otwieranymi miskami",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-11",
+        "nazwa": "Wkładki do biustonosza",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-12",
+        "nazwa": "Wkładki higieniczne bez siateczki i bezzapachowe – jak największe, np. nocne lub maxi",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-13",
+        "nazwa": "Poduszka lub jasiek ułatwiający karmienie piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-14",
+        "nazwa": "Pomadka do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-15",
+        "nazwa": "Podkłady poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-16",
+        "nazwa": "Wygodna koszula z rozcięciem do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-17",
+        "nazwa": "Napoje i przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-18",
+        "nazwa": "Butelka wody z dozownikiem lub bidon z wodą",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-mama-19",
+        "nazwa": "Ubranie na wyjście ze szpitala – najlepiej w rozmiarze z około 5.–6. miesiąca ciąży",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "radj-maluszek-1",
+        "nazwa": "Ciepłe i cienkie kaftaniki – 3–5 sztuk, zależnie od pory roku",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-2",
+        "nazwa": "Śpiochy, pajacyki lub body – 3–5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-3",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-4",
+        "nazwa": "Czapeczki bez wiązania",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-5",
+        "nazwa": "Kocyk, śpiworek lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-6",
+        "nazwa": "Kosmetyki do kąpieli",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-7",
+        "nazwa": "Chusteczki do pielęgnacji",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-8",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-9",
+        "nazwa": "Pieluchy jednorazowe dla noworodka – 1 paczka, rozmiar newborn",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-10",
+        "nazwa": "Pieluchy flanelowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-11",
+        "nazwa": "Pieluchy tetrowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-12",
+        "nazwa": "Ubranie na wyjście ze szpitala dopasowane do pory roku – osobna torba na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-13",
+        "nazwa": "Grubszy kocyk lub śpiwór – na wypis w sezonie zimowym",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-14",
+        "nazwa": "Ciepła czapka – na wypis w sezonie zimowym",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-15",
+        "nazwa": "Sweterek i kombinezon – na wypis w sezonie zimowym",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "radj-maluszek-16",
+        "nazwa": "Fotelik samochodowy dla niemowlęcia – jeśli wracacie samochodem",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -20483,6 +20827,21 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna „Szpitalna wyprawka do porodu” SPZOZ WSS nr 3 w Rybniku"
     },
+    "Mazowiecki Szpital Specjalistyczny w Radomiu": {
+        "zapewnia": [
+            "Powitalną wyprawkę „Witaj na Mazowszu!” dla noworodka"
+        ],
+        "warto_wiedziec": [
+            "👶 Noworodek może być ubrany we własne rzeczy i pielęgnowany własnymi kosmetykami.",
+            "🧳 Ubrania mamy i dziecka na wyjście warto spakować osobno – torba na wypis może zostać przywieziona dopiero w dniu wyjścia ze szpitala.",
+            "🩸 Przy pozapołożniczych wskazaniach do cięcia cesarskiego szpital wymaga precyzyjnej konsultacji odpowiedniego specjalisty.",
+            "🏥 Od maja 2026 porody odbywają się w nowym, zmodernizowanym Trakcie Porodowym. Powstało m.in. pięć sal porodowych przystosowanych do porodów rodzinnych, osobna sala cięć cesarskich oraz sale przed- i poporodowe.",
+            "🚪 Szpital organizuje dni otwarte Traktu Porodowego, podczas których przyszli rodzice mogą obejrzeć porodówkę i porozmawiać z personelem.",
+            "🎁 Każdy noworodek urodzony w szpitalu otrzymuje powitalną wyprawkę „Witaj na Mazowszu!”.",
+            "🍼 W wyprawce „Witaj na Mazowszu!” znajdują się m.in. kokon niemowlęcy, termofor, zabawka sensoryczna, dwie pieluszki, kocyk, czapeczka i body."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Mazowieckiego Szpitala Specjalistycznego w Radomiu • aktualizacja: wrzesień 2026"
+    },
 }
 
 SZPITALE = {
@@ -20560,6 +20919,7 @@ SZPITALE = {
     "Głogowski Szpital Powiatowy": LISTA_GLOGOW,
     "USK nr 1 PUM w Szczecinie – Police": LISTA_USK1_POLICE,
     "Wojewódzki Szpital Specjalistyczny nr 3 w Rybniku": LISTA_RYBNIK,
+    "Mazowiecki Szpital Specjalistyczny w Radomiu": LISTA_RADOM_JOZEFOW,
 }
 
 for lista_szpitala in SZPITALE.values():
