@@ -19862,6 +19862,269 @@ LISTA_RADOM_JOZEFOW = [
     }
 ]
 
+# =====================================
+# ZESPÓŁ OPIEKI ZDROWOTNEJ W SUCHEJ BESKIDZKIEJ
+# =====================================
+
+# =====================================
+# ZESPÓŁ OPIEKI ZDROWOTNEJ W SUCHEJ BESKIDZKIEJ
+# =====================================
+
+LISTA_SUCHA_BESKIDZKA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "sucha-dokumenty-1",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-dokumenty-2",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-dokumenty-3",
+        "nazwa": "Potwierdzony wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-dokumenty-4",
+        "nazwa": "Wyniki HBs, HCV, HIV, VDRL",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-dokumenty-5",
+        "nazwa": "Wynik wymazu w kierunku GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-dokumenty-6",
+        "nazwa": "Plan porodu (nie jest wymagany)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-dokumenty-7",
+        "nazwa": "W przypadku wcześniejszej hospitalizacji – wszystkie zgromadzone wypisy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-dokumenty-8",
+        "nazwa": "Konsultacje od specjalistów",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    # Do porodu
+
+    {
+        "id": "sucha-mama-1",
+        "nazwa": "Koszula rozpinana do karmienia – do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-2",
+        "nazwa": "Ręcznik do kąpieli – do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-3",
+        "nazwa": "Klapki pod prysznic – do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-4",
+        "nazwa": "Woda niegazowana z dzióbkiem – do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-5",
+        "nazwa": "Podpaski poporodowe – do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-6",
+        "nazwa": "Majtki siateczkowe po porodzie – do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-7",
+        "nazwa": "Czekolada bez dodatków – do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # Dla mamy na oddział
+
+    {
+        "id": "sucha-mama-8",
+        "nazwa": "Podpaski poporodowe – na oddział",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-9",
+        "nazwa": "Koszula na oddział do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-10",
+        "nazwa": "Majtki siateczkowe – na oddział",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-11",
+        "nazwa": "Bielizna",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-12",
+        "nazwa": "Szlafrok i klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-13",
+        "nazwa": "Ręcznik do kąpieli – na oddział",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-14",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-15",
+        "nazwa": "Sztućce i kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-16",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-mama-17",
+        "nazwa": "Ręcznik papierowy – 1 rolka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # Na dzień wypisu
+
+    {
+        "id": "sucha-mama-18",
+        "nazwa": "Ubrania wierzchnie oraz buty dla mamy – na dzień wypisu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    # Dla dziecka na oddział
+
+    {
+        "id": "sucha-maluszek-1",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-maluszek-2",
+        "nazwa": "Pielucha tetrowa – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-maluszek-3",
+        "nazwa": "Krem do pielęgnacji pośladków (bez tlenku cynku)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # Na dzień wypisu
+
+    {
+        "id": "sucha-maluszek-4",
+        "nazwa": "Ubranka dla dziecka – na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-maluszek-5",
+        "nazwa": "Nosidełko dla dziecka – na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sucha-maluszek-6",
+        "nazwa": "Kocyk dla dziecka – na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -20842,6 +21105,22 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Mazowieckiego Szpitala Specjalistycznego w Radomiu • aktualizacja: wrzesień 2026"
     },
+    "Zespół Opieki Zdrowotnej w Suchej Beskidzkiej": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "👜 Szpital zaleca przygotowanie wyprawki około 36. tygodnia ciąży i spakowanie jej do torby, którą można zmieścić pod szpitalnym łóżkiem.",
+            "👨‍👩‍👧 Możliwy jest poród rodzinny – rodzącej może towarzyszyć ojciec dziecka, partner lub inna bliska osoba.",
+            "🧘 Podczas porodu kobieta ma możliwość wyboru pozycji porodowej, w tym pozycji wertykalnych.",
+            "⚽ Podczas porodu można korzystać m.in. z piłki, worka sako oraz materaca gimnastycznego.",
+            "🤱 Szpital wspiera karmienie piersią i posiada tytuł „Szpital Przyjazny Dziecku”.",
+            "👶 Oddział Neonatologiczny posiada II poziom referencyjności.",
+            "👩‍🍼 Oddział Neonatologiczny działa w systemie rooming-in – noworodek przebywa razem z mamą.",
+            "🤍 Szpital wspiera dwugodzinny, nieprzerwany kontakt skóra do skóry po porodzie drogami natury.",
+            "🧠 Pacjentki mogą skorzystać ze wsparcia psychologa oraz fizjoterapeuty.",
+            "🎓 Przy szpitalu działa bezpłatna Szkoła Rodzenia."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Zespołu Opieki Zdrowotnej w Suchej Beskidzkiej • aktualizacja: wrzesień 2026"
+    },
 }
 
 SZPITALE = {
@@ -20920,6 +21199,7 @@ SZPITALE = {
     "USK nr 1 PUM w Szczecinie – Police": LISTA_USK1_POLICE,
     "Wojewódzki Szpital Specjalistyczny nr 3 w Rybniku": LISTA_RYBNIK,
     "Mazowiecki Szpital Specjalistyczny w Radomiu": LISTA_RADOM_JOZEFOW,
+    "Zespół Opieki Zdrowotnej w Suchej Beskidzkiej": LISTA_SUCHA_BESKIDZKA,
 }
 
 for lista_szpitala in SZPITALE.values():

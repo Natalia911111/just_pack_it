@@ -723,6 +723,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Mazowiecki Szpital Specjalistyczny w Radomiu":
             "Mazowieckiego Szpitala Specjalistycznego w Radomiu",
+
+        "Zespół Opieki Zdrowotnej w Suchej Beskidzkiej":
+            "Zespołu Opieki Zdrowotnej w Suchej Beskidzkiej",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
