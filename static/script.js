@@ -726,6 +726,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Zespół Opieki Zdrowotnej w Suchej Beskidzkiej":
             "Zespołu Opieki Zdrowotnej w Suchej Beskidzkiej",
+
+        "Dziecięcy Szpital Kliniczny UCK WUM – Żwirki i Wigury":
+            "Dziecięcego Szpitala Klinicznego UCK WUM – Żwirki i Wigury",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

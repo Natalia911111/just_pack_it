@@ -20125,6 +20125,392 @@ LISTA_SUCHA_BESKIDZKA = [
     }
 ]
 
+# =====================================
+# DZIECIĘCY SZPITAL KLINICZNY UCK WUM – ŻWIRKI I WIGURY
+# =====================================
+
+LISTA_WUM_ZWIRKI = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "wum-zwirki-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-dokumenty-3",
+        "nazwa": "Zaświadczenie z USC o uznaniu dziecka przed porodem – jeśli dziecko będzie nosiło nazwisko ojca",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-dokumenty-4",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-dokumenty-5",
+        "nazwa": "Oryginalny wynik badania grupy krwi wraz z przeciwciałami odpornościowymi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-dokumenty-6",
+        "nazwa": "Przy ujemnym Rh (–) – badanie na obecność przeciwciał anty-Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-dokumenty-7",
+        "nazwa": "Wyniki: HBs, anty-HCV, anty-HIV, Toxoplazma IgG i IgM, Różyczka IgG i IgM, CMV IgM i IgG w III trymestrze",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-dokumenty-8",
+        "nazwa": "Odczyn WR",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-dokumenty-9",
+        "nazwa": "Wymaz z pochwy i odbytu w kierunku GBS po 35. tygodniu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-dokumenty-10",
+        "nazwa": "Wyniki badań USG ciąży z I, II i III trymestru",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-dokumenty-11",
+        "nazwa": "Wyniki konsultacji specjalistycznych – jeśli jesteś pod opieką specjalisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-dokumenty-12",
+        "nazwa": "Karty informacyjne leczenia szpitalnego – w przypadku wcześniejszych hospitalizacji",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-dokumenty-13",
+        "nazwa": "Leki aktualnie przyjmowane – w oryginalnych opakowaniach",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "wum-zwirki-mama-1",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-2",
+        "nazwa": "Koszule nocne z rozpięciem, wygodne do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-3",
+        "nazwa": "Szlafrok lub bluza",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-4",
+        "nazwa": "Ciepłe skarpetki – 1 para",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-5",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-6",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-7",
+        "nazwa": "Wkładki laktacyjne – 1 opakowanie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-8",
+        "nazwa": "Lanolina do smarowania brodawek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-9",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-10",
+        "nazwa": "Delikatny płyn do higieny intymnej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-11",
+        "nazwa": "Kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-12",
+        "nazwa": "Gumki do włosów lub spinki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-13",
+        "nazwa": "Ręczniki, najlepiej szybkoschnące – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-14",
+        "nazwa": "Jednorazowe majtki uroginekologiczne, tzw. siatkowe – 3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-15",
+        "nazwa": "Chłonne podpaski poporodowe – 1 opakowanie, ok. 20 sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # Dodatkowo można spakować
+
+    {
+        "id": "wum-zwirki-mama-16",
+        "nazwa": "Woda mineralna niegazowana lub butelka filtrująca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-17",
+        "nazwa": "Poduszka do karmienia piersią lub mała poduszka typu „Jasiek”",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-18",
+        "nazwa": "Laktator – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-19",
+        "nazwa": "Przekąski wysokoenergetyczne po porodzie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-mama-20",
+        "nazwa": "Telefon z ładowarką",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # Na wyjście
+
+    {
+        "id": "wum-zwirki-mama-21",
+        "nazwa": "Wygodne ubranie dla mamy – na dzień wyjścia ze szpitala",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "wum-zwirki-maluszek-1",
+        "nazwa": "Pieluchy tetrowe – 5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-maluszek-2",
+        "nazwa": "Pieluchy jednorazowe, rozmiar 1 – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-maluszek-3",
+        "nazwa": "Chusteczki nawilżane – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-maluszek-4",
+        "nazwa": "Podstawowe kosmetyki do pielęgnacji noworodka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-maluszek-5",
+        "nazwa": "Kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-maluszek-6",
+        "nazwa": "Rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-maluszek-7",
+        "nazwa": "Bawełniana cienka czapeczka – 1 sztuka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-maluszek-8",
+        "nazwa": "Cieplejsza czapeczka – 1 sztuka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-maluszek-9",
+        "nazwa": "Body z krótkim rękawem – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-maluszek-10",
+        "nazwa": "Pajacyki – 3 sztuki LUB kaftaniki – 3 sztuki i śpiochy – 3 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-maluszek-11",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-maluszek-12",
+        "nazwa": "Ręcznik kąpielowy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # Na wyjście
+
+    {
+        "id": "wum-zwirki-maluszek-13",
+        "nazwa": "Ubranie dla dziecka dopasowane do pory roku – na dzień wyjścia",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-maluszek-14",
+        "nazwa": "Fotelik samochodowy – na dzień wyjścia",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY
+    # =========================
+
+    {
+        "id": "wum-zwirki-tata-1",
+        "nazwa": "Wygodny strój",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wum-zwirki-tata-2",
+        "nazwa": "Buty na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -21121,6 +21507,22 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Zespołu Opieki Zdrowotnej w Suchej Beskidzkiej • aktualizacja: wrzesień 2026"
     },
+    "Dziecięcy Szpital Kliniczny UCK WUM – Żwirki i Wigury": {
+        "zapewnia": [
+            "Laktatory klasy szpitalnej"
+        ],
+        "warto_wiedziec": [
+            "👜 Szpital zaleca spakowanie torby do porodu około 3 tygodnie przed planowanym terminem porodu.",
+            "📁 Wszystkie dokumenty oraz wyniki badań warto umieścić w jednej teczce.",
+            "🧳 Szpital prosi o zabranie tylko niezbędnych rzeczy w jednej torbie lub walizce.",
+            "🍼 Na oddziale dostępne są laktatory klasy szpitalnej.",
+            "💉 Możliwa jest konsultacja anestezjologiczna po 33. tygodniu ciąży dla pacjentek rozważających łagodzenie bólu porodowego z zastosowaniem analgezji regionalnej.",
+            "🏥 Pacjentki skierowane do cięcia cesarskiego mogą zapisać się do poradni kwalifikacyjnej po ukończeniu 34. tygodnia ciąży.",
+            "🩺 Podczas kwalifikacji do cięcia cesarskiego lekarz weryfikuje wskazania i ustala termin zabiegu.",
+            "🚗 Rzeczy przeznaczone na wyjście ze szpitala mogą zostać przyniesione przez osobę towarzyszącą dopiero w dniu wypisu."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona UCK WUM • aktualizacja: wrzesień 2026"
+    },
 }
 
 SZPITALE = {
@@ -21200,6 +21602,7 @@ SZPITALE = {
     "Wojewódzki Szpital Specjalistyczny nr 3 w Rybniku": LISTA_RYBNIK,
     "Mazowiecki Szpital Specjalistyczny w Radomiu": LISTA_RADOM_JOZEFOW,
     "Zespół Opieki Zdrowotnej w Suchej Beskidzkiej": LISTA_SUCHA_BESKIDZKA,
+    "Dziecięcy Szpital Kliniczny UCK WUM – Żwirki i Wigury": LISTA_WUM_ZWIRKI,
 }
 
 for lista_szpitala in SZPITALE.values():
