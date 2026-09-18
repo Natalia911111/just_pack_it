@@ -20511,6 +20511,508 @@ LISTA_WUM_ZWIRKI = [
     }
 ]
 
+# =====================================
+# SZPITAL SALVE W ŁODZI – SZPARAGOWA
+# =====================================
+
+LISTA_SALVE_LODZ = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "salve-dokumenty-1",
+        "nazwa": "Wynik grupy krwi – potwierdzony wynik, dwa różne badania lub karta identyfikacyjna grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-dokumenty-2",
+        "nazwa": "Wyniki wszystkich badań USG z okresu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-dokumenty-3",
+        "nazwa": "Wynik badania antygenu HBs – ważny 3 miesiące",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-dokumenty-4",
+        "nazwa": "Wynik badania przeciwciał anty-HCV – ważny 3 miesiące",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-dokumenty-5",
+        "nazwa": "Wynik badania przeciwciał anty-HIV – ważny 3 miesiące",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-dokumenty-6",
+        "nazwa": "Wynik posiewu z pochwy i odbytu w kierunku GBS – pobrany ok. 33.–37. tygodnia ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-dokumenty-7",
+        "nazwa": "Wynik badania w kierunku kiły (WR, VDRL lub USR)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-dokumenty-8",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-dokumenty-9",
+        "nazwa": "Skierowanie do szpitala",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-dokumenty-10",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-dokumenty-11",
+        "nazwa": "Zaświadczenia lekarskie – jeśli są",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-dokumenty-12",
+        "nazwa": "Karty informacyjne z pobytów w szpitalu w czasie obecnej ciąży – jeśli są",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "salve-mama-1",
+        "nazwa": "Koszule – 3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-mama-2",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-mama-3",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-mama-4",
+        "nazwa": "Pantofle",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-mama-5",
+        "nazwa": "Podkłady ginekologiczne – 2–3 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-mama-6",
+        "nazwa": "Podkłady ochronne na łóżko SENI 60 × 90 cm – ok. 3 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-mama-7",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-mama-8",
+        "nazwa": "Krem do brodawek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-mama-9",
+        "nazwa": "Majtki siateczkowe – 6 sztuk (nie flizelinowe)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-mama-10",
+        "nazwa": "Woda niegazowana z ustnikiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "salve-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-maluszek-2",
+        "nazwa": "Pieluszki tetrowe – 6 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-maluszek-3",
+        "nazwa": "Pajacyki – 3 komplety",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-maluszek-4",
+        "nazwa": "Bawełniana czapeczka bez wiązania – 1 sztuka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-maluszek-5",
+        "nazwa": "Skarpetki – 1 para",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-maluszek-6",
+        "nazwa": "Becik",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-maluszek-7",
+        "nazwa": "Chusteczki nawilżające",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "salve-maluszek-8",
+        "nazwa": "Krem do pielęgnacji pośladków",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "salve-tata-1",
+        "nazwa": "Ochraniacze na buty lub klapki",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# SZPITAL POWIATOWY W CHRZANOWIE
+# =====================================
+
+LISTA_CHRZANOW = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "chrzanow-dokumenty-1",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-dokumenty-2",
+        "nazwa": "Potwierdzony wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-dokumenty-3",
+        "nazwa": "Wynik wymazu z pochwy i odbytu w kierunku GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-dokumenty-4",
+        "nazwa": "Wyniki badań: VDRL, HIV, HCV, antygen HBs, odczyn Coombsa – jeżeli nie są wpisane w kartę ciąży lub wpis jest nieczytelny",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-dokumenty-5",
+        "nazwa": "Przeciwciała IgG i IgM w kierunku toksoplazmozy, różyczki i CMV – jeżeli nie są wpisane w kartę ciąży lub wpis jest nieczytelny",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-dokumenty-6",
+        "nazwa": "Wyniki badań prenatalnych",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-dokumenty-7",
+        "nazwa": "Lista przyjmowanych w ciąży leków / przebytych chorób",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-dokumenty-8",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-dokumenty-9",
+        "nazwa": "Zaświadczenie o uznaniu ojcostwa z Urzędu Stanu Cywilnego – jeśli rodzice nie są w związku małżeńskim",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-dokumenty-10",
+        "nazwa": "Akt małżeństwa – jeśli rodzice mają różne nazwiska",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-dokumenty-11",
+        "nazwa": "Dane przychodni, do której będzie należało dziecko",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-dokumenty-12",
+        "nazwa": "Dane położnej środowiskowo-rodzinnej",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "chrzanow-mama-1",
+        "nazwa": "Bawełniane koszule ułatwiające karmienie piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-mama-2",
+        "nazwa": "Gumowe klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-mama-3",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-mama-4",
+        "nazwa": "Podpaski poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-mama-5",
+        "nazwa": "Podkłady jednorazowe na łóżko 90 × 60 cm",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-mama-6",
+        "nazwa": "Przybory i kosmetyki do higieny osobistej – najlepiej wypróbowane, używane na co dzień",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-mama-7",
+        "nazwa": "Bielizna poporodowa – siateczkowe majtki poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-mama-8",
+        "nazwa": "Woda mineralna niegazowana – najlepiej przynajmniej jedna butelka z dzióbkiem lub butelka filtrująca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-mama-9",
+        "nazwa": "Kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-mama-10",
+        "nazwa": "Drobne przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-mama-11",
+        "nazwa": "Opcjonalnie: wyparzone kapturki do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "chrzanow-maluszek-1",
+        "nazwa": "Chusteczki nawilżane dla niemowląt – 2 opakowania",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-maluszek-2",
+        "nazwa": "Pampersy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA – NA WYJŚCIE
+    # =========================
+
+    {
+        "id": "chrzanow-wyjscie-1",
+        "nazwa": "Pielucha tetrowa – na wyjście do domu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-wyjscie-2",
+        "nazwa": "Śpioszki – na wyjście do domu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-wyjscie-3",
+        "nazwa": "Body z długim rękawem – na wyjście do domu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-wyjscie-4",
+        "nazwa": "Pajacyk – na wyjście do domu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-wyjscie-5",
+        "nazwa": "Czapeczka – na wyjście do domu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-wyjscie-6",
+        "nazwa": "Kocyk – na wyjście do domu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-wyjscie-7",
+        "nazwa": "Kombinezon – na wyjście do domu, odpowiednio do pory roku",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chrzanow-wyjscie-8",
+        "nazwa": "Fotelik samochodowy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -21523,6 +22025,34 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona UCK WUM • aktualizacja: wrzesień 2026"
     },
+    "Szpital Salve w Łodzi": {
+        "zapewnia": [
+            "Jednorazowe ubranie dla osoby towarzyszącej"
+        ],
+        "warto_wiedziec": [
+            "🏥 Porody odbywają się w Szpitalu Salve przy ul. Szparagowej 10, bud. A w Łodzi.",
+            "🤰 Szpital przyjmuje pacjentki do porodu od 32. tygodnia ciąży, również w ciąży bliźniaczej.",
+            "🩺 Wizyta kwalifikująca do porodu jest bezpłatna i odbywa się od 32. tygodnia ciąży.",
+            "📞 W przypadku rozpoczęcia porodu Salve prosi najpierw o kontakt telefoniczny z Oddziałem Położniczym.",
+            "👜 Po przyjeździe do Izby Przyjęć należy zabrać ze sobą tylko dokumenty. Torbę lub walizkę osoba towarzysząca przynosi po przyjęciu pacjentki na Oddział Położniczy.",
+            "👶 Oddział Położniczy i Neonatologiczny posiada II stopień referencyjności.",
+            "💙 Porody w Salve są realizowane w ramach kontraktu z NFZ."
+        ],
+        "warto_wiedziec_zrodlo": "https://salve.pl/porody"
+    },
+    "Szpital Powiatowy w Chrzanowie": {
+        "zapewnia": [
+            "Ubranka dla noworodka na czas pobytu w szpitalu"
+        ],
+        "warto_wiedziec": [
+            "👶 Szpital zapewnia ubranka dla noworodka na czas pobytu. Można jednak korzystać również z własnych ubranek.",
+            "🧺 Wszystkie rzeczy dla noworodka, również nowe, powinny zostać wcześniej wyprane w delikatnych detergentach.",
+            "👨‍👩‍👦 Przy porodzie rodzinnym osoba towarzysząca powinna mieć własne ubranie i obuwie na zmianę.",
+            "📋 Szpital zaleca zabranie uzupełnionego Planu Porodu.",
+            "🏠 Na wyjście należy przygotować odpowiednie do pogody ubranko dla dziecka, krem ochronny oraz fotelik samochodowy dla noworodka."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Powiatowego w Chrzanowie • aktualizacja: wrzesień 2026"
+    },
 }
 
 SZPITALE = {
@@ -21603,6 +22133,8 @@ SZPITALE = {
     "Mazowiecki Szpital Specjalistyczny w Radomiu": LISTA_RADOM_JOZEFOW,
     "Zespół Opieki Zdrowotnej w Suchej Beskidzkiej": LISTA_SUCHA_BESKIDZKA,
     "Dziecięcy Szpital Kliniczny UCK WUM – Żwirki i Wigury": LISTA_WUM_ZWIRKI,
+    "Szpital Salve w Łodzi": LISTA_SALVE_LODZ,
+    "Szpital Powiatowy w Chrzanowie": LISTA_CHRZANOW,
 }
 
 for lista_szpitala in SZPITALE.values():

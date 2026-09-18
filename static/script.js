@@ -729,6 +729,11 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Dziecięcy Szpital Kliniczny UCK WUM – Żwirki i Wigury":
             "Dziecięcego Szpitala Klinicznego UCK WUM – Żwirki i Wigury",
+
+        "Szpital Salve w Łodzi": "Szpitalu Salve w Łodzi",
+
+        "Szpital Powiatowy w Chrzanowie":
+            "Szpitalu Powiatowym w Chrzanowie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
