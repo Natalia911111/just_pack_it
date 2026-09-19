@@ -21012,6 +21012,237 @@ LISTA_CHRZANOW = [
         "przypiete": False
     }
 ]
+# =====================================
+# WOJEWÓDZKI SZPITAL SPECJALISTYCZNY WE WŁOCŁAWKU
+# =====================================
+
+LISTA_WLOCLAWEK = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "wloclawek-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-dokumenty-3",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-dokumenty-4",
+        "nazwa": "Wynik posiewu z pochwy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-dokumenty-5",
+        "nazwa": "Wyniki wszystkich badań istotnych dla przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "wloclawek-mama-1",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-mama-2",
+        "nazwa": "Koszule bawełniane – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-mama-3",
+        "nazwa": "Biustonosze dla matek karmiących",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-mama-4",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-mama-5",
+        "nazwa": "Obuwie domowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-mama-6",
+        "nazwa": "Jednorazowe majtki z siatki elastycznej – 3 pary",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-mama-7",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-mama-8",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-mama-9",
+        "nazwa": "Ręcznik jednorazowy papierowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-mama-10",
+        "nazwa": "Wkładki poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-mama-11",
+        "nazwa": "Krem pielęgnacyjny do sutków",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-mama-12",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-mama-13",
+        "nazwa": "Landrynki – dodają energii",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "wloclawek-maluszek-1",
+        "nazwa": "Komplety ubranek (kaftaniki, koszulka i śpioszki) – 4 komplety",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-maluszek-2",
+        "nazwa": "Czapeczka bawełniana",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-maluszek-3",
+        "nazwa": "Rożek lub kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-maluszek-4",
+        "nazwa": "Pieluszki tetrowe – kilka sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-maluszek-5",
+        "nazwa": "Pampersy 2–5 kg – ok. 20 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-maluszek-6",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-maluszek-7",
+        "nazwa": "Rękawiczki niedrapki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-maluszek-8",
+        "nazwa": "Nawilżone chusteczki do pielęgnacji",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-maluszek-9",
+        "nazwa": "Ręczniki – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-maluszek-10",
+        "nazwa": "Krem przeciwodparzeniowy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-maluszek-11",
+        "nazwa": "Oliwka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wloclawek-maluszek-12",
+        "nazwa": "Krem do ciała",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -22053,7 +22284,18 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Powiatowego w Chrzanowie • aktualizacja: wrzesień 2026"
     },
+    "Wojewódzki Szpital Specjalistyczny we Włocławku": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🏥 Izba Przyjęć Położniczo-Ginekologiczna znajduje się w Budynku Głównym na parterze.",
+            "🕐 Izba Przyjęć Położniczo-Ginekologiczna przyjmuje pacjentki całodobowo.",
+            "🤰 Przyjmowane są m.in. kobiety ciężarne, rodzące oraz położnice.",
+            "👜 Szpital publikuje własną wyprawkę dla przyszłych mam zgłaszających się do porodu."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Wojewódzkiego Szpitala Specjalistycznego we Włocławku • aktualizacja: wrzesień 2026"
+    },
 }
+
 
 SZPITALE = {
     "Szpital Ujastek": LISTA_UJASTEK,
@@ -22135,6 +22377,7 @@ SZPITALE = {
     "Dziecięcy Szpital Kliniczny UCK WUM – Żwirki i Wigury": LISTA_WUM_ZWIRKI,
     "Szpital Salve w Łodzi": LISTA_SALVE_LODZ,
     "Szpital Powiatowy w Chrzanowie": LISTA_CHRZANOW,
+    "Wojewódzki Szpital Specjalistyczny we Włocławku": LISTA_WLOCLAWEK,
 }
 
 for lista_szpitala in SZPITALE.values():
