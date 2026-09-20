@@ -737,6 +737,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Wojewódzki Szpital Specjalistyczny we Włocławku":
             "Wojewódzkiego Szpitala Specjalistycznego we Włocławku",
+
+        "Wojewódzki Szpital Zespolony w Elblągu":
+            "Wojewódzkiego Szpitala Zespolonego w Elblągu",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

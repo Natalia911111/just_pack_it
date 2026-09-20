@@ -21243,6 +21243,209 @@ LISTA_WLOCLAWEK = [
         "przypiete": False
     }
 ]
+# =====================================
+# WOJEWÓDZKI SZPITAL ZESPOLONY W ELBLĄGU
+# =====================================
+
+LISTA_ELBLAG = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "elblag-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-dokumenty-3",
+        "nazwa": "Skierowanie do szpitala – jeśli lekarz je wydał",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-dokumenty-4",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-dokumenty-5",
+        "nazwa": "Ostatni wynik morfologii",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-dokumenty-6",
+        "nazwa": "Wynik badania moczu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-dokumenty-7",
+        "nazwa": "Wynik badania HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-dokumenty-8",
+        "nazwa": "Wynik badania HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-dokumenty-9",
+        "nazwa": "Wynik badania HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-dokumenty-10",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "elblag-mama-1",
+        "nazwa": "Krótkie koszule nocne, najlepiej rozpinane z przodu – 2–3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-mama-2",
+        "nazwa": "Duży, dłuższy T-shirt do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-mama-4",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-mama-5",
+        "nazwa": "Majtki siatkowe – kilka par",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-mama-6",
+        "nazwa": "Wygodne, antypoślizgowe kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-mama-7",
+        "nazwa": "Gumowe klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-mama-8",
+        "nazwa": "Duży ręcznik kąpielowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-mama-9",
+        "nazwa": "Ręcznik papierowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-mama-10",
+        "nazwa": "Mały ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-mama-11",
+        "nazwa": "Kosmetyki według własnych potrzeb",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-mama-12",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-mama-13",
+        "nazwa": "Krem na podrażnione brodawki dla mam karmiących",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-mama-14",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "elblag-maluszek-1",
+        "nazwa": "Pieluchy jednorazowe (pampersy)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "elblag-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -22294,6 +22497,15 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Wojewódzkiego Szpitala Specjalistycznego we Włocławku • aktualizacja: wrzesień 2026"
     },
+    "Wojewódzki Szpital Zespolony w Elblągu": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "📄 Skierowanie do szpitala należy zabrać, jeśli lekarz je wydał – szpital zaznacza, że pacjentka zostanie przyjęta również bez skierowania.",
+            "👕 Szpital zaleca 2–3 krótkie koszule nocne, najlepiej z krótkim rękawem i rozpinane z przodu. Do porodu może wystarczyć również duży, dłuższy T-shirt.",
+            "👶 Na oficjalnej liście rzeczy dla noworodka szpital wymienia pampersy oraz chusteczki nawilżane."
+        ],
+        "warto_wiedziec_zrodlo": "Wojewódzki Szpital Zespolony w Elblągu – oficjalna strona Szkoły Rodzenia „Wyprawka do szpitala dla mamy i dziecka”"
+    },
 }
 
 
@@ -22378,6 +22590,7 @@ SZPITALE = {
     "Szpital Salve w Łodzi": LISTA_SALVE_LODZ,
     "Szpital Powiatowy w Chrzanowie": LISTA_CHRZANOW,
     "Wojewódzki Szpital Specjalistyczny we Włocławku": LISTA_WLOCLAWEK,
+    "Wojewódzki Szpital Zespolony w Elblągu": LISTA_ELBLAG,
 }
 
 for lista_szpitala in SZPITALE.values():
