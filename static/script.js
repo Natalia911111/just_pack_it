@@ -740,6 +740,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Wojewódzki Szpital Zespolony w Elblągu":
             "Wojewódzkiego Szpitala Zespolonego w Elblągu",
+
+        "Ginekologiczno-Położniczy Szpital Kliniczny im. Heliodora Święcickiego w Poznaniu":
+            "Ginekologiczno-Położniczego Szpitala Klinicznego im. Heliodora Święcickiego w Poznaniu",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

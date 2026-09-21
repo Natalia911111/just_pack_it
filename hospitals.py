@@ -21447,6 +21447,243 @@ LISTA_ELBLAG = [
     }
 ]
 
+# =====================================
+# GPSK IM. HELIODORA ŚWIĘCICKIEGO W POZNANIU – POLNA
+# =====================================
+
+LISTA_POLNA_POZNAN = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "polna-dokumenty-1",
+        "nazwa": "Dokument potwierdzający tożsamość z numerem PESEL",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-dokumenty-3",
+        "nazwa": "Dokumentacja związana z ciążą lub porodem w przypadku ciąży zagrożonej, np. karty informacyjne z pobytów szpitalnych lub konsultacje lekarskie",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-dokumenty-4",
+        "nazwa": "Plan porodu – zalecany",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-dokumenty-5",
+        "nazwa": "Zgłoszenie położnej POZ – zalecane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-dokumenty-6",
+        "nazwa": "NIP pracodawcy – zalecany",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-dokumenty-7",
+        "nazwa": "NIP własny – zalecany",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-dokumenty-8",
+        "nazwa": "Dokument laboratoryjny potwierdzający grupę krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-dokumenty-9",
+        "nazwa": "Wynik badania GBS – na obecność paciorkowców z grupy B",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-dokumenty-10",
+        "nazwa": "Wynik badania na obecność antygenu HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-dokumenty-11",
+        "nazwa": "Wynik odczynu Wassermanna – VDRL",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "polna-mama-1",
+        "nazwa": "Kosmetyki i przybory toaletowe, w tym mydło w płynie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-mama-2",
+        "nazwa": "Ręczniki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-mama-3",
+        "nazwa": "Ręczniki papierowe w rolce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-mama-4",
+        "nazwa": "Obuwie na zmianę, np. kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-mama-5",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-mama-6",
+        "nazwa": "Krem lub pomadka do natłuszczania ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-mama-7",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-mama-8",
+        "nazwa": "Koszula na pobyt na oddziale położniczym po porodzie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-mama-9",
+        "nazwa": "Biustonosz do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-mama-10",
+        "nazwa": "Siateczkowe majtki połogowe (nie flizelinowe) lub luźne majtki bawełniane",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-mama-11",
+        "nazwa": "Laktator – jeśli posiadasz",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-mama-12",
+        "nazwa": "Sztućce i kubek – opcjonalnie, jeśli wolisz mieć własne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-mama-13",
+        "nazwa": "Własna koszula do porodu – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "polna-maluszek-1",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-maluszek-2",
+        "nazwa": "Własne ubranka – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-maluszek-3",
+        "nazwa": "Ubranka na wyjście do domu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "polna-tata-1",
+        "nazwa": "Lekkie i wygodne ubranie na pobyt w sali porodowej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-tata-2",
+        "nazwa": "Wygodne klapki lub buty na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "polna-tata-3",
+        "nazwa": "Jedzenie i picie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -22506,6 +22743,19 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "Wojewódzki Szpital Zespolony w Elblągu – oficjalna strona Szkoły Rodzenia „Wyprawka do szpitala dla mamy i dziecka”"
     },
+    "Ginekologiczno-Położniczy Szpital Kliniczny im. Heliodora Święcickiego w Poznaniu": {
+        "miasto": "Poznań",
+        "adres": "ul. Polna 33",
+        "www": "https://www.gpsk.ump.edu.pl/pl/przyjecie-do-porodu-4",
+        "uwagi": (
+            "Szpital zaleca zabrać do porodu jak najmniej rzeczy – tylko te naprawdę potrzebne. "
+            "Wszystkie pozostałe rzeczy zapewnia szpital. "
+            "Własne ubranka dla dziecka są opcjonalne. "
+            "Nie należy zabierać zabawek, misiów, grzechotek, gryzaków ani cennej biżuterii. "
+            "Fotelik lub nosidełko rodzina powinna przywieźć dopiero w dniu wypisu. "
+            "Istnieje możliwość uczestnictwa osoby towarzyszącej w planowym cięciu cesarskim."
+        )
+    },
 }
 
 
@@ -22591,6 +22841,7 @@ SZPITALE = {
     "Szpital Powiatowy w Chrzanowie": LISTA_CHRZANOW,
     "Wojewódzki Szpital Specjalistyczny we Włocławku": LISTA_WLOCLAWEK,
     "Wojewódzki Szpital Zespolony w Elblągu": LISTA_ELBLAG,
+    "Ginekologiczno-Położniczy Szpital Kliniczny im. Heliodora Święcickiego w Poznaniu": LISTA_POLNA_POZNAN,
 }
 
 for lista_szpitala in SZPITALE.values():
