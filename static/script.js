@@ -743,6 +743,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Ginekologiczno-Położniczy Szpital Kliniczny im. Heliodora Święcickiego w Poznaniu":
             "Ginekologiczno-Położniczego Szpitala Klinicznego im. Heliodora Święcickiego w Poznaniu",
+
+        "Wojewódzkie Centrum Szpitalne Kotliny Jeleniogórskiej":
+            "Wojewódzkiego Centrum Szpitalnego Kotliny Jeleniogórskiej",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

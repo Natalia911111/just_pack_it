@@ -21683,6 +21683,363 @@ LISTA_POLNA_POZNAN = [
         "przypiete": False
     }
 ]
+# =====================================
+# WOJEWÓDZKIE CENTRUM SZPITALNE KOTLINY JELENIOGÓRSKIEJ
+# =====================================
+
+LISTA_JELENIA_GORA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "jelenia-gora-dokumenty-1",
+        "nazwa": "Dowód tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-2",
+        "nazwa": "Akt ślubu – jeśli dowód jest jeszcze niezmieniony",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-3",
+        "nazwa": "Akt uznania nienarodzonego dziecka – 2 kopie + oryginał do wglądu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-4",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-5",
+        "nazwa": "Skierowanie do szpitala – nie jest wymagane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-6",
+        "nazwa": "Wynik grupy krwi i czynnika Rh – oryginał",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-7",
+        "nazwa": "Badanie na obecność przeciwciał anty-Rh – przy ujemnym Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-8",
+        "nazwa": "Ostatni wynik morfologii",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-9",
+        "nazwa": "Ostatni wynik badania moczu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-10",
+        "nazwa": "Wynik HBs wykonany po 32. tygodniu ciąży lub zaświadczenie o szczepieniu WZW B",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-11",
+        "nazwa": "Wynik odczynu WR – badanie w kierunku kiły",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-12",
+        "nazwa": "Wynik badania na obecność HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-13",
+        "nazwa": "Wynik posiewu GBS z przedsionka pochwy i odbytu – wykonany po 35. tygodniu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-14",
+        "nazwa": "Wszystkie wyniki badań USG wykonanych w obecnej ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-15",
+        "nazwa": "Inne istotne wyniki badań i konsultacji, np. okulistycznej, kardiologicznej lub ortopedycznej",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-dokumenty-16",
+        "nazwa": "Karty informacyjne z wcześniejszych pobytów w szpitalu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "jelenia-gora-mama-1",
+        "nazwa": "Talerz",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-2",
+        "nazwa": "Sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-3",
+        "nazwa": "Kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-4",
+        "nazwa": "Woda niegazowana – butelka 1,5 l i mała butelka z dzióbkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-5",
+        "nazwa": "Pasta i szczoteczka do zębów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-6",
+        "nazwa": "Pudełko ochronne na szczoteczkę do zębów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-7",
+        "nazwa": "Kubek do mycia zębów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-8",
+        "nazwa": "Szampon do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-9",
+        "nazwa": "Żel pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-10",
+        "nazwa": "Szczotka lub grzebień do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-11",
+        "nazwa": "Suszarka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-12",
+        "nazwa": "Kosmetyk do podmywania krocza w żelu z pompką",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-13",
+        "nazwa": "Podkłady higieniczne na deskę sedesową",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-14",
+        "nazwa": "Podkłady ochronne na łóżko – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-15",
+        "nazwa": "Papier toaletowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-16",
+        "nazwa": "Ręczniki papierowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-17",
+        "nazwa": "Duże podpaski poporodowe – 2 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-18",
+        "nazwa": "Majtki siateczkowe jednorazowe – 4 sztuki lub bawełniane",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-19",
+        "nazwa": "Koszule do karmienia z rozcięciami na piersi lub kopertowe – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-20",
+        "nazwa": "Dłuższe T-shirty na czas porodu – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-21",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-22",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-23",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-24",
+        "nazwa": "Telefon komórkowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-25",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-mama-26",
+        "nazwa": "Aktualnie przyjmowane leki, zioła i suplementy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "jelenia-gora-maluszek-1",
+        "nazwa": "Jednorazowe pieluchy typu pampers – najmniejszy rozmiar, 15 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-maluszek-2",
+        "nazwa": "Pieluchy tetrowe – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-maluszek-3",
+        "nazwa": "Pieluchy flanelowe – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-maluszek-4",
+        "nazwa": "Krem do smarowania pupy niemowlęcia",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-maluszek-5",
+        "nazwa": "Mokre chusteczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "jelenia-gora-maluszek-6",
+        "nazwa": "Emolient do kąpieli noworodka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -22756,6 +23113,18 @@ SZPITALE_INFO = {
             "Istnieje możliwość uczestnictwa osoby towarzyszącej w planowym cięciu cesarskim."
         )
     },
+    "Wojewódzkie Centrum Szpitalne Kotliny Jeleniogórskiej": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🧳 Szpital zaleca spakowanie jednej średniej wielkości torby na kółkach co najmniej 4 tygodnie przed terminem porodu.",
+            "👥 Warto, aby partner lub osoba towarzysząca znała zawartość torby i wiedziała, gdzie znajdują się poszczególne rzeczy.",
+            "💊 Należy zabrać do szpitala wszystkie aktualnie przyjmowane leki, a także zapisać nazwy stosowanych ziół i suplementów diety.",
+            "💊 Po przyjęciu torbę z lekami należy przekazać pielęgniarce. Podczas pobytu nie należy przyjmować żadnych leków na własną rękę.",
+            "👶 Lista rzeczy dla dziecka została przygotowana na trzydniowy pobyt w szpitalu.",
+            "📄 Skierowanie do szpitala znajduje się na liście dokumentów, ale szpital zaznacza, że nie jest wymagane."
+        ],
+        "warto_wiedziec_zrodlo": "Wojewódzkie Centrum Szpitalne Kotliny Jeleniogórskiej – oficjalna „Lista rzeczy potrzebnych do porodu”"
+    },
 }
 
 
@@ -22842,6 +23211,7 @@ SZPITALE = {
     "Wojewódzki Szpital Specjalistyczny we Włocławku": LISTA_WLOCLAWEK,
     "Wojewódzki Szpital Zespolony w Elblągu": LISTA_ELBLAG,
     "Ginekologiczno-Położniczy Szpital Kliniczny im. Heliodora Święcickiego w Poznaniu": LISTA_POLNA_POZNAN,
+    "Wojewódzkie Centrum Szpitalne Kotliny Jeleniogórskiej": LISTA_JELENIA_GORA,
 }
 
 for lista_szpitala in SZPITALE.values():
