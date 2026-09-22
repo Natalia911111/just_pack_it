@@ -22040,6 +22040,243 @@ LISTA_JELENIA_GORA = [
         "przypiete": False
     }
 ]
+# =====================================
+# POLIKLINIKA GINEKOLOGICZNO-POŁOŻNICZA ARCISZEWSCY W BIAŁYMSTOKU
+# =====================================
+
+LISTA_POLIKLINIKA_BIALYSTOK = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "poliklinika-bialystok-dokumenty-1",
+        "nazwa": "Dowód tożsamości – dowód osobisty, paszport lub karta pobytu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-2",
+        "nazwa": "Dowód ubezpieczenia – na wypadek błędów systemu eWUŚ",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-3",
+        "nazwa": "Skierowanie do szpitala – w przypadku indukcji porodu lub cięcia cesarskiego",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-4",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-5",
+        "nazwa": "Ostatni wynik morfologii",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-6",
+        "nazwa": "Wynik ostatniego badania USG położniczego",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-7",
+        "nazwa": "Wyniki posiewów z pochwy i odbytu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-8",
+        "nazwa": "Dokument potwierdzający grupę krwi – oryginalny wynik, KrewKarta lub legitymacja Honorowego Dawcy Krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DODATKOWO, JEŚLI CIĄŻA BYŁA
+    # PROWADZONA W INNEJ PLACÓWCE
+    # =========================
+
+    {
+        "id": "poliklinika-bialystok-dokumenty-9",
+        "nazwa": "Cała dokumentacja medyczna z przebiegu obecnej ciąży – jeśli ciąża była prowadzona w innej placówce",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-10",
+        "nazwa": "Wszystkie wyniki badań USG z obecnej ciąży – jeśli ciąża była prowadzona w innej placówce",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-11",
+        "nazwa": "Ostatnia morfologia krwi i badanie moczu wykonane po 32. tygodniu ciąży – jeśli ciąża była prowadzona w innej placówce",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-12",
+        "nazwa": "Wynik HBs lub zaświadczenie o szczepieniu WZW B – jeśli ciąża była prowadzona w innej placówce",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-13",
+        "nazwa": "Wyniki odczynu WR – jeśli ciąża była prowadzona w innej placówce",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-14",
+        "nazwa": "Wyniki badań w kierunku HIV i HCV – jeśli ciąża była prowadzona w innej placówce",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-15",
+        "nazwa": "Wynik posiewu GBS wykonanego po 35. tygodniu ciąży – jeśli ciąża była prowadzona w innej placówce",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-dokumenty-16",
+        "nazwa": "Inne istotne wyniki badań lub konsultacji – jeśli ciąża była prowadzona w innej placówce",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "poliklinika-bialystok-mama-1",
+        "nazwa": "Bawełniane koszule nocne umożliwiające karmienie piersią – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-mama-2",
+        "nazwa": "Jednorazowe figi poporodowe – siateczkowe i przewiewne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-mama-3",
+        "nazwa": "Biustonosz do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-mama-4",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-mama-5",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-mama-6",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-mama-7",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-mama-8",
+        "nazwa": "Żel pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-mama-9",
+        "nazwa": "Szampon do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-mama-10",
+        "nazwa": "Płyn do higieny intymnej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-mama-11",
+        "nazwa": "Pasta i szczoteczka do zębów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-mama-12",
+        "nazwa": "Grzebień",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "poliklinika-bialystok-mama-13",
+        "nazwa": "Gumki do włosów lub elastyczna opaska",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "poliklinika-bialystok-maluszek-1",
+        "nazwa": "Fotelik samochodowy – potrzebny w dniu wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -23125,6 +23362,24 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "Wojewódzkie Centrum Szpitalne Kotliny Jeleniogórskiej – oficjalna „Lista rzeczy potrzebnych do porodu”"
     },
+    "Poliklinika Ginekologiczno-Położnicza Arciszewscy w Białymstoku": {
+        "zapewnia": [
+            "Jednorazową koszulę na czas porodu",
+            "Wszystkie niezbędne ubranka dla noworodka podczas pobytu",
+            "Kosmetyki do pielęgnacji noworodka podczas pobytu",
+            "Wyprawkę dla dziecka przy wypisie"
+        ],
+        "warto_wiedziec": [
+            "👜 Poliklinika zaleca, aby nie zabierać zbyt wielu rzeczy – pobyt po porodzie trwa zazwyczaj nie więcej niż 2 doby.",
+            "👶 Dla noworodka podczas pobytu Poliklinika zapewnia wszystkie niezbędne ubranka i kosmetyki do pielęgnacji. Do szpitala należy przygotować jedynie fotelik samochodowy potrzebny w dniu wypisu.",
+            "🎁 Przy wypisie maluszek otrzymuje wyprawkę. Jej skład zależy m.in. od pory roku, a o elementach wyprawki decyduje personel Polikliniki.",
+            "👗 Na czas porodu Poliklinika zapewnia jednorazową koszulę.",
+            "🛏️ W przypadku pobytu w Apartamencie Rodzinnym lub Apartamencie VIP Poliklinika zapewnia również wymienione na swojej liście ubrania i akcesoria dla mamy.",
+            "📄 Jeśli ciąża była prowadzona w innej placówce, należy zabrać całą dokumentację medyczną dotyczącą jej przebiegu.",
+            "🪪 Informacja o ubezpieczeniu jest pobierana z systemu eWUŚ, ale Poliklinika prosi o zabranie dokumentu ubezpieczenia na wypadek błędów systemu."
+        ],
+        "warto_wiedziec_zrodlo": "Poliklinika Ginekologiczno-Położnicza Arciszewscy – oficjalna strona „Przygotowanie do porodu”"
+    },
 }
 
 
@@ -23212,6 +23467,7 @@ SZPITALE = {
     "Wojewódzki Szpital Zespolony w Elblągu": LISTA_ELBLAG,
     "Ginekologiczno-Położniczy Szpital Kliniczny im. Heliodora Święcickiego w Poznaniu": LISTA_POLNA_POZNAN,
     "Wojewódzkie Centrum Szpitalne Kotliny Jeleniogórskiej": LISTA_JELENIA_GORA,
+    "Poliklinika Ginekologiczno-Położnicza Arciszewscy w Białymstoku": LISTA_POLIKLINIKA_BIALYSTOK,
 }
 
 for lista_szpitala in SZPITALE.values():

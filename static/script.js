@@ -746,6 +746,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Wojewódzkie Centrum Szpitalne Kotliny Jeleniogórskiej":
             "Wojewódzkiego Centrum Szpitalnego Kotliny Jeleniogórskiej",
+
+        "Poliklinika Ginekologiczno-Położnicza Arciszewscy w Białymstoku":
+            "Polikliniki Ginekologiczno-Położniczej Arciszewscy w Białymstoku",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
