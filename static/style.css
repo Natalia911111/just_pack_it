@@ -3617,3 +3617,99 @@ footer {
     font-weight: 600;
     cursor: pointer;
 }
+
+/* =========================
+   LINKI AFILIACYJNE
+========================= */
+
+.affiliate-link {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+
+    padding: 6px 9px;
+    border: 1px solid rgba(74, 93, 74, 0.18);
+    border-radius: 9px;
+
+    background-color: rgba(255, 255, 255, 0.65);
+    color: var(--dark-green);
+
+    font-size: 0.78rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.affiliate-link:hover {
+    background-color: #ffffff;
+    border-color: var(--sage-green);
+    transform: translateY(-1px);
+}
+
+.affiliate-link:focus-visible {
+    outline: 3px solid rgba(122, 143, 122, 0.3);
+    outline-offset: 2px;
+}
+
+/* Po odhaczeniu rzeczy link zostaje spokojniejszy */
+.item-row.checked .affiliate-link {
+    opacity: 0.55;
+}
+
+/* Telefon */
+@media (max-width: 600px) {
+    .item-row {
+        flex-wrap: wrap;
+    }
+
+    .affiliate-link {
+        order: 5;
+        margin-left: 2.4rem;
+        font-size: 0.75rem;
+    }
+}
+
+/* Linków produktowych nie pokazujemy w PDF */
+@media print {
+    .affiliate-link {
+        display: none !important;
+    }
+}
+
+/* =========================
+   INFORMACJA O AFILIACJI
+========================= */
+
+.affiliate-disclosure {
+    margin: 22px 0 26px;
+    padding: 14px 16px;
+    background-color: #f7f9f6;
+    border: 1px solid #e2e8df;
+    border-radius: 12px;
+    color: #687168;
+    font-size: 0.82rem;
+    line-height: 1.5;
+}
+
+.affiliate-disclosure strong {
+    display: block;
+    margin-bottom: 4px;
+    color: var(--dark-green);
+    font-size: 0.88rem;
+}
+
+.affiliate-disclosure p {
+    margin: 0;
+}
+
+@media print {
+    .affiliate-disclosure {
+        display: none !important;
+    }
+}

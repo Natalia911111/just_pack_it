@@ -22278,6 +22278,243 @@ LISTA_POLIKLINIKA_BIALYSTOK = [
     }
 ]
 
+# =====================================
+# SZPITAL W KNUROWIE
+# =====================================
+
+LISTA_KNUROW = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "knurow-dokumenty-1",
+        "nazwa": "Dokument tożsamości – dowód osobisty, paszport lub prawo jazdy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-dokumenty-3",
+        "nazwa": "Plan porodu – opcjonalnie",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-dokumenty-4",
+        "nazwa": "Karty wypisów ze szpitala – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-dokumenty-5",
+        "nazwa": "Istotne wyniki badań i konsultacji medycznych",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-dokumenty-6",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-dokumenty-7",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-dokumenty-8",
+        "nazwa": "Adres poradni dziecięcej, do której zostanie zapisane dziecko",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-dokumenty-9",
+        "nazwa": "Imię i nazwisko położnej środowiskowej",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "knurow-mama-1",
+        "nazwa": "Koszula rozpinana do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-mama-2",
+        "nazwa": "Stanik do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-mama-3",
+        "nazwa": "Szlafrok lub rozpinany sweter",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-mama-4",
+        "nazwa": "Top do immersji – jeśli planujesz łagodzenie bólu porodowego w wannie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-mama-5",
+        "nazwa": "Majtki siateczkowe – kilka sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-mama-6",
+        "nazwa": "Kapcie lub klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-mama-7",
+        "nazwa": "Podkłady higieniczne 60 × 90 cm – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-mama-8",
+        "nazwa": "Podpaski poporodowe – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-mama-9",
+        "nazwa": "Maść na brodawki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-mama-10",
+        "nazwa": "Szczoteczka i pasta do zębów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-mama-11",
+        "nazwa": "Kosmetyki – płyn do mycia, szampon, balsam i płyn do higieny intymnej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-mama-12",
+        "nazwa": "Ręczniki – mały i duży",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-mama-13",
+        "nazwa": "Woda mineralna lub butelka filtrująca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "knurow-maluszek-1",
+        "nazwa": "Małe opakowanie pieluszek jednorazowych",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-maluszek-2",
+        "nazwa": "Chusteczki nawilżane dla niemowląt",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # NA DZIEŃ WYPISU
+    # =========================
+
+    {
+        "id": "knurow-maluszek-3",
+        "nazwa": "Body – na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-maluszek-4",
+        "nazwa": "Pajacyk – na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-maluszek-5",
+        "nazwa": "Kaftanik – zależnie od temperatury, na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-maluszek-6",
+        "nazwa": "Czapeczka – na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-maluszek-7",
+        "nazwa": "Kocyk – na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "knurow-maluszek-8",
+        "nazwa": "Fotelik do przewożenia lub wózek – na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -23380,6 +23617,17 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "Poliklinika Ginekologiczno-Położnicza Arciszewscy – oficjalna strona „Przygotowanie do porodu”"
     },
+    "Szpital w Knurowie": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🛁 Szpital uwzględnia możliwość immersji wodnej jako metody łagodzenia bólu porodowego – na oficjalnej liście rzeczy do porodu znajduje się top do immersji.",
+            "👶 Na czas pobytu dla noworodka należy zabrać małe opakowanie pieluszek jednorazowych oraz chusteczki nawilżane dla niemowląt.",
+            "🏠 Ubranka dla dziecka na wyjście należy zapakować do fotelika lub wózka i zostawić w domu.",
+            "🚗 W dniu wypisu rzeczy przygotowane dla dziecka przynosi osoba odbierająca mamę z dzieckiem ze szpitala.",
+            "🧳 Na oficjalnej liście szpital osobno wyszczególnia rzeczy potrzebne podczas pobytu oraz rzeczy dla noworodka potrzebne dopiero w dniu wypisu."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalny profil „Rodzimy w Knurowie” • lista „Co zabrać do porodu?” • aktualizacja: marzec 2026"
+    },
 }
 
 
@@ -23468,6 +23716,7 @@ SZPITALE = {
     "Ginekologiczno-Położniczy Szpital Kliniczny im. Heliodora Święcickiego w Poznaniu": LISTA_POLNA_POZNAN,
     "Wojewódzkie Centrum Szpitalne Kotliny Jeleniogórskiej": LISTA_JELENIA_GORA,
     "Poliklinika Ginekologiczno-Położnicza Arciszewscy w Białymstoku": LISTA_POLIKLINIKA_BIALYSTOK,
+    "Szpital w Knurowie": LISTA_KNUROW,
 }
 
 for lista_szpitala in SZPITALE.values():

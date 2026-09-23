@@ -26,6 +26,32 @@ const hospitalInfo =
     typeof window.HOSPITAL_INFO === "object"
         ? window.HOSPITAL_INFO
         : {};
+/* =========================
+   LINKI AFILIACYJNE
+========================= */
+
+const AFFILIATE_PRODUCTS = [
+    {
+        keywords: [
+            "majtki poporodowe",
+            "majtki siateczkowe",
+            "majtki jednorazowe",
+            "figi poporodowe"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B05HebzE2"
+    }
+];
+
+function getAffiliateProduct(itemName) {
+    const normalizedName = String(itemName || "").toLowerCase();
+
+    return AFFILIATE_PRODUCTS.find(function (product) {
+        return product.keywords.some(function (keyword) {
+            return normalizedName.includes(keyword);
+        });
+    });
+}
 
 function getInitialItemsForHospital(hospitalName) {
 
@@ -749,6 +775,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Poliklinika Ginekologiczno-Położnicza Arciszewscy w Białymstoku":
             "Polikliniki Ginekologiczno-Położniczej Arciszewscy w Białymstoku",
+
+        "Szpital w Knurowie":
+            "Szpitala w Knurowie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
@@ -1122,6 +1151,24 @@ function createItemRow(item) {
     itemName.className = "item-name";
     itemName.textContent = item.nazwa;
 
+    const affiliateProduct = getAffiliateProduct(item.nazwa);
+
+    let affiliateLink = null;
+
+    if (affiliateProduct && !item.wlasny) {
+        affiliateLink = document.createElement("a");
+        affiliateLink.className = "affiliate-link";
+        affiliateLink.href = affiliateProduct.url;
+        affiliateLink.target = "_blank";
+        affiliateLink.rel = "sponsored nofollow noopener";
+        affiliateLink.textContent = "🛍️ " + affiliateProduct.label;
+
+        affiliateLink.setAttribute(
+            "aria-label",
+            affiliateProduct.label + ": " + item.nazwa
+        );
+    }
+
     const pinButton = document.createElement("button");
     pinButton.type = "button";
     pinButton.className = "pin-btn";
@@ -1172,6 +1219,11 @@ function createItemRow(item) {
 
     row.appendChild(checkboxButton);
     row.appendChild(itemName);
+
+    if (affiliateLink) {
+        row.appendChild(affiliateLink);
+    }
+
     row.appendChild(pinButton);
     row.appendChild(deleteButton);
 
