@@ -22514,6 +22514,195 @@ LISTA_KNUROW = [
         "przypiete": False
     }
 ]
+# =====================================
+# SZPITAL ŚLĄSKI W CIESZYNIE
+# =====================================
+
+LISTA_CIESZYN = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "cieszyn-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-dokumenty-3",
+        "nazwa": "Oryginał wyniku grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-dokumenty-4",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-dokumenty-5",
+        "nazwa": "Wyniki badań prenatalnych – jeśli były wykonywane",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-dokumenty-6",
+        "nazwa": "Wyniki konsultacji, np. okulistycznej lub anestezjologicznej – jeśli były przeprowadzone",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "cieszyn-mama-1",
+        "nazwa": "Cienki, lekki szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-2",
+        "nazwa": "Bawełniane koszule porodowe – 2–3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-3",
+        "nazwa": "Biustonosz laktacyjny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-4",
+        "nazwa": "Majtki jednorazowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-5",
+        "nazwa": "Klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-6",
+        "nazwa": "Ręczniki – duży kąpielowy i mniejszy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-7",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-8",
+        "nazwa": "Kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-9",
+        "nazwa": "Woda mineralna – najlepiej z dziubkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-10",
+        "nazwa": "Przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-11",
+        "nazwa": "Telefon",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-12",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-13",
+        "nazwa": "Wkładki poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-14",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-mama-15",
+        "nazwa": "Jednorazowe podkłady poporodowe na łóżko – kilka sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "cieszyn-maluszek-1",
+        "nazwa": "Ręcznik lub pieluszka do otulenia dziecka po porodzie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-maluszek-2",
+        "nazwa": "Pieluszki jednorazowe dla noworodka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "cieszyn-maluszek-3",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -23628,6 +23817,20 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalny profil „Rodzimy w Knurowie” • lista „Co zabrać do porodu?” • aktualizacja: marzec 2026"
     },
+    "Szpital Śląski w Cieszynie": {
+        "zapewnia": [
+            "👶 Ubranka dla dziecka na czas pobytu w szpitalu"
+        ],
+        "warto_wiedziec": [
+            "🧳 Szpital zaleca przygotowanie torby do porodu około miesiąc przed planowanym terminem porodu.",
+            "👜 Szpital sugeruje spakowanie rzeczy do jednej walizki na kółkach i podzielenie jej na część dla mamy i dziecka lub na rzeczy potrzebne podczas porodu i po porodzie.",
+            "👶 Ubranek dla dziecka na czas pobytu nie trzeba zabierać – zapewnia je szpital.",
+            "🍼 Szpital zaleca zabranie pieluszek jednorazowych i chusteczek nawilżanych dla noworodka.",
+            "🛏️ Warto zabrać kilka jednorazowych podkładów poporodowych na łóżko.",
+            "💧 Szpital sugeruje zabranie wody mineralnej, najlepiej w butelce z dziubkiem."
+        ],
+        "warto_wiedziec_zrodlo": "oficjalny profil Szpitala Śląskiego w Cieszynie • post „Co warto mieć ze sobą w torbie do porodu?”"
+    },
 }
 
 
@@ -23717,6 +23920,7 @@ SZPITALE = {
     "Wojewódzkie Centrum Szpitalne Kotliny Jeleniogórskiej": LISTA_JELENIA_GORA,
     "Poliklinika Ginekologiczno-Położnicza Arciszewscy w Białymstoku": LISTA_POLIKLINIKA_BIALYSTOK,
     "Szpital w Knurowie": LISTA_KNUROW,
+    "Szpital Śląski w Cieszynie": LISTA_CIESZYN,
 }
 
 for lista_szpitala in SZPITALE.values():

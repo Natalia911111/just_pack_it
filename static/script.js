@@ -40,6 +40,20 @@ const AFFILIATE_PRODUCTS = [
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B05HebzE2"
+    },
+    {
+        keywords: [
+            "podkłady poporodowe",
+            "podkład poporodowy",
+            "podkłady higieniczne",
+            "podkład higieniczny",
+            "podkłady na łóżko",
+            "podkład na łóżko",
+            "jednorazowe podkłady",
+            "jednorazowy podkład"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B06fSb4x1"
     }
 ];
 
@@ -778,6 +792,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital w Knurowie":
             "Szpitala w Knurowie",
+
+        "Szpital Śląski w Cieszynie":
+            "Szpitalu Śląskim w Cieszynie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
