@@ -22703,6 +22703,224 @@ LISTA_CIESZYN = [
         "przypiete": False
     }
 ]
+# =====================================
+# SZPITAL KLINICZNY IM. DR. EMILA WARMIŃSKIEGO
+# POLITECHNIKI BYDGOSKIEJ – BYDGOSZCZ
+# =====================================
+
+LISTA_BYDGOSZCZ_WARMINSKI = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "warminski-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-dokumenty-3",
+        "nazwa": "Informacja o położnej POZ – dokładna nazwa i adres placówki",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-dokumenty-4",
+        "nazwa": "Wypisy z ewentualnych hospitalizacji",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-dokumenty-5",
+        "nazwa": "Aktualne wyniki badań, zwłaszcza wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-dokumenty-6",
+        "nazwa": "Zaświadczenie o podaniu immunoglobuliny – jeżeli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-dokumenty-7",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "warminski-mama-1",
+        "nazwa": "Duży T-shirt – przydatny np. do immersji wodnej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-mama-2",
+        "nazwa": "Koszule porodowe / nocne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-mama-4",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-mama-5",
+        "nazwa": "Ręcznik kąpielowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-mama-6",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-mama-7",
+        "nazwa": "Kosmetyczka z przyborami toaletowymi",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-mama-8",
+        "nazwa": "Szampon do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-mama-9",
+        "nazwa": "Żel pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-mama-10",
+        "nazwa": "Płyn do higieny intymnej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "warminski-maluszek-1",
+        "nazwa": "Pieluchy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-maluszek-3",
+        "nazwa": "Body",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-maluszek-4",
+        "nazwa": "Pajacyki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-maluszek-5",
+        "nazwa": "Czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-maluszek-6",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-maluszek-7",
+        "nazwa": "Krem pielęgnacyjny dla noworodków",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-maluszek-8",
+        "nazwa": "Ubranko na wyjście odpowiednie do pogody",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-maluszek-9",
+        "nazwa": "Kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-maluszek-10",
+        "nazwa": "Kombinezon – jeśli wymaga tego pogoda",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warminski-maluszek-11",
+        "nazwa": "Wózek lub fotelik / nosidełko samochodowe na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -23831,6 +24049,30 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalny profil Szpitala Śląskiego w Cieszynie • post „Co warto mieć ze sobą w torbie do porodu?”"
     },
+    "Szpital Kliniczny im. dr. Emila Warmińskiego Politechniki Bydgoskiej - SPZOZ w Bydgoszczy": {
+        "zapewnia": [
+            "🩹 Wkładki poporodowe",
+            "🛏️ Podkłady poporodowe",
+            "🍼 Laktatory",
+            "❄️ Lodówkę do przechowywania pokarmu kobiecego",
+            "☕ Dostęp do ogólnodostępnej kuchni z lodówką i czajnikiem",
+            "💧 Wodę pitną"
+        ],
+        "warto_wiedziec": [
+            "🛏️ Blok porodowy dysponuje 6 salami porodowymi z łazienkami",
+            "🛁 Dostępna jest wanna umożliwiająca immersję wodną lub poród do wody",
+            "⚽ Na salach dostępne są m.in. worki Sacco, piłki i materace ułatwiające przyjmowanie różnych pozycji podczas porodu",
+            "💉 Dostępne są różne metody łagodzenia bólu porodowego, m.in. TENS, immersja wodna, gaz Entonox oraz znieczulenie zewnątrzoponowe (ZOP)",
+            "🤱 Po porodzie możliwy jest kontakt skóra do skóry",
+            "👶 Na oddziale stosowany jest system rooming-in, dzięki któremu mama może przebywać z dzieckiem przez całą dobę",
+            "🍼 Dostępne jest wsparcie certyfikowanego doradcy laktacyjnego",
+            "🧘‍♀️ Dostępna jest fizjoterapia uroginekologiczna po porodzie",
+            "💗 Istnieje możliwość skorzystania z konsultacji psychologicznej",
+            "🏥 Przed porodem można obejrzeć oddział i sale porodowe",
+            "📍 Przyjęcie do porodu odbywa się w Położniczo-Ginekologicznej Izbie Przyjęć"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Klinicznego im. dr. Emila Warmińskiego Politechniki Bydgoskiej • aktualizacja: wrzesień 2026"
+    },
 }
 
 
@@ -23921,6 +24163,7 @@ SZPITALE = {
     "Poliklinika Ginekologiczno-Położnicza Arciszewscy w Białymstoku": LISTA_POLIKLINIKA_BIALYSTOK,
     "Szpital w Knurowie": LISTA_KNUROW,
     "Szpital Śląski w Cieszynie": LISTA_CIESZYN,
+    "Szpital Kliniczny im. dr. Emila Warmińskiego Politechniki Bydgoskiej - SPZOZ w Bydgoszczy": LISTA_BYDGOSZCZ_WARMINSKI,
 }
 
 for lista_szpitala in SZPITALE.values():

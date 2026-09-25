@@ -35,7 +35,12 @@ const AFFILIATE_PRODUCTS = [
         keywords: [
             "majtki poporodowe",
             "majtki siateczkowe",
+            "majtki siatkowe",
             "majtki jednorazowe",
+            "jednorazowe majtki",
+            "jednorazowe majtki poporodowe",
+            "majtki poporodowe siateczkowe",
+            "majtki poporodowe siatkowe",
             "figi poporodowe"
         ],
         label: "Zobacz przykładowy produkt",
@@ -54,8 +59,47 @@ const AFFILIATE_PRODUCTS = [
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B06fSb4x1"
+    },
+    {
+        keywords: [
+            "podpaski poporodowe",
+            "podpaska poporodowa",
+            "podpaski po porodzie",
+            "podpaska po porodzie",
+            "wkłady poporodowe",
+            "wkład poporodowy",
+            "wkładki poporodowe",
+            "wkładka poporodowa",
+            "podpaski dla mamy",
+            "podpaski"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B0ePnj3z6"
     }
 ];
+
+function normalizeAffiliateText(text) {
+    return String(text || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[–—-]/g, " ")
+        .replace(/[()[\],.!?:;]/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+}
+
+function getAffiliateProduct(itemName) {
+    const normalizedName = normalizeAffiliateText(itemName);
+
+    return AFFILIATE_PRODUCTS.find(function (product) {
+        return product.keywords.some(function (keyword) {
+            return normalizedName.includes(
+                normalizeAffiliateText(keyword)
+            );
+        });
+    });
+}
 
 function getAffiliateProduct(itemName) {
     const normalizedName = String(itemName || "").toLowerCase();
@@ -795,6 +839,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Śląski w Cieszynie":
             "Szpitalu Śląskim w Cieszynie",
+
+        "Szpital Kliniczny im. dr. Emila Warmińskiego Politechniki Bydgoskiej - SPZOZ w Bydgoszczy":
+            "Szpitala Klinicznego im. dr. Emila Warmińskiego Politechniki Bydgoskiej - SPZOZ w Bydgoszczy",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
