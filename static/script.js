@@ -75,6 +75,19 @@ const AFFILIATE_PRODUCTS = [
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B0ePnj3z6"
+    },
+    {
+        keywords: [
+            "chusteczki nawilżane",
+            "chusteczki nawilżane dla dziecka",
+            "chusteczki nawilżane dla noworodka",
+            "chusteczki dla dziecka",
+            "chusteczki dla noworodka",
+            "chusteczki pielęgnacyjne",
+            "mokre chusteczki"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B06U2UFTx"
     }
 ];
 
@@ -842,6 +855,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Kliniczny im. dr. Emila Warmińskiego Politechniki Bydgoskiej - SPZOZ w Bydgoszczy":
             "Szpitala Klinicznego im. dr. Emila Warmińskiego Politechniki Bydgoskiej - SPZOZ w Bydgoszczy",
+
+        "Szpital Pomnik Chrztu Polski w Gnieźnie":
+            "Szpitala Pomnik Chrztu Polski w Gnieźnie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

@@ -22922,6 +22922,198 @@ LISTA_BYDGOSZCZ_WARMINSKI = [
     }
 ]
 
+# =====================================
+# SZPITAL POMNIK CHRZTU POLSKI W GNIEŹNIE
+# =====================================
+
+LISTA_GNIEZNO_POMNIK = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "gniezno-pomnik-dokumenty-1",
+        "nazwa": "Dowód osobisty lub inny dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-dokumenty-3",
+        "nazwa": "Wyniki badań laboratoryjnych z okresu ciąży – morfologia, mocz, oryginalny wynik grupy krwi, GBS (jeśli był wykonywany)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-dokumenty-4",
+        "nazwa": "Wyniki badań USG",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-dokumenty-5",
+        "nazwa": "Karty wypisowe z poprzednich pobytów w szpitalu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-dokumenty-6",
+        "nazwa": "Wypełniony plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-dokumenty-7",
+        "nazwa": "Lista nazw i dawek leków zażywanych w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "gniezno-pomnik-mama-1",
+        "nazwa": "Koszula",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-2",
+        "nazwa": "Porannik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-3",
+        "nazwa": "Majtki bawełniane lub jednorazowe – kilka par",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-4",
+        "nazwa": "Laczki domowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-5",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-6",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-7",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-8",
+        "nazwa": "Odciągacz pokarmu (laktator)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-9",
+        "nazwa": "Stanik do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-10",
+        "nazwa": "Wkładki laktacyjne do stanika",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-11",
+        "nazwa": "Sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-12",
+        "nazwa": "Kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-13",
+        "nazwa": "Talerzyk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-14",
+        "nazwa": "Biała woda niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-15",
+        "nazwa": "Herbata",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-16",
+        "nazwa": "Cukier",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-17",
+        "nazwa": "Okulary do czytania – jeśli używasz",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "gniezno-pomnik-mama-18",
+        "nazwa": "Długopis",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -24073,6 +24265,27 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Klinicznego im. dr. Emila Warmińskiego Politechniki Bydgoskiej • aktualizacja: wrzesień 2026"
     },
+    "Szpital Pomnik Chrztu Polski w Gnieźnie": {
+        "zapewnia": [
+            "🩸 Podpaski higieniczne dla położnic",
+            "👕 Odzież dla noworodka",
+            "👶 Pieluchy dla noworodka",
+            "🧴 Kosmetyki do pielęgnacji noworodka"
+        ],
+        "warto_wiedziec": [
+            "👩‍❤️‍👨 Możliwy jest poród z osobą towarzyszącą",
+            "⏰ Osoba towarzysząca może przebywać na bloku porodowym przez cały okres porodu oraz 2 godziny po porodzie",
+            "☕ Do dyspozycji osoby towarzyszącej jest osobny pokój z aneksem kuchennym i toaletą",
+            "🏥 Przyjęcie rozpoczyna się na SOR, skąd pacjentka z osobą towarzyszącą przechodzi do Położniczej Izby Przyjęć",
+            "🩺 W Położniczej Izbie Przyjęć przeprowadzany jest m.in. wywiad lekarski, badanie wewnętrzne oraz USG",
+            "🛏️ Następnie pacjentka przechodzi na Blok Porodowy i poznaje położną prowadzącą",
+            "👶 Noworodek przy wypisie wydawany jest w Pokoju wydań noworodka razem z wypisem matki i dziecka",
+            "🚿 Dostępna jest hydroterapia – sale porodowe posiadają łazienki z prysznicem",
+            "⚡ Dostępny jest elektrostymulator TENS jako niefarmakologiczna metoda łagodzenia bólu",
+            "⚽ Sale porodowe wyposażone są m.in. w materace, piłki, worki sako i krzesełka porodowe"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Pomnik Chrztu Polski • aktualizacja: wrzesień 2026"
+    },
 }
 
 
@@ -24164,6 +24377,7 @@ SZPITALE = {
     "Szpital w Knurowie": LISTA_KNUROW,
     "Szpital Śląski w Cieszynie": LISTA_CIESZYN,
     "Szpital Kliniczny im. dr. Emila Warmińskiego Politechniki Bydgoskiej - SPZOZ w Bydgoszczy": LISTA_BYDGOSZCZ_WARMINSKI,
+    "Szpital Pomnik Chrztu Polski w Gnieźnie": LISTA_GNIEZNO_POMNIK,
 }
 
 for lista_szpitala in SZPITALE.values():
