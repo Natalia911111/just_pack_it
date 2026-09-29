@@ -32,62 +32,91 @@ const hospitalInfo =
 
 const AFFILIATE_PRODUCTS = [
     {
+        // MAJTKI POPORODOWE / SIATECZKOWE
         keywords: [
             "majtki poporodowe",
             "majtki siateczkowe",
             "majtki siatkowe",
+            "siateczkowe majtki",
+            "siatkowe majtki",
             "majtki jednorazowe",
             "jednorazowe majtki",
-            "jednorazowe majtki poporodowe",
-            "majtki poporodowe siateczkowe",
-            "majtki poporodowe siatkowe",
-            "figi poporodowe"
+            "majtki z siateczki",
+            "majtki z siatki",
+            "bielizna poporodowa",
+            "jednorazowa bielizna"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B05HebzE2"
     },
+
     {
+        // PODKŁADY NA ŁÓŻKO / HIGIENICZNE
         keywords: [
-            "podkłady poporodowe",
-            "podkład poporodowy",
             "podkłady higieniczne",
             "podkład higieniczny",
             "podkłady na łóżko",
             "podkład na łóżko",
+            "podkłady ochronne na łóżko",
+            "podkłady jednorazowe",
             "jednorazowe podkłady",
-            "jednorazowy podkład"
+            "podkłady poporodowe seni",
+            "podkłady poporodowe jednorazowe",
+            "poporodowe podkłady jednorazowe"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B06fSb4x1"
     },
+
     {
+        // PODPASKI / WKŁADY POPORODOWE
         keywords: [
             "podpaski poporodowe",
             "podpaska poporodowa",
-            "podpaski po porodzie",
-            "podpaska po porodzie",
-            "wkłady poporodowe",
-            "wkład poporodowy",
+            "podpaski bella",
+            "podpaski higieniczne",
+            "duże podpaski",
+            "podpaski w rozmiarze maxi",
             "wkładki poporodowe",
             "wkładka poporodowa",
-            "podpaski dla mamy",
-            "podpaski"
+            "wkłady poporodowe",
+            "wkład poporodowy",
+            "chłonne podpaski poporodowe"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B0ePnj3z6"
     },
+
     {
+        // CHUSTECZKI NAWILŻANE
         keywords: [
             "chusteczki nawilżane",
-            "chusteczki nawilżane dla dziecka",
-            "chusteczki nawilżane dla noworodka",
-            "chusteczki dla dziecka",
-            "chusteczki dla noworodka",
+            "chusteczki nawilżające",
+            "nawilżone chusteczki",
+            "chusteczki wilgotne",
+            "wilgotne chusteczki",
+            "mokre chusteczki",
             "chusteczki pielęgnacyjne",
-            "mokre chusteczki"
+            "chusteczki do pielęgnacji",
+            "jednorazowe chusteczki pielęgnacyjne"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B06U2UFTx"
+    },
+
+    {
+        // PIELUCHY JEDNORAZOWE
+        keywords: [
+            "pieluchy jednorazowe",
+            "pieluszki jednorazowe",
+            "paczka pieluch jednorazowych",
+            "pampersy",
+            "pampersów",
+            "pampers do",
+            "pampers,"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B06X5fUuI"
     }
 ];
 
