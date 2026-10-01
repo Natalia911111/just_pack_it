@@ -117,6 +117,19 @@ const AFFILIATE_PRODUCTS = [
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B06X5fUuI"
+    },
+    {
+    keywords: [
+            "wkładki laktacyjne",
+            "wkładki do biustonosza",
+            "wkładki do stanika",
+            "wkładki na mleko",
+            "wkładki na pokarm",
+            "wkładki do karmienia",
+            "podkładki laktacyjne"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B0cXQIdrb"
     }
 ];
 
