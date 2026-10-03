@@ -130,6 +130,24 @@ const AFFILIATE_PRODUCTS = [
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B0cXQIdrb"
+    },
+    {
+    keywords: [
+            "koszula do karmienia",
+            "koszula do karmienia piersią",
+            "koszula porodowa",
+            "koszula do porodu",
+            "koszula nocna do karmienia",
+            "koszula nocna",
+            "koszula dla mamy",
+            "koszula dla mamy karmiącej",
+            "koszula z rozpięciem do karmienia",
+            "koszule do karmienia",
+            "koszule porodowe",
+            "koszula"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B0fe6e62v"
     }
 ];
 
