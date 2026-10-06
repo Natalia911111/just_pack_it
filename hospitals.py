@@ -23114,6 +23114,503 @@ LISTA_GNIEZNO_POMNIK = [
     }
 ]
 
+# =====================================
+# SZPITAL SPECJALISTYCZNY IM. JĘDRZEJA ŚNIADECKIEGO W NOWYM SĄCZU
+# =====================================
+
+LISTA_NOWY_SACZ_SNIADECKI = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "sniadecki-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-dokumenty-3",
+        "nazwa": "Aktualne wyniki badań",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-dokumenty-4",
+        "nazwa": "Wyniki badań z ostatniego trymestru: WR, HBsAg, HCV i HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-dokumenty-5",
+        "nazwa": "Wynik posiewu w kierunku GBS wykonanego po 35. tygodniu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-dokumenty-6",
+        "nazwa": "Wynik grupy krwi z czynnikiem Rh i przeciwciałami odpornościowymi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-dokumenty-7",
+        "nazwa": "Numer NIP pracodawcy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "sniadecki-mama-1",
+        "nazwa": "Koszule nocne – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-3",
+        "nazwa": "Klapki – najlepiej z łatwego do czyszczenia tworzywa",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-4",
+        "nazwa": "Niegazowana woda mineralna – najlepiej w butelkach z dzióbkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-5",
+        "nazwa": "Bezbarwna pomadka do ust – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-6",
+        "nazwa": "Gorzka czekolada – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-7",
+        "nazwa": "Koszule rozpinane z przodu, ułatwiające karmienie piersią – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-8",
+        "nazwa": "Majtki – 4–5 sztuk, najlepiej siateczkowe i przepuszczające powietrze",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-9",
+        "nazwa": "Biustonosze do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-10",
+        "nazwa": "Przybory toaletowe i kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-11",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-12",
+        "nazwa": "Ręczniki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-13",
+        "nazwa": "Podkłady jednorazowe na łóżko 60 × 90 cm – 10 sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-14",
+        "nazwa": "Podpaski poporodowe – 2–3 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-15",
+        "nazwa": "Własny kubek i sztućce – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-mama-16",
+        "nazwa": "Biszkopty, herbatniki lub sucharki – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "sniadecki-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe – około 10–12 sztuk na dobę",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-maluszek-2",
+        "nazwa": "Chusteczki nawilżane dla niemowląt",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sniadecki-maluszek-3",
+        "nazwa": "Krem natłuszczający do pielęgnacji dla niemowląt",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# ZZOZ W OSTROWIE WIELKOPOLSKIM
+# =====================================
+
+LISTA_OSTROW_WIELKOPOLSKI = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "ostrow-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-dokumenty-2",
+        "nazwa": "Akt małżeństwa – jeśli dowód wystawiony jest na nazwisko panieńskie",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-dokumenty-3",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-dokumenty-4",
+        "nazwa": "Wynik potwierdzający grupę krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-dokumenty-5",
+        "nazwa": "Wynik badania GBS w kierunku paciorkowca",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-dokumenty-6",
+        "nazwa": "Wyniki badań HBs, HCV i HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-dokumenty-7",
+        "nazwa": "Karty informacyjne z wcześniejszych hospitalizacji – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-dokumenty-8",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "ostrow-mama-1",
+        "nazwa": "Koszule nocne rozpinane z przodu – 2–3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-3",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-4",
+        "nazwa": "Majtki siatkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-5",
+        "nazwa": "Luźne, wygodne skarpety",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-6",
+        "nazwa": "Wygodne, nieśliskie kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-7",
+        "nazwa": "Gumowe klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-8",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-9",
+        "nazwa": "Mydło, szampon i dezodorant",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-10",
+        "nazwa": "Krem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-11",
+        "nazwa": "Szczoteczka i pasta do zębów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-12",
+        "nazwa": "Szczotka i coś do spięcia włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-13",
+        "nazwa": "Krem do pielęgnacji brodawek sutkowych",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-14",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-15",
+        "nazwa": "Chusteczki higieniczne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-16",
+        "nazwa": "Kubek, talerz i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-17",
+        "nazwa": "Mała i duża butelka niegazowanej wody mineralnej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-mama-18",
+        "nazwa": "Przekąski – np. biszkopty, herbatniki, suchary, biała czekolada lub batonik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "ostrow-maluszek-1",
+        "nazwa": "Czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-maluszek-2",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-maluszek-3",
+        "nazwa": "Rękawiczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-maluszek-4",
+        "nazwa": "Chusteczki nawilżane do pupy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-maluszek-5",
+        "nazwa": "Małe opakowanie pieluszek jednorazowych",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / NA WYJŚCIE
+    # =========================
+
+    {
+        "id": "ostrow-tata-1",
+        "nazwa": "Kocyk dla dziecka – na wypis",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-tata-2",
+        "nazwa": "Rożek – na wypis",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-tata-3",
+        "nazwa": "Ubranka dla dziecka na wypis odpowiednie do pogody",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-tata-4",
+        "nazwa": "Pieluszki tetrowe – 2 sztuki na wypis",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-tata-5",
+        "nazwa": "Pieluszki jednorazowe – 2 sztuki na wypis",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-tata-6",
+        "nazwa": "Ubranie dla mamy na wyjście ze szpitala",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ostrow-tata-7",
+        "nazwa": "Fotelik samochodowy",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -24286,6 +24783,40 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Pomnik Chrztu Polski • aktualizacja: wrzesień 2026"
     },
+    "Szpital Specjalistyczny im. Jędrzeja Śniadeckiego w Nowym Sączu": {
+        "zapewnia": [
+            "Ubranka dla noworodka na czas pobytu w szpitalu"
+        ],
+        "warto_wiedziec": [
+            "👨‍👩‍👧 Możliwe są porody rodzinne",
+            "🚪 Porody odbywają się w pojedynczych salach porodowych",
+            "💧 Dostępna jest immersja wodna",
+            "🧘 Dostępne są niefarmakologiczne metody łagodzenia bólu porodowego",
+            "⚽ Na salach dostępne są m.in. piłki, worki sako i materace",
+            "🚿 Dostępne są natryski pomagające w łagodzeniu bólu porodowego",
+            "🤱 Na oddziale dostępne jest wsparcie laktacyjne",
+            "🛏️ Sale poporodowe są dwuosobowe i posiadają łazienki z prysznicem",
+            "🎓 Przy szpitalu działa bezpłatna Szkoła Rodzenia",
+            "👶 Ubranka dla dziecka na czas pobytu zapewnia szpital – własne ubranka należy przygotować na dzień wypisu"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Specjalistycznego im. Jędrzeja Śniadeckiego w Nowym Sączu • aktualizacja: październik 2026"
+    },
+    "Zespół Zakładów Opieki Zdrowotnej w Ostrowie Wielkopolskim": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "👨‍👩‍👧 Plan porodu przewiduje możliwość porodu w obecności osoby towarzyszącej",
+            "🧘 Możliwe jest prowadzenie aktywnego porodu – chodzenie i przyjmowanie dogodnych pozycji",
+            "🚿 Wśród metod łagodzenia bólu wymienione są kąpiele pod prysznicem",
+            "💆 Dostępne metody łagodzenia bólu obejmują m.in. masaż, worek Sako, piłkę i TENS",
+            "💨 Wśród metod farmakologicznych dostępny jest ENTONOX – gaz wziewny",
+            "🫶 Plan porodu pozwala wyrazić preferencję dotyczącą ochrony krocza",
+            "👶 Można zaznaczyć chęć położenia noworodka bezpośrednio po porodzie na brzuchu mamy",
+            "🧡 Plan porodu uwzględnia przecięcie pępowiny po ustaniu tętnienia",
+            "🤱 Można zaznaczyć chęć pierwszego karmienia dziecka bezpośrednio po porodzie",
+            "🤱 Przy szpitalu działa Poradnia Laktacyjna"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalne materiały Zespołu Zakładów Opieki Zdrowotnej w Ostrowie Wielkopolskim • aktualizacja: październik 2026"
+    },
 }
 
 
@@ -24378,6 +24909,8 @@ SZPITALE = {
     "Szpital Śląski w Cieszynie": LISTA_CIESZYN,
     "Szpital Kliniczny im. dr. Emila Warmińskiego Politechniki Bydgoskiej - SPZOZ w Bydgoszczy": LISTA_BYDGOSZCZ_WARMINSKI,
     "Szpital Pomnik Chrztu Polski w Gnieźnie": LISTA_GNIEZNO_POMNIK,
+    "Szpital Specjalistyczny im. Jędrzeja Śniadeckiego w Nowym Sączu": LISTA_NOWY_SACZ_SNIADECKI,
+    "Zespół Zakładów Opieki Zdrowotnej w Ostrowie Wielkopolskim": LISTA_OSTROW_WIELKOPOLSKI,
 }
 
 for lista_szpitala in SZPITALE.values():

@@ -44,7 +44,8 @@ const AFFILIATE_PRODUCTS = [
             "majtki z siateczki",
             "majtki z siatki",
             "bielizna poporodowa",
-            "jednorazowa bielizna"
+            "jednorazowa bielizna",
+            "majtki"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B05HebzE2"
@@ -113,7 +114,8 @@ const AFFILIATE_PRODUCTS = [
             "pampersy",
             "pampersów",
             "pampers do",
-            "pampers,"
+            "pampers,",
+            "pieluszek jednorazowych"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B06X5fUuI"
@@ -144,11 +146,25 @@ const AFFILIATE_PRODUCTS = [
             "koszula z rozpięciem do karmienia",
             "koszule do karmienia",
             "koszule porodowe",
-            "koszula"
+            "koszula",
+            "koszule"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B0fe6e62v"
-    }
+    },
+    {
+    keywords: [
+            "biustonosz do karmienia",
+            "biustonosz do karmienia piersią",
+            "biustonosz laktacyjny",
+            "stanik do karmienia",
+            "stanik do karmienia piersią",
+            "stanik laktacyjny",
+            "biustonosze do karmienia"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B07mijKy8"
+    },
 ];
 
 function normalizeAffiliateText(text) {
@@ -918,6 +934,12 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Pomnik Chrztu Polski w Gnieźnie":
             "Szpitala Pomnik Chrztu Polski w Gnieźnie",
+
+        "Szpital Specjalistyczny im. Jędrzeja Śniadeckiego w Nowym Sączu":
+            "Szpitala Specjalistycznego im. Jędrzeja Śniadeckiego w Nowym Sączu",
+
+        "Zespół Zakładów Opieki Zdrowotnej w Ostrowie Wielkopolskim":
+            "Zespołu Zakładów Opieki Zdrowotnej w Ostrowie Wielkopolskim",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
