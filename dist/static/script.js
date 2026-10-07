@@ -165,16 +165,6 @@ const AFFILIATE_PRODUCTS = [
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B07mijKy8"
     },
-    {
-    keywords: [
-            "szlafrok",
-            "szlafrok damski",
-            "szlafrok dla mamy",
-            "szlafrok do szpitala"
-        ],
-        label: "Zobacz przykładowy produkt",
-        url: "https://link.amazon/B01bWv1Xg"
-    },
 ];
 
 function normalizeAffiliateText(text) {
