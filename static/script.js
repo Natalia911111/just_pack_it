@@ -950,6 +950,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Zespół Zakładów Opieki Zdrowotnej w Ostrowie Wielkopolskim":
             "Zespołu Zakładów Opieki Zdrowotnej w Ostrowie Wielkopolskim",
+
+        "Samodzielny Publiczny Zakład Opieki Zdrowotnej w Wieluniu":
+            "Samodzielnego Publicznego Zakładu Opieki Zdrowotnej w Wieluniu",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

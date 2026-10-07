@@ -23610,6 +23610,340 @@ LISTA_OSTROW_WIELKOPOLSKI = [
         "przypiete": False
     }
 ]
+# =====================================
+# SPZOZ W WIELUNIU
+# =====================================
+
+LISTA_WIELUN = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "wielun-dokumenty-1",
+        "nazwa": "Dowód tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-dokumenty-3",
+        "nazwa": "Skierowanie na oddział – jeśli zostało wystawione",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-dokumenty-4",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-dokumenty-5",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-dokumenty-6",
+        "nazwa": "Oryginalny wynik badania HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-dokumenty-7",
+        "nazwa": "Oryginalny wynik badania HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-dokumenty-8",
+        "nazwa": "Oryginalny wynik badania HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-dokumenty-9",
+        "nazwa": "Oryginalny wynik badania TSH",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-dokumenty-10",
+        "nazwa": "Badania USG",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-dokumenty-11",
+        "nazwa": "Inne istotne wyniki badań i konsultacje, np. okulistyczna lub kardiologiczna – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-dokumenty-12",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "wielun-mama-1",
+        "nazwa": "Wygodne koszule z rozcięciem, odpowiednie do karmienia – 2–3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-2",
+        "nazwa": "Szlafrok lub dłuższy kardigan",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-3",
+        "nazwa": "Biustonosze do karmienia – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-4",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-5",
+        "nazwa": "Majtki poporodowe wielorazowe siateczkowe – 6 par",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-6",
+        "nazwa": "Przybory toaletowe i kosmetyki w podróżnych opakowaniach",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-7",
+        "nazwa": "Pomadka nawilżająca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-8",
+        "nazwa": "Klapki gumowe na oddział i pod prysznic – 2 pary",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-9",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-10",
+        "nazwa": "Podpaski poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-11",
+        "nazwa": "Poduszeczka „jasiek” lub poduszka do karmienia z możliwością prania w wysokiej temperaturze",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-12",
+        "nazwa": "Woda mineralna niegazowana z dziubkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-13",
+        "nazwa": "Jednorazowe podkłady na łóżko – 3–4 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-14",
+        "nazwa": "Własny laktator – opcjonalnie; oddział posiada laktator firmy Medela",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-15",
+        "nazwa": "Kubek i łyżeczka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-16",
+        "nazwa": "Cukier",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-17",
+        "nazwa": "Przekąski, np. musy owocowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-18",
+        "nazwa": "Ulubiona herbata",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-19",
+        "nazwa": "Ładowarka do telefonu i laktatora",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-20",
+        "nazwa": "Lanolina lub kompresy łagodzące na brodawki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-mama-21",
+        "nazwa": "Spinka, gumka i grzebień do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "wielun-maluszek-1",
+        "nazwa": "Pieluchy jednorazowe – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-maluszek-2",
+        "nazwa": "Pieluchy tetrowe – 5 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-maluszek-3",
+        "nazwa": "Zestawy ubranek dla noworodka – 5 kompletów",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-maluszek-4",
+        "nazwa": "Czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-maluszek-5",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-maluszek-6",
+        "nazwa": "Krem na pośladki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-maluszek-7",
+        "nazwa": "Kocyk, śpiworek lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "wielun-tata-1",
+        "nazwa": "Wygodne ubranie, niekrępujące ruchów",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-tata-2",
+        "nazwa": "Buty na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-tata-3",
+        "nazwa": "Przekąski",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wielun-tata-4",
+        "nazwa": "Picie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -24817,6 +25151,21 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalne materiały Zespołu Zakładów Opieki Zdrowotnej w Ostrowie Wielkopolskim • aktualizacja: październik 2026"
     },
+    "Samodzielny Publiczny Zakład Opieki Zdrowotnej w Wieluniu": {
+        "zapewnia": [
+            "Laktator firmy Medela dostępny na oddziale"
+        ],
+        "warto_wiedziec": [
+            "🤰 Oddział świadczy opiekę nad ciężarną i płodem w ramach Koordynowanej Opieki nad Ciężarną (KOC)",
+            "🤱 Dostępne są porady laktacyjne prowadzone przez edukatorów laktacyjnych oraz Certyfikowanego Doradcę Laktacyjnego",
+            "📝 Szpital udostępnia własny plan porodu, który można przygotować przed przyjęciem",
+            "💆 Szpital udostępnia informacje o dostępnych metodach łagodzenia bólu porodowego",
+            "💅 Przed przyjęciem szpital zaleca zmycie lakieru z paznokci u rąk i nóg oraz skrócenie paznokci",
+            "💍 Szpital zaleca pozostawienie cennej biżuterii w domu",
+            "👶 Wszystkie rzeczy dla noworodka, również nowe, powinny zostać wcześniej wyprane"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona SPZOZ w Wieluniu i oficjalna lista rzeczy potrzebnych do porodu • aktualizacja: październik 2026"
+    },
 }
 
 
@@ -24911,6 +25260,7 @@ SZPITALE = {
     "Szpital Pomnik Chrztu Polski w Gnieźnie": LISTA_GNIEZNO_POMNIK,
     "Szpital Specjalistyczny im. Jędrzeja Śniadeckiego w Nowym Sączu": LISTA_NOWY_SACZ_SNIADECKI,
     "Zespół Zakładów Opieki Zdrowotnej w Ostrowie Wielkopolskim": LISTA_OSTROW_WIELKOPOLSKI,
+    "Samodzielny Publiczny Zakład Opieki Zdrowotnej w Wieluniu": LISTA_WIELUN,
 }
 
 for lista_szpitala in SZPITALE.values():
