@@ -175,6 +175,17 @@ const AFFILIATE_PRODUCTS = [
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B01bWv1Xg"
     },
+    {
+    keywords: [
+            "fotelik samochodowy",
+            "fotelik dla noworodka",
+            "fotelik do przewożenia",
+            "fotelik samochodowy dla noworodka",
+            "nosidełko samochodowe"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B03qbiHMy"
+    },
 ];
 
 function normalizeAffiliateText(text) {
