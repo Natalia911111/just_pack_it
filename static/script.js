@@ -186,6 +186,19 @@ const AFFILIATE_PRODUCTS = [
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B03qbiHMy"
     },
+    {
+    keywords: [
+            "linomag",
+            "krem do pupy",
+            "krem na odparzenia",
+            "krem przeciw odparzeniom",
+            "krem ochronny",
+            "krem dla niemowląt",
+            "krem dla noworodka"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B01ecu2r3"
+    },
 ];
 
 function normalizeAffiliateText(text) {
