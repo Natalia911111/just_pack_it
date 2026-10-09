@@ -194,7 +194,8 @@ const AFFILIATE_PRODUCTS = [
             "krem przeciw odparzeniom",
             "krem ochronny",
             "krem dla niemowląt",
-            "krem dla noworodka"
+            "krem dla noworodka",
+            "maść ochronna"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B01ecu2r3"
