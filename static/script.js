@@ -200,6 +200,20 @@ const AFFILIATE_PRODUCTS = [
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B01ecu2r3"
     },
+    {
+    keywords: [
+            "pieluszki tetrowe",
+            "pieluchy tetrowe",
+            "pieluszka tetrowa",
+            "pielucha tetrowa",
+            "pieluszki muślinowe",
+            "pieluchy muślinowe",
+            "pieluszka muślinowa",
+            "pielucha muślinowa"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B0eYwv9Ko"
+    },
 ];
 
 function normalizeAffiliateText(text) {
