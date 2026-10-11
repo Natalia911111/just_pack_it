@@ -45,7 +45,8 @@ const AFFILIATE_PRODUCTS = [
             "majtki z siatki",
             "bielizna poporodowa",
             "jednorazowa bielizna",
-            "majtki"
+            "majtki",
+            "bielizna jednorazowa"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B05HebzE2"
@@ -115,7 +116,8 @@ const AFFILIATE_PRODUCTS = [
             "pampersów",
             "pampers do",
             "pampers,",
-            "pieluszek jednorazowych"
+            "pieluszek jednorazowych",
+            "jednorazowych pieluch"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B06X5fUuI"
@@ -213,6 +215,16 @@ const AFFILIATE_PRODUCTS = [
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B0eYwv9Ko"
+    },
+    {
+    keywords: [
+            "klapki pod prysznic",
+            "klapki prysznicowe",
+            "obuwie pod prysznic",
+            "klapki do kąpieli"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B07hcKTbZ"
     },
 ];
 
@@ -992,6 +1004,12 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Samodzielny Publiczny Zakład Opieki Zdrowotnej w Wieluniu":
             "Samodzielnego Publicznego Zakładu Opieki Zdrowotnej w Wieluniu",
+
+        "Szpital św. Łukasza w Bolesławcu":
+            "Szpitala św. Łukasza w Bolesławcu",
+
+        "Specjalistyczny Szpital Wojewódzki w Ciechanowie":
+            "Specjalistycznego Szpitala Wojewódzkiego w Ciechanowie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

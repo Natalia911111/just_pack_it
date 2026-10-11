@@ -23945,6 +23945,377 @@ LISTA_WIELUN = [
     }
 ]
 
+# =====================================
+# BOLESŁAWIEC – SZPITAL ŚW. ŁUKASZA
+# =====================================
+
+LISTA_BOLESLAWIEC = [
+
+    # -----------------
+    # DOKUMENTY
+    # -----------------
+
+    {
+        "id": "boleslawiec-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-dokumenty-2",
+        "nazwa": "Oryginalny wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-dokumenty-3",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-dokumenty-4",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-dokumenty-5",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-dokumenty-6",
+        "nazwa": "Wynik badania HBs",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-dokumenty-7",
+        "nazwa": "Wynik badania HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA MAMY
+    # -----------------
+
+    {
+        "id": "boleslawiec-mama-1",
+        "nazwa": "Środki higieny osobistej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-mama-2",
+        "nazwa": "Kosmetyk do natłuszczania ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-mama-3",
+        "nazwa": "Niegazowana woda mineralna",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-mama-4",
+        "nazwa": "Koszula",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-mama-5",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-mama-6",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-mama-7",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-mama-8",
+        "nazwa": "Bielizna jednorazowa lub bawełniana (siateczkowa)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # -----------------
+
+    {
+        "id": "boleslawiec-tata-1",
+        "nazwa": "Ubranie na zmianę dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "boleslawiec-tata-2",
+        "nazwa": "Zmienne obuwie dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# CIECHANÓW – SPECJALISTYCZNY SZPITAL WOJEWÓDZKI
+# =====================================
+
+LISTA_CIECHANOW = [
+
+    # -----------------
+    # DOKUMENTY
+    # -----------------
+
+    {
+        "id": "ciechanow-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-dokumenty-2",
+        "nazwa": "Karta ciąży + ostatnie wyniki badań",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-dokumenty-3",
+        "nazwa": "Oryginalny wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA MAMY
+    # -----------------
+
+    {
+        "id": "ciechanow-mama-1",
+        "nazwa": "2 ciemne ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-2",
+        "nazwa": "2 wygodne, luźne koszule (jedna do porodu, druga na zmianę)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-4",
+        "nazwa": "Ciepłe skarpety",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-5",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-6",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-7",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-8",
+        "nazwa": "Jednorazowa maszynka do golenia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-9",
+        "nazwa": "2 paczki jednorazowych pieluch w kształcie podpasek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-10",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-11",
+        "nazwa": "Coś do jedzenia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-12",
+        "nazwa": "Sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-13",
+        "nazwa": "Kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-14",
+        "nazwa": "Stanik do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-15",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-16",
+        "nazwa": "Książka do czytania (opcjonalnie)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-mama-17",
+        "nazwa": "Ulubiona muzyka do słuchania (opcjonalnie)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA MALUSZKA
+    # -----------------
+
+    {
+        "id": "ciechanow-maluszek-1",
+        "nazwa": "Najmniejszy rozmiar jednorazowych pieluch",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-maluszek-2",
+        "nazwa": "2–3 pieluchy tetrowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-maluszek-3",
+        "nazwa": "3 bawełniane koszulki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-maluszek-4",
+        "nazwa": "3 pajacyki lub 3 kaftaniki i 3 pary śpiochów",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-maluszek-5",
+        "nazwa": "2 bawełniane czapeczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-maluszek-6",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-maluszek-7",
+        "nazwa": "Kocyk lub rożek do zawinięcia maluszka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "ciechanow-maluszek-8",
+        "nazwa": "Paczka jednorazowych chusteczek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # -----------------
+
+    {
+        "id": "ciechanow-tata-1",
+        "nazwa": "Coś do jedzenia dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -25166,7 +25537,36 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona SPZOZ w Wieluniu i oficjalna lista rzeczy potrzebnych do porodu • aktualizacja: październik 2026"
     },
-}
+    "Szpital św. Łukasza w Bolesławcu": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "👶 Istnieje możliwość używania własnych kosmetyków i środków higieny dla noworodka",
+            "👨‍👩‍👧 Szpital umożliwia bezpłatne porody rodzinne",
+            "🛏️ Na oddziale znajdują się jednoosobowe sale w systemie Rooming-In, w których mama może przebywać z dzieckiem przez całą dobę",
+            "🤰 Pacjentki objęte są opieką przedporodową, okołoporodową i poporodową oraz fizjoterapią uroginekologiczną",
+            "🤱 Na oddziale pracuje Certyfikowany Doradca Laktacyjny",
+            "💉 Szpital oferuje możliwość skorzystania ze znieczulenia zewnątrzoponowego podczas porodu",
+            "📝 Szpital udostępnia własny przykładowy plan porodu",
+            "🎓 Przy oddziale działa Szkoła Rodzenia"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala św. Łukasza w Bolesławcu i oficjalna lista rzeczy do porodu • aktualizacja: październik 2026"
+    },
+    "Specjalistyczny Szpital Wojewódzki w Ciechanowie": {
+        "zapewnia": [
+            "Kosmetyki do pielęgnacji dziecka – szpital informuje, że nie trzeba zabierać własnych"
+        ],
+        "warto_wiedziec": [
+            "🧳 Szpital zaleca spakowanie rzeczy dla dziecka do osobnej torby",
+            "👶 Nie trzeba zabierać kosmetyków do pielęgnacji dziecka",
+            "🤱 Na oddziale pracuje Certyfikowany Doradca Laktacyjny",
+            "🍼 Dostępne są porady laktacyjne oraz Poradnia Laktacyjna",
+            "📝 Szpital udostępnia własny plan porodu",
+            "🤱 Oddział posiada tytuł „Szpital Przyjazny Dziecku”",
+            "🦘 Szpital wspiera kontakt skóra do skóry mamy lub taty z noworodkiem"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Specjalistycznego Szpitala Wojewódzkiego w Ciechanowie • aktualizacja: październik 2026"
+    },
+    }
 
 
 SZPITALE = {
@@ -25261,6 +25661,8 @@ SZPITALE = {
     "Szpital Specjalistyczny im. Jędrzeja Śniadeckiego w Nowym Sączu": LISTA_NOWY_SACZ_SNIADECKI,
     "Zespół Zakładów Opieki Zdrowotnej w Ostrowie Wielkopolskim": LISTA_OSTROW_WIELKOPOLSKI,
     "Samodzielny Publiczny Zakład Opieki Zdrowotnej w Wieluniu": LISTA_WIELUN,
+    "Szpital św. Łukasza w Bolesławcu": LISTA_BOLESLAWIEC,
+    "Specjalistyczny Szpital Wojewódzki w Ciechanowie": LISTA_CIECHANOW,
 }
 
 for lista_szpitala in SZPITALE.values():
