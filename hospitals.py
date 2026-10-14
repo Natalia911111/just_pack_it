@@ -24315,6 +24315,238 @@ LISTA_CIECHANOW = [
         "przypiete": False
     }
 ]
+# =====================================
+# KATOWICE – UCK, MEDYKÓW 14
+# =====================================
+
+LISTA_KATOWICE_MEDYKOW = [
+
+    # -----------------
+    # DOKUMENTY
+    # -----------------
+
+    {
+        "id": "katowice-medykow-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-dokumenty-3",
+        "nazwa": "Oryginalny wynik grupy krwi i czynnika Rh (potwierdzony dwukrotnie)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-dokumenty-4",
+        "nazwa": "Aktualne wyniki badań laboratoryjnych, w tym wynik GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-dokumenty-5",
+        "nazwa": "Karty wypisowe z ewentualnych pobytów w szpitalu w trakcie ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-dokumenty-6",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA MAMY
+    # -----------------
+
+    {
+        "id": "katowice-medykow-mama-1",
+        "nazwa": "3 koszule (1 do porodu, 2 rozpinane do karmienia piersią)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-2",
+        "nazwa": "10 jednorazowych podkładów na łóżko 60 × 90 cm",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-3",
+        "nazwa": "2 opakowania dużych podpasek poporodowych",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-4",
+        "nazwa": "Majtki jednorazowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-5",
+        "nazwa": "Ciepły szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-6",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-7",
+        "nazwa": "Biustonosz dla mamy karmiącej piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-8",
+        "nazwa": "2–3 ręczniki kąpielowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-9",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-10",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-11",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-12",
+        "nazwa": "Kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-13",
+        "nazwa": "Sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-14",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-15",
+        "nazwa": "Ulubiona muzyka na nośniku",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # DODATKOWO DO PORODU W WODZIE
+
+    {
+        "id": "katowice-medykow-mama-16",
+        "nazwa": "Góra od stroju kąpielowego lub krótki top – do porodu w wodzie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-mama-17",
+        "nazwa": "2 duże ręczniki – do porodu w wodzie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA MALUSZKA
+    # -----------------
+
+    {
+        "id": "katowice-medykow-maluszek-1",
+        "nazwa": "Pampersy – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-maluszek-2",
+        "nazwa": "Chusteczki nawilżające",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-maluszek-3",
+        "nazwa": "Krem nawilżający",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # -----------------
+
+    {
+        "id": "katowice-medykow-tata-1",
+        "nazwa": "Obuwie zmienne",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-tata-2",
+        "nazwa": "Napoje",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "katowice-medykow-tata-3",
+        "nazwa": "Przekąski",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -25566,6 +25798,24 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Specjalistycznego Szpitala Wojewódzkiego w Ciechanowie • aktualizacja: październik 2026"
     },
+    "Uniwersyteckie Centrum Kliniczne w Katowicach – Medyków 14": {
+        "zapewnia": [
+            "Ubranka dla dziecka na czas pobytu",
+            "Jednorazowe ubranie dla osoby towarzyszącej"
+        ],
+        "warto_wiedziec": [
+            "🌊 Szpital umożliwia poród w wodzie – jedna z trzech sal porodowych jest do tego przystosowana",
+            "💉 Dostępne są farmakologiczne i niefarmakologiczne metody łagodzenia bólu porodowego",
+            "🧘 Wśród metod niefarmakologicznych szpital wymienia m.in. ruch i pozycje wertykalne, techniki oddechowe, masaż, okłady, immersję wodną, aromaterapię, muzykoterapię i TENS",
+            "📝 Szpital zachęca do przygotowania indywidualnego planu porodu",
+            "👥 Podczas porodu może towarzyszyć pacjentce wybrana przez nią osoba",
+            "👶 Szpital zapewnia całodobowy dostęp do lekarzy neonatologów",
+            "🤱 Personel wspiera pacjentki w karmieniu piersią",
+            "👶 Szpital prowadzi również porody po wcześniejszym cięciu cesarskim (TOLAC/VBAC)",
+            "🧠 Dostępne jest wsparcie psychologa okołoporodowego"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Uniwersyteckiego Centrum Klinicznego w Katowicach oraz oficjalna lista „Co można zabrać ze sobą do porodu” • aktualizacja: październik 2026"
+    },
     }
 
 
@@ -25663,6 +25913,7 @@ SZPITALE = {
     "Samodzielny Publiczny Zakład Opieki Zdrowotnej w Wieluniu": LISTA_WIELUN,
     "Szpital św. Łukasza w Bolesławcu": LISTA_BOLESLAWIEC,
     "Specjalistyczny Szpital Wojewódzki w Ciechanowie": LISTA_CIECHANOW,
+    "Uniwersyteckie Centrum Kliniczne w Katowicach – Medyków 14": LISTA_KATOWICE_MEDYKOW,
 }
 
 for lista_szpitala in SZPITALE.values():

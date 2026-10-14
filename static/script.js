@@ -64,7 +64,8 @@ const AFFILIATE_PRODUCTS = [
             "jednorazowe podkłady",
             "podkłady poporodowe seni",
             "podkłady poporodowe jednorazowe",
-            "poporodowe podkłady jednorazowe"
+            "poporodowe podkłady jednorazowe",
+            "jednorazowych podkładów"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B06fSb4x1"
@@ -83,7 +84,8 @@ const AFFILIATE_PRODUCTS = [
             "wkładka poporodowa",
             "wkłady poporodowe",
             "wkład poporodowy",
-            "chłonne podpaski poporodowe"
+            "chłonne podpaski poporodowe",
+            "podpasek poporodowych"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B0ePnj3z6"
@@ -162,7 +164,8 @@ const AFFILIATE_PRODUCTS = [
             "stanik do karmienia",
             "stanik do karmienia piersią",
             "stanik laktacyjny",
-            "biustonosze do karmienia"
+            "biustonosze do karmienia",
+            "biustonosz"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B07mijKy8"
@@ -1010,6 +1013,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Specjalistyczny Szpital Wojewódzki w Ciechanowie":
             "Specjalistycznego Szpitala Wojewódzkiego w Ciechanowie",
+
+        "Uniwersyteckie Centrum Kliniczne w Katowicach – Medyków 14":
+            "Uniwersyteckiego Centrum Klinicznego w Katowicach – Medyków 14",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
