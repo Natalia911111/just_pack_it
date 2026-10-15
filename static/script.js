@@ -199,8 +199,7 @@ const AFFILIATE_PRODUCTS = [
             "krem przeciw odparzeniom",
             "krem ochronny",
             "krem dla niemowląt",
-            "krem dla noworodka",
-            "maść ochronna"
+            "krem dla noworodka"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B01ecu2r3"
@@ -228,6 +227,16 @@ const AFFILIATE_PRODUCTS = [
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B07hcKTbZ"
+    },
+    {
+    keywords: [
+            "gumka do włosów",
+            "gumki do włosów",
+            "gumka do włosow",
+            "gumki do włosow"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B0irNlVKx"
     },
 ];
 
