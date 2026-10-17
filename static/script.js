@@ -200,8 +200,7 @@ const AFFILIATE_PRODUCTS = [
             "krem ochronny",
             "krem dla niemowląt",
             "krem dla noworodka",
-            "krem lub maść do pupy",
-            "krem pielęgnacyjny do pośladków"
+            "krem lub maść do pupy"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B01ecu2r3"
