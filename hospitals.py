@@ -26869,7 +26869,7 @@ SZPITALE = {
     "Uniwersyteckie Centrum Kliniczne w Katowicach – Medyków 14": LISTA_KATOWICE_MEDYKOW,
     "Warszawski Instytut Zdrowia Kobiet – Inflancka 6": LISTA_WIZK_INFLANCKA,
     "Kliniczny Szpital Wojewódzki im. św. Jadwigi Królowej w Rzeszowie": LISTA_RZESZOW_JADWIGI,
-    "Szpital Specjalistyczny im. Świętej Rodziny w Warszawie – Madalińskiego - Warszawa": LISTA_WARSZAWA_MADALINSKIEGO,
+    "Szpital Specjalistyczny im. Świętej Rodziny Madalińskiego - Warszawa": LISTA_WARSZAWA_MADALINSKIEGO,
 }
 
 for lista_szpitala in SZPITALE.values():
