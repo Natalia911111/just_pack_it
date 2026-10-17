@@ -24547,6 +24547,904 @@ LISTA_KATOWICE_MEDYKOW = [
         "przypiete": False
     }
 ]
+# =====================================
+# WARSZAWA – WIZK, INFLANCKA 6
+# =====================================
+
+LISTA_WIZK_INFLANCKA = [
+
+    # -----------------
+    # DOKUMENTY
+    # -----------------
+
+    {
+        "id": "wizk-inflancka-dokumenty-1",
+        "nazwa": "Dokument tożsamości (dowód osobisty lub paszport)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-dokumenty-3",
+        "nazwa": "Plan porodu przygotowany przez położne WIZK",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-dokumenty-4",
+        "nazwa": "Wynik badania grupy krwi i przeciwciał odpornościowych Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-dokumenty-5",
+        "nazwa": "Wynik morfologii",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-dokumenty-6",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-dokumenty-7",
+        "nazwa": "Wynik badania HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-dokumenty-8",
+        "nazwa": "Wynik badania WR (VDRL)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-dokumenty-9",
+        "nazwa": "Wynik badania HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-dokumenty-10",
+        "nazwa": "Wynik badania HBsAg",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-dokumenty-11",
+        "nazwa": "Wynik badania toksoplazmozy IgG/IgM",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-dokumenty-12",
+        "nazwa": "Wynik USG ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA MAMY
+    # -----------------
+
+    {
+        "id": "wizk-inflancka-mama-1",
+        "nazwa": "Koszula do karmienia – 2–3 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-2",
+        "nazwa": "Biustonosz do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-3",
+        "nazwa": "Elastyczne majtki siateczkowe – kilka sztuk",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-4",
+        "nazwa": "Duże, chłonne podpaski higieniczne – 2–3 paczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-5",
+        "nazwa": "Podkłady ochronne na łóżko 60 × 90 cm",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-6",
+        "nazwa": "Płyn do higieny intymnej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-7",
+        "nazwa": "Maść na brodawki z lanoliną",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-8",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-9",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-10",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-11",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-12",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-13",
+        "nazwa": "Ręczniki – 2–3 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-14",
+        "nazwa": "Mały ręcznik do zimnych okładów na czoło lub mgiełka w sprayu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-15",
+        "nazwa": "Miękkie ręczniki papierowe do osuszania krocza lub rany po cięciu cesarskim",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-16",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-mama-17",
+        "nazwa": "Muzyka pomagająca się zrelaksować",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA MALUSZKA
+    # -----------------
+
+    {
+        "id": "wizk-inflancka-maluszek-1",
+        "nazwa": "Komplet ubranek (body + kaftanik, pajacyk lub śpiochy z koszulką) – 5 zestawów",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-maluszek-2",
+        "nazwa": "Czapeczki – 2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-maluszek-3",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-maluszek-4",
+        "nazwa": "Pieluszki tetrowe lub flanelowe – 5–6 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-maluszek-5",
+        "nazwa": "Pieluchy jednorazowe – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-maluszek-6",
+        "nazwa": "Kocyk – latem cienki, zimą grubszy",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-maluszek-7",
+        "nazwa": "Rożek lub becik",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-maluszek-8",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-maluszek-9",
+        "nazwa": "Krem lub maść do pupy noworodka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # -----------------
+
+    {
+        "id": "wizk-inflancka-tata-1",
+        "nazwa": "Wygodne ubranie dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-tata-2",
+        "nazwa": "Buty na zmianę dla osoby towarzyszącej (np. klapki)",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "wizk-inflancka-tata-3",
+        "nazwa": "Przekąski i picie dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+# =====================================
+# RZESZÓW – KSW IM. ŚW. JADWIGI KRÓLOWEJ
+# =====================================
+
+LISTA_RZESZOW_JADWIGI = [
+
+    # -----------------
+    # DOKUMENTY
+    # -----------------
+
+    {
+        "id": "rzeszow-jadwigi-dokumenty-1",
+        "nazwa": "Dowód tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-dokumenty-3",
+        "nazwa": "Skierowanie do szpitala – nie jest wymagane, ale dobrze mieć",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-dokumenty-4",
+        "nazwa": "Grupa krwi i czynnik Rh – oryginał",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA MAMY
+    # -----------------
+
+    {
+        "id": "rzeszow-jadwigi-mama-1",
+        "nazwa": "2 koszule lub dłuższe T-shirty",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-3",
+        "nazwa": "Ciepłe skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-4",
+        "nazwa": "Pantofle",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-5",
+        "nazwa": "Jednorazowe chusteczki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-6",
+        "nazwa": "Opaska lub gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-7",
+        "nazwa": "Szczotka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-8",
+        "nazwa": "2 koszule z rozcięciem, wygodne do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-9",
+        "nazwa": "Biustonosz do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-10",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-11",
+        "nazwa": "„Rogal” lub poduszeczka „jasiek” – przyda się do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-12",
+        "nazwa": "Majtki bawełniane lub jednorazowe, siateczkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-13",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-14",
+        "nazwa": "Kosmetyki, w tym pomadka nawilżająca do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-15",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-16",
+        "nazwa": "2 ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-17",
+        "nazwa": "Niegazowana woda mineralna",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-18",
+        "nazwa": "Sok owocowy klarowny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # MOŻE SIĘ PRZYDAĆ
+
+    {
+        "id": "rzeszow-jadwigi-mama-19",
+        "nazwa": "Termofor owinięty w poszewkę – do ciepłych lub zimnych okładów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-20",
+        "nazwa": "Piłka „jeżyk” lub dwie piłki tenisowe włożone do skarpetki – do masażu okolicy lędźwiowej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-21",
+        "nazwa": "Olejek lub oliwka do masażu i ulubione olejki aromaterapeutyczne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-mama-22",
+        "nazwa": "Ulubiona muzyka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA MALUSZKA
+    # -----------------
+
+    {
+        "id": "rzeszow-jadwigi-maluszek-1",
+        "nazwa": "Nawilżane chusteczki do pielęgnacji ciała",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-maluszek-2",
+        "nazwa": "Pieluchy tetrowe lub bambusowe – 4–6 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-maluszek-3",
+        "nazwa": "Pajace/body + śpiochy – 6–8 szt. (jeśli chcesz korzystać z własnych ubranek)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-maluszek-4",
+        "nazwa": "Becik, rożek lub kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-maluszek-5",
+        "nazwa": "Czapeczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # -----------------
+
+    {
+        "id": "rzeszow-jadwigi-tata-1",
+        "nazwa": "Klapki lub obuwie zastępcze dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-tata-2",
+        "nazwa": "Wyżywienie dla osoby towarzyszącej – we własnym zakresie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # NA POWRÓT DO DOMU
+    # -----------------
+
+    {
+        "id": "rzeszow-jadwigi-mama-23",
+        "nazwa": "Ubranie dla mamy na powrót do domu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-maluszek-6",
+        "nazwa": "Ubranka dla noworodka na powrót do domu – odpowiednie do pogody",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rzeszow-jadwigi-maluszek-7",
+        "nazwa": "Fotelik samochodowy dla noworodka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+# =====================================
+# WARSZAWA – SZPITAL ŚWIĘTEJ RODZINY, MADALIŃSKIEGO
+# =====================================
+
+LISTA_WARSZAWA_MADALINSKIEGO = [
+
+    # -----------------
+    # DOKUMENTY
+    # -----------------
+
+    {
+        "id": "warszawa-madalinskiego-dokumenty-1",
+        "nazwa": "Dokument ze zdjęciem potwierdzający tożsamość",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-dokumenty-3",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-dokumenty-4",
+        "nazwa": "Oryginalny, potwierdzony wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-dokumenty-5",
+        "nazwa": "Wynik badania WR",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-dokumenty-6",
+        "nazwa": "Wynik badania HBsAg",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-dokumenty-7",
+        "nazwa": "Wynik badania HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-dokumenty-8",
+        "nazwa": "Wynik badania HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-dokumenty-9",
+        "nazwa": "Wyniki USG z I, II i III trymestru",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-dokumenty-10",
+        "nazwa": "Wynik posiewu z pochwy i odbytu w kierunku GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-dokumenty-11",
+        "nazwa": "Dodatkowe wyniki badań i dokumentacja dotycząca stanu zdrowia",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-dokumenty-12",
+        "nazwa": "Dokument z USC dotyczący nazwiska dziecka – jeśli rodzice mają różne nazwiska",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-dokumenty-13",
+        "nazwa": "Informacja o wybranej placówce POZ dla dziecka",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA MAMY
+    # -----------------
+
+    {
+        "id": "warszawa-madalinskiego-mama-1",
+        "nazwa": "Koszule nocne umożliwiające karmienie piersią – min. 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-mama-3",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-mama-4",
+        "nazwa": "Biustonosz",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-mama-5",
+        "nazwa": "Bawełniana bielizna osobista",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-mama-6",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-mama-7",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-mama-8",
+        "nazwa": "Maść pielęgnacyjna na brodawki – lanolina",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-mama-9",
+        "nazwa": "Podkładki (podpaski) ginekologiczne – min. 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-mama-10",
+        "nazwa": "Majtki połogowe siateczkowe lub bawełniane",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-mama-11",
+        "nazwa": "Podkłady na łóżko 60 × 60 cm – na cały okres pobytu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-mama-12",
+        "nazwa": "Butelkowana woda do picia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-mama-13",
+        "nazwa": "Przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-mama-14",
+        "nazwa": "Ulubiona muzyka – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA MALUSZKA
+    # -----------------
+
+    {
+        "id": "warszawa-madalinskiego-maluszek-1",
+        "nazwa": "Pieluchy tetrowe – 5 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-maluszek-2",
+        "nazwa": "Pieluchy jednorazowe – 1 paczka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-maluszek-3",
+        "nazwa": "Kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-maluszek-4",
+        "nazwa": "Rożek bez wkładu usztywniającego",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-maluszek-5",
+        "nazwa": "Śpiochy lub pajacyki – 3 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-maluszek-6",
+        "nazwa": "Kaftaniki lub body – 3 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-maluszek-7",
+        "nazwa": "Czapeczki – 3 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-maluszek-8",
+        "nazwa": "Skarpetki – 3 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-maluszek-9",
+        "nazwa": "Ręcznik frotte – 1 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-maluszek-10",
+        "nazwa": "Chusteczki nawilżające",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "warszawa-madalinskiego-maluszek-11",
+        "nazwa": "Krem pielęgnacyjny do pośladków – bez cynku",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # -----------------
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # -----------------
+
+    {
+        "id": "warszawa-madalinskiego-tata-1",
+        "nazwa": "Miękkie, tekstylne obuwie dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -25816,6 +26714,61 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Uniwersyteckiego Centrum Klinicznego w Katowicach oraz oficjalna lista „Co można zabrać ze sobą do porodu” • aktualizacja: październik 2026"
     },
+    "Warszawski Instytut Zdrowia Kobiet – Inflancka 6": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "👜 Szpital zaleca przygotowanie dwóch osobnych toreb lub walizek – jednej dla mamy i drugiej dla maluszka",
+            "📅 WIZK zaleca spakowanie torby około 3 tygodnie przed porodem",
+            "⭐ Warto przygotować osobny „START PACK” z rzeczami potrzebnymi bezpośrednio po porodzie: pieluszką tetrową, ręczniczkiem dla dziecka, pieluchą jednorazową, ubrankami oraz becikiem lub kocykiem",
+            "👥 Szpital zaleca pakowanie torby razem z partnerem lub osobą towarzyszącą, ponieważ to ona może wyjmować potrzebne rzeczy podczas porodu",
+            "💍 Cenną biżuterię najlepiej pozostawić w domu",
+            "💅 Przed porodem szpital zaleca zmycie ciemnego lakieru z paznokci",
+            "👨‍👩‍👧 Poród rodzinny z wybraną bliską osobą nie wiąże się z dodatkową opłatą",
+            "💉 Dostępne są bezpłatne farmakologiczne i niefarmakologiczne metody łagodzenia bólu porodowego",
+            "🛁 W odpowiednich warunkach możliwy jest poród w wodzie",
+            "🤰 Podczas porodu można korzystać z różnych pozycji oraz m.in. piłki, drabinek, lin porodowych, worka sako i krzesła porodowego",
+            "👶 Po narodzinach mama i dziecko pozostają razem na sali porodowej przez około 2 godziny; szpital wspiera kontakt skóra do skóry",
+            "🤱 Po porodzie pacjentki otrzymują instruktaż karmienia piersią"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Warszawskiego Instytutu Zdrowia Kobiet – „Jak spakować się do szpitala” oraz „Poród” • aktualizacja: październik 2026"
+    },
+    "Kliniczny Szpital Wojewódzki im. św. Jadwigi Królowej w Rzeszowie": {
+        "zapewnia": [
+            "Rzeczy potrzebne dla noworodka podczas pobytu – ubranka, rożki, pieluchy jednorazowe i kremy",
+            "Jednorazowe indywidualne ubranie dla osoby towarzyszącej"
+        ],
+        "warto_wiedziec": [
+            "👶 Szpital zapewnia wszystkie potrzebne dla noworodka rzeczy: ubranka, rożki, pieluchy jednorazowe i kremy",
+            "👕 Jeśli rodzice chcą, aby dziecko podczas pobytu było ubrane we własne ubranka, można zabrać je ze sobą",
+            "👜 Szpital radzi spakować potrzebne rzeczy w torby na kółkach – ułatwia to ich przenoszenie pacjentkom i personelowi",
+            "🌡️ Do łagodzenia dolegliwości może przydać się termofor owinięty w poszewkę do ciepłych lub zimnych okładów",
+            "🎾 Szpital proponuje piłkę „jeżyk” lub dwie piłki tenisowe włożone do skarpetki do masażu okolicy lędźwiowej",
+            "💆 Można zabrać olejek lub oliwkę do masażu oraz ulubione olejki aromaterapeutyczne",
+            "🎵 Można zabrać ulubioną muzykę",
+            "👥 Osoba towarzysząca powinna mieć obuwie zastępcze, a wyżywienie zapewnić we własnym zakresie",
+            "🥼 Jednorazowe indywidualne ubranie dla osoby towarzyszącej zapewnia oddział"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalny profil Klinicznego Szpitala Wojewódzkiego im. św. Jadwigi Królowej w Rzeszowie – materiał „Wyprawka dla mamy i dziecka / Co zabrać do porodu w szpitalu?”, opublikowany 18 kwietnia 2023 r. • dostęp: październik 2026"
+    },
+    "Szpital Specjalistyczny im. Świętej Rodziny w Warszawie – Madalińskiego": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "👜 Szpital zaleca spakowanie torby minimum 4 tygodnie przed planowanym terminem porodu",
+            "⭐ Z rzeczy znajdujących się w torbie warto przygotować oddzielną, łatwo dostępną paczkę z rzeczami potrzebnymi bezpośrednio po porodzie",
+            "👶 Do paczki na czas bezpośrednio po porodzie należy przygotować m.in. rożek, kocyk, pieluszki, czapeczkę, skarpetki, body i pajacyk",
+            "🤱 Dla mamy w łatwo dostępnej paczce powinny znaleźć się m.in. koszula do karmienia, majtki siateczkowe lub bawełniane oraz podpaski poporodowe",
+            "👕 Ubranka dziecka powinny być dostosowane do pory roku, wykonane z naturalnych włókien, wyprane i wyprasowane",
+            "🏠 Ubranka dziecka przeznaczone na wyjście ze szpitala osoba odbierająca może przynieść dopiero w dniu wypisu",
+            "🎵 Do porodu można przygotować ulubioną muzykę",
+            "💅 Przed porodem szpital zaleca skrócenie paznokci i zdjęcie biżuterii",
+            "📝 Podczas porodu omawiany jest indywidualny Plan Porodu pacjentki",
+            "🤰 Personel zachęca do przyjmowania wertykalnych pozycji porodowych",
+            "👶 Szpital wspiera nieprzerwany kontakt skóra do skóry przez około 2 godziny po porodzie oraz pierwszą próbę karmienia piersią",
+            "🤱 Na Oddziale Położnictwa można korzystać z pomocy położnej w zakresie laktacji, pielęgnacji i karmienia dziecka",
+            "🧠 Na życzenie pacjentki dostępne jest wsparcie psychologa"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Specjalistycznego im. Świętej Rodziny w Warszawie – „Poród fizjologiczny” • aktualizacja: październik 2026"
+    },
     }
 
 
@@ -25914,6 +26867,9 @@ SZPITALE = {
     "Szpital św. Łukasza w Bolesławcu": LISTA_BOLESLAWIEC,
     "Specjalistyczny Szpital Wojewódzki w Ciechanowie": LISTA_CIECHANOW,
     "Uniwersyteckie Centrum Kliniczne w Katowicach – Medyków 14": LISTA_KATOWICE_MEDYKOW,
+    "Warszawski Instytut Zdrowia Kobiet – Inflancka 6": LISTA_WIZK_INFLANCKA,
+    "Kliniczny Szpital Wojewódzki im. św. Jadwigi Królowej w Rzeszowie": LISTA_RZESZOW_JADWIGI,
+    "Szpital Specjalistyczny im. Świętej Rodziny w Warszawie – Madalińskiego": LISTA_WARSZAWA_MADALINSKIEGO,
 }
 
 for lista_szpitala in SZPITALE.values():

@@ -199,7 +199,9 @@ const AFFILIATE_PRODUCTS = [
             "krem przeciw odparzeniom",
             "krem ochronny",
             "krem dla niemowląt",
-            "krem dla noworodka"
+            "krem dla noworodka",
+            "krem lub maść do pupy",
+            "krem pielęgnacyjny do pośladków"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B01ecu2r3"
@@ -1025,6 +1027,15 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Uniwersyteckie Centrum Kliniczne w Katowicach – Medyków 14":
             "Uniwersyteckiego Centrum Klinicznego w Katowicach – Medyków 14",
+
+        "Warszawski Instytut Zdrowia Kobiet – Inflancka 6":
+            "Warszawskiego Instytutu Zdrowia Kobiet – Inflancka 6",
+
+        "Kliniczny Szpital Wojewódzki im. św. Jadwigi Królowej w Rzeszowie":
+            "Klinicznego Szpitala Wojewódzkiego im. św. Jadwigi Królowej w Rzeszowie",
+
+        "Szpital Specjalistyczny im. Świętej Rodziny w Warszawie – Madalińskiego":
+            "Szpitala Specjalistycznego im. Świętej Rodziny w Warszawie – Madalińskiego",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
