@@ -239,6 +239,16 @@ const AFFILIATE_PRODUCTS = [
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B0irNlVKx"
     },
+    {
+    keywords: [
+            "ręcznik",
+            "ręczniki",
+            "ręcznik kąpielowy",
+            "ręczniki kąpielowe"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B0a6JOgqQ"
+    },
 ];
 
 function normalizeAffiliateText(text) {
