@@ -249,6 +249,17 @@ const AFFILIATE_PRODUCTS = [
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B0a6JOgqQ"
     },
+    {
+    keywords: [
+            "lanolina",
+            "maść lanolinowa",
+            "krem z lanoliną",
+            "krem lanolinowy",
+            "lanolina na brodawki"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B04qNfpt6"
+    },
 ];
 
 function normalizeAffiliateText(text) {
