@@ -255,7 +255,8 @@ const AFFILIATE_PRODUCTS = [
             "maść lanolinowa",
             "krem z lanoliną",
             "krem lanolinowy",
-            "lanolina na brodawki"
+            "lanolina na brodawki",
+            "maść pielęgnacyjna na brodawki – lanolina"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B04qNfpt6"
