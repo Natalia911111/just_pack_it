@@ -45,7 +45,8 @@ const AFFILIATE_PRODUCTS = [
             "majtki z siatki",
             "bielizna poporodowa",
             "jednorazowa bielizna",
-            "majtki"
+            "majtki",
+            "bielizna jednorazowa"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B05HebzE2"
@@ -63,7 +64,8 @@ const AFFILIATE_PRODUCTS = [
             "jednorazowe podkłady",
             "podkłady poporodowe seni",
             "podkłady poporodowe jednorazowe",
-            "poporodowe podkłady jednorazowe"
+            "poporodowe podkłady jednorazowe",
+            "jednorazowych podkładów"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B06fSb4x1"
@@ -82,7 +84,8 @@ const AFFILIATE_PRODUCTS = [
             "wkładka poporodowa",
             "wkłady poporodowe",
             "wkład poporodowy",
-            "chłonne podpaski poporodowe"
+            "chłonne podpaski poporodowe",
+            "podpasek poporodowych"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B0ePnj3z6"
@@ -115,7 +118,8 @@ const AFFILIATE_PRODUCTS = [
             "pampersów",
             "pampers do",
             "pampers,",
-            "pieluszek jednorazowych"
+            "pieluszek jednorazowych",
+            "jednorazowych pieluch"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B06X5fUuI"
@@ -160,10 +164,102 @@ const AFFILIATE_PRODUCTS = [
             "stanik do karmienia",
             "stanik do karmienia piersią",
             "stanik laktacyjny",
-            "biustonosze do karmienia"
+            "biustonosze do karmienia",
+            "biustonosz"
         ],
         label: "Zobacz przykładowy produkt",
         url: "https://link.amazon/B07mijKy8"
+    },
+    {
+    keywords: [
+            "szlafrok",
+            "szlafrok damski",
+            "szlafrok dla mamy",
+            "szlafrok do szpitala"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B01bWv1Xg"
+    },
+    {
+    keywords: [
+            "fotelik samochodowy",
+            "fotelik dla noworodka",
+            "fotelik do przewożenia",
+            "fotelik samochodowy dla noworodka",
+            "nosidełko samochodowe"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B03qbiHMy"
+    },
+    {
+    keywords: [
+            "linomag",
+            "krem do pupy",
+            "krem na odparzenia",
+            "krem przeciw odparzeniom",
+            "krem ochronny",
+            "krem dla niemowląt",
+            "krem dla noworodka",
+            "krem lub maść do pupy"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B01ecu2r3"
+    },
+    {
+    keywords: [
+            "pieluszki tetrowe",
+            "pieluchy tetrowe",
+            "pieluszka tetrowa",
+            "pielucha tetrowa",
+            "pieluszki muślinowe",
+            "pieluchy muślinowe",
+            "pieluszka muślinowa",
+            "pielucha muślinowa"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B0eYwv9Ko"
+    },
+    {
+    keywords: [
+            "klapki pod prysznic",
+            "klapki prysznicowe",
+            "obuwie pod prysznic",
+            "klapki do kąpieli"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B07hcKTbZ"
+    },
+    {
+    keywords: [
+            "gumka do włosów",
+            "gumki do włosów",
+            "gumka do włosow",
+            "gumki do włosow"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B0irNlVKx"
+    },
+    {
+    keywords: [
+            "ręcznik",
+            "ręczniki",
+            "ręcznik kąpielowy",
+            "ręczniki kąpielowe"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B0a6JOgqQ"
+    },
+    {
+    keywords: [
+            "lanolina",
+            "maść lanolinowa",
+            "krem z lanoliną",
+            "krem lanolinowy",
+            "lanolina na brodawki",
+            "maść pielęgnacyjna na brodawki – lanolina"
+        ],
+        label: "Zobacz przykładowy produkt",
+        url: "https://link.amazon/B04qNfpt6"
     },
 ];
 
@@ -940,6 +1036,27 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Zespół Zakładów Opieki Zdrowotnej w Ostrowie Wielkopolskim":
             "Zespołu Zakładów Opieki Zdrowotnej w Ostrowie Wielkopolskim",
+
+        "Samodzielny Publiczny Zakład Opieki Zdrowotnej w Wieluniu":
+            "Samodzielnego Publicznego Zakładu Opieki Zdrowotnej w Wieluniu",
+
+        "Szpital św. Łukasza w Bolesławcu":
+            "Szpitala św. Łukasza w Bolesławcu",
+
+        "Specjalistyczny Szpital Wojewódzki w Ciechanowie":
+            "Specjalistycznego Szpitala Wojewódzkiego w Ciechanowie",
+
+        "Uniwersyteckie Centrum Kliniczne w Katowicach – Medyków 14":
+            "Uniwersyteckiego Centrum Klinicznego w Katowicach – Medyków 14",
+
+        "Warszawski Instytut Zdrowia Kobiet – Inflancka 6":
+            "Warszawskiego Instytutu Zdrowia Kobiet – Inflancka 6",
+
+        "Kliniczny Szpital Wojewódzki im. św. Jadwigi Królowej w Rzeszowie":
+            "Klinicznego Szpitala Wojewódzkiego im. św. Jadwigi Królowej w Rzeszowie",
+
+        "Szpital Specjalistyczny im. Świętej Rodziny w Warszawie – Madalińskiego":
+            "Szpitala Specjalistycznego im. Świętej Rodziny w Warszawie – Madalińskiego",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
