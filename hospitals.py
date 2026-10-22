@@ -25445,6 +25445,255 @@ LISTA_WARSZAWA_MADALINSKIEGO = [
         "przypiete": False
     }
 ]
+# =====================================
+# ŁÓDŹ – OŚRODEK SZPITALNY IM. M. MADUROWICZA
+# =====================================
+
+LISTA_LODZ_MADUROWICZA = [
+    # DOKUMENTY
+    {
+        "id": "lodz-madurowicza-dokument-tozsamosci",
+        "nazwa": "Dokument tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-grupa-krwi",
+        "nazwa": "Potwierdzony wynik grupy krwi z aktualnym wynikiem odczynu Coombsa",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-gbs",
+        "nazwa": "Wymaz z pochwy i odbytu w kierunku GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-usg",
+        "nazwa": "USG wykonane między 11.–14. HBD z wyznaczonym wg CRL terminem porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-hbsag",
+        "nazwa": "Wynik HBsAg",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-anty-hcv",
+        "nazwa": "Wynik anty-HCV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-hiv",
+        "nazwa": "Wynik HIV Ag",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-vdrl-wr",
+        "nazwa": "Wynik VDRL lub WR – badanie w kierunku kiły",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-toksoplazmoza",
+        "nazwa": "Wyniki IgM i IgG – toksoplazmoza",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-cytomegalia",
+        "nazwa": "Wyniki IgM i IgG – cytomegalia",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-ogtt",
+        "nazwa": "Wynik testu OGTT z 75 g glukozy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # DLA MAMY
+    {
+        "id": "lodz-madurowicza-koszula-porod",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-koszule-nocne",
+        "nazwa": "2 koszule nocne – najlepiej rozpinane na czas karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-szlafrok",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-recznik",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-stanik",
+        "nazwa": "Stanik laktacyjny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-skarpety",
+        "nazwa": "Skarpety",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-klapki",
+        "nazwa": "Klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-przybory-toaletowe",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-recznik-papierowy",
+        "nazwa": "Ręcznik papierowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-woda",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-balsam-usta",
+        "nazwa": "Balsam do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-gumka-wlosy",
+        "nazwa": "Gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-olejek",
+        "nazwa": "Ulubiony olejek eteryczny (opcjonalnie)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-playlista",
+        "nazwa": "Ulubiona playlista (opcjonalnie)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # DLA MALUSZKA
+    {
+        "id": "lodz-madurowicza-body",
+        "nazwa": "3 body",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-spioszki",
+        "nazwa": "3 pary śpioszków (rozmiar 54–56)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-pajacyk",
+        "nazwa": "Pajacyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-skarpetki",
+        "nazwa": "2 pary skarpetek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-czapeczki",
+        "nazwa": "2 czapeczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-kocyk-rozek",
+        "nazwa": "Kocyk lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-pieluszki-tetrowe",
+        "nazwa": "Kilka pieluszek tetrowych lub flanelowych",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-chusteczki",
+        "nazwa": "Nawilżane chusteczki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "lodz-madurowicza-krem-posladki",
+        "nazwa": "Krem do pielęgnacji pośladków",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -26769,6 +27018,24 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Specjalistycznego im. Świętej Rodziny w Warszawie – „Poród fizjologiczny” • aktualizacja: październik 2026"
     },
+    "Ośrodek Szpitalny im. M. Madurowicza w Łodzi": {
+        "zapewnia": [],
+        "warto_wiedziec": (
+            "📍 Ośrodek Szpitalny im. M. Madurowicza znajduje się przy ul. Wileńskiej 37 w Łodzi.\n\n"
+            "📄 Szpital zaleca zabranie dokumentu tożsamości oraz wyników badań z przebiegu ciąży, "
+            "m.in. grupy krwi z aktualnym wynikiem odczynu Coombsa, GBS, HBsAg, anty-HCV, HIV, "
+            "VDRL/WR, toksoplazmozy, cytomegalii oraz OGTT.\n\n"
+            "🤰 Dla mamy warto przygotować m.in. koszulę do porodu, 2 koszule nocne – najlepiej "
+            "rozpinane na czas karmienia – szlafrok, ręcznik, stanik laktacyjny, skarpety, klapki "
+            "i przybory toaletowe.\n\n"
+            "👶 Dla maluszka szpital zaleca m.in. 3 body, 3 pary śpioszków w rozmiarze 54–56, "
+            "pajacyk, 2 pary skarpetek, 2 czapeczki, kocyk lub rożek oraz kilka pieluszek "
+            "tetrowych lub flanelowych.\n\n"
+            "🎵 Do torby można opcjonalnie spakować również ulubioną playlistę.\n\n"
+            "🌿 Szpital wymienia także możliwość zabrania ulubionego olejku eterycznego."
+        ),
+        "warto_wiedziec_zrodlo": "https://www.facebook.com/photo?fbid=1603010385162479&set=pcb.2381751081834925&locale=pl_PL"
+    },
     }
 
 
@@ -26869,7 +27136,8 @@ SZPITALE = {
     "Uniwersyteckie Centrum Kliniczne w Katowicach – Medyków 14": LISTA_KATOWICE_MEDYKOW,
     "Warszawski Instytut Zdrowia Kobiet – Inflancka 6": LISTA_WIZK_INFLANCKA,
     "Kliniczny Szpital Wojewódzki im. św. Jadwigi Królowej w Rzeszowie": LISTA_RZESZOW_JADWIGI,
-"Szpital Specjalistyczny im. Świętej Rodziny w Warszawie – Madalińskiego": LISTA_WARSZAWA_MADALINSKIEGO,
+    "Szpital Specjalistyczny im. Świętej Rodziny w Warszawie – Madalińskiego": LISTA_WARSZAWA_MADALINSKIEGO,
+    "Ośrodek Szpitalny im. M. Madurowicza w Łodzi": LISTA_LODZ_MADUROWICZA,
 }
 
 for lista_szpitala in SZPITALE.values():

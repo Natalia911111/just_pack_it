@@ -1057,6 +1057,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Specjalistyczny im. Świętej Rodziny w Warszawie – Madalińskiego":
             "Szpitala Specjalistycznego im. Świętej Rodziny w Warszawie – Madalińskiego",
+
+        "Ośrodek Szpitalny im. M. Madurowicza w Łodzi":
+            "Ośrodka Szpitalnego im. M. Madurowicza w Łodzi",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
