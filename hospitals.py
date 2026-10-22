@@ -25695,6 +25695,222 @@ LISTA_LODZ_MADUROWICZA = [
     },
 ]
 
+# =====================================
+# ŚRODA WIELKOPOLSKA – SZPITAL ŚREDZKI SERCA JEZUSOWEGO
+# =====================================
+LISTA_SRODA_WIELKOPOLSKA = [
+    # Dokumenty
+    {
+        "id": "szpital-sredzki-serca-jezusowego-dowod",
+        "nazwa": "Dowód tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-karta-ciazy",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-plan-porodu",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-akt-slubu",
+        "nazwa": "Akt ślubu – jeśli w trakcie ciąży nastąpiła zmiana nazwiska",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-uznanie-ojcostwa",
+        "nazwa": "Akt uznania ojcostwa dziecka poczętego – jeśli mama nie jest zamężna, a dziecko ma nosić nazwisko ojca (kopia/oryginał)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-grupa-krwi",
+        "nazwa": "Wynik badania grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-badania",
+        "nazwa": "Wszystkie wyniki badań zlecone przez lekarza prowadzącego (HBs, HCV, HIV, VDRL – również z III trymestru ciąży)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-gbs",
+        "nazwa": "Wynik posiewu z przedsionka pochwy i odbytu w kierunku GBS, wykonanego po 35. tygodniu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-dokumentacja-medyczna",
+        "nazwa": "Dokumentacja medyczna dotycząca chorób przewlekłych oraz konsultacje lekarskie i inne istotne wyniki badań – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-wypisy",
+        "nazwa": "Wypisy z poprzednich pobytów w szpitalu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # Dla Mamy
+    {
+        "id": "szpital-sredzki-serca-jezusowego-koszule",
+        "nazwa": "2 koszule do karmienia (jeśli masz ochotę – również koszula do porodu)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-majtki",
+        "nazwa": "Majtki jednorazowe siateczkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-reczniki",
+        "nazwa": "2 ręczniki (polecane ciemne kolory)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-recznik-papierowy",
+        "nazwa": "Ręcznik papierowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-biustonosz",
+        "nazwa": "Biustonosz laktacyjny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-wkladki",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-masc",
+        "nazwa": "Maść do brodawek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-klapki",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-kosmetyki",
+        "nazwa": "Kosmetyki i przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-przekaski",
+        "nazwa": "Ulubione przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-podpaski",
+        "nazwa": "1 paczka podpasek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-woda",
+        "nazwa": "Woda lub butelka z filtrem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # Dla Maluszka
+    {
+        "id": "szpital-sredzki-serca-jezusowego-pieluszki",
+        "nazwa": "Pieluszki rozmiar 1",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-chusteczki",
+        "nazwa": "Chusteczki pielęgnacyjne",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-pieluchy-tetrowe",
+        "nazwa": "Pieluchy tetrowe – 2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # Dla Taty
+    {
+        "id": "szpital-sredzki-serca-jezusowego-jedzenie-picie",
+        "nazwa": "Jedzenie i picie dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-wygodne-ubranie",
+        "nazwa": "Wygodne ubranie dla osoby towarzyszącej",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-ubrania-na-wyjscie",
+        "nazwa": "Ubrania na wyjście dla Mamy i Dziecka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "szpital-sredzki-serca-jezusowego-fotelik",
+        "nazwa": "Fotelik samochodowy na dzień wypisu ze szpitala",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 SZPITALE_INFO = {
     "Szpital Ujastek": {
         "zapewnia": [],
@@ -27036,6 +27252,24 @@ SZPITALE_INFO = {
         ),
         "warto_wiedziec_zrodlo": "https://www.facebook.com/photo?fbid=1603010385162479&set=pcb.2381751081834925&locale=pl_PL"
     },
+    "Szpital Średzki Serca Jezusowego w Środzie Wielkopolskiej": {
+        "zapewnia": [],
+        "warto_wiedziec": (
+            "📍 Szpital Średzki Serca Jezusowego znajduje się przy ul. Żwirki i Wigury 10 "
+            "w Środzie Wielkopolskiej.\n\n"
+            "📄 Do porodu należy zabrać m.in. dowód tożsamości, kartę przebiegu ciąży, "
+            "plan porodu oraz wymagane wyniki badań, w tym wynik grupy krwi i GBS.\n\n"
+            "🤰 Dla mamy szpital zaleca m.in. 2 koszule do karmienia, majtki jednorazowe "
+            "siateczkowe, 2 ręczniki, biustonosz i wkładki laktacyjne, maść do brodawek, "
+            "klapki pod prysznic oraz przybory toaletowe.\n\n"
+            "👶 Dla maluszka należy przygotować pieluszki w rozmiarze 1, chusteczki "
+            "pielęgnacyjne oraz 2 pieluchy tetrowe.\n\n"
+            "👨 Osoba towarzysząca powinna zabrać dla siebie jedzenie, picie i wygodne ubranie.\n\n"
+            "🚗 Na dzień wypisu należy przygotować ubrania na wyjście dla mamy i dziecka "
+            "oraz fotelik samochodowy."
+        ),
+        "warto_wiedziec_zrodlo": "https://www.facebook.com/porodowkasredzka/posts/122213166002369658/"
+    },
     }
 
 
@@ -27138,6 +27372,7 @@ SZPITALE = {
     "Kliniczny Szpital Wojewódzki im. św. Jadwigi Królowej w Rzeszowie": LISTA_RZESZOW_JADWIGI,
     "Szpital Specjalistyczny im. Świętej Rodziny w Warszawie – Madalińskiego": LISTA_WARSZAWA_MADALINSKIEGO,
     "Ośrodek Szpitalny im. M. Madurowicza w Łodzi": LISTA_LODZ_MADUROWICZA,
+    "Szpital Średzki Serca Jezusowego w Środzie Wielkopolskiej": LISTA_SRODA_WIELKOPOLSKA,
 }
 
 for lista_szpitala in SZPITALE.values():

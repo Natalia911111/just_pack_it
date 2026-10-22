@@ -1060,6 +1060,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Ośrodek Szpitalny im. M. Madurowicza w Łodzi":
             "Ośrodka Szpitalnego im. M. Madurowicza w Łodzi",
+
+        "Szpital Średzki Serca Jezusowego w Środzie Wielkopolskiej":
+            "Szpitala Średzkiego Serca Jezusowego w Środzie Wielkopolskiej",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
