@@ -1063,6 +1063,12 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Średzki Serca Jezusowego w Środzie Wielkopolskiej":
             "Szpitala Średzkiego Serca Jezusowego w Środzie Wielkopolskiej",
+
+        "Regionalny Szpital Specjalistyczny „Latawiec” w Świdnicy":
+            "Regionalnego Szpitala Specjalistycznego „Latawiec” w Świdnicy",
+
+        "Sosnowiecki Szpital Miejski w Sosnowcu":
+            "Sosnowieckiego Szpitala Miejskiego w Sosnowcu",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

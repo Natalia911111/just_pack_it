@@ -25910,6 +25910,364 @@ LISTA_SRODA_WIELKOPOLSKA = [
         "przypiete": False
     }
 ]
+# =====================================
+# REGIONALNY SZPITAL SPECJALISTYCZNY „LATAWIEC” W ŚWIDNICY
+# =====================================
+
+LISTA_LATAWIEC_SWIDNICA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "latawiec-dokumenty-1",
+        "nazwa": "Dowód osobisty (gdy jest na panieńskie nazwisko – akt ślubu)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-dokumenty-3",
+        "nazwa": "Oryginały wyników: grupa krwi, GBS, HBS, WR, toksoplazmoza",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-dokumenty-4",
+        "nazwa": "Wypisy ze szpitala, zaświadczenie lekarskie lub inna dokumentacja medyczna",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "latawiec-mama-1",
+        "nazwa": "2 koszule przystosowane do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-mama-2",
+        "nazwa": "Koszulka do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-mama-3",
+        "nazwa": "Papcie i klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-mama-4",
+        "nazwa": "Majteczki jednorazowe (najlepiej siateczkowe)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-mama-5",
+        "nazwa": "Podpaski (duże)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-mama-6",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-mama-7",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-mama-8",
+        "nazwa": "Ręczniki – kąpielowy i mały",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-mama-9",
+        "nazwa": "Woda niegazowana w małych butelkach",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-mama-10",
+        "nazwa": "Leki specjalistyczne przyjmowane na stałe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-mama-11",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    # Można zabrać – nieobowiązkowo
+    {
+        "id": "latawiec-maluszek-1",
+        "nazwa": "Chusteczki do pielęgnacji pupy – nieobowiązkowo",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "latawiec-maluszek-2",
+        "nazwa": "Pieluszki jednorazowe – nieobowiązkowo",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+# =====================================
+# SOSNOWIECKI SZPITAL MIEJSKI W SOSNOWCU
+# =====================================
+
+LISTA_SOSNOWIEC = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "sosnowiec-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-dokumenty-3",
+        "nazwa": "Oryginalny wynik grupy krwi i Rh z oznaczonymi przeciwciałami odpornościowymi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-dokumenty-4",
+        "nazwa": "Wynik badania posiewu z pochwy i okolic odbytu (GBS)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-dokumenty-5",
+        "nazwa": "Inne wyniki badań, które nie zostały wpisane w kartę ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-dokumenty-6",
+        "nazwa": "Ewentualne wypisy z hospitalizacji w okresie ciąży oraz inne wyniki i konsultacje, np. endokrynologiczna",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "sosnowiec-mama-1",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-3",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-4",
+        "nazwa": "Ręcznik kąpielowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-5",
+        "nazwa": "Kilka par majtek poporodowych",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-6",
+        "nazwa": "Koszule do karmienia piersią (rozpinane z przodu)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-7",
+        "nazwa": "Biustonosze do karmienia piersią",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-8",
+        "nazwa": "2–3 paczki podkładów poporodowych (90 × 60 cm)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-9",
+        "nazwa": "3 paczki wkładek poporodowych",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-10",
+        "nazwa": "Krem do pielęgnacji sutków",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-11",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-12",
+        "nazwa": "Kubek, talerzyk i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-13",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-14",
+        "nazwa": "Woda w małych butelkach (najlepiej z „dzióbkiem”)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-15",
+        "nazwa": "Gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-16",
+        "nazwa": "Pomadka do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-mama-17",
+        "nazwa": "Luźne ubranie na powrót do domu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "sosnowiec-maluszek-1",
+        "nazwa": "1 paczka pieluch jednorazowych (rozmiar 0+)",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-maluszek-2",
+        "nazwa": "2 opakowania chusteczek nawilżanych",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-maluszek-3",
+        "nazwa": "Maść lub krem nawilżający do pielęgnacji",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-maluszek-4",
+        "nazwa": "Ubranka na wyjście ze szpitala",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "sosnowiec-maluszek-5",
+        "nazwa": "Nosidełko lub fotelik samochodowy na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -27270,6 +27628,48 @@ SZPITALE_INFO = {
         ),
         "warto_wiedziec_zrodlo": "https://www.facebook.com/porodowkasredzka/posts/122213166002369658/"
     },
+    "Regionalny Szpital Specjalistyczny „Latawiec” w Świdnicy": {
+        "zapewnia": [
+            "Pozostałe rzeczy potrzebne dla noworodka podczas pobytu",
+            "Laktatory elektryczne klasy szpitalnej",
+            "Indywidualne końcówki i buteleczki do laktatorów"
+        ],
+        "warto_wiedziec": (
+            "🏥 Regionalny Szpital Specjalistyczny „Latawiec” znajduje się w Świdnicy.\n\n"
+            "📄 Do porodu należy zabrać m.in. dowód osobisty, kartę ciąży, "
+            "oryginały wymaganych wyników badań oraz posiadaną dokumentację medyczną.\n\n"
+            "🤰 Dla mamy szpital zaleca m.in. 2 koszule przystosowane do karmienia, "
+            "koszulkę do porodu, majteczki jednorazowe, duże podpaski, wkładki "
+            "laktacyjne, ręczniki, przybory toaletowe oraz wodę niegazowaną.\n\n"
+            "👶 Dla noworodka można zabrać chusteczki do pielęgnacji pupy oraz "
+            "pieluszki jednorazowe, jednak szpital zaznacza, że nie jest to obowiązkowe. "
+            "Pozostałe rzeczy zapewnia szpital.\n\n"
+            "🍼 Pacjentki mają do dyspozycji laktatory elektryczne klasy szpitalnej "
+            "oraz indywidualne końcówki i buteleczki."
+        ),
+        "warto_wiedziec_zrodlo": "https://www.szpital.swidnica.pl/wp-content/uploads/2019/07/Szkola_rodzenia_wyprawka.pdf"
+    },
+    "Sosnowiecki Szpital Miejski w Sosnowcu": {
+        "zapewnia": [
+            "Ubranka dla noworodka podczas pobytu w szpitalu"
+        ],
+        "warto_wiedziec": (
+            "📄 Lista została przygotowana na podstawie materiału opublikowanego przez "
+            "Sosnowiecki Szpital Miejski na oficjalnym profilu na Facebooku.\n\n"
+            "🤰 Dla mamy szpital zaleca m.in. koszulę do porodu, szlafrok, klapki pod prysznic, "
+            "ręcznik kąpielowy, majtki poporodowe, koszule i biustonosze do karmienia, "
+            "podkłady i wkładki poporodowe oraz przybory toaletowe.\n\n"
+            "👶 Dla noworodka należy przygotować pieluchy jednorazowe, chusteczki nawilżane "
+            "oraz maść lub krem nawilżający do pielęgnacji.\n\n"
+            "👕 Ubranek dla dziecka na pobyt nie trzeba pakować – szpital zapewnia ubranka "
+            "dla noworodka. Należy natomiast przygotować ubranka na wyjście ze szpitala.\n\n"
+            "🚗 W dniu wypisu należy dostarczyć nosidełko lub fotelik samochodowy przeznaczony "
+            "dla noworodka.\n\n"
+            "ℹ️ Materiał źródłowy został opublikowany w 2021 roku. Warto przed porodem "
+            "sprawdzić aktualne zalecenia szpitala."
+        ),
+        "warto_wiedziec_zrodlo": "https://www.facebook.com/SzpitalSosnowiec/"
+    },
     }
 
 
@@ -27373,6 +27773,8 @@ SZPITALE = {
     "Szpital Specjalistyczny im. Świętej Rodziny w Warszawie – Madalińskiego": LISTA_WARSZAWA_MADALINSKIEGO,
     "Ośrodek Szpitalny im. M. Madurowicza w Łodzi": LISTA_LODZ_MADUROWICZA,
     "Szpital Średzki Serca Jezusowego w Środzie Wielkopolskiej": LISTA_SRODA_WIELKOPOLSKA,
+    "Regionalny Szpital Specjalistyczny „Latawiec” w Świdnicy": LISTA_LATAWIEC_SWIDNICA,
+    "Sosnowiecki Szpital Miejski w Sosnowcu": LISTA_SOSNOWIEC,
 }
 
 for lista_szpitala in SZPITALE.values():
