@@ -26268,6 +26268,228 @@ LISTA_SOSNOWIEC = [
         "przypiete": False
     }
 ]
+# =====================================
+# SZPITAL ŚW. RODZINY W POZNANIU
+# =====================================
+
+LISTA_RODZINY_POZNAN = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "rodziny-poznan-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-dokumenty-3",
+        "nazwa": "Oznaczenie grupy krwi i Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-dokumenty-4",
+        "nazwa": "Wynik posiewu GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-dokumenty-5",
+        "nazwa": "Wszystkie wyniki badań USG wykonane w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-dokumenty-6",
+        "nazwa": "Wynik badania na obecność HIV",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-dokumenty-7",
+        "nazwa": "Wynik badania HBs lub zaświadczenie o szczepieniu WZW B",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-dokumenty-8",
+        "nazwa": "Inne istotne wyniki badań i/lub konsultacji",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-dokumenty-9",
+        "nazwa": "Przyjmowane leki",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "rodziny-poznan-mama-1",
+        "nazwa": "Kosmetyki i przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-mama-2",
+        "nazwa": "Gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-mama-3",
+        "nazwa": "2 ciemne ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-mama-4",
+        "nazwa": "Obuwie na zmianę – klapki pod prysznic i klapki codzienne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-mama-5",
+        "nazwa": "Krem lub pomadka do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-mama-6",
+        "nazwa": "Woda mineralna lub butelka z filtrem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-mama-7",
+        "nazwa": "Lekkie przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-mama-8",
+        "nazwa": "Sztućce i kubek – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-mama-9",
+        "nazwa": "Koszule do karmienia na pobyt po porodzie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-mama-10",
+        "nazwa": "Majtki połogowe siateczkowe lub luźne bawełniane",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-mama-11",
+        "nazwa": "Biustonosz laktacyjny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-mama-12",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-mama-13",
+        "nazwa": "Ubranie dla mamy na powrót do domu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "rodziny-poznan-maluszek-1",
+        "nazwa": "Ubranka dla dziecka na wyjście ze szpitala – odpowiednie do pogody",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-maluszek-2",
+        "nazwa": "Krem ochronny",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-maluszek-3",
+        "nazwa": "Fotelik samochodowy dla noworodka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "rodziny-poznan-tata-1",
+        "nazwa": "Buty na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-tata-2",
+        "nazwa": "Woda",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "rodziny-poznan-tata-3",
+        "nazwa": "Przekąski do jedzenia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -27670,6 +27892,22 @@ SZPITALE_INFO = {
         ),
         "warto_wiedziec_zrodlo": "https://www.facebook.com/SzpitalSosnowiec/"
     },
+    "Szpital św. Rodziny w Poznaniu": {
+        "zapewnia": [
+            "Koszulę dla rodzącej do porodu",
+            "Strój dla osoby towarzyszącej na sali porodowej"
+        ],
+        "warto_wiedziec": [
+            "👨‍👩‍👧 Przy porodzie może być obecna jedna osoba towarzysząca",
+            "🛏️ Blok Porodowy posiada 4 sale do porodów rodzinnych",
+            "🚿 Sale porodowe posiadają własne węzły sanitarne",
+            "👶 Po porodzie mama może przebywać z dzieckiem w systemie rooming-in",
+            "🏥 Oddział Noworodkowy posiada II stopień referencyjności",
+            "🚪 Wejście na Blok Porodowy znajduje się od strony ul. Bogusławskiego",
+            "👕 Ubranka dla dziecka należy przygotować na wyjście ze szpitala"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona SZOZ nad Matką i Dzieckiem w Poznaniu • aktualizacja: październik 2026"
+    },
     }
 
 
@@ -27775,6 +28013,7 @@ SZPITALE = {
     "Szpital Średzki Serca Jezusowego w Środzie Wielkopolskiej": LISTA_SRODA_WIELKOPOLSKA,
     "Regionalny Szpital Specjalistyczny „Latawiec” w Świdnicy": LISTA_LATAWIEC_SWIDNICA,
     "Sosnowiecki Szpital Miejski w Sosnowcu": LISTA_SOSNOWIEC,
+    "Szpital św. Rodziny w Poznaniu": LISTA_RODZINY_POZNAN,
 }
 
 for lista_szpitala in SZPITALE.values():

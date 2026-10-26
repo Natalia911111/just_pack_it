@@ -3713,3 +3713,10 @@ footer {
         display: none !important;
     }
 }
+.partner-logo {
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border-radius: 6px;
+    vertical-align: middle;
+}

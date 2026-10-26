@@ -262,6 +262,30 @@ const AFFILIATE_PRODUCTS = [
         url: "https://link.amazon/B04qNfpt6"
     },
 ];
+const PARTNER_PRODUCTS = [
+    {
+        keywords: [
+            "ubranka na wyjście",
+            "ubranko na wyjście",
+            "ubrania na wyjście",
+            "ubranie na wyjście",
+            "ubranka dla dziecka na wyjście"
+        ],
+        label: "Zobacz LULO HANDMADE",
+        url: "https://www.instagram.com/lulo_handmade_studio"
+    }
+];
+function getPartnerProduct(itemName) {
+    const normalizedName = normalizeAffiliateText(itemName);
+
+    return PARTNER_PRODUCTS.find(function (product) {
+        return product.keywords.some(function (keyword) {
+            return normalizedName.includes(
+                normalizeAffiliateText(keyword)
+            );
+        });
+    });
+}
 
 function normalizeAffiliateText(text) {
     return String(text || "")
@@ -1069,6 +1093,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Sosnowiecki Szpital Miejski w Sosnowcu":
             "Sosnowieckiego Szpitala Miejskiego w Sosnowcu",
+
+        "Szpital św. Rodziny w Poznaniu":
+            "Szpitala św. Rodziny w Poznaniu",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
@@ -1443,6 +1470,7 @@ function createItemRow(item) {
     itemName.textContent = item.nazwa;
 
     const affiliateProduct = getAffiliateProduct(item.nazwa);
+    const partnerProduct = getPartnerProduct(item.nazwa);
 
     let affiliateLink = null;
 
@@ -1457,6 +1485,29 @@ function createItemRow(item) {
         affiliateLink.setAttribute(
             "aria-label",
             affiliateProduct.label + ": " + item.nazwa
+        );
+    }
+    let partnerLink = null;
+
+    if (partnerProduct && !item.wlasny) {
+        partnerLink = document.createElement("a");
+        partnerLink.className = "affiliate-link";
+        partnerLink.href = partnerProduct.url;
+        partnerLink.target = "_blank";
+        partnerLink.rel = "noopener";
+        const partnerLogo = document.createElement("img");
+        partnerLogo.src = "/static/images/lulo-logo.jpg";
+        partnerLogo.alt = "LULO HANDMADE";
+        partnerLogo.className = "partner-logo";
+
+        partnerLink.appendChild(partnerLogo);
+        partnerLink.appendChild(
+            document.createTextNode(" " + partnerProduct.label)
+        );
+
+        partnerLink.setAttribute(
+            "aria-label",
+            partnerProduct.label + ": " + item.nazwa
         );
     }
 
@@ -1513,6 +1564,9 @@ function createItemRow(item) {
 
     if (affiliateLink) {
         row.appendChild(affiliateLink);
+    }
+    if (partnerLink) {
+        row.appendChild(partnerLink);
     }
 
     row.appendChild(pinButton);
