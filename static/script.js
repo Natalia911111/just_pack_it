@@ -1096,6 +1096,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital św. Rodziny w Poznaniu":
             "Szpitala św. Rodziny w Poznaniu",
+
+        "Szpital Praski w Warszawie":
+            "Szpitala Praskiego w Warszawie",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

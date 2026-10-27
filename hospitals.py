@@ -26490,6 +26490,375 @@ LISTA_RODZINY_POZNAN = [
         "przypiete": False
     }
 ]
+# =====================================
+# SZPITAL PRASKI W WARSZAWIE
+# =====================================
+
+LISTA_PRASKI = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "praski-dokumenty-1",
+        "nazwa": "Dowód tożsamości",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-dokumenty-3",
+        "nazwa": "Skierowanie do szpitala / kod skierowania",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-dokumenty-4",
+        "nazwa": "Grupa krwi i czynnik Rh",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-dokumenty-5",
+        "nazwa": "Badania wirusologiczne – HBs, HCV, HIV, WR z III trymestru",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-dokumenty-6",
+        "nazwa": "Ostatnie badanie USG oraz USG I, II i III trymestru (prenatalne)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-dokumenty-7",
+        "nazwa": "Wynik GBS – posiew w kierunku Streptococcus agalactiae",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-dokumenty-8",
+        "nazwa": "Wyniki badań i konsultacji ważne dla przebiegu porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "praski-mama-1",
+        "nazwa": "Koszula do porodu lub dłuższy T-shirt",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-2",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-3",
+        "nazwa": "Klapki prysznicowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-4",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-5",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-6",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-7",
+        "nazwa": "Gumka do włosów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-8",
+        "nazwa": "Pomadka do ust lub wazelina",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-9",
+        "nazwa": "Woda gazowana / napój izotoniczny / sok jabłkowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-10",
+        "nazwa": "Telefon – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-11",
+        "nazwa": "Ładowarka – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-12",
+        "nazwa": "Pendrive lub CD z ulubioną muzyką – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-13",
+        "nazwa": "Koszula do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-14",
+        "nazwa": "Stanik do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-15",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-16",
+        "nazwa": "Poporodowe majtki wielorazowe lub siateczkowe – 4 pary",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-17",
+        "nazwa": "Podpaski poporodowe – 2 opakowania",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-18",
+        "nazwa": "Podkłady wysokochłonne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-19",
+        "nazwa": "2 ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-20",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-21",
+        "nazwa": "Poduszka rogal",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-22",
+        "nazwa": "Laktator – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-23",
+        "nazwa": "Kapturki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-mama-24",
+        "nazwa": "Kubek i sztućce – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "praski-maluszek-1",
+        "nazwa": "Czapeczka dla dziecka do pierwszego kontaktu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-maluszek-2",
+        "nazwa": "Kocyk dla dziecka do pierwszego kontaktu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-maluszek-3",
+        "nazwa": "Pampers do pierwszego kontaktu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-maluszek-4",
+        "nazwa": "Pielucha tetrowa do pierwszego kontaktu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-maluszek-5",
+        "nazwa": "Pampersy – 1 opakowanie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-maluszek-6",
+        "nazwa": "Pieluchy tetrowe – 5–6 sztuk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-maluszek-7",
+        "nazwa": "Chusteczki higieniczne dla niemowląt lub duże płatki kosmetyczne",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-maluszek-8",
+        "nazwa": "Czapeczki bez wiązania – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-maluszek-9",
+        "nazwa": "Pajacyki – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-maluszek-10",
+        "nazwa": "Body – 3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-maluszek-11",
+        "nazwa": "Skarpetki dla dziecka – 3 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-maluszek-12",
+        "nazwa": "Maść lub krem natłuszczający dla niemowląt",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-maluszek-13",
+        "nazwa": "Kocyk lub rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "praski-tata-1",
+        "nazwa": "Kapcie lub klapki na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-tata-2",
+        "nazwa": "Wygodne ubrania",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-tata-3",
+        "nazwa": "Woda",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "praski-tata-4",
+        "nazwa": "Dużo pozytywnej energii i wsparcia ❤️",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -27908,6 +28277,18 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona SZOZ nad Matką i Dzieckiem w Poznaniu • aktualizacja: październik 2026"
     },
+    "Szpital Praski w Warszawie": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "👨‍👩‍👧 Poród rodzinny jest bezpłatny",
+            "📝 Możesz przygotować własny plan porodu i przedstawić go personelowi",
+            "🤰 Podczas porodu może towarzyszyć Ci bliska osoba",
+            "🏥 Oddział Położniczo-Ginekologiczny posiada I stopień referencyjności",
+            "👶 Szpital wspiera kontakt mamy z dzieckiem po porodzie oraz opiekę nad noworodkiem",
+            "👜 Szpital udostępnia własną szczegółową checklistę „Moja torba do porodu”"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Praskiego • aktualizacja: październik 2026"
+    },
     }
 
 
@@ -28014,6 +28395,7 @@ SZPITALE = {
     "Regionalny Szpital Specjalistyczny „Latawiec” w Świdnicy": LISTA_LATAWIEC_SWIDNICA,
     "Sosnowiecki Szpital Miejski w Sosnowcu": LISTA_SOSNOWIEC,
     "Szpital św. Rodziny w Poznaniu": LISTA_RODZINY_POZNAN,
+    "Szpital Praski w Warszawie": LISTA_PRASKI,
 }
 
 for lista_szpitala in SZPITALE.values():
