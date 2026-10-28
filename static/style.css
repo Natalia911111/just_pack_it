@@ -3720,3 +3720,76 @@ footer {
     border-radius: 6px;
     vertical-align: middle;
 }
+
+/* =========================
+   POLECANE MARKI
+   ========================= */
+
+.recommended-brands {
+    margin-top: 28px;
+    padding: 24px;
+    background: #f7f4ef;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.recommended-brands h2 {
+    margin: 0 0 6px;
+    color: var(--dark-green);
+}
+
+.recommended-brands-intro {
+    margin: 0 0 20px;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.brands-grid {
+    display: grid;
+    gap: 14px;
+}
+
+.brand-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background: white;
+    border: 1px solid #e6e0d8;
+    border-radius: 16px;
+    text-decoration: none;
+    color: inherit;
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.brand-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.brand-card-logo {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 14px;
+    flex-shrink: 0;
+}
+
+.brand-card-content h3 {
+    margin: 0 0 5px;
+    color: var(--dark-green);
+    font-size: 1rem;
+}
+
+.brand-card-content p {
+    margin: 0 0 7px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.brand-card-content span {
+    color: var(--dark-green);
+    font-weight: 600;
+    font-size: 0.9rem;
+}

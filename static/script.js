@@ -1099,6 +1099,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Szpital Praski w Warszawie":
             "Szpitala Praskiego w Warszawie",
+
+        "Specjalistyczny Szpital Ginekologiczno-Położniczy im. B. Biernackiego w Wałbrzychu":
+            "Specjalistycznego Szpitala Ginekologiczno-Położniczego im. B. Biernackiego w Wałbrzychu",
     };
 
     return hospitalNames[hospitalName] || hospitalName;

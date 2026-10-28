@@ -26859,6 +26859,196 @@ LISTA_PRASKI = [
         "przypiete": False
     }
 ]
+# =====================================
+# SPECJALISTYCZNY SZPITAL GINEKOLOGICZNO-POŁOŻNICZY
+# IM. B. BIERNACKIEGO W WAŁBRZYCHU
+# =====================================
+
+LISTA_WALBRZYCH = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "walbrzych-dokumenty-1",
+        "nazwa": "Skierowanie do szpitala – przy przyjęciu planowym",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-dokumenty-2",
+        "nazwa": "Dokument tożsamości z numerem PESEL",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-dokumenty-3",
+        "nazwa": "Dokumentacja medyczna dotychczasowego leczenia – karty informacyjne i wyniki badań",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-dokumenty-4",
+        "nazwa": "NIP pracodawcy – dane potrzebne do wystawienia druku ZUS ZLA",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-dokumenty-5",
+        "nazwa": "Adres i telefon najbliższej rodziny lub opiekuna",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-dokumenty-6",
+        "nazwa": "Wynik z oznaczoną grupą krwi i czynnikiem Rh – jeżeli pacjentka posiada",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-dokumenty-7",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-dokumenty-8",
+        "nazwa": "Wynik posiewu GBS wykonanego po 35. tygodniu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "walbrzych-mama-1",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-mama-2",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-mama-3",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-mama-4",
+        "nazwa": "Bielizna nocna – piżama lub koszula nocna",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-mama-5",
+        "nazwa": "Bielizna osobista",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-mama-6",
+        "nazwa": "Ręcznik kąpielowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-mama-7",
+        "nazwa": "Mały ręcznik",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-mama-8",
+        "nazwa": "Przybory toaletowe – mydło, szampon, myjka, grzebień, szczoteczka i pasta do zębów",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-mama-9",
+        "nazwa": "Podpaski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-mama-10",
+        "nazwa": "Sztućce – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-mama-11",
+        "nazwa": "Kubek lub szklanka – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-mama-12",
+        "nazwa": "Woda mineralna niegazowana",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-mama-13",
+        "nazwa": "Przyjmowane leki – w oryginalnych opakowaniach",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "walbrzych-maluszek-1",
+        "nazwa": "Pieluszki jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "walbrzych-maluszek-3",
+        "nazwa": "Własne ubranka dla dziecka – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -28289,6 +28479,20 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Szpitala Praskiego • aktualizacja: październik 2026"
     },
+    "Specjalistyczny Szpital Ginekologiczno-Położniczy im. B. Biernackiego w Wałbrzychu": {
+        "zapewnia": [],
+        "warto_wiedziec": [
+            "🏥 Blok Porodowy posiada 4 jednoosobowe sale porodowe",
+            "👨‍👩‍👧 Porody rodzinne odbywają się bez dodatkowych opłat",
+            "🧘 Podczas porodu można korzystać m.in. z piłek, drabinek i worków sako",
+            "💨 Dostępne są niefarmakologiczne i farmakologiczne metody łagodzenia bólu, w tym Entonox",
+            "⚡ Dostępna jest metoda TENS",
+            "👀 Istnieje możliwość wcześniejszego obejrzenia Bloku Porodowego",
+            "👶 Po porodzie fizjologicznym pobyt w szpitalu trwa zwykle około 3 dób",
+            "🏥 Po cięciu cesarskim pobyt trwa zwykle około 4 dób"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Specjalistycznego Szpitala Ginekologiczno-Położniczego im. B. Biernackiego w Wałbrzychu • aktualizacja: październik 2026"
+    },
     }
 
 
@@ -28396,6 +28600,7 @@ SZPITALE = {
     "Sosnowiecki Szpital Miejski w Sosnowcu": LISTA_SOSNOWIEC,
     "Szpital św. Rodziny w Poznaniu": LISTA_RODZINY_POZNAN,
     "Szpital Praski w Warszawie": LISTA_PRASKI,
+    "Specjalistyczny Szpital Ginekologiczno-Położniczy im. B. Biernackiego w Wałbrzychu": LISTA_WALBRZYCH,
 }
 
 for lista_szpitala in SZPITALE.values():
