@@ -27049,6 +27049,201 @@ LISTA_WALBRZYCH = [
         "przypiete": False
     }
 ]
+LISTA_GRUDZIADZ = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "grudziadz-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-dokumenty-3",
+        "nazwa": "Komplet wyników badań – GBS, HIV, HCV, HBs, WR",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-dokumenty-4",
+        "nazwa": "Grupa krwi – oryginalny wynik",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "grudziadz-mama-1",
+        "nazwa": "Koszule porodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-mama-2",
+        "nazwa": "Majtki jednorazowe – 6 par",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-mama-3",
+        "nazwa": "Przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-mama-4",
+        "nazwa": "Chusteczki higieniczne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-mama-5",
+        "nazwa": "Ręczniki – 2 szt.",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-mama-6",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-mama-7",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-mama-8",
+        "nazwa": "Chłonne podpaski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-mama-9",
+        "nazwa": "Woda mineralna",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-mama-10",
+        "nazwa": "Coś do jedzenia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-mama-11",
+        "nazwa": "Kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "grudziadz-dziecko-1",
+        "nazwa": "Pieluszki jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-dziecko-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-dziecko-3",
+        "nazwa": "Pieluszki tetrowe – 2 szt.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-dziecko-4",
+        "nazwa": "Ubranka dla noworodka – pajacyki, body, półśpiochy itp.",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-dziecko-5",
+        "nazwa": "Skarpetki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-dziecko-6",
+        "nazwa": "Łapki niedrapki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-dziecko-7",
+        "nazwa": "Ręcznik",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-dziecko-8",
+        "nazwa": "Kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-dziecko-9",
+        "nazwa": "Rożek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "grudziadz-dziecko-10",
+        "nazwa": "Kosmetyki pielęgnacyjne",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    }
+
+]
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -28493,6 +28688,24 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Specjalistycznego Szpitala Ginekologiczno-Położniczego im. B. Biernackiego w Wałbrzychu • aktualizacja: październik 2026"
     },
+    "Regionalny Szpital Specjalistyczny w Grudziądzu": {
+        "zapewnia": [
+            "Kosmetyki pielęgnacyjne dla dziecka"
+        ],
+        "warto_wiedziec": [
+            "👨‍👩‍👧 Przy porodzie fizjologicznym może towarzyszyć bliska osoba",
+            "🏥 Blok porodowy posiada 3 sale porodowe z toaletą i prysznicem",
+            "💨 Dostępny jest gaz rozweselający Entonox",
+            "💉 Dostępne jest dożylne łagodzenie bólu porodowego preparatem Ultiva",
+            "🎵 Podczas porodu można korzystać m.in. z muzykoterapii i aromaterapii",
+            "🧘 Dostępne są piłki, fasolki, szarfy porodowe oraz drabinki",
+            "👶 Oddział funkcjonuje w systemie rooming-in",
+            "🏠 Planowany wypis po porodzie fizjologicznym następuje po około 2 dobach",
+            "🏠 Planowany wypis po cięciu cesarskim następuje po około 3 dobach",
+            "👀 Po 36. tygodniu ciąży można zwiedzić sale porodowe, poporodowe i rodzinne w wyznaczonych przez szpital terminach"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona Regionalnego Szpitala Specjalistycznego w Grudziądzu • aktualizacja: listopad 2026"
+    },
     }
 
 
@@ -28601,6 +28814,7 @@ SZPITALE = {
     "Szpital św. Rodziny w Poznaniu": LISTA_RODZINY_POZNAN,
     "Szpital Praski w Warszawie": LISTA_PRASKI,
     "Specjalistyczny Szpital Ginekologiczno-Położniczy im. B. Biernackiego w Wałbrzychu": LISTA_WALBRZYCH,
+    "Regionalny Szpital Specjalistyczny w Grudziądzu": LISTA_GRUDZIADZ,
 }
 
 for lista_szpitala in SZPITALE.values():

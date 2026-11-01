@@ -1102,6 +1102,9 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Specjalistyczny Szpital Ginekologiczno-Położniczy im. B. Biernackiego w Wałbrzychu":
             "Specjalistycznego Szpitala Ginekologiczno-Położniczego im. B. Biernackiego w Wałbrzychu",
+
+        "Regionalny Szpital Specjalistyczny w Grudziądzu":
+            "Regionalnego Szpitala Specjalistycznego w Grudziądzu",
     };
 
     return hospitalNames[hospitalName] || hospitalName;
