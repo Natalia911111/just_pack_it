@@ -50,6 +50,92 @@
             </p>
         </header>
 
+        <!-- WYBÓR RODZAJU LISTY -->
+    <section class="hospital-card" id="list-mode-picker">
+        <h2>Co chcesz przygotować? 💚</h2>
+
+        <div class="list-mode-options">
+            <button type="button" id="hospital-mode-btn">
+                🏥 Lista do szpitala
+            </button>
+
+            <button type="button" id="custom-mode-btn">
+                📝 Moja własna lista
+            </button>
+        </div>
+    </section>
+
+        <!-- MOJA WŁASNA LISTA -->
+    <section class="hospital-card" id="custom-list-app" hidden>
+
+        <h2>📝 Moja własna lista</h2>
+
+        <p>
+            Stwórz własną checklistę, dodawaj kategorie
+            i odhaczaj wszystko, co już masz!
+        </p>
+
+        <form id="custom-category-form">
+            <label for="custom-category-name">
+                Nazwa nowej kategorii
+            </label>
+
+            <input
+                type="text"
+                id="custom-category-name"
+                placeholder="Np. Ubranka dla maluszka"
+                maxlength="60"
+                required
+            >
+
+            <button type="submit">
+                + Dodaj kategorię
+            </button>
+        </form>
+
+        <!-- POSTĘP WŁASNEJ LISTY -->
+        <div class="custom-progress-card">
+
+            <h3>🌿 Postęp przygotowań</h3>
+
+            <p id="custom-progress-description">
+                0 z 0 rzeczy przygotowanych
+            </p>
+
+            <div class="progress-bar"
+                 id="custom-progress-bar"
+                 role="progressbar"
+                 aria-valuemin="0"
+                 aria-valuemax="100"
+                 aria-valuenow="0">
+
+                <div class="progress-bar-fill"
+                     id="custom-progress-fill"
+                     style="width: 0%;">
+                </div>
+
+            </div>
+
+            <p id="custom-progress-percent">0%</p>
+
+        </div>
+
+        <div id="custom-categories-container"></div>
+        <!-- EKSPORT WŁASNEJ LISTY -->
+        <div class="custom-list-actions">
+
+            <button
+                type="button"
+                id="custom-print-btn"
+                class="primary-button"
+            >
+                📄 Pobierz moją listę PDF
+            </button>
+
+        </div>
+
+    </section>
+
         <!-- KREATOR LISTY -->
         <section
             class="hospital-card wizard-card"
@@ -613,6 +699,14 @@
 
                             <option value="Regionalny Szpital Specjalistyczny w Grudziądzu">
                                 Regionalny Szpital Specjalistyczny im. dr. Władysława Biegańskiego — Grudziądz
+                            </option>
+
+                            <option value="Szpital Miejski w Siedlcach">
+                                Szpital Miejski — Siedlce
+                            </option>
+
+                            <option value="Szpital Powiatowy w Chełmży">
+                                Szpital Powiatowy — Chełmża
                             </option>
 
                             <option value="Inny szpital">

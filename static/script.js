@@ -15,6 +15,499 @@ function getStorageKey(hospitalName) {
     );
 }
 const PROFILE_STORAGE_KEY = "justPackItProfileV1";
+// =========================
+// WŁASNE CHECKLISTY
+// =========================
+
+// Osobny zapis własnych list
+const CUSTOM_LIST_STORAGE_KEY = "justPackItCustomListsV1";
+
+// =========================
+// DANE WŁASNEJ LISTY
+// =========================
+
+function loadCustomList() {
+    const savedData = localStorage.getItem(
+        CUSTOM_LIST_STORAGE_KEY
+    );
+
+    if (!savedData) {
+        return {
+            categories: []
+        };
+    }
+
+    try {
+        const parsedData = JSON.parse(savedData);
+
+        if (
+            parsedData &&
+            Array.isArray(parsedData.categories)
+        ) {
+            return parsedData;
+        }
+    } catch (error) {
+        console.error(
+            "Nie udało się odczytać własnej listy:",
+            error
+        );
+    }
+
+    return {
+        categories: []
+    };
+}
+
+let customListData = loadCustomList();
+
+function saveCustomList() {
+    localStorage.setItem(
+        CUSTOM_LIST_STORAGE_KEY,
+        JSON.stringify(customListData)
+    );
+}
+// =========================
+// EKSPORT WŁASNEJ LISTY DO PDF
+// =========================
+
+document.addEventListener("DOMContentLoaded", function () {
+    const customPrintButton =
+        document.getElementById("custom-print-btn");
+
+    if (!customPrintButton) {
+        return;
+    }
+
+    customPrintButton.addEventListener("click", function () {
+        const escapeHtml = function (value) {
+            return String(value).replace(/[&<>"']/g, function (char) {
+                return {
+                    "&": "&amp;",
+                    "<": "&lt;",
+                    ">": "&gt;",
+                    '"': "&quot;",
+                    "'": "&#39;"
+                }[char];
+            });
+        };
+
+        const printWindow = window.open("", "_blank");
+
+        if (!printWindow) {
+            alert("Zezwól na otwieranie nowych okien, aby zapisać PDF.");
+            return;
+        }
+
+        let content = "<h1>Moja własna lista — Just Pack It</h1>";
+
+        customListData.categories.forEach(function (category) {
+            content += "<h2>" + escapeHtml(category.name) + "</h2>";
+
+            (category.items || []).forEach(function (item) {
+                content +=
+                    "<p>" +
+                    (item.checked ? "☑" : "☐") +
+                    " " +
+                    escapeHtml(item.name) +
+                    "</p>";
+            });
+        });
+
+        printWindow.document.write(`
+            <!DOCTYPE html>
+            <html lang="pl">
+            <head>
+                <meta charset="UTF-8">
+                <title>Moja lista — Just Pack It</title>
+                <style>
+                    body {
+                        font-family: Arial, sans-serif;
+                        padding: 30px;
+                        color: #333;
+                    }
+
+                    h1 {
+                        color: #607965;
+                    }
+
+                    h2 {
+                        margin-top: 25px;
+                        color: #607965;
+                        border-bottom: 1px solid #ddd;
+                        padding-bottom: 8px;
+                    }
+
+                    p {
+                        font-size: 15px;
+                        margin: 10px 0;
+                    }
+                </style>
+            </head>
+            <body>
+                ${content}
+            </body>
+            </html>
+        `);
+
+        printWindow.document.close();
+        printWindow.focus();
+        printWindow.print();
+    });
+});
+// =========================
+// POSTĘP WŁASNEJ LISTY
+// =========================
+
+function renderCustomProgress() {
+    const allItems = customListData.categories.flatMap(
+        function (category) {
+            return category.items || [];
+        }
+    );
+
+    const total = allItems.length;
+
+    const checked = allItems.filter(function (item) {
+        return item.checked === true;
+    }).length;
+
+    const percent = total > 0
+        ? Math.round((checked / total) * 100)
+        : 0;
+
+    const description = document.getElementById(
+        "custom-progress-description"
+    );
+
+    const percentLabel = document.getElementById(
+        "custom-progress-percent"
+    );
+
+    const progressFill = document.getElementById(
+        "custom-progress-fill"
+    );
+
+    const progressBar = document.getElementById(
+        "custom-progress-bar"
+    );
+
+    if (description) {
+        description.textContent =
+            checked + " z " + total + " rzeczy przygotowanych";
+    }
+
+    if (percentLabel) {
+        percentLabel.textContent = percent + "%";
+    }
+
+    if (progressFill) {
+        progressFill.style.width = percent + "%";
+    }
+
+    if (progressBar) {
+        progressBar.setAttribute(
+            "aria-valuenow",
+            String(percent)
+        );
+    }
+}
+// =========================
+// WYŚWIETLANIE WŁASNYCH KATEGORII
+// =========================
+
+function renderCustomCategories() {
+    const container = document.getElementById(
+        "custom-categories-container"
+    );
+
+    if (!container) {
+        return;
+    }
+
+    container.innerHTML = "";
+    renderCustomProgress();
+
+    customListData.categories.forEach(function (category) {
+        const categoryCard = document.createElement("div");
+        categoryCard.className = "custom-category-card";
+
+        const categoryTitle = document.createElement("h3");
+        categoryTitle.textContent = "🌿 " + category.name;
+
+        categoryCard.appendChild(categoryTitle);
+        // =========================
+        // USUWANIE WŁASNEJ KATEGORII
+        // =========================
+
+        const deleteCategoryButton = document.createElement("button");
+        deleteCategoryButton.type = "button";
+        deleteCategoryButton.className = "delete-category-btn";
+        deleteCategoryButton.textContent = "🗑️ Usuń kategorię";
+
+        deleteCategoryButton.addEventListener("click", function () {
+            const confirmed = confirm(
+                'Czy na pewno chcesz usunąć kategorię "' +
+                category.name +
+                '" wraz ze wszystkimi przedmiotami?'
+            );
+
+            if (!confirmed) {
+                return;
+            }
+
+            customListData.categories = customListData.categories.filter(
+                function (savedCategory) {
+                    return savedCategory.id !== category.id;
+                }
+            );
+
+            saveCustomList();
+            renderCustomCategories();
+        });
+
+        categoryCard.appendChild(deleteCategoryButton);
+
+        // Formularz dodawania przedmiotów
+        const itemForm = document.createElement("form");
+        itemForm.className = "custom-item-form";
+
+        const itemInput = document.createElement("input");
+        itemInput.type = "text";
+        itemInput.placeholder = "Wpisz nazwę przedmiotu...";
+        itemInput.maxLength = 100;
+        itemInput.required = true;
+
+        const addButton = document.createElement("button");
+        addButton.type = "submit";
+        addButton.textContent = "+ Dodaj rzecz";
+
+        itemForm.appendChild(itemInput);
+        itemForm.appendChild(addButton);
+
+        // Dodawanie przedmiotu do wybranej kategorii
+        itemForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const itemName = itemInput.value.trim();
+
+            if (!itemName) {
+                return;
+            }
+
+            if (!Array.isArray(category.items)) {
+                category.items = [];
+            }
+
+            category.items.push({
+                id: crypto.randomUUID(),
+                name: itemName,
+                checked: false
+            });
+
+            saveCustomList();
+            renderCustomCategories();
+        });
+
+        // Miejsce na przedmioty
+        const itemsContainer = document.createElement("div");
+        itemsContainer.className = "custom-items-container";
+
+        // Wyświetlanie przedmiotów w kategorii
+        (category.items || []).forEach(function (item) {
+            const itemRow = document.createElement("div");
+            itemRow.className = "item-row";
+
+            if (item.checked) {
+                itemRow.classList.add("checked");
+            }
+
+            const checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.checked = item.checked === true;
+
+            checkbox.addEventListener("change", function () {
+                item.checked = checkbox.checked;
+
+                saveCustomList();
+                renderCustomCategories();
+            });
+
+            const itemLabel = document.createElement("span");
+            itemLabel.className = "item-name";
+            itemLabel.textContent = item.name;
+
+                    // Przycisk usuwania przedmiotu
+        const deleteButton = document.createElement("button");
+        deleteButton.type = "button";
+        deleteButton.className = "delete-btn";
+        deleteButton.textContent = "❌";
+
+        deleteButton.setAttribute(
+            "aria-label",
+            "Usuń " + item.name
+        );
+
+        deleteButton.addEventListener("click", function () {
+            category.items = category.items.filter(function (savedItem) {
+                return savedItem.id !== item.id;
+            });
+
+            saveCustomList();
+            renderCustomCategories();
+        });
+
+        itemRow.appendChild(checkbox);
+        itemRow.appendChild(itemLabel);
+        itemRow.appendChild(deleteButton);
+
+        itemsContainer.appendChild(itemRow);
+        });
+
+        categoryCard.appendChild(itemForm);
+        categoryCard.appendChild(itemsContainer);
+
+        container.appendChild(categoryCard);
+    });
+}
+
+// =========================
+// DODAWANIE WŁASNYCH KATEGORII
+// =========================
+
+document.addEventListener("DOMContentLoaded", function () {
+    const customCategoryForm =
+        document.getElementById("custom-category-form");
+
+    const customCategoryInput =
+        document.getElementById("custom-category-name");
+
+    if (!customCategoryForm || !customCategoryInput) {
+        return;
+    }
+
+    customCategoryForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const categoryName = customCategoryInput.value.trim();
+
+        if (!categoryName) {
+            return;
+        }
+
+        const categoryExists = customListData.categories.some(
+            function (category) {
+                return category.name.toLowerCase() ===
+                    categoryName.toLowerCase();
+            }
+        );
+
+        if (categoryExists) {
+            alert("Taka kategoria już istnieje.");
+            return;
+        }
+
+        customListData.categories.push({
+            id: crypto.randomUUID(),
+            name: categoryName,
+            items: []
+        });
+
+        saveCustomList();
+
+        renderCustomCategories();
+
+        customCategoryInput.value = "";
+
+        alert("Kategoria została dodana! 💚");
+    });
+});
+
+// Zapamiętanie wybranego trybu
+const LIST_MODE_STORAGE_KEY = "justPackItListModeV1";
+
+// Domyślnie pokazujemy listę szpitalną
+let currentListMode =
+    localStorage.getItem(LIST_MODE_STORAGE_KEY) === "custom"
+        ? "custom"
+        : "hospital";
+
+// =========================
+// PRZEŁĄCZANIE NA WŁASNĄ LISTĘ
+// =========================
+
+document.addEventListener("DOMContentLoaded", function () {
+    if (customModeButton) {
+        customModeButton.addEventListener("click", function () {
+            currentListMode = "custom";
+            if (heroSubtitle) {
+                heroSubtitle.textContent =
+                    "Twoja własna lista do pakowania. " +
+                    "Dodawaj kategorie, planuj przygotowania " +
+                    "i odhaczaj wszystko w jednym miejscu! 💚";
+            }
+
+            localStorage.setItem(
+                LIST_MODE_STORAGE_KEY,
+                "custom"
+            );
+
+            // Ukrywamy dotychczasową listę szpitalną
+            packingWizard.hidden = true;
+            packingApp.hidden = true;
+
+            // Pokazujemy własną checklistę
+            const customListApp =
+                document.getElementById("custom-list-app");
+
+            if (customListApp) {
+                customListApp.hidden = false;
+            }
+        });
+    }
+});
+
+// =========================
+// PRZEŁĄCZANIE NA LISTĘ SZPITALNĄ
+// =========================
+
+document.addEventListener("DOMContentLoaded", function () {
+    const hospitalButton = document.getElementById("hospital-mode-btn");
+
+    if (hospitalButton) {
+        hospitalButton.addEventListener("click", function () {
+            currentListMode = "hospital";
+            // Przywracamy opis listy szpitalnej
+        if (heroSubtitle) {
+            if (!userProfile || userProfile.hospitalName === "Inny szpital") {
+                heroSubtitle.textContent =
+                    "Twoja interaktywna lista do pakowania";
+            } else {
+                heroSubtitle.textContent =
+                    "Twoja interaktywna lista do pakowania " +
+                    "opracowana na podstawie zaleceń " +
+                    getHospitalNameInGenitive(userProfile.hospitalName);
+            }
+        }
+            // Ukrywamy własną checklistę
+            const customListApp = document.getElementById("custom-list-app");
+
+            if (customListApp) {
+                customListApp.hidden = true;
+            }
+
+            localStorage.setItem(
+                LIST_MODE_STORAGE_KEY,
+                "hospital"
+            );
+
+            if (userProfile) {
+                showPackingApp();
+            } else {
+                showWizard();
+            }
+        });
+    }
+});
 
 const hospitalLists =
     window.HOSPITAL_LISTS &&
@@ -357,6 +850,15 @@ const cesareanList = document.getElementById("cesarean-list");
 const cesareanSection = document.getElementById("cesarean-section");
 const cesareanCategoryOption = document.getElementById("cesarean-category-option");
 const heroSubtitle = document.getElementById("hero-subtitle");
+// =========================
+// WYBÓR RODZAJU LISTY
+// =========================
+
+const listModePicker = document.getElementById("list-mode-picker");
+
+const hospitalModeButton = document.getElementById("hospital-mode-btn");
+
+const customModeButton = document.getElementById("custom-mode-btn");
 
 const progressDescription = document.getElementById(
     "progress-description"
@@ -1105,6 +1607,14 @@ function getHospitalNameInGenitive(hospitalName) {
 
         "Regionalny Szpital Specjalistyczny w Grudziądzu":
             "Regionalnego Szpitala Specjalistycznego w Grudziądzu",
+
+        "Szpital Miejski w Siedlcach":
+            "Szpitala Miejskiego w Siedlcach",
+
+        "Szpital Powiatowy w Chełmży":
+            "Szpitala Powiatowego w Chełmży",
+
+
     };
 
     return hospitalNames[hospitalName] || hospitalName;
@@ -1268,20 +1778,24 @@ if (otherHospitalNote) {
     deliveryLabel +
     ".";
 
-    if (heroSubtitle) {
-        if (
-            userProfile.hospitalName ===
-            "Inny szpital"
-        ) {
-            heroSubtitle.textContent =
-                "Twoja interaktywna lista do pakowania";
-        } else {
-            heroSubtitle.textContent =
-                "Twoja interaktywna lista do pakowania " +
-                "opracowana na podstawie zaleceń " +
-                 getHospitalNameInGenitive(userProfile.hospitalName);
-        }
+if (heroSubtitle) {
+    if (currentListMode === "custom") {
+        heroSubtitle.textContent =
+            "Twoja własna lista do pakowania. " +
+            "Dodawaj kategorie, planuj przygotowania " +
+            "i odhaczaj wszystko w jednym miejscu! 💚";
+
+    } else if (userProfile.hospitalName === "Inny szpital") {
+        heroSubtitle.textContent =
+            "Twoja interaktywna lista do pakowania";
+
+    } else {
+        heroSubtitle.textContent =
+            "Twoja interaktywna lista do pakowania " +
+            "opracowana na podstawie zaleceń " +
+            getHospitalNameInGenitive(userProfile.hospitalName);
     }
+}
 
     if (
         midwifeTip &&
@@ -2335,10 +2849,29 @@ if (editProfileButton) {
    START APLIKACJI
 ========================= */
 
-if (userProfile) {
-    showPackingApp();
+if (currentListMode === "custom") {
+
+    // Otwieramy własną checklistę
+    packingWizard.hidden = true;
+    packingApp.hidden = true;
+
+    const customListApp =
+        document.getElementById("custom-list-app");
+
+    if (customListApp) {
+        customListApp.hidden = false;
+        renderCustomCategories();
+    }
+
 } else {
-    showWizard();
+
+    // Dotychczasowa lista szpitalna
+    if (userProfile) {
+        showPackingApp();
+    } else {
+        showWizard();
+    }
+
 }
 
 /* =========================

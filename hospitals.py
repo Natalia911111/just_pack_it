@@ -27244,6 +27244,456 @@ LISTA_GRUDZIADZ = [
     }
 
 ]
+# =====================================
+# SZPITAL MIEJSKI W SIEDLCACH
+# =====================================
+
+LISTA_SIEDLCE = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "siedlce-dokumenty-1",
+        "nazwa": "Dowód tożsamości (dowód osobisty lub paszport; dla obcokrajowców również karta pobytu)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-dokumenty-2",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-dokumenty-3",
+        "nazwa": "Oryginalny wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-dokumenty-4",
+        "nazwa": "Wynik wymazu GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-dokumenty-5",
+        "nazwa": "Ostatni wynik morfologii krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-dokumenty-6",
+        "nazwa": "Ostatni wynik badania ogólnego moczu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-dokumenty-7",
+        "nazwa": "Wyniki obowiązkowych badań USG w ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-dokumenty-8",
+        "nazwa": "Wyniki badań HIV, HCV, HBs i serologii kiły (WR, VDRL)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-dokumenty-9",
+        "nazwa": "Karty informacyjne z wcześniejszych pobytów w szpitalach",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "siedlce-mama-1",
+        "nazwa": "Koszule nocne – 3–4 sztuki (na sali porodowej szpital zapewnia koszule)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-mama-2",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-mama-3",
+        "nazwa": "Kapcie do chodzenia po oddziale",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-mama-4",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-mama-5",
+        "nazwa": "Bielizna siateczkowa poporodowa – 6–8 sztuk (opcjonalnie)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-mama-6",
+        "nazwa": "Biustonosz laktacyjny",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-mama-7",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-mama-8",
+        "nazwa": "Kapturki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-mama-9",
+        "nazwa": "Laktator (szpital zapewnia dostęp do laktatora)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-mama-10",
+        "nazwa": "Poduszka do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-mama-11",
+        "nazwa": "Przybory toaletowe i kosmetyki codziennego użytku",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-mama-12",
+        "nazwa": "Kubek i sztućce (opcjonalnie)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-mama-13",
+        "nazwa": "Woda butelkowana lub butelka z filtrem (do porodu najlepiej mniejsza butelka z ustnikiem)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "siedlce-mama-14",
+        "nazwa": "Suche przekąski i owoce, np. jabłka",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+# =====================================
+# SZPITAL POWIATOWY W CHEŁMŻY
+# =====================================
+
+LISTA_CHELMZA = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "chelmza-dokumenty-1",
+        "nazwa": "Karta przebiegu ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-dokumenty-2",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-dokumenty-3",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-dokumenty-4",
+        "nazwa": "Wyniki HBs i HIV z III trymestru ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-dokumenty-5",
+        "nazwa": "Pozostałe wyniki badań z ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-dokumenty-6",
+        "nazwa": "Karty wypisowe z wcześniejszych hospitalizacji – jeśli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-dokumenty-7",
+        "nazwa": "Akt uznania ojcostwa – jeśli rodzice nie są małżeństwem",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    {
+        "id": "chelmza-mama-1",
+        "nazwa": "Koszule nocne bawełniane do karmienia – 2–3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-2",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-3",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-4",
+        "nazwa": "Kapcie na oddział",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-5",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-6",
+        "nazwa": "Butelka wody z dzióbkiem lub butelka filtrująca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-7",
+        "nazwa": "Ręczniki bawełniane – 2 sztuki (duży i mały)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-8",
+        "nazwa": "Biustonosze do karmienia – 1–2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-9",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-10",
+        "nazwa": "Krem z lanoliną i kompresy na podrażnione brodawki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-11",
+        "nazwa": "Laktator – opcjonalnie, jeśli już posiadasz (szpital ma własny)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-12",
+        "nazwa": "Kapturki do karmienia – w razie wskazań",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-13",
+        "nazwa": "Kosmetyki i przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-14",
+        "nazwa": "Leki przyjmowane na stałe – do zgłoszenia personelowi",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-15",
+        "nazwa": "Kubek, sztućce i ulubiona herbata – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-mama-16",
+        "nazwa": "Ulubione przekąski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    {
+        "id": "chelmza-maluszek-1",
+        "nazwa": "Pieluchy jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-maluszek-3",
+        "nazwa": "Pieluszki tetrowe – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-maluszek-4",
+        "nazwa": "Kocyk",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-maluszek-5",
+        "nazwa": "Krem do pielęgnacji pupy noworodka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-maluszek-6",
+        "nazwa": "Body – 3–4 sztuki, opcjonalnie zamiast szpitalnych",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-maluszek-7",
+        "nazwa": "Pajacyki – 3–4 sztuki, opcjonalnie zamiast szpitalnych",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-maluszek-8",
+        "nazwa": "Spodenki i skarpetki – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY – PROPOZYCJE JUST PACK IT
+    # =========================
+
+    {
+        "id": "chelmza-tata-1",
+        "nazwa": "Wygodne ubranie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-tata-2",
+        "nazwa": "Obuwie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-tata-3",
+        "nazwa": "Woda i przekąski",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "chelmza-tata-4",
+        "nazwa": "Telefon i ładowarka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -28706,7 +29156,56 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "oficjalna strona Regionalnego Szpitala Specjalistycznego w Grudziądzu • aktualizacja: listopad 2026"
     },
-    }
+
+    "Szpital Miejski w Siedlcach": {
+        "zapewnia": [
+            "Koszule szpitalne na sali porodowej",
+            "Dostęp do laktatora"
+        ],
+        "warto_wiedziec": [
+            "🏥 Szpital Miejski w Siedlcach mieści się przy ul. Starowiejskiej 15",
+            "👨‍👩‍👶 Istnieje możliwość porodu rodzinnego z osobą bliską",
+            "🛏️ Porody odbywają się w pojedynczych salach porodowych",
+            "🚿 Sale porodowe wyposażone są w prysznice",
+            "🤱 Szpital zapewnia dostęp do laktatora i wspiera karmienie piersią",
+            "👶 Oddział pracuje w systemie rooming-in – mama przebywa razem z noworodkiem",
+            "🧳 Szpital zaleca przygotowanie rzeczy na około 3–4 dni pobytu",
+            "📋 Oficjalna lista rzeczy do porodu: https://spzoz-siedlce.pl/wp-content/uploads/2022/05/torba-do-porodu.pdf"
+        ],
+        "warto_wiedziec_zrodlo": "oficjalna strona SPZOZ w Siedlcach i lista „Torba do porodu” (PDF) • dokument z 2022 r."
+    },
+
+    "Szpital Powiatowy w Chełmży": {
+        "zapewnia": [
+            "Podpaski poporodowe",
+            "Podkłady higieniczne",
+            "Majtki siateczkowe",
+            "Ubranka dla noworodka i flanele",
+            "Laktator dostępny na oddziale",
+            "Mleko modyfikowane dla noworodka – w razie potrzeby"
+        ],
+        "warto_wiedziec": [
+            "🏥 Szpital znajduje się przy ul. Szewskiej 23 w Chełmży (woj. kujawsko-pomorskie)",
+            "🤰 Oddział położniczy mieści się w nowym, klimatyzowanym skrzydle szpitala",
+            "🛏️ Dostępne są sale pobytowe jedno-, dwu- i trzyosobowe z własnymi łazienkami",
+            "👶 Szpital dysponuje dwiema nowoczesnymi salami porodowymi",
+            "👨‍👩‍👶 Podczas porodu może być obecna osoba towarzysząca",
+            "🧘 Dostępne są piłki porodowe, worki sako i drabinki gimnastyczne, umożliwiające poród w pozycjach wertykalnych",
+            "🚿 W łagodzeniu bólu porodowego wykorzystywana jest m.in. immersja wodna",
+            "💉 Szpital wymienia znieczulenie zewnątrzoponowe, gaz Entonox oraz inne farmakologiczne metody łagodzenia bólu",
+            "🎵 Dostępne są także muzykoterapia, aromaterapia i TENS",
+            "🤱 Szpital dysponuje laktatorem – nie trzeba kupować go specjalnie na pobyt",
+            "🍼 W razie potrzeby szpital zapewnia mleko modyfikowane",
+            "👕 Szpital zapewnia ubranka dla noworodka; można również zabrać własne",
+            "🚫 Szpital prosi, aby nie przynosić własnego mleka modyfikowanego ani leków przeciwbólowych",
+            "📚 Przy szpitalu działa bezpłatna szkoła rodzenia",
+            "📞 Kontakt do dyżurki położnych: 56 639 22 07 lub 56 639 22 04",
+            "📋 Oficjalna wyprawka: https://szpitalchelmza.pl/wp-content/uploads/2026/01/co-zabrac-do-porodu-1.pdf"
+        ],
+        "warto_wiedziec_zrodlo": "Szpital Powiatowy w Chełmży – oficjalna strona Oddziału Położniczo-Ginekologicznego oraz wyprawka do porodu (2026)"
+    },
+
+}
 
 
 SZPITALE = {
@@ -28815,6 +29314,8 @@ SZPITALE = {
     "Szpital Praski w Warszawie": LISTA_PRASKI,
     "Specjalistyczny Szpital Ginekologiczno-Położniczy im. B. Biernackiego w Wałbrzychu": LISTA_WALBRZYCH,
     "Regionalny Szpital Specjalistyczny w Grudziądzu": LISTA_GRUDZIADZ,
+    "Szpital Miejski w Siedlcach": LISTA_SIEDLCE,
+    "Szpital Powiatowy w Chełmży": LISTA_CHELMZA,
 }
 
 for lista_szpitala in SZPITALE.values():
