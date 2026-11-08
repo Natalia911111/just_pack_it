@@ -27694,6 +27694,287 @@ LISTA_CHELMZA = [
     }
 ]
 
+# =====================================
+# PLESZEWSKIE CENTRUM MEDYCZNE W PLESZEWIE
+# =====================================
+
+LISTA_PLESZEW = [
+    # DOKUMENTY
+    {
+        "id": "pleszew-dokumenty-1",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-dokumenty-3",
+        "nazwa": "Potwierdzony wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-dokumenty-4",
+        "nazwa": "Wynik przeciwciał anty-Rh (przy Rh ujemnym)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-dokumenty-5",
+        "nazwa": "Wyniki badań GBS, HBs, HIV, VDRL i USG",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-dokumenty-6",
+        "nazwa": "Karty informacyjne z hospitalizacji w ciąży (jeśli dotyczy)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-dokumenty-7",
+        "nazwa": "Opisy konsultacji specjalistycznych (jeśli dotyczy)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-dokumenty-8",
+        "nazwa": "Zaświadczenie z USC o uznaniu ojcostwa (jeśli dotyczy)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-dokumenty-9",
+        "nazwa": "Skierowanie (w przypadku przyjęcia planowego)",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # DLA MAMY
+    {
+        "id": "pleszew-mama-1",
+        "nazwa": "Koszule do karmienia – 2–3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-2",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-3",
+        "nazwa": "Wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-4",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-5",
+        "nazwa": "Kapcie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-6",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-7",
+        "nazwa": "Majtki poporodowe, najlepiej siateczkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-8",
+        "nazwa": "Kosmetyki i przybory toaletowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-9",
+        "nazwa": "Maść ochronna na brodawki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-10",
+        "nazwa": "Ręczniki – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-11",
+        "nazwa": "Ręcznik papierowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-12",
+        "nazwa": "Kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-13",
+        "nazwa": "Woda niegazowana, najlepiej w butelkach 500 ml z ustnikiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-14",
+        "nazwa": "Leki przyjmowane na stałe w oryginalnych opakowaniach",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-15",
+        "nazwa": "Glukometr (w przypadku cukrzycy)",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-16",
+        "nazwa": "Ładowarka do telefonu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-mama-17",
+        "nazwa": "Ubranie na wypis ze szpitala",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # DLA MALUSZKA
+    {
+        "id": "pleszew-maluszek-1",
+        "nazwa": "Ubranka – 3–5 kompletów w rozmiarze 56–62",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-maluszek-2",
+        "nazwa": "Czapeczki bawełniane – 2 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-maluszek-3",
+        "nazwa": "Skarpetki – 2 pary",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-maluszek-4",
+        "nazwa": "Niedrapki – 1 para",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-maluszek-5",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-maluszek-6",
+        "nazwa": "Pieluchy jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-maluszek-7",
+        "nazwa": "Pieluchy tetrowe, muślinowe lub bambusowe – 2–3 sztuki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-maluszek-8",
+        "nazwa": "Ubranie na wypis dostosowane do pory roku",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # DLA TATY – PROPOZYCJE JUST PACK IT
+    {
+        "id": "pleszew-tata-1",
+        "nazwa": "Wygodne ubranie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-tata-2",
+        "nazwa": "Obuwie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-tata-3",
+        "nazwa": "Woda i przekąski",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "pleszew-tata-4",
+        "nazwa": "Telefon i ładowarka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -29204,6 +29485,34 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "Szpital Powiatowy w Chełmży – oficjalna strona Oddziału Położniczo-Ginekologicznego oraz wyprawka do porodu (2026)"
     },
+    "Pleszewskie Centrum Medyczne w Pleszewie": {
+        "zapewnia": [
+            "Całodobową opiekę położniczo-ginekologiczną",
+            "Opiekę położnych po porodzie",
+            "Pomoc w rozpoczęciu karmienia piersią",
+            "Wsparcie w nauce pielęgnacji noworodka",
+            "Możliwość przebywania mamy razem z noworodkiem"
+        ],
+        "warto_wiedziec": [
+            "🏥 Pleszewskie Centrum Medyczne znajduje się w Pleszewie, w województwie wielkopolskim",
+            "🤰 Oddział prowadzi porody fizjologiczne oraz porody ciąż powikłanych",
+            "👨‍👩‍👶 Szpital umożliwia porody rodzinne z osobą towarzyszącą",
+            "👶 Po porodzie mama może przebywać razem z noworodkiem",
+            "🤱 Położne pomagają mamom w rozpoczęciu karmienia piersią oraz uczą pielęgnacji dziecka",
+            "🩺 Oddział dysponuje elektronicznym systemem monitorowania stanu mamy i płodu",
+            "🏥 Szpital posiada salę cięć cesarskich",
+            "📋 Szpital udostępnia oficjalną listę rzeczy do porodu, podzieloną na dokumenty, rzeczy dla mamy i noworodka",
+            "🧳 Na wyprawce dla mamy znajdują się m.in. koszule do karmienia, szlafrok, majtki poporodowe, ręczniki i przybory toaletowe",
+            "👕 Dla noworodka szpital zaleca przygotowanie 3–5 kompletów ubranek w rozmiarze 56–62",
+            "📚 Przy oddziale działa bezpłatna szkoła rodzenia",
+            "🎓 Program szkoły rodzenia obejmuje m.in. przygotowanie do porodu, karmienie piersią i pielęgnację noworodka",
+            "📞 Blok porodowy: 62 74 20 830",
+            "📞 Sekretariat oddziału: 62 74 20 894",
+            "📋 Oficjalna wyprawka: https://szpitalpleszew.pl/wp-content/uploads/2022/11/Wyprawka-do-szpitala.pdf"
+        ],
+        "warto_wiedziec_zrodlo": "Pleszewskie Centrum Medyczne – oficjalna strona Oddziału Położniczo-Ginekologicznego oraz wyprawka do szpitala (PDF, 2022)"
+    },
+
 
 }
 
@@ -29316,6 +29625,8 @@ SZPITALE = {
     "Regionalny Szpital Specjalistyczny w Grudziądzu": LISTA_GRUDZIADZ,
     "Szpital Miejski w Siedlcach": LISTA_SIEDLCE,
     "Szpital Powiatowy w Chełmży": LISTA_CHELMZA,
+    "Pleszewskie Centrum Medyczne w Pleszewie": LISTA_PLESZEW,
+
 }
 
 for lista_szpitala in SZPITALE.values():

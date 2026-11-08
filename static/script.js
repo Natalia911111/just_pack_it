@@ -1615,6 +1615,11 @@ function getHospitalNameInGenitive(hospitalName) {
             "Szpitala Powiatowego w Chełmży",
 
 
+        "Pleszewskie Centrum Medyczne w Pleszewie":
+            "Pleszewskiego Centrum Medycznego w Pleszewie",
+
+
+
     };
 
     return hospitalNames[hospitalName] || hospitalName;
