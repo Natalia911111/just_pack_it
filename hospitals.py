@@ -27975,6 +27975,225 @@ LISTA_PLESZEW = [
 ]
 
 
+# =====================================
+# SPZOZ NR 1 W BEŁŻYCACH
+# =====================================
+
+LISTA_BELZYCE = [
+    # DOKUMENTY
+    {
+        "id": "belzyce-dokumenty-1",
+        "nazwa": "Oryginał wyniku grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-dokumenty-2",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-dokumenty-3",
+        "nazwa": "Dowód osobisty",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-dokumenty-4",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-dokumenty-5",
+        "nazwa": "Wyniki badań laboratoryjnych i USG z ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-dokumenty-6",
+        "nazwa": "Plan porodu",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # DLA MAMY
+    {
+        "id": "belzyce-mama-1",
+        "nazwa": "Bawełniana koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-2",
+        "nazwa": "Koszule do karmienia – 3 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-3",
+        "nazwa": "Biustonosz do karmienia",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-4",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-5",
+        "nazwa": "Klapki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-6",
+        "nazwa": "Ręcznik kąpielowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-7",
+        "nazwa": "Ręcznik papierowy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-8",
+        "nazwa": "Majtki poporodowe siateczkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-9",
+        "nazwa": "Podpaski lub wkładki poporodowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-10",
+        "nazwa": "Podkłady na łóżko",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-11",
+        "nazwa": "Chusteczki nawilżane odświeżające",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-12",
+        "nazwa": "Przybory toaletowe i szare mydło",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-13",
+        "nazwa": "Kubek i sztućce",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-14",
+        "nazwa": "Woda mineralna niegazowana lub butelka filtrująca",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-mama-15",
+        "nazwa": "Pomadka do ust",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # DLA MALUSZKA
+    {
+        "id": "belzyce-maluszek-1",
+        "nazwa": "Pieluchy jednorazowe",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-maluszek-2",
+        "nazwa": "Chusteczki nawilżane",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-maluszek-3",
+        "nazwa": "Fotelik samochodowy na dzień wypisu",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-maluszek-4",
+        "nazwa": "Ubranka na wyjście dostosowane do pory roku",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # DLA TATY – PROPOZYCJE JUST PACK IT
+    {
+        "id": "belzyce-tata-1",
+        "nazwa": "Wygodne ubranie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-tata-2",
+        "nazwa": "Obuwie na zmianę",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-tata-3",
+        "nazwa": "Woda i przekąski",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "belzyce-tata-4",
+        "nazwa": "Telefon i ładowarka",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+
+
 
 SZPITALE_INFO = {
     "Szpital Ujastek": {
@@ -29512,6 +29731,35 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "Pleszewskie Centrum Medyczne – oficjalna strona Oddziału Położniczo-Ginekologicznego oraz wyprawka do szpitala (PDF, 2022)"
     },
+    "SPZOZ Nr 1 w Bełżycach": {
+        "zapewnia": [
+            "Opiekę położnej i lekarza podczas porodu",
+            "Możliwość porodu rodzinnego",
+            "Kontakt skóra do skóry po porodzie",
+            "Możliwość kangurowania przez ojca po cięciu cesarskim",
+            "Opiekę nad noworodkiem w systemie rooming-in",
+            "Wsparcie położnych w karmieniu piersią"
+        ],
+        "warto_wiedziec": [
+            "🏥 Oddział Położniczo-Ginekologiczny znajduje się przy ul. Lubelskiej 90 w Bełżycach",
+            "🤰 Oddział posiada 10 miejsc i działa w I stopniu referencyjności",
+            "👨‍👩‍👶 Szpital umożliwia porody rodzinne bez dodatkowych opłat",
+            "📋 Personel omawia z rodzącą przygotowany przez nią plan porodu",
+            "🧘 Podczas porodu dostępne są piłki porodowe, worki sako, krzesełko i materacyk porodowy",
+            "🚿 Wśród niefarmakologicznych metod łagodzenia bólu szpital wymienia immersję wodną i masaż",
+            "💨 Dostępne farmakologiczne metody łagodzenia bólu obejmują gaz Entonox i remifentanyl (PCA), zależnie od kwalifikacji medycznej",
+            "📈 Na oddziale dostępne jest bezprzewodowe KTG",
+            "🛏️ Szpital dysponuje elektrycznym łóżkiem porodowym",
+            "🤱 Po porodzie szpital umożliwia kontakt skóra do skóry",
+            "👨‍👧 Po cięciu cesarskim możliwe jest kangurowanie noworodka przez ojca",
+            "👶 Mama i noworodek przebywają razem w systemie rooming-in",
+            "🍼 Położne wspierają mamy w karmieniu piersią i pielęgnacji noworodka",
+            "💚 Oddział współpracuje z psychologiem wspierającym pacjentki w trudnych sytuacjach",
+            "📞 Dyżurka położnych: 81 516 26 29",
+            "📋 Oficjalna lista do porodu: https://www.spzoz1belzyce.pl/oddzialy/oddzial-polozniczo-ginekologiczny?catid=170%3Atest-gin&id=425%3Apoloznictwo-i-trakt-porodowy&view=article"
+        ],
+        "warto_wiedziec_zrodlo": "SPZOZ Nr 1 w Bełżycach – oficjalna strona Oddziału Położniczo-Ginekologicznego, Położnictwo i Trakt Porodowy oraz Metody łagodzenia bólu porodowego"
+    },
 
 
 }
@@ -29626,7 +29874,7 @@ SZPITALE = {
     "Szpital Miejski w Siedlcach": LISTA_SIEDLCE,
     "Szpital Powiatowy w Chełmży": LISTA_CHELMZA,
     "Pleszewskie Centrum Medyczne w Pleszewie": LISTA_PLESZEW,
-
+    "SPZOZ Nr 1 w Bełżycach": LISTA_BELZYCE,
 }
 
 for lista_szpitala in SZPITALE.values():

@@ -1619,6 +1619,9 @@ function getHospitalNameInGenitive(hospitalName) {
             "Pleszewskiego Centrum Medycznego w Pleszewie",
 
 
+        "SPZOZ Nr 1 w Bełżycach":
+            "SPZOZ Nr 1 w Bełżycach",
+
 
     };
 
