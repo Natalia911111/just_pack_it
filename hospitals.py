@@ -28193,6 +28193,334 @@ LISTA_BELZYCE = [
 ]
 
 
+# =====================================
+# SZPITAL WOJEWÓDZKI W KOSZALINIE
+# Źródło: https://www.swk.med.pl/dlapacjenta
+# =====================================
+
+LISTA_KOSZALIN = [
+
+    # =========================
+    # DOKUMENTY
+    # =========================
+
+    {
+        "id": "koszalin-dokumenty-1",
+        "nazwa": "Karta ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-dokumenty-2",
+        "nazwa": "Plan porodu – jeżeli został przygotowany",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-dokumenty-3",
+        "nazwa": "Dowód osobisty lub paszport",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-dokumenty-4",
+        "nazwa": "Wynik grupy krwi",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-dokumenty-5",
+        "nazwa": "Wynik badania GBS",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-dokumenty-6",
+        "nazwa": "Aktualne wyniki badań z ciąży",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-dokumenty-7",
+        "nazwa": "Inne istotne badania dotyczące ciąży, np. prenatalne – jeżeli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-dokumenty-8",
+        "nazwa": "Dokument o uznaniu ojcostwa – jeżeli dotyczy",
+        "kategoria": "Dokumenty",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MAMY
+    # =========================
+
+    # Na salę porodową
+
+    {
+        "id": "koszalin-mama-1",
+        "nazwa": "Glukometr – w przypadku cukrzycy",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-2",
+        "nazwa": "Koszula do porodu",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-3",
+        "nazwa": "Koszula na zmianę bezpośrednio po porodzie, jeszcze na sali porodowej",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-4",
+        "nazwa": "Szlafrok",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-5",
+        "nazwa": "Ręczniki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-6",
+        "nazwa": "Przybory toaletowe i kosmetyki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-7",
+        "nazwa": "Klapki pod prysznic",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-8",
+        "nazwa": "Skarpetki – opcjonalnie",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-9",
+        "nazwa": "Majtki jednorazowe siateczkowe – przynajmniej jedna para na dzień",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-10",
+        "nazwa": "Woda mineralna niegazowana – do 2 litrów, najlepiej w butelkach 0,5 l z dzióbkiem",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # Na pobyt po porodzie
+
+    {
+        "id": "koszalin-mama-11",
+        "nazwa": "Dodatkowa koszula na zmianę na oddziale",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-12",
+        "nazwa": "Biustonosz do karmienia bez fiszbin – 2 sztuki",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-13",
+        "nazwa": "Jednorazowe wkładki laktacyjne",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-14",
+        "nazwa": "Podkłady poporodowe lub duże podpaski",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-15",
+        "nazwa": "Maść na brodawki sutkowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-16",
+        "nazwa": "Kosmetyki – najlepiej wcześniej używane i bezzapachowe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-17",
+        "nazwa": "Leki przyjmowane na stałe",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-18",
+        "nazwa": "Sztućce i kubek",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-19",
+        "nazwa": "Drobne pieniądze, np. na telewizję",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-mama-20",
+        "nazwa": "Ubranie na wyjście – najczęściej pasuje ubranie z 5.–6. miesiąca ciąży",
+        "kategoria": "Dla Mamy",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA MALUSZKA
+    # =========================
+
+    # Na pierwsze godziny po porodzie
+
+    {
+        "id": "koszalin-maluszek-1",
+        "nazwa": "Body lub koszulka dla noworodka",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-maluszek-2",
+        "nazwa": "Pajacyk lub kaftanik i śpioszki",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-maluszek-3",
+        "nazwa": "Skarpetki i rękawiczki lub dwie pary skarpetek",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-maluszek-4",
+        "nazwa": "Pielucha jednorazowa typu pampers",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # Na dodatkowe dni pobytu
+
+    {
+        "id": "koszalin-maluszek-5",
+        "nazwa": "Pięć zmian ubranek dla noworodka – jak w zestawie początkowym",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-maluszek-6",
+        "nazwa": "Pieluchy jednorazowe typu pampers na kolejne dni",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-maluszek-7",
+        "nazwa": "Maść na pośladki – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-maluszek-8",
+        "nazwa": "Chusteczki nawilżane – opcjonalnie",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-maluszek-9",
+        "nazwa": "Ubranko na wyjście ze szpitala – dopasowane do pory roku",
+        "kategoria": "Dla Maluszka",
+        "spakowane": False,
+        "przypiete": False
+    },
+
+    # =========================
+    # DLA TATY / OSOBY TOWARZYSZĄCEJ
+    # =========================
+
+    {
+        "id": "koszalin-tata-1",
+        "nazwa": "Wygodne i czyste ubranie",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-tata-2",
+        "nazwa": "Fartuch jednorazowy",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-tata-3",
+        "nazwa": "Klapki lub buty foliowe",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    },
+    {
+        "id": "koszalin-tata-4",
+        "nazwa": "Woda do picia",
+        "kategoria": "Dla Taty",
+        "spakowane": False,
+        "przypiete": False
+    }
+]
+
+
+
+
 
 
 SZPITALE_INFO = {
@@ -29760,6 +30088,36 @@ SZPITALE_INFO = {
         ],
         "warto_wiedziec_zrodlo": "SPZOZ Nr 1 w Bełżycach – oficjalna strona Oddziału Położniczo-Ginekologicznego, Położnictwo i Trakt Porodowy oraz Metody łagodzenia bólu porodowego"
     },
+    "Szpital Wojewódzki w Koszalinie": {
+        "zapewnia": [
+            "👶 System rooming-in – mama przebywa z dzieckiem na sali",
+            "🤱 Wsparcie karmienia piersią i dostęp do Poradni Laktacyjnej",
+            "💕 Kontakt skóra do skóry przez 2 godziny po porodzie, jeśli nie ma przeciwwskazań",
+            "👨‍👩‍👧 Bezpłatne porody rodzinne z osobą towarzyszącą",
+            "🧘 Możliwość przyjmowania dogodnych pozycji porodowych",
+            "⚽ Piłki porodowe i worki sako",
+            "🚿 Niefarmakologiczne metody łagodzenia bólu: ciepła kąpiel, okłady, masaż i TENS",
+            "💨 Gaz Entonox do łagodzenia bólu porodowego",
+            "🌸 Ochrona krocza – bez rutynowego nacinania",
+            "🩺 Opiekę zespołu położniczego i neonatologicznego"
+        ],
+        "warto_wiedziec": [
+            "📍 Adres: ul. Tytusa Chałubińskiego 7, 75-581 Koszalin",
+            "☎️ Oddział Położniczo-Ginekologiczny: 94 34 88 401",
+            "☎️ Izba Przyjęć Położniczo-Ginekologiczna: 94 34 88 159",
+            "☎️ Oddział Neonatologiczny: 94 34 88 226",
+            "🧳 Szpital zaleca spakowanie rzeczy do możliwie małej, miękkiej torby",
+            "👜 Na salę porodową najlepiej zabrać tylko najpotrzebniejsze rzeczy; pozostałe można dostarczyć później",
+            "💧 Podczas porodu można pić wodę, ale szpital nie przewiduje spożywania posiłków na sali porodowej",
+            "👕 Osoba towarzysząca powinna zabrać czyste ubranie, fartuch jednorazowy, klapki lub ochraniacze na obuwie oraz wodę",
+            "👶 Dla noworodka należy przygotować pieluchy, chusteczki, maść ochronną i ubranka na każdy dzień",
+            "🏥 Oddział Neonatologiczny znajduje się na II piętrze budynku J",
+            "🤱 W oddziale działa również Pododdział Patologii Noworodka i Wcześniaka",
+            "📅 Wypisy z Oddziału Neonatologicznego odbywają się również w weekendy i święta",
+            "🌐 Oficjalna strona: https://www.swk.med.pl"
+        ],
+        "warto_wiedziec_zrodlo": "https://www.swk.med.pl/dlapacjenta"
+    },
 
 
 }
@@ -29875,6 +30233,8 @@ SZPITALE = {
     "Szpital Powiatowy w Chełmży": LISTA_CHELMZA,
     "Pleszewskie Centrum Medyczne w Pleszewie": LISTA_PLESZEW,
     "SPZOZ Nr 1 w Bełżycach": LISTA_BELZYCE,
+    "Szpital Wojewódzki w Koszalinie": LISTA_KOSZALIN,
+
 }
 
 for lista_szpitala in SZPITALE.values():

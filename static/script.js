@@ -1623,6 +1623,9 @@ function getHospitalNameInGenitive(hospitalName) {
             "SPZOZ Nr 1 w Bełżycach",
 
 
+        "Szpital Wojewódzki w Koszalinie":
+            "Szpitala Wojewódzkiego w Koszalinie",
+
     };
 
     return hospitalNames[hospitalName] || hospitalName;
